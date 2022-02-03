@@ -53,43 +53,52 @@ a:hover {
 .bg-img {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
-  min-height: 700px;
+  min-height: 650px;
   padding-bottom: 2rem;
-  background-color: #f0f4f5;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("https://g99plus.b-cdn.net/Landingpages/belle/Tatto_back.png");
   width: 100%;
   background-size: cover;
+}
+.bg-img > .row {
+  width: 100%;
 }
 .tagline {
   width: 100%;
   max-width: 530px;
 }
 .tagline p {
-  color: #5d6d6d;
+  color: #fff;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 .tagline h1 {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   /* line-height: 176%; */
-  color: #5d6d6d;
+  color: #fff;
   padding-top: 30px;
   padding-right: 0px;
   padding-bottom: 10px;
   padding-left: 0px;
 }
-.tagline .offer-wrapper {
-  border: 1px solid #5d6d6d;
-  padding: 1rem;
+.offer-wrapper {
+  border: 1px solid #fff;
+  padding: 2rem 1rem;
   margin-top: 20px;
   margin-bottom: 25px;
 }
-.tagline .offer {
-  color: #5d6d6d;
+.offer {
+  color: #fff;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 30px;
 }
 .contact-form {
   max-width: 540px;
@@ -301,6 +310,9 @@ a:hover {
 li > p {
   margin-bottom: 5px;
 }
+iframe.yt {
+  min-height: 250px;
+}
 @media screen and (max-width: 991px) {
   .img3 {
     min-height: auto;
@@ -338,6 +350,18 @@ li > p {
     padding-left: 25px;
     font-weight: bold;
     text-transform: uppercase;
+  }
+  .tagline p {
+    font-size: 20px;
+  }
+  iframe.yt {
+    min-height: 450px;
+  }
+  .tile4 .left2 {
+    max-width: none;
+  }
+  .offer {
+    font-size: 33px;
   }
 }
 @media screen and (max-width: 767px) {
