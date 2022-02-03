@@ -1,0 +1,423 @@
+img {
+  max-width: 100%;
+}
+p {
+  font-size: 18px;
+}
+
+/* Reusable Classes */
+.w-cap {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.big-p {
+  font-size: 18px;
+}
+.ques {
+  color: #792f2b;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+/* Navbar */
+.header-part {
+  position: sticky;
+  top: 0px;
+  z-index: 55;
+}
+.header-part .consultation-btn {
+  padding: 10px;
+}
+.header-section {
+  display: flex;
+  width: 100%;
+  background-color: rgba(118, 118, 118, 0.5);
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 2em;
+  padding-bottom: 10px;
+  padding-left: 2em;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 55;
+}
+.header-section img {
+  max-width: 50px;
+}
+
+/* Header */
+.header {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: rgb(121, 43, 112);
+}
+.header .gen-heading {
+  font-size: 30px;
+  color: rgb(255, 243, 0);
+}
+.header .main-heading {
+  font-size: 30px;
+  line-height: 1.3;
+}
+.header .desc {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.consultation-btn {
+  padding-top: 15px;
+  padding-right: 35px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  background-color: rgb(121, 43, 112);
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
+}
+.consultation-btn:hover {
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  background-color: rgb(121, 47, 43);
+}
+.header .consultation-btn {
+  background-color: rgb(225, 216, 195);
+  color: rgb(0, 0, 0);
+}
+.header .consultation-btn:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+/* Elite */
+.elite {
+  padding: 2rem 0;
+}
+.elite .abs {
+  min-height: 200px;
+  background-image: url("https://g99plus.b-cdn.net/stayflawless%20landing%20page/page-2/abs.jpg");
+  background-size: cover;
+  background-position: center center;
+  border-left: 1rem solid #792f2b;
+}
+.elite .main-heading {
+  color: #333333;
+}
+.elite .caption {
+  font-weight: 700;
+  color: #000;
+}
+.elite .caption span {
+  color: #792b70;
+}
+.elite .caption span:hover {
+  color: #767676;
+}
+.elite .after,
+.elite .before {
+  border: 1rem solid #792f2b;
+}
+.elite .learn-more {
+  padding: 0.5rem 2rem;
+  background-color: #792b70;
+  font-size: 1.25rem;
+  color: #fff !important;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.elite .learn-more:hover {
+  text-decoration: none;
+  background-color: #c4c4c4;
+}
+
+/* Appointment */
+.appointment {
+  background-color: #e1d8c3;
+  color: #54595f;
+}
+.appointment .main-heading {
+  color: #54595f;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.appointment a {
+  color: #792b70;
+  transition: all 0.2s ease-in-out;
+}
+.appointment a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.appointment .appointment-btn {
+  padding: 1rem 2rem;
+  background-color: #792b70;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.appointment .appointment-btn:hover {
+  text-decoration: none;
+  background-color: #c4c4c4;
+}
+
+/* Details */
+.details {
+  padding: 2rem 0;
+  color: #000;
+}
+.details .jeans {
+  min-height: 200px;
+  background-image: url("https://g99plus.b-cdn.net/stayflawless%20landing%20page/page-2/jeans.jpg");
+  background-size: cover;
+  background-position: center center;
+  border-left: 1rem solid #792f2b;
+}
+.details iframe {
+  width: 100%;
+}
+.details .ques {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.details ul {
+  font-size: 18px;
+}
+.details p a {
+  color: #792b70;
+  transition: all 0.2s ease-in-out;
+}
+.details p a:hover {
+  color: #c4c4c4;
+  text-decoration: none;
+}
+
+/* Reiviews */
+.review-content p {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.review-content p.author {
+  text-align: center;
+  color: rgb(121, 43, 112);
+  font-size: 24px;
+  font-weight: 400;
+}
+.review-content p.warning {
+  font-weight: 400;
+}
+.review-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quote-start {
+  position: absolute;
+  left: 0;
+  top: 1rem;
+}
+.review-header h2 {
+  position: relative;
+  color: rgb(121, 43, 112);
+  font-size: 68px;
+  font-weight: 300;
+  z-index: 999;
+  margin-bottom: 5rem;
+}
+.stars {
+  position: absolute;
+  right: 0;
+  top: 7rem;
+}
+.absolute-quote-end {
+  position: absolute;
+  bottom: 1rem;
+  right: 4rem;
+}
+.review-div {
+  position: relative;
+  background-color: #e1d8c3;
+}
+
+/* FAQ */
+.faq {
+  padding: 2rem 0.5rem;
+}
+.faq .ques {
+  margin-bottom: 1rem;
+}
+.faq .ans {
+  margin-bottom: 2rem;
+}
+.faq .logo {
+  width: 100px;
+}
+.faq .number {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #792b70;
+  transition: all 0.2s ease-in-out;
+}
+.faq .number:hover {
+  text-decoration: none;
+  color: #c4c4c4;
+}
+.faq .req-btn {
+  padding: 0.5rem 1rem;
+  background-color: #792b70;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.faq .req-btn:hover {
+  background-color: #c4c4c4;
+  color: #792b70;
+  text-decoration: none;
+}
+
+/* Results */
+.results {
+  padding: 5rem 0;
+  background-image: linear-gradient(
+      rgb(121, 47, 43, 0.15),
+      rgb(121, 47, 43, 0.15)
+    ),
+    url("https://g99plus.b-cdn.net/stayflawless%20landing%20page/page-2/b&a-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.results h2 span {
+  color: #792f2b;
+}
+
+/* Contact */
+.contact-div {
+  padding-top: 2.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 2.25rem;
+  padding-left: 1.25rem;
+  background-color: rgb(225, 216, 195);
+}
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+.contact-form iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 550px;
+}
+.contact-header h1 {
+  color: rgb(84, 89, 95);
+  font-size: 60px;
+  font-weight: 300;
+}
+.contact-header p {
+  color: rgb(84, 89, 95);
+}
+.contact-div-img img {
+  width: 250px;
+  max-width: 75%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.contact-content p.white {
+  margin-bottom: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 500;
+}
+.contact-content p a {
+  color: #54595f;
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+.contact-content p a:hover {
+  color: rgb(255, 255, 255);
+}
+.contact-div .info {
+  max-width: 1250px;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.contact-div .icons-container {
+  margin: 3rem 0;
+  display: flex;
+  column-gap: 3rem;
+}
+.contact-div .icons-container i {
+  color: #792b70;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.contact-div .icons-container i:hover {
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background-color: #792b70;
+}
+.footer p {
+  color: #c4c4c4;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 2rem 3rem;
+  }
+  .header .main-heading {
+    font-size: 2.75rem;
+  }
+  .ques {
+    font-size: 2rem;
+  }
+  .review-header h2 {
+    margin-bottom: 1rem;
+  }
+  .stars {
+    top: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .review-header {
+    flex-direction: column;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+  }
+  .review-header img {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .appointment .main-heading {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,1149 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- 
+    <link rel="stylesheet" href="../../bootstrap.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <!-- Arapey Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Playfair Display SC Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <div id="home" class="main">
+      <!-- --------------------------- vertical button section --------------------------- -->
+      <div class="btn-vertical">
+        <button class="btn-fixed btn-book" onclick="myFunction('symptoms')">
+          BookNow
+        </button>
+      </div>
+      <!-- ------------------------- vertical button end ------------------------- -->
+      <!-- --------------------------- header-section ---------------------------- -->
+      <div class="front bgColor d-flex flex-column justify-content-between">
+        <div class="header-part">
+          <div class="upper-part">
+            <header
+              class="header row mx-0 px-4 pt-2 text-muted align-items-center gap-md-5 p-md-3 px-md-4"
+            >
+              <div
+                class="col-8 d-md-flex gap-md-5 col-md-auto ml-md-auto px-0 main-container"
+              >
+                <p class="mb-0">
+                  <i class="fa fa-envelope"> </i>
+                  <a href="mailto:" class="mail"
+                    >${CLINIC_NOTIFICATION_EMAIL}
+                  </a>
+                </p>
+                <p class="mb-0">
+                  <i class="fa fa-mobile-phone"> </i>
+                  <a href="tel:" class="tel">${CLINIC_CONTACT_NUMBER}</a>
+                </p>
+              </div>
+              <div
+                class="col-4 d-flex align-items-center col-md-auto px-0 icon-container"
+              >
+                <a
+                  href="${CLINIC_TWITTER}"
+                  target="_blank"
+                  class="fgColorInBg btn icon-btn"
+                >
+                  <i class="fa fa-twitter">&nbsp;</i>
+                </a>
+                <a
+                  href="${CLINIC_INSTAGRAM}"
+                  target="_blank"
+                  class="fgColorInBg btn icon-btn"
+                >
+                  <i class="fa fa-instagram">&nbsp;</i>
+                </a>
+                <a
+                  href="${CLINIC_FACEBOOK}"
+                  target="_blank"
+                  class="fgColorInBg btn icon-btn"
+                >
+                  <i class="fa fa-facebook">&nbsp;</i>
+                </a>
+              </div>
+            </header>
+            <nav
+              class="d-flex justify-content-between mt-4 align-items-center mt-md-1 justify-content-sm-between px-3"
+            >
+              <div class="logo-container px-3">
+                <img src="${BUSINESS_LOGO}" />
+              </div>
+              <div class="menu-toggle">
+                <div id="hamburger-icon">
+                  <span class="line line-1"></span>
+                  <span class="line line-2"></span>
+                  <span class="line line-3"></span>
+                </div>
+              </div>
+              <div class="border-div main-menu bgColor">
+                <div class="main-nav">
+                  <div class="logo-container mobile-only">
+                    <img src="${BUSINESS_LOGO}" />
+                  </div>
+                  <ul class="main-list">
+                    <li>
+                      <a href="#" onclick="myFunction('home')" class="active"
+                        >Home
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" onclick="myFunction('about')">About Us </a>
+                    </li>
+                    <li>
+                      <a href="#" onclick="myFunction('servicediv')"
+                        >Services
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" onclick="myFunction('userdiv')">Our Team </a>
+                    </li>
+                    <li>
+                      <a href="#" onclick="myFunction('contactus')"
+                        >Contact Us
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" onclick="myFunction('testimonials')"
+                        >Testimonials
+                      </a>
+                    </li>
+                    <li class="hide">
+                      <button class="btn-book btn-composer">
+                        Virtual Consulation
+                      </button>
+                    </li>
+                    <li class="hide mobile-icons">
+                      <div
+                        class="col-4 d-flex align-items-center col-md-auto px-0 icon-container"
+                      >
+                        <a
+                          href="${CLINIC_TWITTER}"
+                          target="_blank"
+                          class="fgColorInBg btn ml-auto icon-btn"
+                        >
+                          <i class="fa fa-twitter">&nbsp;</i>
+                        </a>
+                        <a
+                          href="${CLINIC_INSTAGRAM}"
+                          target="_blank"
+                          class="fgColorInBg btn icon-btn"
+                        >
+                          <i class="fa fa-instagram">&nbsp;</i>
+                        </a>
+                        <a
+                          href="${CLINIC_FACEBOOK}"
+                          target="_blank"
+                          class="fgColorInBg btn icon-btn"
+                        >
+                          <i class="fa fa-facebook">&nbsp;</i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <button class="btn-book btn-composer">
+                  Virtual Consulation
+                </button>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <div class="row mx-0 mt-5 main_front">
+          <div class="col-md-6 d-flex justify-content-center">
+            <img
+              src="https://g99plus.b-cdn.net/Websites/website%20template%20-%203/front.jpg"
+              alt=""
+              class="front_img"
+            />
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="content">
+              <h1 class="fgColor text-md-right">beauty services</h1>
+              <p>${CLINIC_ABOUT}</p>
+              <button
+                class="btn-fixed btn-book"
+                onclick="myFunction('symptoms')"
+              >
+                BookNow
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about_us" id="about">
+        <img
+          src="https://g99plus.b-cdn.net/Websites/website%20template%20-%203/about_bg.svg"
+          alt=""
+          class="main_aboutbg"
+        />
+        <div class="row mx-0">
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center order-2 order-md-0"
+          >
+            <div class="capped_content">
+              <!-- <img
+                src="https://g99plus.b-cdn.net/Websites/website%20template%20-%203/leaf_bg.jpg"
+                alt=""
+                class="bg_leaf"
+              /> -->
+              <h1 class="title fgColor">About Us</h1>
+              <p>${CLINIC_ABOUT}</p>
+              <button
+                class="btn-fixed btn-book"
+                onclick="myFunction('symptoms')"
+              >
+                BookNow
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center bg_container">
+            <img
+              src="https://g99plus.b-cdn.net/Websites/website%20template%20-%203/about_sec.svg"
+              alt=""
+              class="bg"
+            />
+            <img
+              src="https://g99plus.b-cdn.net/Websites/website%20template%20-%203/about_us.jpg"
+              alt=""
+              class="mb-5"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="our_services" id="servicediv">
+        <img
+          src="https://g99plus.b-cdn.net/Websites/website%20template%20-%203/services_bg.jpg"
+          class="services_bg"
+        />
+        <div
+          class="title_wrapper text-center d-flex flex-column align-items-center"
+        >
+          <h1 class="title fgColor">Our Services</h1>
+        </div>
+        <div class="row mx-auto service-wrapper">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="service-wrapper2">
+              <div class="d-flex">
+                <img
+                  src="https://g99plus.b-cdn.net/Websites/website%20template%20-%203/service_card.svg"
+                  class="service_card"
+                />
+                <div class="content">
+                  <h4 class="stitle fgColor">Botox</h4>
+                  <p class="sdescription mb-2">
+                    Below is a complete list of our services, click on each one
+                    to find out more.
+                  </p>
+                  <a
+                    href="javascript:void(0);"
+                    data-target="#myModal"
+                    data-toggle="modal"
+                    class="fgColor"
+                    >more...</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="service" class="img-grid2">
+          <div id="service-insert" class="row mx-0"></div>
+        </div>
+      </div>
+
+      <div class="our_people px-2" id="userdiv">
+        <img
+          src="https://g99plus.b-cdn.net/Websites/website%20template%20-%203/people_top.svg"
+          alt=""
+          class="people_top"
+        />
+        <img
+          src="https://g99plus.b-cdn.net/Websites/website%20template%20-%203/people_bottom.svg"
+          alt=""
+          class="people_bottom"
+        />
+        <div class="heading">
+          <h1 class="fgColor text-center">Our People</h1>
+        </div>
+        <div class="divs">
+          <div id="users"></div>
+        </div>
+      </div>
+
+      <div class="contact_us bgColor" id="contactus">
+        <img
+          src="https://g99plus.b-cdn.net/Websites/website%20template%20-%203/contact_bg.svg"
+          alt=""
+          class="contactus_bg"
+        />
+        <div class="row mx-0">
+          <div
+            class="col-md-6 d-flex justify-content-center mb-5 mb-md-0 contact_bg"
+          >
+            <img
+              src="https://g99plus.b-cdn.net/Websites/website%20template%20-%203/contact.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center"
+          >
+            ${CONTACT_FORM}
+          </div>
+        </div>
+      </div>
+
+      <div class="virtual-consult-div pt-4" id="symptoms">
+        <div class="consultation">
+          <h1 class="fgColor text-center">Virtual Consultation</h1>
+        </div>
+        <div class="symptom-frame" id="symtom-iframe"></div>
+      </div>
+
+      <div class="testimonials" id="testimonials">
+        <div class="content text-center">
+          <h1 class="fgColor title">Trusted By Thousands Of Happy Customers</h1>
+          <p class="content6">
+            These are the stories of our customers who have joined us with great
+            pleasure when using this crazy feature.
+          </p>
+        </div>
+        <div class="reviews">
+          <div
+            data-review-limit="50"
+            data-url="https://app.gogroth.com/rumaaesthetics/"
+            class="reviewmgr-stream"
+          ></div>
+          <script>
+            !(function (d, s, id) {
+              var js,
+                fjs = d.getElementsByTagName(s)[0];
+              if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//platform.reviewmgr.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+              }
+            })(document, "script", "reviewmgr-wjs");
+          </script>
+        </div>
+      </div>
+
+      <!-- ----------------------- COPY BELOW DIV FOR MAPS ----------------------- -->
+      <div class="divs div7">
+        <div class="maps">
+          <address>${CLINIC_ADDRESS}</address>
+        </div>
+      </div>
+
+      <!-- ----------- COPY BELOW DIV FOR SOCIAL MEDIA AND FOOTERLINKS ----------- -->
+      <div class="divs div7">
+        <div class="wrapper7 last">
+          <h1 class="fgColor">CONTACTS</h1>
+          <p>T: ${CLINIC_CONTACT_NUMBER}</p>
+          <p>E: ${CLINIC_NOTIFICATION_EMAIL}</p>
+          <p>Address: ${CLINIC_ADDRESS}</p>
+        </div>
+        <div class="social-media">
+          <div class="icons" class="fgColor">
+            <a href="${CLINIC_TWITTER}" target="_blank" class="twitter fgColor">
+              <i class="fa fa-twitter">&nbsp;</i>
+            </a>
+            <a href="${CLINIC_INSTAGRAM}" target="_blank" class="insta fgColor">
+              <i class="fa fa-instagram">&nbsp;</i>
+            </a>
+            <a
+              href="${CLINIC_FACEBOOK}"
+              target="_blank"
+              class="facebook fgColor"
+            >
+              <i class="fa fa-facebook">&nbsp;</i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---------------------------- FOOTER STARTS ---------------------------- -->
+      <div
+        class="footer bgColor text-center d-flex flex-column flex-md-row mx-0 justify-content-between"
+      >
+        <p>© 2021, ${CLINIC_NAME}, LLC. All rights reserved</p>
+        <p
+          class="d-flex flex-column flex-md-row mx-0 align-items-center pb-3 pb-md-0"
+        >
+          Site Developed And Maintained By
+          <img
+            src="https://g99plus.b-cdn.net/AEMR/assets/img/growth_plus.png"
+            alt="g99 logo"
+            class="g99_logo ml-2"
+          />
+        </p>
+      </div>
+      <!-- ----------------------------- FOOTER ENDS ----------------------------- -->
+    </div>
+    <script>
+      var menuIcon = $("#hamburger-icon");
+      var mainMenu = $(".main-menu");
+      var menuItems = $(".main-menu ul li a");
+      menuIcon.click(function (e) {
+        console.log("e");
+        mainMenu.toggleClass("active");
+        menuIcon.toggleClass("active");
+      });
+      menuItems.click(function (e) {
+        menuIcon.toggleClass("active");
+        mainMenu.toggleClass("active");
+      });
+    </script>
+    <style>
+      /* Global Styles */
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arapey, serif !important;
+      }
+      body > p {
+        margin: 0;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: 700;
+        color: #3c3d31;
+        font-family: "Playfair Display SC", serif !important;
+      }
+      h1 {
+        font-size: 2.25rem;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.7;
+        color: #423526;
+        margin-bottom: 0;
+      }
+
+      ul {
+        list-style-position: initial;
+        list-style-image: initial;
+        list-style-type: none;
+      }
+
+      img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      a {
+        color: #000;
+      }
+
+      a:hover {
+        color: #000;
+      }
+
+      /* Reusable Classes */
+      .bg_leaf {
+        position: absolute;
+        z-index: -999;
+      }
+      .btn-book {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        background-color: #3c3d31;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        color: #fff;
+        border-radius: 12px;
+        border: none;
+      }
+
+      .fgColor {
+        color: #3c3d31;
+      }
+
+      .bgColor {
+        background-color: #faf6f3;
+      }
+
+      .capped_content {
+        max-width: 570px;
+      }
+      .capped_content .title {
+        margin-bottom: 20px;
+      }
+      .capped_content .btn-book {
+        margin-top: 30px;
+      }
+
+      /* Vertical button */
+      .btn-vertical button {
+        position: fixed;
+        right: -52px;
+        transform: rotate(-90deg);
+        top: 40%;
+        z-index: 50;
+        width: 150px;
+        height: auto;
+        text-align: center;
+      }
+
+      /* Header */
+      .upper-part {
+        margin-top: 0px;
+        margin-right: 7%;
+        margin-bottom: 0px;
+        margin-left: 7%;
+      }
+
+      .header {
+        column-gap: 1.5rem;
+      }
+
+      .upper-part a {
+        font-size: 16px;
+        color: #000;
+      }
+
+      .header .btn {
+        width: 1.6rem;
+        height: 1.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #3c3d31;
+        color: #fff;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+      }
+
+      .header .btn .fa {
+        margin-left: 3px;
+      }
+
+      .logo-container img {
+        max-height: 80px;
+      }
+
+      .border-div {
+        flex-grow: 1;
+        align-self: stretch !important;
+        padding-top: 10px;
+      }
+
+      .upper-part a {
+        font-size: 16px;
+        color: #000;
+      }
+
+      .main-nav {
+        flex-grow: 1;
+      }
+
+      .header .main-container {
+        column-gap: 1.5rem;
+      }
+
+      /* Front */
+      .front {
+        min-height: 100vh;
+      }
+      .front .main_front {
+        padding: 2rem 0 5rem;
+        flex-grow: 1;
+      }
+      .front .main_front .front_img {
+        margin-bottom: 2rem;
+      }
+      .front .content {
+        max-width: 540px;
+      }
+      .front .main_front .content h1 {
+        margin-bottom: 20px;
+      }
+      .front .main_front .content .btn-book {
+        margin-top: 20px;
+      }
+
+      /* About Us */
+      .about_us {
+        position: relative;
+        padding: 4rem 0;
+        overflow-x: hidden;
+      }
+      .main_aboutbg {
+        position: absolute;
+        left: 7%;
+        mix-blend-mode: luminosity;
+        opacity: 0.7;
+      }
+      .bg_container {
+        position: relative;
+      }
+      .bg {
+        position: absolute;
+        top: -7rem;
+        left: 7rem;
+        mix-blend-mode: luminosity;
+        opacity: 0.7;
+        z-index: -999;
+      }
+
+      /* Our Services */
+      .our_services {
+        position: relative;
+        padding: 40px 0;
+      }
+      .our_services::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #faf6f3;
+        z-index: -99;
+        opacity: 0.08;
+      }
+      .our_services .title_wrapper {
+        margin-bottom: 30px;
+      }
+      .our_services .btn-book {
+        display: block;
+        margin: 0 auto;
+      }
+      .services_bg {
+        mix-blend-mode: luminosity;
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -999;
+      }
+      .our_services .title_wrapper > p {
+        max-width: 890px;
+        margin-bottom: 30px;
+      }
+      .our_services .service-wrapper2 a {
+        color: #423526;
+        text-decoration-line: underline;
+      }
+      .our_services .service-wrapper2 .service_card {
+        margin-right: 18px;
+      }
+      .our_services .btn-book {
+        margin-top: 30px;
+      }
+      #service-insert {
+        padding-top: 3rem;
+        align-items: stretch;
+      }
+
+      #service-insert > div {
+        margin-bottom: 2rem;
+      }
+
+      /* Our People */
+      .our_people {
+        position: relative;
+        padding: 4rem 0;
+      }
+      .our_people > img {
+        position: absolute;
+        mix-blend-mode: luminosity;
+        opacity: 0.7;
+      }
+      .people_top {
+        top: 0;
+        left: 0;
+      }
+      .people_bottom {
+        bottom: 0;
+        right: 0;
+      }
+      .our_people .heading {
+        max-width: 770px;
+        margin: 0 auto 50px;
+      }
+      .our_people .heading h1 {
+        margin-bottom: 20px;
+      }
+
+      /* Contact Us */
+      .contact_us {
+        position: relative;
+        padding: 4rem 0;
+      }
+      .contactus_bg {
+        position: absolute;
+        bottom: -5rem;
+        left: 0;
+        mix-blend-mode: luminosity;
+        opacity: 0.7;
+      }
+
+      /* Reviews */
+      .testimonials {
+        padding: 3rem 0;
+      }
+      .testimonials .content {
+        max-width: 775px;
+        margin: 0 auto 2rem;
+      }
+      .reviews {
+        margin: 0 auto;
+      }
+      .reviews iframe {
+        height: 400px;
+        max-height: 400px;
+      }
+
+      /* Virtual Consultation */
+      #symptoms {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+
+      #symptoms iframe {
+        width: 100%;
+        border: none;
+        height: 100vh;
+      }
+
+      /* Map */
+      .maps iframe {
+        width: 100%;
+        height: 300px;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 1rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .footer p {
+        margin: 0;
+      }
+
+      .footer p .g99_logo {
+        height: 1rem;
+      }
+
+      .divs {
+        padding: 2em 0;
+      }
+
+      .social-media,
+      .wrapper7 {
+        text-align: center;
+      }
+
+      .social-media a {
+        font-size: 22px;
+        padding: 0 0.5em;
+        text-decoration: none;
+      }
+
+      @media screen and (min-width: 768px) {
+        h1 {
+          font-size: 3rem;
+        }
+        .capped_content .btn-book {
+          margin-top: 40px;
+        }
+        .header .icon-container {
+          column-gap: 1.5rem;
+        }
+        .header {
+          column-gap: 1.5rem;
+        }
+        .our_services {
+          padding: 70px 0;
+        }
+        .our_services .title_wrapper {
+          margin-bottom: 50px;
+        }
+        .our_services .btn-book {
+          margin-top: 50px;
+        }
+        .our_people .users {
+          width: 80%;
+          margin: 0 auto;
+        }
+        .contact_us {
+          padding: 7rem 0;
+        }
+        .testimonials {
+          padding: 7rem 0;
+        }
+        .testimonials .content {
+          margin: 0 auto 3rem;
+        }
+        .footer {
+          padding: 1rem 3rem;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        .header .icon-container {
+          column-gap: 0.5rem;
+        }
+      }
+
+      @media screen and (min-width: 992px) {
+        .border-div {
+          border-top-width: 1px;
+          border-top-style: solid;
+          border-top-color: rgb(171, 171, 171);
+        }
+        .our_services .service-wrapper {
+          width: 90%;
+          margin: 0 auto;
+        }
+        .reviews {
+          width: 80%;
+        }
+        .footer {
+          padding: 1rem 6rem;
+        }
+      }
+
+      @media screen and (max-width: 991px) {
+        .upper-part {
+          margin: 0;
+        }
+        .header {
+          column-gap: 0;
+        }
+        .border-div {
+          border-top-width: 1px;
+          border-top-style: solid;
+          border-top-color: rgb(171, 171, 171);
+        }
+      }
+      .tel,
+      .mail {
+        margin-left: 0.5rem;
+      }
+      .front {
+        position: relative;
+      }
+
+      .line {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+      }
+
+      .main-menu ul {
+        list-style-position: initial;
+        list-style-image: initial;
+        list-style-type: none;
+      }
+
+      #hamburger-icon {
+        width: 35px;
+        height: 20px;
+        position: relative;
+        display: block;
+        /* margin: 100px auto 50px auto; */
+        /* transform: scale(0.4); */
+      }
+
+      #hamburger-icon .line {
+        display: block;
+        background: #000;
+        width: 35px;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        border-radius: 4px;
+        transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+      }
+
+      #hamburger-icon .line.line-1 {
+        top: 0;
+      }
+
+      #hamburger-icon .line.line-2 {
+        top: 50%;
+      }
+
+      #hamburger-icon .line.line-3 {
+        top: 100%;
+      }
+
+      #hamburger-icon.active .line-1 {
+        transform: translateY(0px) translateX(0) rotate(46deg);
+        -webkit-transform: translateY(0px) translateX(0) rotate(46deg);
+        -moz-transform: translateY(0px) translateX(0) rotate(46deg);
+      }
+
+      #hamburger-icon.active .line-2 {
+        opacity: 0;
+      }
+
+      #hamburger-icon.active .line-3 {
+        transform: translateY(-19px) translateX(0) rotate(132deg);
+        -webkit-transform: translateY(-19px) translateX(0) rotate(132deg);
+        -moz-transform: translateY(-19px) translateX(0) rotate(132deg);
+      }
+
+      .main-menu {
+        display: flex;
+        justify-content: start;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        min-width: 220px;
+        max-width: 250px;
+        width: 50vw !important;
+        padding: 0 1rem;
+        /* background-color: lightblue; */
+        transform: translateX(100%);
+        z-index: 99999;
+        transition: all 0.2s ease-in-out;
+      }
+
+      .main-menu.active {
+        transform: translateX(0);
+        box-shadow: -1px 1px 13px 2px rgba(0, 0, 0, 0.46);
+      }
+
+      .main-menu > .btn-book {
+        display: none;
+      }
+
+      .main-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .main-menu .main-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin: 0;
+        padding: 0;
+        font-size: 1.5rem;
+      }
+
+      .main-list .icon-container {
+        margin-top: 0.5rem;
+      }
+
+      .main-menu > .btn-book {
+        align-self: center;
+      }
+
+      .main-list .btn-book {
+        /* display: none; */
+        align-self: center;
+        margin-top: 0.5rem;
+      }
+
+      .header > .icon-container {
+        display: none !important;
+      }
+
+      .menu-toggle {
+        position: absolute;
+        right: 1.5rem;
+        top: 1.5rem;
+      }
+
+      .menu-toggle {
+        z-index: 999999;
+      }
+
+      .icon-container {
+        column-gap: 0.5rem;
+      }
+
+      .icon-btn .fa {
+        margin-left: 3px;
+      }
+
+      .icon-btn {
+        width: 1.6rem;
+        height: 1.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(94, 37, 48);
+        color: rgb(237, 228, 219);
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+      }
+
+      .logo-container img {
+        max-height: 80px;
+      }
+
+      .border-div {
+        align-self: stretch !important;
+      }
+
+      .main-nav {
+        /* flex-grow: 1; */
+        font-size: 18px;
+        color: rgb(79, 86, 101);
+      }
+
+      .main-nav .active {
+        color: rgb(94, 37, 48);
+      }
+
+      .main {
+        overflow-x: hidden;
+      }
+
+      .header-section-main a {
+        color: #000;
+        font-size: 16px;
+      }
+
+      @media screen and (min-width: 992px) {
+        .front {
+          padding-top: 0px;
+          padding-right: 7%;
+          padding-bottom: 0px;
+          padding-left: 7%;
+        }
+        .border-div {
+          border-top-width: 1px;
+          border-top-style: solid;
+          border-top-color: rgb(171, 171, 171);
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        .header > .icon-container {
+          display: flex !important;
+        }
+        .menu-toggle {
+          display: none;
+        }
+        .main-menu {
+          position: relative;
+          justify-content: space-between;
+          height: auto;
+          width: auto;
+          min-width: auto;
+          max-width: none;
+          margin-left: 2rem;
+          flex-grow: 1;
+          transform: translateX(0);
+          background-color: transparent !important;
+        }
+        .main-menu > .btn-book {
+          display: inline-block;
+        }
+        .main-nav {
+          position: relative;
+          flex-grow: 1;
+          margin-right: 1rem;
+          align-items: center;
+        }
+        .main-menu .main-list {
+          flex-grow: 1;
+          gap: none;
+          flex-direction: row;
+          justify-content: space-evenly;
+          height: 100%;
+          font-size: 18px;
+        }
+        .main-list li {
+          display: flex;
+          align-items: center;
+        }
+        .main-list .hide {
+          display: none;
+        }
+        .main-menu .main-list li a {
+          white-space: nowrap;
+        }
+        .header {
+          column-gap: 1.5rem;
+        }
+        .header .main-container {
+          column-gap: 1.5rem;
+        }
+        .icon-container {
+          column-gap: 1.5rem;
+        }
+        .logo-container.mobile-only {
+          display: none;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        .main-nav {
+          justify-content: flex-start;
+          padding-top: 3em;
+          flex-direction: column;
+        }
+        .logo-container.mobile-only img {
+          margin-bottom: 1em;
+          display: block;
+        }
+        .main-list .mobile-icons .icon-container {
+          margin: 0 auto !important;
+          margin-top: 2.5rem !important;
+          justify-content: center;
+        }
+      }
+    </style>
+  </body>
+</html>

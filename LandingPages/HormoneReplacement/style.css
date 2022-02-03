@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+ul {
+  padding-left: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+a h5.ques {
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+.main {
+  background-color: rgb(26, 26, 26);
+  padding-top: 1rem;
+}
+.heading-wrapper {
+  min-height: 150px;
+  max-width: 1400px;
+  padding: 1rem 0;
+  margin: 0 5% 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e172d;
+  text-align: center;
+}
+.heading-wrapper .page-title {
+  color: #d2e842;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+}
+.tile1 {
+  padding: 0rem 0 2rem;
+}
+.tile1 .couple {
+  min-height: 350px;
+  height: 100%;
+  background-image: url("https://g99plus.b-cdn.net/Landingpages/hormone%20replacement/young_couple.jpeg");
+  background-size: cover;
+  background-position: top right;
+}
+.tile1 .content {
+  max-width: 600px;
+}
+.tile1 .content .heading {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.tile1 .content .green-line {
+  width: 200px;
+  height: 1px;
+  background: #d2e842;
+  margin-bottom: 15px;
+}
+.faq {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.faq > h2 {
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.acc-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2rem;
+  padding: 10px;
+}
+.question-card .card-header {
+  border-bottom: 1px solid #d2e842;
+}
+.question-card .card-header h5 {
+  font-weight: 600;
+}
+li > p {
+  margin-bottom: 5px;
+}
+.offers {
+  max-width: 915px;
+  margin: 0 auto;
+  padding: 2rem 0 3rem;
+  text-align: center;
+}
+.offers h2 {
+  margin-bottom: 0.5rem;
+}
+.offers .medications {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2rem;
+}
+.offers .medications li {
+  text-align: center;
+  border-top: 1px solid #d2e842;
+  padding: 0.35rem 0;
+  font-size: 1.1rem;
+}
+.offers .medications li:nth-of-type(1) {
+  border-top: none;
+}
+.cta {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("https://g99plus.b-cdn.net/Landingpages/hormone%20replacement/blue_bg.png");
+  background-size: cover;
+  z-index: 0;
+}
+.cta p {
+  position: relative;
+  padding: 0 12%;
+  font-size: 1.2rem;
+  z-index: 99;
+}
+.contact-img {
+  min-height: 400px;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://g99plus.b-cdn.net/Landingpages/hormone%20replacement/old_couple.jpeg");
+  background-size: cover;
+  background-position: top right;
+}
+.contact-wrapper {
+  background-color: #0e172d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0;
+}
+.contact-wrapper h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.contact-wrapper p {
+  margin-bottom: 1rem;
+}
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgb(26, 26, 26);
+}
+.small-footer p {
+  margin: 0;
+  color: white;
+}
+.small-footer p .g99_logo {
+  height: 1.3em;
+}
+@media screen and (min-width: 480px) {
+  .heading-wrapper {
+    margin: 0 5% 1rem;
+  }
+  .heading-wrapper .page-title {
+    font-size: 35px;
+  }
+  .contact-wrapper h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main {
+    padding-top: 3rem;
+  }
+  .tile1 {
+    padding: 5rem 0;
+  }
+  .small-footer {
+    padding: 1rem 3rem;
+  }
+  .acc-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .offers h2 {
+    margin-bottom: 2rem;
+  }
+  .offers .medications {
+    grid-template-columns: 1fr 1fr;
+  }
+  .offers .medications li:nth-of-type(2) {
+    border-top: none;
+  }
+  .contact-wrapper p {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 991px) {
+  .heading-wrapper {
+    margin: 0 auto;
+  }
+  .heading-wrapper .page-title {
+    font-size: 48px;
+  }
+  .contact-wrapper h1 {
+    font-size: 48px;
+  }
+  .small-footer {
+    padding: 1rem 6rem;
+  }
+}

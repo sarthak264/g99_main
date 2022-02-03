@@ -1,0 +1,342 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 
+    <link rel="stylesheet" href="../../bootstrap.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet"> -->
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <img height="0" src="https://g99plus.b-cdn.net/Websites/website5/website5.png" width="0" class="d-none" />
+    <div id="home" class="main">
+
+        <!-- --------------------------- vertical button section --------------------------- -->
+        <div class="btn-vertical">
+            <button class="btn-fixed btn-book">BookNow</button>
+        </div>
+        <!-- ------------------------- vertical button end ------------------------- -->
+        <!-- --------------------------- header-section ---------------------------- -->
+        <div class="header-part">
+            <div class="upper-part">
+                <header class="header row mx-0 px-4 pt-2 text-muted align-items-center gap-md-5 p-md-3 px-md-4">
+                    <div class="col-8 d-md-flex gap-md-5 col-md-auto ml-md-auto px-0 main-container">
+                        <p class="mb-0">
+                            <i class="fa fa-envelope">&nbsp;
+                        </i>
+                            <a href="mailto:">${CLINIC_NOTIFICATION_EMAIL} </a>
+                        </p>
+                        <p class="mb-0">
+                            <i class="fa fa-mobile-phone">&nbsp;
+                        </i>
+                            <a href="tel:">${CLINIC_CONTACT_NUMBER}</a>
+                        </p>
+                    </div>
+                    <div class="col-4 d-flex align-items-center col-md-auto px-0 icon-container">
+                        <a href="${CLINIC_TWITTER}" target="_blank" class="fgColorInBg btn ml-auto">
+                            <i class="fa fa-twitter">&nbsp;</i>
+                        </a>
+                        <a href="${CLINIC_INSTAGRAM}" target="_blank" class="fgColorInBg btn">
+                            <i class="fa fa-instagram">&nbsp;</i>
+                        </a>
+                        <a href="${CLINIC_FACEBOOK}" target="_blank" class="fgColorInBg btn">
+                            <i class="fa fa-facebook">&nbsp;</i>
+                        </a>
+                    </div>
+                </header>
+                <nav class="d-flex justify-content-center mt-4 align-items-center mt-md-1 justify-content-sm-between px-3">
+                    <div class="logo-container px-3">
+                        <img src="${BUSINESS_LOGO}" />
+                    </div>
+                    <!-- main-menu -->
+                    <div class="flex-grow-1 d-none d-sm-flex border-div ml-lg-4 justify-content-end justify-content-lg-between">
+                        <!-- main-nav -->
+                        <div class="d-none d-lg-inline-block main-nav flex-grow-1 align-items-center align-self-center">
+                            <!-- main-list -->
+                            <ul class="d-flex justify-content-around mb-0 p-0">
+                                <li>
+                                    <a href="#" onclick="myFunction('home')" class="active">Home </a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="myFunction('about')">About Us </a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="myFunction('servicediv')">Services </a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="myFunction('userdiv')">Our Team </a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="myFunction('contactus')">Contact Us </a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="myFunction('testimonials')">Testimonials </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn-book btn-composer d-none d-sm-inline-block d-lg-none d-xl-inline-block align-self-center" onclick="myFunction('symptoms')">VIRTUAL CONSULATION</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- ----------------- BELOW DIV FOR VIRTUAL CONSULTATION ------------------ -->
+        <div class="virtual-consult-div pt-4" id="symptoms">
+            <div class="consultation">
+                <h1 class="fgColor text-center">
+                    Virtual Consultation
+                </h1>
+                <p>
+                    At Elle, we offer a complete range of beauty services to fit your needs. From hair styling, to facial skin care, to body massage, manicures, pedicures and more, we are your all-in-one resource for a beautiful new you come and experience it today!
+                </p>
+
+            </div>
+            <div class="symptom-frame" id="symtom-iframe">
+
+            </div>
+        </div>
+
+        <!-- ----------------------- COPY BELOW DIV FOR MAPS ----------------------- -->
+        <div class="divs div7">
+            <div class="maps">
+                <address>${CLINIC_ADDRESS}</address>
+            </div>
+        </div>
+
+
+        <!-- ----------- COPY BELOW DIV FOR SOCIAL MEDIA AND FOOTERLINKS ----------- -->
+        <div class="divs div7">
+            <div class="wrapper7 last">
+                <h1 class="fgColor">
+                    CONTACTS
+                </h1>
+                <p>
+                    T: ${CLINIC_CONTACT_NUMBER}
+                </p>
+                <p>
+                    E: ${CLINIC_NOTIFICATION_EMAIL}
+                </p>
+                <p>
+                    Address: ${CLINIC_ADDRESS}
+                </p>
+
+
+            </div>
+            <div class="social-media">
+                <div class="icons" class="fgColor">
+                    <a href="${CLINIC_TWITTER}" target="_blank" class="twitter fgColor">
+                        <i class="fa fa-twitter">&nbsp;</i>
+                    </a>
+                    <a href="${CLINIC_INSTAGRAM}" target="_blank" class="insta fgColor">
+                        <i class="fa fa-instagram">&nbsp;</i>
+                    </a>
+                    <a href="${CLINIC_FACEBOOK}" target="_blank" class="facebook fgColor">
+                        <i class="fa fa-facebook">&nbsp;</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------------------- FOOTER STARTS ---------------------------- -->
+        <div class="footer bgColor">
+            <p class="fgColor">© 2021 - All rights reserved ${CLINIC_NAME}
+            </p>
+        </div>
+        <!-- ----------------------------- FOOTER ENDS ----------------------------- -->
+    </div>
+
+
+
+</body>
+
+<style>
+    body>p {
+        margin: 0;
+    }
+    
+    .upper-part {
+        margin-top: 0px;
+        margin-right: 7%;
+        margin-bottom: 0px;
+        margin-left: 7%;
+    }
+    
+    .header {
+        column-gap: 1.5rem;
+    }
+    
+    .upper-part a {
+        font-size: 16px;
+        color: #000;
+    }
+    
+    .header .btn {
+        width: 1.6rem;
+        height: 1.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    
+    .fgColorInBg {}
+    
+    .header .btn .fa {
+        margin-left: 3px;
+    }
+    
+    .logo-container img {
+        max-height: 80px;
+    }
+    
+    .border-div {
+        flex-grow: 1;
+        align-self: stretch !important;
+        padding-top: 10px;
+    }
+    
+    .btn-book {
+        background-color: #BC5C64;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        border-radius: 12px;
+        border: none;
+    }
+    
+    ul {
+        list-style-position: initial;
+        list-style-image: initial;
+        list-style-type: none;
+    }
+    
+    .upper-part a {
+        font-size: 16px;
+        color: #000;
+    }
+    
+    .btn-vertical button {
+        position: fixed;
+        right: -52px;
+        transform: rotate( -90deg);
+        top: 40%;
+        z-index: 50;
+        width: 150px;
+        height: auto;
+        text-align: center;
+    }
+    
+    .main-nav {
+        flex-grow: 1;
+    }
+    
+    .header .main-container {
+        column-gap: 1.5rem;
+    }
+    
+    .footer {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer p {
+        margin: 0;
+    }
+    
+    .bgColor {
+        background-color: rgb(249, 246, 241);
+    }
+    
+    .divs {
+        padding: 2em 0;
+    }
+    
+    .social-media,
+    .wrapper7 {
+        text-align: center;
+    }
+    
+    .social-media a {
+        font-size: 22px;
+        padding: 0 0.5em;
+        text-decoration: none;
+    }
+    
+    .fgColor {
+        color: #BC5C64;
+    }
+    
+    .maps iframe {
+        width: 100%;
+        height: 300px;
+    }
+    
+    #symptoms {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    #symptoms iframe {
+        width: 100%;
+        border: none;
+        height: 100vh;
+    }
+    
+    @media screen and (min-width: 992px) {
+        .border-div {
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-top-color: rgb(171, 171, 171);
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .upper-part {
+            margin: 0;
+        }
+        .header {
+            column-gap: 0;
+        }
+        .border-div {
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-top-color: rgb(171, 171, 171);
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        .header .icon-container {
+            column-gap: 1.5rem;
+        }
+        .header {
+            column-gap: 1.5rem;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .header .icon-container {
+            column-gap: 0.5rem;
+        }
+    }
+</style>

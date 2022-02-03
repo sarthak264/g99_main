@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Timer 2</title>
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <div class="page">
+      <header class="header">
+        <h2>FREE EBOOK...</h2>
+        <h2>How To Get Clients To Your MedSpa Online....</h2>
+        <div class="timer-wrapper">
+          <div class="hours">
+            <h2>00</h2>
+            <p>HOURS</p>
+          </div>
+          <div class="minutes">
+            <h2>00</h2>
+            <p>MINUTES</p>
+          </div>
+          <div class="seconds">
+            <h2>00</h2>
+            <p>SECONDS</p>
+          </div>
+        </div>
+        <h2 class="black">Limited Copies Available...</h2>
+      </header>
+      <div class="container px-0">
+        <div class="contact">
+          <div class="row mx-0">
+            <div class="col-md-6 d-flex justify-content-center">
+              <img
+                src="https://g99plus.b-cdn.net/timer%20landing%20page/poster.jpg"
+                class="poster"
+              />
+            </div>
+            <div class="col-md-6 text-center details">
+              <h2 class="heading">Generate More Clients Today</h2>
+              <h2 class="heading bold">WITHOUT AD SPEND.....</h2>
+              ${CONTACT_FORM}
+              <div class="timer-wrapper">
+                <div class="hours">
+                  <h2>00</h2>
+                  <p>HOURS</p>
+                </div>
+                <div class="minutes">
+                  <h2>00</h2>
+                  <p>MINUTES</p>
+                </div>
+                <div class="seconds">
+                  <h2>00</h2>
+                  <p>SECONDS</p>
+                </div>
+              </div>
+              <p class="small">
+                We promise not to send any unsolicited communications - we will
+                send you an email with your download file but you can
+                unsubscribe at any time. <a href="#">Privacy and terms</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <h1 class="main-heading">We'll show you to <b>get leads on tap:</b></h1>
+        <div class="info">
+          <div class="row mx-0">
+            <div class="col-md-7">
+              <ul class="list">
+                <li>
+                  <i class="fa fa-check-square-o"></i>
+                  How To Get Instagram Followers To Your MedSpa!
+                </li>
+                <li>
+                  <i class="fa fa-check-square-o"></i>
+                  Facebook Hacks To Convert Leads to Your MedSpa!
+                </li>
+                <li>
+                  <i class="fa fa-check-square-o"></i>
+                  The Instagram Secrets To Get Bookings To Your MedSpa!
+                </li>
+                <li>
+                  <i class="fa fa-check-square-o"></i>
+                  Tips & Tricks How Your Website Gets Clients To Your MedSpa!
+                </li>
+                <li>
+                  <i class="fa fa-check-square-o"></i>
+                  Email Marketing Traps To Get Past Clients to Rebook With You!
+                </li>
+                <li>
+                  <i class="fa fa-fw fa-check"></i>
+                  Online Marketing Is Becoming The Fastest Way to Grow Your
+                  Brand For The MedSpa Industry.
+                </li>
+              </ul>
+              ${CONTACT_FORM}
+              <div class="timer-wrapper">
+                <div class="hours">
+                  <h2>00</h2>
+                  <p>HOURS</p>
+                </div>
+                <div class="minutes">
+                  <h2>00</h2>
+                  <p>MINUTES</p>
+                </div>
+                <div class="seconds">
+                  <h2>00</h2>
+                  <p>SECONDS</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 mt-3 mt-md-0">
+              <img
+                src="https://g99plus.b-cdn.net/timer%20landing%20page/sitting-girl.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="trusted">
+          <div class="title-wrapper">
+            <h2 class="title">Trusted By</h2>
+          </div>
+          <img
+            src="https://g99plus.b-cdn.net/timer%20landing%20page/companies.jpg"
+            class="companies"
+          />
+        </div>
+      </div>
+      <footer class="main-footer">
+        <p class="text">Yes, I need you to show me how to succeed!</p>
+      </footer>
+    </div>
+    <script>
+      var hoursText = $(".hours h2");
+      var minutesText = $(".minutes h2");
+      var secondsText = $(".seconds h2");
+      var time = 300;
+      function addZero(variable) {
+        if (variable.toString().length == 1) {
+          variable = "0" + variable;
+        }
+        return variable;
+      }
+      function calculateTime() {
+        var hours = Math.floor(time / 3600);
+        var minutes = Math.floor((time - hours * 3600) / 60);
+        var seconds = time - minutes * 60;
+        hours = addZero(hours);
+        minutes = addZero(minutes);
+        seconds = addZero(seconds);
+        hoursText.text(hours);
+        minutesText.text(minutes);
+        secondsText.text(seconds);
+      }
+      setInterval(() => {
+        if (time < 1) {
+          return;
+        }
+        time--;
+        calculateTime();
+      }, 1000);
+    </script>
+    <style>
+      body {
+        font-family: "Raleway", sans-serif;
+      }
+      img {
+        height: fit-content;
+        max-width: 100%;
+      }
+      a {
+        text-decoration: underline;
+        color: #474747;
+      }
+      .main-heading {
+        position: relative;
+        padding: 20px 0;
+        font-size: 44px;
+        font-weight: 400;
+        color: rgb(71, 71, 71);
+        text-align: center;
+      }
+      .main-heading::after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        background-color: rgb(108, 172, 228);
+        bottom: -0.5rem;
+        left: 38%;
+        right: 38%;
+      }
+      .header {
+        padding: 1rem 0;
+        background-color: rgb(108, 172, 228);
+        text-align: center;
+      }
+      .header h2 {
+        font-family: "Abel", sans-serif;
+        letter-spacing: 2px;
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+      }
+      .header h2.black {
+        font-family: "Raleway", sans-serif;
+        color: #2f2f2f;
+        font-weight: 800;
+      }
+      .contact {
+        margin: 2rem 0;
+      }
+      img.poster {
+        width: 350px;
+        margin-bottom: 1rem;
+      }
+      .contact .details .heading {
+        font-family: "Abel", sans-serif;
+        font-size: 34px;
+        line-height: 0.9;
+        color: rgb(108, 172, 228);
+      }
+      .contact .details h2.bold {
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      .contact .details p.small {
+        font-size: 14px;
+        color: #474747;
+      }
+      .info {
+        padding: 40px 0 20px;
+      }
+      .info .list {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+      }
+      .info .list li {
+        display: flex;
+        column-gap: 0.75rem;
+        position: relative;
+        color: rgb(71, 71, 71);
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+        padding-left: 0.5rem;
+      }
+      .info .list li > i {
+        transform: translate(-3px, 3px);
+        color: rgb(108, 172, 228);
+      }
+      .trusted {
+        display: flex;
+        flex-direction: column;
+        column-gap: 1rem;
+        padding: 20px 5px 30px;
+        margin: 25px 10px;
+        border: 1px solid rgb(100, 168, 102);
+      }
+      .trusted .title {
+        /* margin-top: 20px; */
+        color: rgb(136, 136, 136);
+        font-size: 34px;
+        font-weight: 400;
+      }
+      .main-footer {
+        padding: 1rem 0;
+        background-color: rgb(108, 172, 228);
+        text-align: center;
+      }
+      .main-footer .text {
+        font-size: 28px;
+        margin-bottom: 0;
+        color: white;
+      }
+      .timer-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      .timer-wrapper > div {
+        padding: 0 10px;
+        text-align: center;
+      }
+      .timer-wrapper > div h2 {
+        min-width: 65px;
+        padding: 10px;
+        font-size: 27px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #444 0%, #2e2e2e 100%);
+        color: #fff;
+        border: 4px solid #2e2e2e;
+        border-radius: 50%;
+      }
+      .timer-wrapper > div p {
+        font-size: 10px;
+        margin-bottom: 0;
+      }
+      @media screen and (min-width: 768px) {
+        .trusted .title-wrapper {
+          padding: 0 35px;
+        }
+        .trusted .title {
+          margin-top: 20px;
+        }
+        img.poster {
+          margin-bottom: 0;
+        }
+        .contact .details {
+          padding: 0 35px;
+        }
+        .trusted {
+          flex-direction: row;
+        }
+      }
+    </style>
+  </body>
+</html>

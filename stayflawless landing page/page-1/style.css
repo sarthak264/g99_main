@@ -1,0 +1,159 @@
+body {
+  font-family: "Lato", sans-serif !important;
+}
+img {
+  max-width: 100%;
+}
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000;
+}
+#page {
+  overflow-x: hidden;
+}
+
+/* Reusable classes */
+.gen-heading {
+  font-size: 1.6rem;
+  color: #9d4694;
+}
+.w-cap {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.warning {
+  font-size: 16px;
+}
+
+/* Header */
+.header {
+  padding: 10px;
+  background-color: #792b70;
+}
+.header .gen-heading {
+  font-size: 30px;
+  color: #fff300;
+}
+.header .main-heading {
+  font-size: 30px;
+  line-height: 1.3;
+}
+.header .desc {
+  color: #fff;
+  font-size: 20px;
+}
+.header .consultation-btn {
+  background-color: #e1d8c3;
+  color: #000;
+}
+.header .consultation-btn:hover {
+  background-color: #c4c4c4;
+}
+
+/* Intro */
+.intro {
+  padding: 2rem 0 3rem;
+}
+
+/* Special Offer */
+.special-offer {
+  padding: 1.25rem;
+  background-color: #e1d8c3;
+}
+.special-offer h2.offer {
+  font-size: 30px;
+  color: #792b70;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.special-offer h3.consultation {
+  font-size: 34px;
+  color: #792f2b;
+  text-transform: uppercase;
+}
+.special-offer p.desc {
+  font-size: 1.25rem;
+  color: #000;
+  line-height: 1.5;
+}
+.special-offer p.desc a {
+  color: #792f2b;
+  transition: all 0.1s ease-in-out;
+}
+.special-offer p.desc a:hover {
+  text-decoration: none;
+  color: #767676;
+}
+.consultation-btn {
+  padding: 15px 35px;
+  background-color: #792b70;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+  transition: all 0.1s ease-in-out;
+}
+.consultation-btn:hover {
+  text-decoration: none;
+  background-color: #792f2b;
+}
+
+/* Info */
+.info {
+  padding: 2rem 0;
+}
+.info ul {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Our Spa */
+.about-spa {
+  background-color: #100c09;
+}
+.about-spa .para-container {
+  margin: 40px 40px 20px;
+  padding: 0 15%;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  font-size: 12px;
+}
+.footer p {
+  color: #c4c4c4;
+}
+
+@media screen and (min-width: 768px) {
+  .gen-heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .header {
+    padding: 2rem 3rem;
+  }
+  .header .main-heading {
+    font-size: 2.75rem;
+  }
+  .special-offer {
+    padding: 2rem 3rem;
+  }
+  .special-offer h3.consultation {
+    font-size: 44px;
+  }
+  .about-spa .desc {
+    font-size: 20px;
+  }
+  .footer {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .about-spa .desc {
+    font-size: 22px;
+  }
+}

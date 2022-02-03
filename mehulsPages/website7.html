@@ -1,0 +1,614 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- 
+    <link rel="stylesheet" href="../../bootstrap.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet"> -->
+    <title>Landing Page</title>
+  </head>
+
+  <body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <img
+      src="https://g99plus.b-cdn.net/Websites/Webiste7/website9.png"
+      width="0"
+      height="0"
+      class="d-none"
+    />
+
+    <div id="home" class="main">
+      <!-- --------------------------- vertical button section --------------------------- -->
+      <div class="btn-vertical">
+        <button class="btn-fixed btn-book">BookNow</button>
+      </div>
+      <!-- ------------------------- vertical button end ------------------------- -->
+
+      <!-- --------------------------- header-section ---------------------------- -->
+
+      <div class="header-part">
+        <div class="upper-part">
+          <header
+            class="header row mx-0 px-4 pt-2 text-muted align-items-center gap-md-5 p-md-3 px-md-4"
+          >
+            <div class="col-6 d-md-flex gap-md-5 col-md-auto ml-md-auto px-0 main-container">
+              <p class="mb-0">
+                <i class="fa fa-envelope">&nbsp; </i>
+                <a href="mailto:">${CLINIC_NOTIFICATION_EMAIL} </a>
+              </p>
+              <p class="mb-0">
+                <i class="fa fa-mobile-phone">&nbsp; </i>
+                <a href="tel:">${CLINIC_CONTACT_NUMBER}</a>
+              </p>
+            </div>
+            <div class="col-6 d-flex align-items-center col-md-auto px-0 icon-container">
+              <div class="social-icons">
+                <a class="fgColor" href="${CLINIC_TWITTER}" target="_blank" class="twitter">
+                  <i class="fa fa-twitter">&nbsp;</i>
+                </a>
+                <a class="fgColor" href="${CLINIC_INSTAGRAM}" target="_blank" class="insta">
+                  <i class="fa fa-instagram">&nbsp;</i>
+                </a>
+                <a class="fgColor" href="${CLINIC_FACEBOOK}" target="_blank" class="facebook">
+                  <i class="fa fa-facebook">&nbsp;</i>
+                </a>
+              </div>
+            </div>
+          </header>
+
+          <nav
+            class="
+              d-flex
+              justify-content-center
+              mt-4
+              align-items-center
+              mt-md-1
+              justify-content-sm-between
+              px-3
+            "
+          >
+            <div class="logo-container px-3 py-4">
+              <img src="${BUSINESS_LOGO}" />
+            </div>
+
+            <div
+              class="
+                flex-grow-1
+                d-none d-sm-flex
+                border-div
+                ml-lg-4
+                justify-content-end justify-content-lg-between
+              "
+            >
+              <div
+                class="
+                  d-none d-lg-inline-block
+                  main-nav
+                  flex-grow-1
+                  align-items-center align-self-center
+                "
+              >
+                <ul class="d-flex justify-content-around mb-0 p-0">
+                  <li><a href="#" onclick="myFunction('home')" class="active">Home </a></li>
+                  <li><a href="#" onclick="myFunction('about')">About Us </a></li>
+                  <li><a href="#" onclick="myFunction('servicediv')">Services </a></li>
+                  <li><a href="#" onclick="myFunction('userdiv')">Our Team </a></li>
+                  <li><a href="#" onclick="myFunction('contactus')">Contact Us </a></li>
+                  <li><a href="#" onclick="myFunction('testimonials')">Testimonials </a></li>
+                </ul>
+              </div>
+              <button
+                class="
+                  btn-book btn-composer
+                  d-none d-sm-inline-block d-lg-none d-xl-inline-block
+                  align-self-center
+                "
+              >
+                VIRTUAL CONSULATION
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- ------------------------- header section end -------------------------- -->
+
+      <!-- ------------------------- main section start -------------------------- -->
+      <div class="divs div1">
+        <div class="row mx-0 vertical-center">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="img1">
+              <img src="https://g99plus.b-cdn.net/Websites/website9/Rectangle%20288.png" />
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12 bgColor">
+            <div class="content content1 v-center">
+              <h1 class="fgColor">Beauty Services</h1>
+
+              <p>
+                At Elle, we offer a complete range of beauty services to fit your needs. From hair
+                styling, to facial skin care, to body massage, manicures, pedicures and more, we are
+                your all-in-one resource for a beautiful new you come and experience it today!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---------------------------- About section ---------------------------- -->
+      <div class="divs div2" id="about">
+        <div class="row mx-0 vertical-center">
+          <div class="col-lg-6 col-md-12 col-sm-12 order-lg-1">
+            <div class="img1">
+              <img src="https://g99plus.b-cdn.net/Websites/website9/Rectangle%20288.png" />
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12 order-lg-0 bgColor">
+            <div class="content content1 v-center">
+              <h1 class="fgColor">About Us</h1>
+
+              <p>
+                At Elle, we offer a complete range of beauty services to fit your needs. From hair
+                styling, to facial skin care, to body massage, manicures, pedicures and more, we are
+                your all-in-one resource for a beautiful new you come and experience it today!
+              </p>
+
+              <div class="action-btn">
+                <button id="virtual-consul-2" class="btn btn-book btn-composer">
+                  Virtual Consultation
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                           services div start                            -->
+      <!-- ----------------------------------------------------------------------- -->
+      <div class="divs div3" id="servicediv">
+        <div class="row mx-0 vertical-center">
+          <div class="col-lg-6 col-md-12 col-sm-12 order-lg-1">
+            <div class="img1">
+              <img src="https://g99plus.b-cdn.net/Websites/website9/Rectangle%20288.png" />
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12 order-lg-0 bgColor">
+            <div class="content content1 v-center">
+              <h1 class="fgColor">Our Services</h1>
+
+              <p>
+                At Elle, we offer a complete range of beauty services to fit your needs. From hair
+                styling, to facial skin care, to body massage, manicures, pedicures and more, we are
+                your all-in-one resource for a beautiful new you come and experience it today!
+              </p>
+
+              <div class="action-btn">
+                <button id="virtual-consul-2" class="btn btn-book btn-composer">
+                  Virtual Consultation
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------------- DONT MODIFY BELOW DIVS ------------------------ -->
+      <div class="divs div3">
+        <div class="row mx-0 service-wrapper">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="service-wrapper2">
+              <!-- -------- ADD YOUR DESIGN BELOW THIS DONT CHANGE ANYTHING ABOVE -------- -->
+
+              <!-- -- stitle and sdescription class should be there for mapping -- -->
+              <div class="content">
+                <h4 class="stitle fgColor">Service B</h4>
+                <p class="sdescription">this is Service B</p>
+              </div>
+
+              <div class="img-container d-flex justify-content-between align-items-end">
+                <a class="fgColor" href="#">more...</a>
+                <img src="https://g99plus.b-cdn.net/Websites/website1/services.png" />
+              </div>
+              <!-- -------- yOUR CONTENT SHOUD GO IN BETWEEN THIS -------- -->
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------- BELOW DIV  SHOULD NOT GET MODIFIED ------------------ -->
+        <div id="service" class="img-grid2">
+          <div class="row mx-0" id="service-insert"></div>
+        </div>
+        <!-- ----------------- ABOVE DIV WILL BE USED FOR SERVICE ------------------ -->
+      </div>
+
+      <!-- -------------------------- SERVICE DIV ENDS --------------------------- -->
+
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                             USER DIV STARTS                             -->
+      <!-- ----------------------------------------------------------------------- -->
+
+      <div class="divs div5" id="userdiv">
+        <div class="row mx-0 vertical-center">
+          <div class="col-lg-6 col-md-12 col-sm-12 order-lg-1">
+            <div class="img1">
+              <img src="https://g99plus.b-cdn.net/Websites/website9/Rectangle%20288.png" />
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12 order-lg-0 bgColor">
+            <div class="content content1 v-center">
+              <h1 class="fgColor">Our People</h1>
+
+              <p>
+                At Elle, we offer a complete range of beauty services to fit your needs. From hair
+                styling, to facial skin care, to body massage, manicures, pedicures and more, we are
+                your all-in-one resource for a beautiful new you come and experience it today!
+              </p>
+
+              <div class="action-btn">
+                <button id="virtual-consul-2" class="btn btn-book btn-composer">
+                  Virtual Consultation
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------ DONT CHANEG ANYTHING IN BELOW DIV ------------------ -->
+      <div class="divs div6">
+        <div id="users"></div>
+      </div>
+      <!-- ----------------- ABOVE DIV IS USED FOR DYANMIC USERS ----------------- -->
+
+      <!-- ------------------------ CONTACT US DIV STARTS ------------------------ -->
+      <div class="divs div7" id="contactus">
+        <div class="row mx-0 vertical-center">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="img1">
+              <img src="https://g99plus.b-cdn.net/Websites/website9/Rectangle%20288.png" />
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12 bgColor">
+            <div class="content content1 v-center">
+              <div class="contact-form">${CONTACT_FORM}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------- CONTACT US DIV ENDS ------------------------- -->
+
+      <!-- ----------------------- REVIEWS OR TESTIMONIALS ----------------------- -->
+      <div id="testimonials" class="divs div8">
+        <div class="div81">
+          <div class="title6">
+            <h1 class="fgColor">Trusted By Thousands Of Happy Customers</h1>
+          </div>
+          <div class="content6">
+            <p>
+              These are the stories of our customers who have joined us with great pleasure when
+              using this crazy feature.
+            </p>
+          </div>
+          <div class="reviews">
+            <div
+              class="reviewmgr-stream"
+              data-review-limit="50"
+              data-url="https://app.gogroth.com/rumaaesthetics/"
+            ></div>
+            <script>
+              !(function (d, s, id) {
+                var js,
+                  fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = "//platform.reviewmgr.com/widgets.js";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }
+              })(document, "script", "reviewmgr-wjs");
+            </script>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------------- COPY BELOW DIV FOR MAPS ----------------------- -->
+      <div class="divs div7">
+        <div class="maps">
+          <address>${CLINIC_ADDRESS}</address>
+        </div>
+      </div>
+
+      <!-- ----------- COPY BELOW DIV FOR SOCIAL MEDIA AND FOOTERLINKS ----------- -->
+      <div class="divs div7">
+        <div class="wrapper7 last">
+          <h1 class="fgColor">CONTACTS</h1>
+          <p>T: ${CLINIC_CONTACT_NUMBER}</p>
+          <p>E: ${CLINIC_NOTIFICATION_EMAIL}</p>
+          <p>Address: ${CLINIC_ADDRESS}</p>
+        </div>
+        <div class="social-media">
+          <div class="icons" class="fgColor">
+            <a href="${CLINIC_TWITTER}" target="_blank" class="twitter">
+              <i class="fa fa-twitter">&nbsp;</i>
+            </a>
+            <a href="${CLINIC_INSTAGRAM}" target="_blank" class="insta">
+              <i class="fa fa-instagram">&nbsp;</i>
+            </a>
+            <a href="${CLINIC_FACEBOOK}" target="_blank" class="facebook">
+              <i class="fa fa-facebook">&nbsp;</i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---------------------------- FOOTER STARTS ---------------------------- -->
+      <div class="footer">
+        <p>© 2021 - All rights reserved ${CLINIC_NAME}</p>
+      </div>
+      <!-- ----------------------------- FOOTER ENDS ----------------------------- -->
+    </div>
+    <style>
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        font-family: Arapey, serif;
+        font-size: 16px;
+        line-height: 1.7;
+        color: rgb(66, 53, 38);
+      }
+
+      .icons a,
+      h1 {
+        color: #bc5c64;
+      }
+
+      .bgColor {
+        background-color: #f9f0f5;
+      }
+
+      .divs {
+        padding: 2em 0;
+      }
+
+      .btn-book {
+        background-color: #bc5c64;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        border-radius: 12px;
+        border: none;
+      }
+
+      .btn-vertical button {
+        position: fixed;
+        right: -52px;
+        transform: rotate(-90deg);
+        top: 40%;
+        z-index: 50;
+        width: 150px;
+        height: auto;
+        text-align: center;
+      }
+
+      .main-nav {
+        flex-grow: 1;
+      }
+
+      .main-nav .active {
+        color: rgb(94, 37, 48);
+      }
+
+      .main-nav a {
+        font-size: 16px;
+        color: rgb(79, 86, 101);
+      }
+
+      .border-div {
+        flex-grow: 1;
+        align-self: stretch !important;
+      }
+
+      ul {
+        list-style-position: initial;
+        list-style-image: initial;
+        list-style-type: none;
+      }
+
+      .footer {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f3efef;
+      }
+
+      .footer p {
+        margin: 0;
+      }
+
+      .contact-form {
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      .content {
+        max-width: 470px;
+        margin: 0 auto;
+        padding: 1em;
+      }
+
+      .vertical-center .col-lg-6 {
+        height: auto;
+      }
+
+      .v-center {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+
+      .service-wrapper2 {
+        padding: 0 1em 1em;
+        background-color: rgb(252, 252, 252);
+        box-shadow: rgb(143 143 143 / 15%) 2px 0px 20px 9px;
+        border-radius: 6px;
+        height: 100%;
+        margin-bottom: 2em;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+
+      .service-wrapper2 a {
+        color: rgb(94, 37, 48);
+        text-decoration-line: underline;
+        text-decoration-thickness: initial;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+      }
+
+      .service-wrapper2 img {
+        max-width: 100px;
+      }
+
+      .div81 {
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .social-media,
+      .wrapper7 {
+        text-align: center;
+      }
+
+      .maps iframe {
+        width: 100%;
+        height: 300px;
+      }
+
+      .reviews iframe {
+        max-height: 400px;
+      }
+
+      .upper-part a {
+        font-size: 16px;
+        color: #000;
+      }
+
+      .upper-part .fgColor {
+        color: #bc5c64;
+      }
+
+      .upper-part .social-icons a {
+        text-decoration: none;
+        padding: 0 0.5em;
+        font-size: 18px;
+      }
+
+      .social-media a {
+        font-size: 22px;
+        padding: 0 0.5em;
+        text-decoration: none;
+      }
+
+      div#users,
+      #service {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+
+      @media screen and (min-width: 768px) {
+        .upper-part {
+          margin-top: 0px;
+          margin-right: 7%;
+          margin-bottom: 0px;
+          margin-left: 7%;
+        }
+        .header {
+          column-gap: 1.5rem;
+        }
+        .header .main-container {
+          column-gap: 1.5rem;
+        }
+      }
+
+      @media screen and (min-width: 992px) {
+        .border-div {
+          border-top-width: 1px;
+          border-top-style: solid;
+          border-top-color: rgb(171, 171, 171);
+        }
+      }
+
+      @media screen and (max-width: 991px) {
+        .service-wrapper2 {
+          padding: 0 1em 1em;
+          height: auto;
+          padding-bottom: 1em;
+        }
+        div#users,
+        #service {
+          max-width: 100%;
+          margin: 0 auto;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        .service-wrapper2 {
+          padding: 1em 1em;
+        }
+        .service-wrapper2 .content {
+          padding: 0;
+        }
+        .div81 {
+          max-width: 100%;
+          margin: 0 auto;
+          text-align: center;
+          padding: 1em;
+        }
+        .div81 h1 {
+          font-size: 26px;
+        }
+      }
+    </style>
+  </body>
+</html>
