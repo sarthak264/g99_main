@@ -1,0 +1,336 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+ul {
+  padding-left: 0px;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+}
+a:hover {
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+a h5.ques {
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+}
+.main {
+  background-color: rgb(26, 26, 26);
+  padding-top: 1rem;
+}
+.heading-wrapper {
+  min-height: 150px;
+  max-width: 1400px;
+  padding-top: 1rem;
+  padding-right: 0px;
+  padding-bottom: 1rem;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 5%;
+  margin-bottom: 1rem;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(14, 23, 45);
+  text-align: center;
+}
+.heading-wrapper .page-title {
+  color: rgb(210, 232, 66);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+}
+.tile1 {
+  padding-top: 0rem;
+  padding-right: 0px;
+  padding-bottom: 2rem;
+  padding-left: 0px;
+}
+.tile1 .couple {
+  min-height: 350px;
+  height: 100%;
+  background-image: url("https://g99plus.b-cdn.net/Landingpages/hormone%20replacement/new/first.png");
+  background-size: cover;
+  background-position-x: 100%;
+  background-position-y: 0%;
+}
+.tile1 .content {
+  max-width: 600px;
+}
+.tile1 .content .heading {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.tile1 .content .green-line {
+  width: 200px;
+  height: 1px;
+  background-color: rgb(210, 232, 66);
+  margin-bottom: 15px;
+}
+.faq {
+  max-width: 1400px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-top: 2rem;
+  padding-right: 0px;
+  padding-bottom: 2rem;
+  padding-left: 0px;
+}
+.faq > h2 {
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.acc-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2rem;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.question-card .card-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(210, 232, 66);
+}
+.question-card .card-header h5 {
+  font-weight: 600;
+}
+li > p {
+  margin-bottom: 5px;
+}
+.offers {
+  max-width: 915px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-top: 2rem;
+  padding-right: 0px;
+  padding-bottom: 3rem;
+  padding-left: 0px;
+  text-align: center;
+}
+.offers h2 {
+  margin-bottom: 0.5rem;
+}
+.offers .medications {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2rem;
+}
+.offers .medications li {
+  text-align: center;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(210, 232, 66);
+  padding-top: 0.35rem;
+  padding-right: 0px;
+  padding-bottom: 0.35rem;
+  padding-left: 0px;
+  font-size: 1.1rem;
+}
+.offers .medications li:nth-of-type(1) {
+  border-top-width: initial;
+  border-top-style: none;
+  border-top-color: initial;
+}
+.cta {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("https://g99plus.b-cdn.net/Landingpages/hormone%20replacement/blue_bg.png");
+  background-size: cover;
+  z-index: 0;
+}
+.cta p {
+  position: relative;
+  padding-top: 0px;
+  padding-right: 12%;
+  padding-bottom: 0px;
+  padding-left: 12%;
+  font-size: 1.2rem;
+  z-index: 99;
+}
+.contact-img {
+  min-height: 400px;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://g99plus.b-cdn.net/Landingpages/hormone%20replacement/old_couple.jpeg");
+  background-size: cover;
+  background-position-x: 100%;
+  background-position-y: 0%;
+}
+.contact-wrapper {
+  background-color: rgb(14, 23, 45);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+  padding-right: 0px;
+  padding-bottom: 1rem;
+  padding-left: 0px;
+}
+.contact-wrapper h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.contact-wrapper p {
+  margin-bottom: 1rem;
+}
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  background-color: rgb(26, 26, 26);
+}
+.small-footer p {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: white;
+}
+.small-footer p .g99_logo {
+  height: 1.3em;
+}
+@media screen and (min-width: 480px) {
+  .heading-wrapper {
+    margin-top: 0px;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+  }
+  .heading-wrapper .page-title {
+    font-size: 35px;
+  }
+  .contact-wrapper h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main {
+    padding-top: 3rem;
+  }
+  .tile1 {
+    padding-top: 5rem;
+    padding-right: 0px;
+    padding-bottom: 5rem;
+    padding-left: 0px;
+  }
+  .small-footer {
+    padding-top: 1rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+  }
+  .acc-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .offers h2 {
+    margin-bottom: 2rem;
+  }
+  .offers .medications {
+    grid-template-columns: 1fr 1fr;
+  }
+  .offers .medications li:nth-of-type(2) {
+    border-top-width: initial;
+    border-top-style: none;
+    border-top-color: initial;
+  }
+  .contact-wrapper p {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 991px) {
+  .heading-wrapper {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
+  .heading-wrapper .page-title {
+    font-size: 48px;
+  }
+  .contact-wrapper h1 {
+    font-size: 48px;
+  }
+  .small-footer {
+    padding-top: 1rem;
+    padding-right: 6rem;
+    padding-bottom: 1rem;
+    padding-left: 6rem;
+  }
+}
