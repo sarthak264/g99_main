@@ -1,0 +1,398 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+span,
+h3,
+h4 {
+  font-family: Righteous, cursive !important;
+}
+img {
+  max-width: 100%;
+}
+p {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 170%;
+}
+ul li {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+.bg1 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("https://g99plus.b-cdn.net/Landingpages/skin%20clinic/filler/AdobeStock_355800632%20(1).jpeg");
+  min-height: 707px;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+.wrapper1 {
+  position: relative;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  display: flex;
+  min-height: 650px;
+}
+.wrapper1 h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 86.4492px;
+  line-height: 250.19%;
+  color: rgb(255, 255, 255);
+}
+.left1 {
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 50%;
+  display: flex;
+}
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper1 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  line-height: 171.19%;
+  max-width: 450px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.right1 {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 450px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.right1 p {
+  font-size: 20px;
+}
+.right1 h2 {
+  color: white;
+  padding-top: 0.8rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: white;
+  border-right-color: white;
+  border-bottom-color: white;
+  border-left-color: white;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  margin-top: 15px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+.contact-form {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.right3 {
+  max-width: 580px;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  color: rgb(24, 74, 81);
+}
+.left2 {
+  max-width: 640px;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  color: rgb(24, 74, 81);
+}
+.left2 h1 {
+  font-family: Righteous, cursive !important;
+}
+.left3 img {
+  max-width: 100%;
+  width: 100%;
+}
+.bg4 {
+  background-image: linear-gradient(
+      to left,
+      rgba(25, 89, 97, 0.8),
+      rgba(86, 158, 158, 0.8)
+    ),
+    url("https://g99plus.b-cdn.net/Landingpages/skin%20clinic/botox/AdobeStock_269529350.jpeg");
+  min-height: 400px;
+  background-size: cover;
+  background-position-x: 0%;
+  background-position-y: 50%;
+  width: 100%;
+}
+.tile4 .img {
+  display: block;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  max-height: 400px;
+}
+.tile4 {
+  margin-top: 50px;
+}
+.tile4 p {
+  font-weight: 500;
+}
+.tile6 li {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  line-height: 170%;
+}
+.wrapper4 {
+  min-height: 400px;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.wrapper4 .content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.wrapper4 h3 {
+  color: rgb(255, 255, 255);
+}
+.wrapper4 p {
+  color: rgb(255, 255, 255);
+}
+.tile5 {
+  margin-top: 50px;
+}
+.head {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-right: 3em;
+  padding-bottom: 0px;
+  padding-left: 3em;
+  z-index: 2;
+  position: relative;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 21px;
+  color: rgb(0, 0, 0);
+}
+.address {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgb(78, 66, 68);
+}
+.address p.businessname {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgb(78, 66, 68);
+  margin-bottom: 0px;
+}
+.address p.businessAddress {
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+.price-btn {
+  background-color: rgb(99, 169, 169);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  height: 50px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.price-btn.btn-light {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.price-btn.black {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.footer p {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.action-btn {
+  margin-top: 1em;
+  margin-right: 0px;
+  margin-bottom: 1em;
+  margin-left: 0px;
+}
+.small-footer {
+  padding-top: 1rem;
+  padding-right: 0px;
+  padding-bottom: 1rem;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(24, 74, 81);
+}
+.small-footer p {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: white;
+}
+.poster-img {
+  display: block;
+  max-height: 500px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  width: auto !important;
+}
+@media screen and (max-width: 991px) {
+  .wrapper1 {
+    display: block;
+  }
+  .left1 {
+    width: 100%;
+    font-size: 36px;
+    height: auto;
+  }
+  .right1 {
+    width: 100%;
+  }
+  .tile5 {
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .action-button {
+    margin-right: 30px;
+  }
+  .action-button button {
+    background-color: rgb(99, 169, 169);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .contact-form {
+    height: 515px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .head {
+    padding-top: 1em !important;
+    padding-right: 1em !important;
+    padding-bottom: 1em !important;
+    padding-left: 1em !important;
+  }
+  .head .action-button {
+    display: none;
+  }
+  .wrapper1 h3 {
+    font-size: 60px;
+  }
+  .bg1 {
+    min-height: 200px;
+  }
+  .bg4 {
+    background-position-x: 100%;
+    background-position-y: 50%;
+  }
+}
