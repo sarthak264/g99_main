@@ -57,17 +57,18 @@ iframe {
   width: 100%;
   position: absolute;
   top: 40%;
-  max-width: 463px;
+  max-width: 563px;
   left: 8%;
   transform: translateY(-50%);
 }
 .tagline p {
   color: rgb(255, 255, 255);
   font-size: 19px;
+  max-width: 463px;
 }
 .tagline h1 {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 48px;
   /* line-height: 176%; */
   color: rgb(255, 255, 255);
@@ -117,9 +118,14 @@ iframe {
 }
 .tile3 {
   min-height: 524px;
-  background-image: url("https://g99plus.b-cdn.net/Group4%20p3/image%2013.png");
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://g99plus.b-cdn.net/Landingpages/Royalty%20Lash/Course%20page/IMG_2BFC0CECF0D7-1.jpeg");
   background-position-x: initial;
-  background-position-y: initial;
+  background-position-y: 10%;
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
@@ -298,7 +304,7 @@ iframe {
   }
 }
 @media screen and (max-width: 767px) {
-  .bg-img{
+  .bg-img {
     background-position-x: 40%;
     background-position-y: center;
   }
@@ -323,7 +329,7 @@ iframe {
     padding-left: 2em;
   }
   .tagline h1 {
-    font-size: 36px;
+    font-size: 34px;
   }
   .head {
     padding-top: 1em !important;
