@@ -119,6 +119,9 @@ p {
 .div9 .img2 img {
   max-width: 600px;
 }
+.div9 .title-text.smaller {
+  font-size: 22px;
+}
 .head {
   height: 130px;
   display: flex;
