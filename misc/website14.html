@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <title>Document</title>
+</head>
+
+<body>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <div id="home" class="main">
+    <!-- --------------------------- vertical button section --------------------------- -->
+    <div onclick="myFunction('booknow')" class="btn-vertical">
+      <button class="btn-fixed btn-book">
+        Book Now
+      </button>
+    </div>
+    <!-- ------------------------- vertical button end ------------------------- -->
+    <!-- --------------------------- header-section ---------------------------- -->
+    <div class="front header-section-main">
+      <div class="upper-part">
+        <header class="header row mx-0 px-4 pt-2 text-muted align-items-center gap-md-5 p-md-3 px-md-4">
+          <div class="col-8 d-md-flex gap-md-5 col-md-auto ml-md-auto px-0 main-container">
+            <p class="mb-0">
+              <i class="fa fa-envelope">​
+              </i>
+              <a href="mailto:${CLINIC_NOTIFICATION_EMAIL}" class="pl-1">${CLINIC_NOTIFICATION_EMAIL} </a>
+            </p>
+            <p class="mb-0">
+              <i class="fa fa-mobile-phone">​
+              </i>
+              <a href="tel:${CLINIC_CONTACT_NUMBER}" class="pl-1">${CLINIC_CONTACT_NUMBER}</a>
+            </p>
+          </div>
+          <div class="col-4 d-flex align-items-center col-md-auto px-0 icon-container">
+            <a href="${CLINIC_TWITTER}" target="_blank" class="fgColorInBg btn icon-btn"><i class="fa fa-twitter">​
+              </i></a>
+            <a href="${CLINIC_INSTAGRAM}" target="_blank" class="fgColorInBg btn icon-btn"><i class="fa fa-instagram">​
+              </i></a>
+            <a href="${CLINIC_FACEBOOK}" target="_blank" class="fgColorInBg btn icon-btn"><i class="fa fa-facebook">​
+              </i></a>
+          </div>
+        </header>
+        <nav class="d-flex justify-content-between mt-4 align-items-center mt-md-1 justify-content-sm-between px-3">
+          <div class="logo-container px-3 pb-3">
+            <img src="${BUSINESS_LOGO}" />
+          </div>
+          <div class="menu-toggle">
+            <div id="hamburger-icon">
+              <span class="line line-1"></span>
+              <span class="line line-2"></span>
+              <span class="line line-3"></span>
+            </div>
+          </div>
+          <div class="border-div main-menu">
+            <div class="main-nav">
+              <div class="logo-container mobile-only">
+                <img src="${BUSINESS_LOGO}" />
+              </div>
+              <ul class="main-list">
+                <li>
+                  <a href="#" onclick="myFunction('home')" class="active">Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#" onclick="myFunction('about')">About Us </a>
+                </li>
+                <li>
+                  <a href="#" onclick="myFunction('servicediv')">Services </a>
+                </li>
+                <li>
+                  <a href="#" onclick="myFunction('userdiv')">Our Team </a>
+                </li>
+                <li>
+                  <a href="#" onclick="myFunction('contactus')">Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#" onclick="myFunction('testimonials')">Testimonials
+                  </a>
+                </li>
+                <li class="hide">
+                  <button onclick="myFunction('symptoms')" class="btn-book btn-composer">
+                    Virtual Consultation
+                  </button>
+                </li>
+                <li class="hide mobile-icons">
+                  <div class="col-4 d-flex align-items-center col-md-auto px-0 icon-container">
+                    <a href="${CLINIC_TWITTER}" target="_blank" class="fgColorInBg btn ml-auto icon-btn"><i
+                        class="fa fa-twitter">​
+                      </i></a>
+                    <a href="${CLINIC_INSTAGRAM}" target="_blank" class="fgColorInBg btn icon-btn"><i
+                        class="fa fa-instagram">​
+                      </i></a>
+                    <a href="${CLINIC_FACEBOOK}" target="_blank" class="fgColorInBg btn icon-btn"><i
+                        class="fa fa-facebook">​
+                      </i></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <button onclick="myFunction('symptoms')" class="btn-book btn-composer">
+              Virtual Consultation
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- ------------------------- header section end -------------------------- -->
+    <!-- ------------------------- main section start -------------------------- -->
+    <div id="home-2" class="tile2 right">
+      <div class="right-div">
+        <img src="https://g99plus.b-cdn.net/Websites/Website14/home-img.png" />
+      </div>
+      <div class="left-div bgColor">
+        <div class="contents content1">
+          <h1 class="fgColor">
+            Beauty Services
+          </h1>
+          <p>${CLINIC_ABOUT}
+          </p>
+          <!-- <p>Dummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy textDummy text Dummy
+            text Dummy textDummy textDummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy</p> -->
+          <div class="action-btn">
+            <button onclick="myFunction('booknow')" class="btn-fixed btn-book">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------- About section ---------------------------- -->
+    <div id="about" class="tile1 left tile-services">
+      <div class="right-div">
+        <img src="https://g99plus.b-cdn.net/Websites/Website14/about-img.png" />
+      </div>
+      <div class="left-div bgColor">
+        <div class="contents">
+          <h1 class="fgColor">
+            About Us
+          </h1>
+          <p>${CLINIC_ABOUT}
+          </p>
+          <!-- <p>Dummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy textDummy text Dummy
+            text Dummy textDummy textDummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy</p> -->
+          <div class="action-btn">
+            <button onclick="myFunction('booknow')" class="btn-fixed btn-book">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                           services div start                            -->
+    <!-- ----------------------------------------------------------------------- -->
+    <div class="tile2 right tile-services">
+      <div class="right-div">
+        <img src="https://g99plus.b-cdn.net/Websites/Website14/service-img.png" />
+      </div>
+      <div class="left-div bgColor">
+        <div class="contents content1">
+          <h1 class="fgColor">
+            Our Services
+          </h1>
+          <p>${CLINIC_ABOUT}
+          </p>
+          <!-- <p>Dummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy textDummy text Dummy
+            text Dummy textDummy textDummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy</p> -->
+          <div class="action-btn">
+            <button onclick="myFunction('booknow')" class="btn-fixed btn-book">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------- DONT MODIFY BELOW DIVS ------------------------ -->
+    <div id="servicediv" class="div31 div3">
+      <div class="content v-center mt-2 mb-3">
+        <h1 class="fgColor">
+          Our Services
+        </h1>
+      </div>
+      <div class="row mx-0 service-wrapper">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="service-wrapper2">
+            <!-- -------- ADD YOUR DESIGN BELOW THIS DONT CHANGE ANYTHING ABOVE -------- -->
+            <!-- -- stitle and sdescription class should be there for mapping -- -->
+            <div class="service-div-wrapper">
+              <div class="servce-img">
+                <img src="https://g99plus.b-cdn.net/Websites/website1/services.png" />
+              </div>
+              <div class="content">
+                <h4 class="stitle fgColor">Service B
+                </h4>
+                <p class="sdescription">this is Service B
+                </p>
+                <a href="#" class="fgColor">more...</a>
+              </div>
+            </div>
+            <!-- -------- yOUR CONTENT SHOUD GO IN BETWEEN THIS -------- -->
+          </div>
+        </div>
+      </div>
+      <!-- ----------------- BELOW DIV  SHOULD NOT GET MODIFIED ------------------ -->
+      <div id="service" class="img-grid2">
+        <div id="service-insert" class="row mx-0">
+        </div>
+      </div>
+      <!-- ----------------- ABOVE DIV WILL BE USED FOR SERVICE ------------------ -->
+    </div>
+    <!-- -------------------------- SERVICE DIV ENDS --------------------------- -->
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             USER DIV STARTS                             -->
+    <div class="tile1 left tile-services" id='userdiv'>
+      <div class="right-div">
+        <img src="https://g99plus.b-cdn.net/Websites/Website14/people-img.png" />
+      </div>
+      <div class="left-div bgColor">
+        <div class="contents">
+          <h1 class="fgColor">
+            Our People
+          </h1>
+          <p>${CLINIC_ABOUT}
+          </p>
+          <!-- <p>Dummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy textDummy text Dummy
+            text Dummy textDummy textDummy text Dummy text Dummy text Dummy text Dummy text Dummy text Dummy</p> -->
+          <div class="action-btn">
+            <button onclick="myFunction('booknow')" class="btn-fixed btn-book">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- ------------------ DONT CHANEG ANYTHING IN BELOW DIV ------------------ -->
+    <div id="userdiv" class="div61 div6">
+      <div class="content v-center mt-2 mb-3">
+        <h1 class="fgColor">
+          Our Team
+        </h1>
+      </div>
+      <div id="users">
+      </div>
+    </div>
+    <!-- ----------------- ABOVE DIV IS USED FOR DYANMIC USERS ----------------- -->
+    <!-- ------------------------ CONTACT US DIV STARTS ------------------------ -->
+    <div id="contactus" class="tile2 right tile-form">
+      <div class="contact-right-div right-div">
+        <img src="https://g99plus.b-cdn.net/Websites/Website14/contact-img.png" />
+      </div>
+      <div class="left-div bgColor">
+        <div class="contents content1 contact-form-content">
+          <h2 class="fgColor">We love what we do
+          </h2>
+          <h2>We are up to the task.
+          </h2>
+          <div class="contact-form">
+            ${CONTACT_FORM}
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------- CONTACT US DIV ENDS ------------------------- -->
+    <!-- ----------------- BELOW DIV FOR VIRTUAL CONSULTATION ------------------ -->
+    <div id="symptoms" class="virtual-consult-div pt-4">
+      <div class="consultation">
+        <h1 class="fgColor text-center">
+          Virtual Consultation
+        </h1>
+      </div>
+      <div id="symtom-iframe" class="symptom-frame">
+      </div>
+    </div>
+    <div id="booknow" class="virtual-consult-div pt-4">
+      <div class="consultation">
+        <h1 class="fgColor text-center">
+          Book an Appointment
+        </h1>
+        <p>
+        </p>
+      </div>
+      <div id="booknow-iframe" class="booknow-frame">
+      </div>
+    </div>
+    <!-- ----------------------- REVIEWS OR TESTIMONIALS ----------------------- -->
+    <div id="testimonials" class="divs div8">
+      <div class="div81">
+        <div class="title6">
+          <h1 class="fgColor">
+            Trusted By Thousands Of Happy Customers
+          </h1>
+        </div>
+        <div class="content6">
+          <p>
+            These are the stories of our customers who have joined us with great pleasure when using this crazy feature.
+          </p>
+        </div>
+        <div class="reviews">
+          <div data-review-limit="50" data-url="https://app.gogroth.com/rumaaesthetics/" class="reviewmgr-stream">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------- COPY BELOW DIV FOR SOCIAL MEDIA AND FOOTERLINKS ----------- -->
+    <div class="divs div7">
+      <div class="maps-and-contact">
+        <div class="row mx-0">
+          <div class="col-lg-6 col-md-12">
+            <div class="maps">
+              <address>${CLINIC_ADDRESS}
+              </address>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="contact-hours-wrapper">
+              <div class="working-hours">
+                <h4 class="fgColor">
+                  <i class="fa fa-clock-o">​
+                  </i> Opening Hours
+                </h4>
+                <div class="schedule-wrapper">
+                  <div class="work-wrapper">
+                    <p>mon
+                    </p>
+                    <p class="hours">09:02 AM - 05:00 PM
+                    </p>
+                  </div>
+                  <div class="work-wrapper">
+                    <p>tue
+                    </p>
+                    <p class="hours">09:02 AM - 05:00 PM
+                    </p>
+                  </div>
+                  <div class="work-wrapper">
+                    <p>wed
+                    </p>
+                    <p class="hours">09:02 AM - 05:00 PM
+                    </p>
+                  </div>
+                  <div class="work-wrapper">
+                    <p>thu
+                    </p>
+                    <p class="hours">09:02 AM - 05:00 PM
+                    </p>
+                  </div>
+                  <div class="work-wrapper">
+                    <p>fri
+                    </p>
+                    <p class="hours">09:02 AM - 05:00 PM
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-wrapper">
+                <div class="wrapper7 last">
+                  <div class="a-section">
+                    <h4 class="fgColor">
+                      <i class="fa fa-phone">​
+                      </i> Call us
+                    </h4>
+                    <p> ${CLINIC_CONTACT_NUMBER}
+                    </p>
+                  </div>
+                  <div class="a-section">
+                    <h4 class="fgColor">
+                      <i class="fa fa-envelope">​
+                      </i> Email
+                    </h4>
+                    <p>
+                      ${CLINIC_NOTIFICATION_EMAIL}
+                    </p>
+                  </div>
+                  <div class="a-section">
+                    <h4 class="fgColor">
+                      <i class="fa fa-map-marker">​
+                      </i> Address
+                    </h4>
+                    <p>
+                      ${CLINIC_ADDRESS}
+                    </p>
+                  </div>
+                  <div class="a-section">
+                    <h4 class="fgColor">
+                      <i class="fa fa-share-alt">​
+                      </i> Follow us
+                    </h4>
+                    <div class="social-media">
+                      <div class="icons">
+                        <a href="${CLINIC_TWITTER}" target="_blank" class="twitter fgColor"><i class="fa fa-twitter">​
+                          </i></a>
+                        <a href="${CLINIC_INSTAGRAM}" target="_blank" class="insta fgColor"><i class="fa fa-instagram">​
+                          </i></a>
+                        <a href="${CLINIC_FACEBOOK}" target="_blank" class="facebook fgColor"><i
+                            class="fa fa-facebook">​
+                          </i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------- FOOTER STARTS ---------------------------- -->
+    <!-- ---------------------------- FOOTER STARTS ---------------------------- -->
+    <div class="footer bgColor text-center d-flex flex-column flex-md-row mx-0 justify-content-between pt-3 pt-md-0">
+      <p>© 2021,${CLINIC_NAME} All rights reserved
+      </p>
+      <p class="d-flex flex-column flex-md-row mx-0 align-items-center pb-3 pb-md-0">
+        Site Developed And Maintained By
+        <img src="https://g99plus.b-cdn.net/AEMR/assets/img/growth_plus.png" alt="g99 logo" class="g99_logo ml-2" />
+      </p>
+    </div>
+    <!-- ----------------------------- FOOTER ENDS ----------------------------- -->
+    <!-- ----------------------------- FOOTER ENDS ----------------------------- -->
+  </div>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      font-family: Roboto, sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    div,
+    span,
+    a {
+      font-family: Roboto, sans-serif;
+    }
+
+    p {
+      font-family: Roboto, sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.7;
+      color: rgb(66, 53, 38);
+    }
+
+    h2 {
+      font-weight: 400;
+    }
+
+    button {
+      font-weight: 500;
+    }
+
+    h1 {
+      font-weight: 500;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .icons a,
+    h1 {
+      color: rgb(25, 22, 29);
+    }
+
+    .bgColor {
+      background-color: rgb(226, 241, 234);
+    }
+
+    .fgColor {
+      color: rgb(25, 22, 29);
+    }
+
+    .divs {
+      padding-top: 4em;
+      padding-right: 0px;
+      padding-bottom: 4em;
+      padding-left: 0px;
+    }
+
+    .div31 {
+      padding-bottom: 4em;
+    }
+
+    .div61 {
+      padding-bottom: 4em;
+    }
+
+    .btn-book {
+      background-color: rgb(25, 22, 29);
+      padding-top: 10px;
+      padding-right: 15px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      font-size: 14px;
+      line-height: 24px;
+      color: rgb(255, 255, 255);
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+      border-bottom-left-radius: 12px;
+      border-top-width: initial;
+      border-right-width: initial;
+      border-bottom-width: initial;
+      border-left-width: initial;
+      border-top-style: none;
+      border-right-style: none;
+      border-bottom-style: none;
+      border-left-style: none;
+      border-top-color: initial;
+      border-right-color: initial;
+      border-bottom-color: initial;
+      border-left-color: initial;
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+    }
+
+    .btn-vertical button {
+      position: fixed;
+      right: -52px;
+      transform: rotate(-90deg);
+      top: 40%;
+      z-index: 50;
+      width: 150px;
+      height: auto;
+      text-align: center;
+    }
+
+    .front {
+      position: relative;
+    }
+
+    .line {
+      width: 35px;
+      height: 5px;
+      background-color: black;
+      margin-top: 6px;
+      margin-right: 0px;
+      margin-bottom: 6px;
+      margin-left: 0px;
+    }
+
+    .main-menu ul {
+      list-style-position: initial;
+      list-style-image: initial;
+      list-style-type: none;
+    }
+
+    #hamburger-icon {
+      width: 35px;
+      height: 20px;
+      position: relative;
+      display: block;
+    }
+
+    #hamburger-icon .line {
+      display: block;
+      background-image: initial;
+      background-position-x: initial;
+      background-position-y: initial;
+      background-size: initial;
+      background-attachment: initial;
+      background-origin: initial;
+      background-clip: initial;
+      background-color: rgb(0, 0, 0);
+      width: 35px;
+      height: 2px;
+      position: absolute;
+      left: 0px;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      border-bottom-left-radius: 4px;
+      transition-duration: 0.4s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+      transition-property: all;
+    }
+
+    #hamburger-icon .line.line-1 {
+      top: 0px;
+    }
+
+    #hamburger-icon .line.line-2 {
+      top: 50%;
+    }
+
+    #hamburger-icon .line.line-3 {
+      top: 100%;
+    }
+
+    #hamburger-icon.active .line-1 {
+      transform: translateY(0px) translateX(0px) rotate(46deg);
+    }
+
+    #hamburger-icon.active .line-2 {
+      opacity: 0;
+    }
+
+    #hamburger-icon.active .line-3 {
+      transform: translateY(-19px) translateX(0px) rotate(132deg);
+    }
+
+    .main-menu {
+      display: flex;
+      justify-content: start;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      height: 100vh;
+      min-width: 220px;
+      max-width: 250px;
+      padding-top: 0px;
+      padding-right: 1rem;
+      padding-bottom: 0px;
+      padding-left: 1rem;
+      transform: translateX(100%);
+      z-index: 99999;
+      transition-duration: 0.2s;
+      transition-timing-function: ease-in-out;
+      transition-delay: 0s;
+      transition-property: all;
+      width: 50vw !important;
+    }
+
+    .main-menu>.btn-book {
+      display: none;
+      align-self: center;
+    }
+
+    .main-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      color: rgb(79, 86, 101);
+    }
+
+    .main-menu .main-list {
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.5rem;
+      column-gap: 0.5rem;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      font-size: 1.5rem;
+    }
+
+    .main-list .icon-container {
+      margin-top: 0.5rem;
+    }
+
+    .main-list .btn-book {
+      align-self: center;
+      margin-top: 0.5rem;
+    }
+
+    .header>.icon-container {
+      display: none !important;
+    }
+
+    .menu-toggle {
+      position: absolute;
+      right: 1.5rem;
+      top: 1.5rem;
+      z-index: 999999;
+    }
+
+    .icon-container {
+      column-gap: 0.5rem;
+    }
+
+    .icon-btn .fa {
+      margin-left: 3px;
+    }
+
+    .icon-btn {
+      width: 1.6rem;
+      height: 1.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(25, 22, 29);
+      color: rgb(237, 228, 219);
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+    }
+
+    .logo-container img {
+      max-height: 80px;
+    }
+
+    .border-div {
+      align-self: stretch !important;
+    }
+
+    .main-nav .active {
+      color: rgb(94, 37, 48);
+    }
+
+    .main {
+      overflow-x: hidden;
+    }
+
+    .header-section-main a {
+      color: rgb(0, 0, 0);
+      font-size: 14px;
+    }
+
+    .header-section-main .fgColorInBg {
+      color: rgb(255, 255, 255);
+    }
+
+    .header-section-main p a {
+      padding-left: 5px;
+    }
+
+    ul {
+      list-style-position: initial;
+      list-style-image: initial;
+      list-style-type: none;
+    }
+
+    .contact-form {
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+    }
+
+    .content {
+      max-width: 520px;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+      padding-top: 1em;
+      padding-right: 1em;
+      padding-bottom: 1em;
+      padding-left: 1em;
+    }
+
+    .vertical-center .col-lg-6 {
+      height: auto;
+    }
+
+    .v-center {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .service-wrapper2 {
+      padding-top: 2em;
+      padding-right: 1em;
+      padding-bottom: 1em;
+      padding-left: 1em;
+      background-color: rgb(252, 252, 252);
+      box-shadow: rgba(143, 143, 143, 0.15) 2px 0px 20px 9px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+
+    .service-wrapper2 .servce-img {
+      padding-top: 1em;
+      padding-right: 1em;
+      padding-bottom: 1em;
+      padding-left: 1em;
+      background-image: initial;
+      background-position-x: initial;
+      background-position-y: initial;
+      background-size: initial;
+      background-attachment: initial;
+      background-origin: initial;
+      background-clip: initial;
+      background-color: rgb(25, 22, 29);
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+    }
+
+    .service-div-wrapper {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .service-wrapper2 .content {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      max-width: 100%;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 1em;
+      padding-top: 0px;
+    }
+
+    .service-wrapper2 a {
+      color: rgb(94, 37, 48);
+      text-decoration-line: underline;
+      text-decoration-thickness: initial;
+      text-decoration-style: initial;
+      text-decoration-color: initial;
+    }
+
+    .service-wrapper2 img {
+      max-width: 50px;
+    }
+
+    .sdescription {
+      margin-bottom: 0px;
+    }
+
+    .sdescription a {
+      padding-left: 10px;
+    }
+
+    .div81 {
+      max-width: 80%;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+      text-align: center;
+    }
+
+    .reviews iframe {
+      max-height: 400px;
+    }
+
+    #service,
+    div#users {
+      max-width: 80%;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+    }
+
+    #booknow-iframe {
+      max-width: 80%;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+    }
+
+    #symptoms {
+      max-width: 80%;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+    }
+
+    #booknow-iframe iframe,
+    #symtom-iframe iframe {
+      width: 100%;
+      border-top-width: initial;
+      border-right-width: initial;
+      border-bottom-width: initial;
+      border-left-width: initial;
+      border-top-style: none;
+      border-right-style: none;
+      border-bottom-style: none;
+      border-left-style: none;
+      border-top-color: initial;
+      border-right-color: initial;
+      border-bottom-color: initial;
+      border-left-color: initial;
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      height: 100vh;
+    }
+
+    #booknow-iframe iframe {
+      min-height: 1000px;
+    }
+
+    .footer p {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+
+    .social-media a {
+      font-size: 22px;
+      padding-right: 0.5em;
+      text-decoration-line: none;
+      text-decoration-thickness: initial;
+      text-decoration-style: initial;
+      text-decoration-color: initial;
+    }
+
+    .maps-and-contact h4 {
+      font-size: 20px;
+    }
+
+    .maps-and-contact p {
+      font-size: 15px;
+      word-break: break-word;
+      max-width: 230px;
+    }
+
+    .working-hours h4 {
+      padding-bottom: 10px;
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: gainsboro;
+      margin-bottom: 0px;
+    }
+
+    .maps-and-contact h1 {
+      padding-top: 0px;
+      padding-bottom: 15px;
+    }
+
+    .maps,
+    .maps address {
+      height: 100%;
+    }
+
+    .maps iframe {
+      width: 100%;
+      border-top-width: initial;
+      border-right-width: initial;
+      border-bottom-width: initial;
+      border-left-width: initial;
+      border-top-style: none;
+      border-right-style: none;
+      border-bottom-style: none;
+      border-left-style: none;
+      border-top-color: initial;
+      border-right-color: initial;
+      border-bottom-color: initial;
+      border-left-color: initial;
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      height: 100%;
+    }
+
+    .contact-hours-wrapper {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1em;
+    }
+
+    .work-wrapper {
+      display: flex;
+      justify-content: space-around;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: gainsboro;
+      padding-top: 0.7rem;
+      padding-right: 1.5rem;
+      padding-bottom: 0.7rem;
+      padding-left: 0px;
+    }
+
+    .work-wrapper p {
+      text-transform: capitalize;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+
+    .work-wrapper .hours {
+      margin-left: 1.5rem;
+    }
+
+    .footer p .g99_logo {
+      height: 1.3em;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 0em;
+      padding-right: 6em;
+      padding-bottom: 0px;
+      padding-left: 1em;
+      height: 60px;
+    }
+
+    .div71 img {
+      margin-bottom: -4em;
+    }
+
+    .tile2 {
+      position: relative;
+      display: flex;
+      margin-top: 17em;
+      margin-bottom: 17em;
+    }
+
+    .tile-form {
+      margin-top: 4em;
+    }
+
+    .tile1 {
+      position: relative;
+      display: flex;
+      margin-top: 12em;
+      margin-bottom: 12em;
+    }
+
+    .tile-services {
+      margin-bottom: 4em;
+    }
+
+    .left-div {
+      width: 80%;
+      min-height: 500px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .right-div {
+      position: absolute;
+      right: 80px;
+      top: -10em;
+    }
+
+    .contact-right-div {
+      top: 10em;
+    }
+
+    .tile2.right {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .tile2.right .content1 {
+      padding-right: 4em;
+      margin-right: 0px !important;
+    }
+
+    .tile2.right .contact-form-content {
+      height: auto;
+      min-height: auto;
+      margin-top: 5em;
+      padding-right: 4em;
+    }
+
+    .right .right-div {
+      right: unset;
+      left: 80px;
+    }
+
+    .contents {
+      height: 100%;
+      min-height: 500px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+      text-align: left;
+    }
+
+    .content1 {
+      margin-right: 5em;
+    }
+
+    @media screen and (min-width: 768px) {
+      .service-wrapper2 .content {
+        text-align: left !important;
+      }
+
+      .service-wrapper2 {
+        padding-top: 2em;
+      }
+
+      .header>.icon-container {
+        display: flex !important;
+      }
+
+      .menu-toggle {
+        display: none;
+      }
+
+      .main-menu {
+        position: relative;
+        justify-content: space-between;
+        height: auto;
+        width: auto;
+        min-width: auto;
+        max-width: none;
+        margin-left: 1rem;
+        flex-grow: 1;
+        transform: translateX(0px);
+        background-color: transparent;
+      }
+
+      .main-menu>.btn-book {
+        display: inline-block;
+      }
+
+      .main-nav {
+        position: relative;
+        flex-grow: 1;
+        margin-right: 1rem;
+        align-items: center;
+      }
+
+      .main-menu .main-list {
+        flex-grow: 1;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 100%;
+        font-size: 18px;
+      }
+
+      .main-list li {
+        display: flex;
+        align-items: center;
+      }
+
+      .main-list .hide {
+        display: none;
+      }
+
+      .main-menu .main-list li a {
+        white-space: nowrap;
+      }
+
+      .header {
+        column-gap: 1.5rem;
+      }
+
+      .header .main-container {
+        column-gap: 1.5rem;
+      }
+
+      .icon-container {
+        column-gap: 1.5rem;
+      }
+
+      .logo-container.mobile-only {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .bgColor {
+        padding-bottom: 1rem;
+      }
+
+      .contents {
+        padding-top: 4rem;
+      }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      p {
+        font-size: 16px;
+      }
+
+      .contents {
+        padding-top: 2rem;
+      }
+    }
+
+    @media screen and (min-width: 992px) {
+
+      #userdiv .contents,
+      #about .contents {
+        padding-left: 20px;
+        margin: 0 !important;
+        transform: translateX(10%);
+      }
+    }
+
+    @media screen and (min-width: 1280px) {
+
+      #userdiv .contents,
+      #about .contents {
+        transform: translateX(25%);
+      }
+    }
+
+
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      img {
+        max-width: 70%;
+      }
+
+      .contents {
+        min-height: 350px;
+      }
+
+      .content1 {
+        margin-right: 0em;
+      }
+
+      .left-div {
+        min-height: 350px;
+      }
+
+      .left .right-div {
+        margin-right: -10em;
+      }
+    }
+
+    @media screen and (min-width: 1025px) {
+      .front {
+        padding-top: 0px;
+        padding-right: 7%;
+        padding-bottom: 0px;
+        padding-left: 7%;
+      }
+
+      .border-div {
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgb(171, 171, 171);
+      }
+    }
+
+    @media screen and (min-width: 1500px) {
+      .content1 {
+        margin-right: auto;
+      }
+
+      .upper-part ul {
+        justify-content: flex-end !important;
+      }
+
+      .upper-part ul li {
+        padding-top: 0px;
+        padding-right: 1.5em;
+        padding-bottom: 0px;
+        padding-left: 1.5em;
+      }
+
+      .main-menu .main-list {
+        justify-content: flex-end;
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+      .tile2.right .content1 {
+        padding-right: 0px;
+        margin-right: auto !important;
+      }
+
+      .tile2.right .contact-form-content {
+        padding-right: 0px;
+      }
+
+      .btn-book {
+        padding-top: 10px;
+        padding-right: 12px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        font-size: 11px;
+      }
+
+      .header-section-main a {
+        font-size: 11px;
+      }
+
+      .div2 .content2,
+      .div3 .content,
+      .div6 .content {
+        text-align: center;
+        align-items: center;
+      }
+
+      .service-wrapper2 {
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-left: 1em;
+        height: auto;
+        padding-bottom: 1em;
+      }
+
+      #service,
+      div#users {
+        max-width: 100%;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+      }
+
+      .maps iframe {
+        height: 300px;
+      }
+
+      .maps-and-contact h2 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+
+      .footer {
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 0em;
+        padding-left: 1em;
+      }
+
+      .right-div,
+      .right .right-div {
+        position: relative;
+        top: unset;
+        bottom: -3em;
+        right: unset;
+        left: unset;
+      }
+
+      .tile2 {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .tile1 {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .left-div {
+        width: 100%;
+        min-height: 300px;
+      }
+
+      .right-div img {
+        max-width: 90%;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      .contents {
+        text-align: center;
+        min-height: 300px;
+      }
+
+      .content1 {
+        margin-right: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .service-div-wrapper {
+        align-items: flex-start;
+        min-height: 120px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .main-menu.active {
+        transform: translateX(0px);
+        box-shadow: rgba(0, 0, 0, 0.46) -1px 1px 13px 2px;
+      }
+
+      h1,
+      h2 {
+        font-size: 1.75em;
+      }
+
+      .main-nav {
+        justify-content: flex-start;
+        padding-top: 3em;
+        flex-direction: column;
+      }
+
+      .logo-container.mobile-only img {
+        margin-bottom: 1em;
+        display: block;
+      }
+
+      .main-list .mobile-icons .icon-container {
+        justify-content: center;
+        margin-right: auto !important;
+        margin-bottom: 0px !important;
+        margin-left: auto !important;
+        margin-top: 2.5rem !important;
+      }
+
+      .service-wrapper2 {
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+      }
+
+      .service-wrapper2 .content {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 1em;
+        text-align: left;
+      }
+
+      .div81 {
+        max-width: 100%;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        text-align: center;
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+      }
+
+      .service-wrapper2 img {
+        max-width: 30px;
+      }
+
+      .service-wrapper2 .servce-img {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+      }
+
+      .contact-hours-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .working-hours h4 {
+        border-top-width: initial;
+        border-right-width: initial;
+        border-bottom-width: initial;
+        border-left-width: initial;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: initial;
+        border-right-color: initial;
+        border-bottom-color: initial;
+        border-left-color: initial;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        margin-bottom: 10px;
+      }
+
+      .working-hours {
+        padding-bottom: 1em;
+        margin-bottom: 2em;
+      }
+
+      .wrapper7.last,
+      .wrapper7.last p {
+        text-align: center;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+      }
+
+      .a-section {
+        padding-bottom: 1em;
+      }
+
+      .footer {
+        height: auto;
+      }
+
+      #booknow-iframe {
+        max-width: 100%;
+      }
+
+      #symptoms {
+        max-width: 100%;
+      }
+    }
+  </style>
+</body>
+
+</html>
