@@ -1241,6 +1241,9 @@
       var mainMenu = $(".main-menu");
       var menuItems = $(".main-menu ul li a");
       var button = $(".btn-book");
+      $(".footer p:first").text(
+        $(".footer p:first").text().replace("2021", new Date().getFullYear())
+      );
       menuIcon.click(function (e) {
         console.log("e");
         mainMenu.toggleClass("active");
