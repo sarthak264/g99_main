@@ -124,6 +124,7 @@ p {
   margin-bottom: 0px;
   margin-left: auto;
   display: flex;
+  height: 880px;
 }
 .bg-green {
   background-image: initial;

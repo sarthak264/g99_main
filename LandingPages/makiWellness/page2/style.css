@@ -39,15 +39,16 @@ p {
 .bg-img {
   position: relative;
   height: 671.85px;
-  background-image: url("https://g99plus.b-cdn.net/Landingpages/maki%20wellness/page2/AdobeStock_209494813%20(1)%20(1).jpeg");
-  background-position-x: initial;
+  background-image: url("https://g99plus.b-cdn.net/Landingpages/maki%20wellness/page2/IMG_1478.jpg");
+  background-position-x: 90%;
   background-position-y: initial;
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
   background-color: initial;
   width: 100%;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .tagline {
   width: 100%;
@@ -156,6 +157,10 @@ p {
   padding-bottom: 0em;
   padding-left: 0px;
   max-width: 753px;
+}
+.content4 .compare-img {
+  max-height: 450px;
+  margin-top: 30px;
 }
 .tile5 {
   padding-top: 0px;

@@ -1,226 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Maki wellness-2</title>
-  </head>
-  <body>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <img
-      src="https://g99plus.b-cdn.net/thumbnails/Hair%20Regrowth%20and%20Regeneration.png"
-      height="0"
-      width="0"
-      class="d-none"
-    />
-    <div class="main">
-      <div class="head">
-        <div class="logo">
-          <img src="${BUSINESS_LOGO}" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Maki wellness-2</title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <img src="https://g99plus.b-cdn.net/thumbnails/Hair%20Regrowth%20and%20Regeneration.png" height="0" width="0"
+    class="d-none" />
+  <div class="main">
+    <div class="head">
+      <div class="logo">
+        <img src="${BUSINESS_LOGO}" />
+      </div>
+      <div class="address">
+        <div class="action-button">
+          <button data-target="#myModal" data-toggle="modal" class="btn price-btn">
+            Book Now
+          </button>
         </div>
-        <div class="address">
-          <div class="action-button">
-            <button
-              data-target="#myModal"
-              data-toggle="modal"
-              class="btn price-btn"
-            >
+        <div class="adress">
+          <p class="businessname">${CLINIC_NAME}</p>
+          <p class="businessAddress">${CLINIC_ADDRESS}</p>
+          <p class="businessAddress">${CLINIC_CONTACT_NUMBER}</p>
+        </div>
+      </div>
+    </div>
+    <div class="tile1">
+      <div class="bg-img">
+        <div class="tagline">
+          <h1>PRP</h1>
+          <div class="action-btn">
+            <button data-target="#myModal" data-toggle="modal" class="btn price-btn">
               Book Now
             </button>
           </div>
-          <div class="adress">
-            <p class="businessname">${CLINIC_NAME}</p>
-            <p class="businessAddress">${CLINIC_ADDRESS}</p>
-            <p class="businessAddress">${CLINIC_CONTACT_NUMBER}</p>
+        </div>
+      </div>
+    </div>
+    <div class="tile2">
+      <div class="row mx-0">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="left2">
+            <div class="content2">
+              <p>
+                Platelet-rich plasma, better known as PRP, is a non-surgical
+                treatment in which tiny needles are used to induce micro
+                tissue injury, causing growth factors and a wound healing
+                cascade. The SkinPen® micro-needling device causes
+                micro-injuries by stimulating the body’s natural healing
+                process. Through this stimulation, blood vessels and collagen
+                formation are stimulated, and undesirable tissue is broken
+                down.
+              </p>
+              <div class="action-btn">
+                <button data-target="#myModal" data-toggle="modal" class="btn price-btn">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0">
+          <div class="right2">
+            <div class="contact-form">${CONTACT_FORM}</div>
           </div>
         </div>
       </div>
-      <div class="tile1">
-        <div class="bg-img">
-          <div class="tagline">
-            <h1>PRP</h1>
+    </div>
+    <div class="tile3">
+      <div class="row mx-0">
+        <div class="col-md-6 col-sm-12 px-0 order-1 order-md-0">
+          <div class="contact-form">${CONTACT_FORM}</div>
+        </div>
+        <div class="col-md-6 col-sm-12 px-0 order-0 order-md-1 d-flex align-items-center">
+          <div class="content3">
+            <h1 class="mb-4">Botox special $9 unit</h1>
             <div class="action-btn">
-              <button
-                data-target="#myModal"
-                data-toggle="modal"
-                class="btn price-btn"
-              >
+              <button data-target="#myModal" data-toggle="modal" class="btn price-btn">
                 Book Now
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div class="tile2">
-        <div class="row mx-0">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="left2">
-              <div class="content2">
-                <p>
-                  Platelet-rich plasma, better known as PRP, is a non-surgical
-                  treatment in which tiny needles are used to induce micro
-                  tissue injury, causing growth factors and a wound healing
-                  cascade. The SkinPen® micro-needling device causes
-                  micro-injuries by stimulating the body’s natural healing
-                  process. Through this stimulation, blood vessels and collagen
-                  formation are stimulated, and undesirable tissue is broken
-                  down.
-                </p>
-                <div class="action-btn">
-                  <button
-                    data-target="#myModal"
-                    data-toggle="modal"
-                    class="btn price-btn"
-                  >
-                    Book Now
-                  </button>
-                </div>
-              </div>
+    </div>
+    <div class="tile4">
+      <div class="row mx-0">
+        <div class="col-lg-12 col-sm-12">
+          <div class="content4">
+            <p>
+              The PRP solution is derived from the patient’s blood and applied
+              to the skin as a blood cell-derived solution with a high
+              platelet concentration. PRP micro-needling preserves the top
+              layer of the skin, reducing recovery time and side effects.
+              Using micro-needling with PRP stimulates the skin to regenerate,
+              collagen is stimulated, and the skin is rejuvenated.
+            </p>
+            <div class="action-btn">
+              <button data-target="#myModal" data-toggle="modal" class="btn price-btn">
+                Book Now
+              </button>
             </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 px-0">
-            <div class="right2">
-              <div class="contact-form">${CONTACT_FORM}</div>
-            </div>
+            <img src="https://g99plus.b-cdn.net/Landingpages/maki%20wellness/page2/IMG_1484.jpg" class="compare-img">
           </div>
         </div>
-      </div>
-      <div class="tile3">
-        <div class="row mx-0">
-          <div class="col-md-6 col-sm-12 px-0 order-1 order-md-0">
-            <div class="contact-form">${CONTACT_FORM}</div>
-          </div>
-          <div
-            class="col-md-6 col-sm-12 px-0 order-0 order-md-1 d-flex align-items-center"
-          >
-            <div class="content3">
-              <h1 class="mb-4">Botox special $9 unit</h1>
-              <div class="action-btn">
-                <button
-                  data-target="#myModal"
-                  data-toggle="modal"
-                  class="btn price-btn"
-                >
-                  Book Now
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile4">
-        <div class="row mx-0">
-          <div class="col-lg-12 col-sm-12">
-            <div class="content4">
-              <p>
-                The PRP solution is derived from the patient’s blood and applied
-                to the skin as a blood cell-derived solution with a high
-                platelet concentration. PRP micro-needling preserves the top
-                layer of the skin, reducing recovery time and side effects.
-                Using micro-needling with PRP stimulates the skin to regenerate,
-                collagen is stimulated, and the skin is rejuvenated.
-              </p>
-              <div class="action-btn">
-                <button
-                  data-target="#myModal"
-                  data-toggle="modal"
-                  class="btn price-btn"
-                >
-                  Book Now
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="tile5">
-        <div class="row mx-0">
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="img5">
-              <img
-                src="https://g99plus.b-cdn.net/Group3%20p2/Rectangle%2013.png"
-              />
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="img5">
-              <img
-                src="https://g99plus.b-cdn.net/Group3%20p2/Rectangle%2014.png"
-              />
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="img5">
-              <img
-                src="https://g99plus.b-cdn.net/Group3%20p2/Rectangle%2015.png"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile6">
-        <div class="row mx-0">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="left2">
-              <div class="content2">
-                <p>
-                  Looking to improve the texture and color of your skin without
-                  surgery? If you see aging spots on your skin due to sun
-                  exposure or photoaging,
-                  <span class="pink">IPL or Intense pulsed</span> light therapy
-                  or a photofacial could be the answer. Photorejuvenation or a
-                  photofacial treatment is performed at med spas. It is used to
-                  decrease light sun damage, irregular pigmentation, brown or
-                  age spots, and freckles on the neck, chest, or face.
-                </p>
-                <div class="action-btn">
-                  <button
-                    data-target="#myModal"
-                    data-toggle="modal"
-                    class="btn price-btn"
-                  >
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="right2">
-              <div class="contact-form">${CONTACT_FORM}</div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <div class="footer">
-        <p class="text-center">©Copyright 2021, All Rights Reserved</p>
       </div>
     </div>
-    <style></style>
-  </body>
+    <div class="footer">
+      <p class="text-center">©Copyright 2021, All Rights Reserved</p>
+    </div>
+  </div>
+  <style></style>
+</body>
+
 </html>
