@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Modern med</title>
+</head>
+
+<body>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+    <div class="main">
+        <div class="head">
+            <div class="logo">
+                <img src="${BUSINESS_LOGO}" />
+            </div>
+            <div class="address">
+                <div class="action-button">
+                    <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book Now</button>
+                </div>
+                <div class="adress">
+                    <p class="businessname">${CLINIC_NAME}
+                    </p>
+                    <p class="businessAddress">${CLINIC_ADDRESS}
+                    </p>
+                    <p class="businessAddress">${CLINIC_CONTACT_NUMBER}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="tile1">
+            <div class="row mx-0 vertical-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="content1">
+                        <h1>Laser Hair Removal
+                        </h1>
+                        <p>Did you know an average woman will spend 72 days of her life shaving her legs? Traditional
+                            hair removal methods such as waxing, shaving and can be time-consuming and expensive.
+                        </p>
+                        <p>Elite IQ at Modern med can permanently reduce hair on all areas of the body! Allowing you to
+                            prioritize the extra 72 days!
+                        </p>
+                        <div class="action">
+                            <button data-target="#myModal" data-toggle="modal" class="btn price-btn bg-pink">Book
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 px-0">
+                    <div class="img1">
+                        <img src="https://g99plus.b-cdn.net/Landingpages/modern%20med/Image-9.jpeg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tile2">
+            <div class="row mx-0 vertical-center">
+                <div class="col-lg-6 col-md-12 px-0">
+                    <div class="content2">
+                        <h1 class="mb-3">20% for new clients
+                        </h1>
+                        <div class="action-btn">
+                            <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 px-0">
+                    <div class="contact-form2 text-center">${CONTACT_FORM}
+                        <!-- ${CONTACT_FORM} -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tile3">
+            <div class="row mx-0 justify-content-center align-items-center">
+                <div class="col-md-4 col-lg-3 px-1 py-3 py-md-0">
+                    <img src="https://g99plus.b-cdn.net/Landingpages/modern%20med/Image-2.jpeg" class="compare-img">
+                </div>
+                <div class="col-md-4 col-lg-4 px-1 py-3 py-md-0">
+                    <img src="https://g99plus.b-cdn.net/Landingpages/modern%20med/Image-3.jpeg" class="compare-img">
+                </div>
+                <div class="col-md-4 col-lg-3 px-1 py-3 py-md-0">
+                    <img src="https://g99plus.b-cdn.net/Landingpages/modern%20med/Image-8.jpeg" class="compare-img">
+                </div>
+            </div>
+        </div>
+        <div class="contact-footer">
+            <div class="row mx-0">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="contact-detail">
+                        <h4>Contact Us
+                        </h4>
+                        <div class="detail">
+                            <p>
+                                <b>PHONE
+                                </b>
+                            </p>
+                            <p class="detail-answer">
+                                <a href="`${CLINIC_CONTACT_NUMBER}`" id="iu4oh">${CLINIC_CONTACT_NUMBER}</a>
+                            </p>
+                        </div>
+                        <div class="detail">
+                            <p>
+                                <b>EMAIL
+                                </b>
+                            </p>
+                            <p class="detail-answer">
+                                <a href="`${CLINIC_NOTIFICATION_EMAIL}`" id="i6myb">${CLINIC_NOTIFICATION_EMAIL}</a>
+                            </p>
+                        </div>
+                        <div class="detail">
+                            <p>
+                                <b>ADDRESS
+                                </b>
+                            </p>
+                            <p class="detail-answer">${CLINIC_ADDRESS}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="contact-detail">
+                        <h4>Location
+                        </h4>
+                        <div class="map">
+                            <iframe allowfullscreen="" height="200" id="i13xa" loading="lazy"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3118.1418167185934!2d-90.39993744903673!3d38.599605971947135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8cc5cb3668413%3A0x94f2615e32f08941!2s10334%20Manchester%20Rd%2C%20Kirkwood%2C%20MO%2063122%2C%20USA!5e0!3m2!1sen!2sin!4v1645795157542!5m2!1sen!2sin"
+                                width="100%">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="footer bgColor text-center d-flex flex-column flex-md-row mx-0 justify-content-between pt-3 pt-md-0">
+            <p>2021 ${CLINIC_NAME}© | All rights reserved.
+            </p>
+            <p class="d-flex flex-column flex-md-row mx-0 align-items-center pb-3 pb-md-0">Site Developed And Maintained
+                By
+                <img alt="g99 logo" src="https://g99plus.b-cdn.net/AEMR/assets/img/growth_plus.png"
+                    class="g99_logo ml-2" />
+            </p>
+        </div>
+    </div>
+    <style>
+    </style>
+</body>
+
+</html>
