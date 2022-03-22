@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 
+    <link rel="stylesheet" href="../../bootstrap.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet"> -->
+    <title>Landing Page</title>
+</head>
+
+<body>
+
+    <!-- utitle: class for user name ;
+    user-img :  class for user profile image;
+    btn-profile :class for profile view of user;
+    btn-booking : class for booking appointment buttn of User;
+    custom-user-wrapper : users div design STARTS;
+    user-wrapper2 : card view of individual user 
+
+    userdiv : empt user div to identify for user insertion using jquery
+    users: actual user div where user data will be visible after uploading website
+
+    buttons-wrapper : to make click on modals and api from jquery
+ -->
+    <div class="divs">
+        <div class="row mx-0 custom-user-wrapper">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="user-wrapper2">
+                    <!-- -------- ADD YOUR DESIGN BELOW THIS DONT CHANGE ANYTHING ABOVE -------- -->
+                    <!-- -- username should be there for mapping -- -->
+                    <div class="user-content">
+                        <div class="user-img">
+                            <img src="">
+                        </div>
+                        <h4 class="utitle fgColor">User Name
+                        </h4>
+                        <div class="user-button-section buttons-wrapper">
+                            <button class="btn-book btn-profile" data-target="#myModal" data-toggle="modal" id="3705" value="https://devemr.growthemr.com/ap-booking/business?b=1092&amp;u=3705">View Profile</button>
+                            <button class="btn btn-book btn-booking"><a target="_blank" href="https://devemr.growthemr.com/ap-booking?b=1092&amp;lpid=17479&amp;u=3705" style="color: rgb(255, 255, 255);"> Book Now </a> </button>
+                        </div>
+                    </div>
+
+                    <!-- -------- yOUR CONTENT SHOUD GO IN BETWEEN THIS -------- -->
+                </div>
+            </div>
+        </div>
+        <!-- ----------------- BELOW DIV  SHOULD NOT GET MODIFIED ------------------ -->
+        <section id="userdiv" class="our-people px-2">
+            <h1 class="heading fgColor text-center">Our People</h1>
+            <div class="divs">
+                <div id="users" class="row mx-0"></div>
+            </div>
+        </section>
+        <!-- ----------------- ABOVE DIV WILL BE USED FOR USER ------------------ -->
+    </div>
+
+    <style>
+        body {
+            margin: 5em 0;
+        }
+        
+        #users .col-lg-4 {
+            margin-bottom: 2em;
+        }
+        /* below css is just for border demo */
+        
+        .user-wrapper2 {
+            border: 1px solid gray;
+        }
+    </style>
+
+
+    <script>
+        $('.custom-user-wrapper .user-wrapper2 a').attr("data-target", "#myModal")
+        $('.custom-user-wrapper .user-wrapper2 a').attr("data-toggle", "modal")
+        var service_html = $('.custom-user-wrapper')
+        let service_created_html = ""
+        let data = [{
+                name: "mk",
+                description: "mk",
+                id: 1
+            },
+
+            {
+                name: "mk",
+                description: "mk",
+                id: 1
+            }
+        ]
+        data.forEach(function(slide) {
+            $('.utitle').text(slide.name);
+            $(".user-wrapper a").text("View Detail ...")
+            $(".user-wrapper a").prop("id", slide.id)
+            var sdiv = service_html.html()
+            service_created_html = service_created_html + sdiv
+        });
+        $("#users").html(service_created_html)
+        if (data.length % 4 == 0) {
+            $("#users .col-lg-4").addClass("col-xl-3");
+        }
+    </script>
