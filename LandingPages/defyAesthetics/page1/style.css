@@ -107,10 +107,12 @@ p {
   padding-top: 2em;
 }
 .bg-img1 {
-  background-image: url("https://g99plus.b-cdn.net/Group7%20%20p1/image%2016%20(1).png");
+  background-image: url("https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page1/IMG_9863.JPG");
   height: 100%;
-  background-size: cover;
-  min-height: 825px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+  min-height: 612px;
 }
 .bg-green {
   background-image: initial;
@@ -130,7 +132,7 @@ p {
   padding-bottom: 39px;
   padding-left: 4em;
   position: absolute;
-  bottom: 10em;
+  bottom: 2em;
   width: 100%;
 }
 .content2 {
@@ -290,6 +292,13 @@ button:hover {
   }
 }
 @media screen and (min-width: 768px) {
+  .bg-img1 {
+    min-height: 825px;
+    background-position: right center;
+  }
+  .tagline {
+    bottom: 10em;
+  }
   .address {
     display: flex;
     justify-content: center;

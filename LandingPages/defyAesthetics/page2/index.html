@@ -1,436 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Botox</title>
-  </head>
-  <body>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <img
-      src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/g2-p2.png"
-      height="0"
-      width="0"
-      class="d-none"
-    />
-    <div class="main">
-      <div class="head">
-        <div class="logo">
-          <img src="${BUSINESS_LOGO}" />
-        </div>
-        <div class="address">
-          <div class="action-button">
-            <button
-              data-target="#myModal"
-              data-toggle="modal"
-              class="btn price-btn"
-            >
-              Book Now
-            </button>
-          </div>
-          <div class="adress">
-            <p class="businessname">${CLINIC_NAME}</p>
-            <p class="businessAddress">${CLINIC_ADDRESS}</p>
-            <p class="businessAddress">${CLINIC_CONTACT_NUMBER}</p>
-          </div>
-        </div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Botox</title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <img src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/g2-p2.png" height="0" width="0" class="d-none" />
+  <div class="main">
+    <div class="head">
+      <div class="logo">
+        <img src="${BUSINESS_LOGO}" />
       </div>
-      <div class="tile1">
-        <div class="bg-img">
-          <img
-            src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%206.png"
-            class="small-screen"
-          />
-          <div class="tagline">
-            <h1>Facial Rejuvenation</h1>
-            <div class="btn4 no-paddd">
-              <button
-                data-target="#myModal"
-                data-toggle="modal"
-                class="btn ntn-pink"
-              >
-                BOOK NOW
-              </button>
-            </div>
-          </div>
+      <div class="address">
+        <div class="action-button">
+          <button data-target="#myModal" data-toggle="modal" class="btn price-btn">
+            Book Now
+          </button>
         </div>
-      </div>
-      <div class="tile2">
-        <div class="row mx-0">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="left2">
-              <div class="content2">
-                <h1>20% off For new Clients only</h1>
-                <div class="btn4">
-                  <button
-                    data-target="#myModal"
-                    data-toggle="modal"
-                    class="btn ntn-pink"
-                  >
-                    BOOK NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="right2">
-              <div class="contact-form">${CONTACT_FORM}</div>
-            </div>
-          </div>
+        <div class="adress">
+          <p class="businessname">${CLINIC_NAME}</p>
+          <p class="businessAddress">${CLINIC_ADDRESS}</p>
+          <p class="businessAddress">${CLINIC_CONTACT_NUMBER}</p>
         </div>
-      </div>
-      <!-- <div class="tile3">
-        <div class="title3">
-          <p>
-            <b> Microneedling </b> is a perfect treatment to rejuvenate the
-            skin.
-          </p>
-        </div>
-      </div>
-      <div class="tile4">
-        <div class="row mx-0">
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 px-0 order-2 order-lg-1 order-md-1"
-          >
-            <div class="left4">
-              <div class="wrapper4">
-                <div class="content4">
-                  <p>
-                    <b>Fillers </b> are the perfect choice for those who want to
-                    look refreshed and young. If you are looking for effective
-                    facial rejuvenation methods, use fillers like Juvéderm,
-                    Restylane, or other FDA-approved fillers for cheek and lip
-                    enhancements, and decrease wrinkles and lip lines.
-                  </p>
-                </div>
-                <div class="btn4">
-                  <button
-                    data-target="#myModal"
-                    data-toggle="modal"
-                    class="btn ntn-pink"
-                  >
-                    BOOK NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 px-0 order-1 order-lg-2 order-md-2"
-          >
-            <div class="right4">
-              <img
-                src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%207.png"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile5">
-        <div class="row mx-0">
-          <div class="col-lg-6 col-md-6 col-sm-12 px-0">
-            <div class="left5 img-center">
-              <img
-                src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%208.png"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 px-0">
-            <div class="right5">
-              <div class="wrapper5 content-center">
-                <div class="content5">
-                  <p>
-                    Injectables include
-                    <b> Botox/Dysport </b> neuromodulators that relax the
-                    muscles that cause wrinkles, severe frown lines, crow&#039;s
-                    feet, and forehead lines. Neuromodulators are the best-known
-                    method of facial rejuvenation, have minimal downtime, and
-                    are a trusted method of facial rejuvenation.
-                  </p>
-                </div>
-                <div class="btn5 btn-pad-40">
-                  <button
-                    data-target="#myModal"
-                    data-toggle="modal"
-                    class="btn ntn-pink"
-                  >
-                    BOOK NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile5 tile6">
-        <div class="row mx-0">
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 px-0 order-2 order-lg-1 order-md-1"
-          >
-            <div class="right5">
-              <div class="wrapper5 content-center">
-                <div class="content5">
-                  <p>
-                    <b>Microdermabrasion </b>, a treatment used to remove darker
-                    age spots and minor acne scars. It is also used to treat
-                    wrinkles. Microdermabrasion exfoliates the top layer of your
-                    skin by suction or using crystals in a microdermabrasion
-                    device.
-                  </p>
-                </div>
-                <div class="btn5 btn-pad-40">
-                  <button
-                    data-target="#myModal"
-                    data-toggle="modal"
-                    class="btn ntn-pink"
-                  >
-                    BOOK NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 px-0 order-1 order-lg-2 order-md-2"
-          >
-            <div class="left5 img-center">
-              <img
-                src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%209.png"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile5 tile7">
-        <div class="row mx-0">
-          <div class="col-lg-6 col-md-6 col-sm-12 px-0">
-            <div class="left5 img-center">
-              <img
-                src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%2010.png"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 px-0">
-            <div class="right5">
-              <div class="wrapper5 content-center">
-                <div class="content5">
-                  <p>
-                    <b>Chemical Peel </b> or treatment is also known as a derma
-                    peel. These cosmetic procedures rejuvenate the face and
-                    promote new skin growth. Chemical peels are used to treat
-                    irregular skin surfaces and remove lines and age spots
-                    caused by UV rays. Strengths of chemical peels vary, and the
-                    most common ingredient used is alpha hydroxy acid (AHA).
-                  </p>
-                </div>
-                <div class="btn5 btn-pad-40">
-                  <button
-                    data-target="#myModal"
-                    data-toggle="modal"
-                    class="btn ntn-pink"
-                  >
-                    BOOK NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile5 tile8">
-        <div class="row mx-0">
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 px-0 order-2 order-lg-1 order-md-1"
-          >
-            <div class="right5">
-              <div class="wrapper5 content-center">
-                <div class="content5">
-                  <p>
-                    <b> Laser resurfacing </b> removes the outer skin layer,
-                    which removes damage. Laser resurfacing encourages the
-                    growth of new skin cells. It is used to reduce wrinkles and
-                    smooth fine lines on the face and neck.
-                  </p>
-                </div>
-                <div class="btn5 btn-pad-40">
-                  <button
-                    data-target="#myModal"
-                    data-toggle="modal"
-                    class="btn ntn-pink"
-                  >
-                    BOOK NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 px-0 order-1 order-lg-2 order-md-2"
-          >
-            <div class="left5 img-center">
-              <img
-                src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%2011.png"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile9">
-        <div class="title9">
-          <p>
-            Skin rejuvenation also uses a laser with infrared light to deliver
-            heal below the surface of your skin. It is used to remove wrinkles
-            and tightens the skin. Recovery time is quick, and you can leave the
-            clinic and return to your normal daily life.
-          </p>
-        </div>
-      </div>
-      <div class="tile4 tile10">
-        <div class="row mx-0">
-          <div class="col-lg-6 col-md-6 col-sm-12 px-0">
-            <div class="right4">
-              <img
-                src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%2012.png"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 px-0">
-            <div class="left4">
-              <div class="wrapper4">
-                <div class="content4">
-                  <p>
-                    <b>Blue Light Therapy or photodynamic </b> therapy treats
-                    premalignant or malignant skin cancer growth, sun damage,
-                    and acne. It uses a combination of photosynthesizing or
-                    light-sensitive drugs and high-intensity light.
-                  </p>
-                </div>
-                <div class="btn4">
-                  <button
-                    data-target="#myModal"
-                    data-toggle="modal"
-                    class="btn ntn-pink"
-                  >
-                    BOOK NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile5 tile11">
-        <div class="row mx-0">
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 px-0 order-2 order-lg-1 order-md-1"
-          >
-            <div class="right5">
-              <div class="wrapper5 content-center">
-                <div class="content5">
-                  <p>
-                    <b> Pulsed Light </b> or IPL is an intense pulsed light
-                    design to target the effects of UV damage, hereditary
-                    conditions, and aging signs. IPL is used to treat and
-                    improve the look of wrinkles, rosacea, brown spots, abnormal
-                    pigmentation, noticeable veins, and freckles.
-                  </p>
-                  <p>
-                    There is little recovery time after the procedure, and Blue
-                    Lighter Therapy is a great alternative if you do not want
-                    the pain, inconvenience, and recovery of surgery.
-                  </p>
-                </div>
-                <div class="btn5 btn-pad-40">
-                  <button
-                    data-target="#myModal"
-                    data-toggle="modal"
-                    class="btn ntn-pink"
-                  >
-                    BOOK NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 px-0 order-1 order-lg-2 order-md-2"
-          >
-            <div class="left5 img-center">
-              <img
-                src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%2013.png"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile12">
-        <div class="row mx-0">
-          <div class="col-lg-6 col-md-6 col-sm-12 px-0">
-            <div class="right5">
-              <div class="wrapper5 content-center">
-                <div class="content5">
-                  <p>
-                    The goal is facial rejuvenation includes a combination of
-                    cosmetic procedures is used to restore facial features, get
-                    rid of fine lines and wrinkles, and restore your skin to its
-                    youthful look. Often a surgical facelift is the anchor of
-                    many facial rejuvenation, but there are other treatments
-                    used in medspas that are not so invasive.
-                  </p>
-                  <p>
-                    Discuss the options with our aesthetician to find the facial
-                    rejuvenation that works best for you.
-                  </p>
-                </div>
-                <div class="btn5 btn-pad-40">
-                  <button
-                    data-target="#myModal"
-                    data-toggle="modal"
-                    class="btn ntn-pink"
-                  >
-                    BOOK NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 px-0">
-            <div class="left5 img-center">
-              <div class="contact-form">${CONTACT_FORM}</div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <div class="footer">
-        <p class="text-center">©Copyright 2021, All Rights Reserved</p>
       </div>
     </div>
-    <style></style>
-  </body>
+    <div class="tile1">
+      <div class="bg-img">
+        <img src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Female-Treatment-1.jpg"
+          class="small-screen" />
+        <div class="tagline">
+          <h1>Facial Rejuvenation</h1>
+          <div class="btn4 no-paddd">
+            <button data-target="#myModal" data-toggle="modal" class="btn ntn-pink">
+              BOOK NOW
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tile2">
+      <div class="row mx-0">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="left2">
+            <div class="content2">
+              <h1>20% off For new Clients only</h1>
+              <div class="btn4">
+                <button data-target="#myModal" data-toggle="modal" class="btn ntn-pink">
+                  BOOK NOW
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="right2">
+            <div class="contact-form">${CONTACT_FORM}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tile3">
+      <div class="row mx-0 justify-content-center align-items-center">
+        <div class="col-sm-4 col-lg-3 px-1 py-3 py-md-0">
+          <img
+            src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20M%20Glow%20Up.jpg"
+            class="compare-img">
+        </div>
+        <div class="col-sm-4 col-lg-4 px-1 py-3 py-md-0">
+          <img
+            src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20Red%20Light.jpg"
+            class="compare-img">
+        </div>
+        <div class="col-sm-4 col-lg-3 px-1 py-3 py-md-0">
+          <img src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20S%20Glow.jpg"
+            class="compare-img">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="text-center">©Copyright 2021, All Rights Reserved</p>
+    </div>
+  </div>
+  <style></style>
+</body>
+
 </html>
