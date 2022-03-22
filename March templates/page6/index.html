@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <div id="home" class="main">
+    <!-- --------------------------- vertical button section --------------------------- -->
+    <div class="btn-vertical">
+      <button onclick="myFunction('booknow')" class="btn-fixed btn-book">
+        BookNow
+      </button>
+    </div>
+    <!-- ------------------------- vertical button end ------------------------- -->
+    <!-- --------------------------- header-section ---------------------------- -->
+    <div class="front header-section-main">
+      <div class="upper-part">
+        <header class="header row mx-0 px-4 pt-2 text-muted align-items-center gap-md-5 p-md-3 px-md-4">
+          <div class="col-8 d-md-flex gap-md-5 col-md-auto ml-md-auto px-0 main-container">
+            <p class="mb-0">
+              <i class="fa fa-envelope"> </i>
+              <a class="pl-1" href="mailto:${CLINIC_NOTIFICATION_EMAIL}">${CLINIC_NOTIFICATION_EMAIL}
+              </a>
+            </p>
+            <p class="mb-0">
+              <i class="fa fa-mobile-phone"> </i>
+              <a class="pl-1" href="tel:${CLINIC_CONTACT_NUMBER}">${CLINIC_CONTACT_NUMBER}</a>
+            </p>
+          </div>
+          <div class="col-4 d-flex align-items-center col-md-auto px-0 icon-container">
+            <a href="${CLINIC_TWITTER}" target="_blank" class="fgColorInBg btn icon-btn">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="${CLINIC_INSTAGRAM}" target="_blank" class="fgColorInBg btn icon-btn">
+              <i class="fa fa-instagram">&#8203; </i>
+            </a>
+            <a href="${CLINIC_FACEBOOK}" target="_blank" class="fgColorInBg btn icon-btn">
+              <i class="fa fa-facebook">&#8203; </i>
+            </a>
+          </div>
+        </header>
+        <nav class="d-flex justify-content-between mt-4 align-items-center mt-md-1 justify-content-sm-between px-3">
+          <div class="logo-container px-3">
+            <img src="${BUSINESS_LOGO}" />
+          </div>
+          <div class="menu-toggle">
+            <div id="hamburger-icon">
+              <span class="line line-1"></span>
+              <span class="line line-2"></span>
+              <span class="line line-3"></span>
+            </div>
+          </div>
+          <div class="border-div main-menu">
+            <div class="main-nav">
+              <div class="logo-container mobile-only">
+                <img src="${BUSINESS_LOGO}" />
+              </div>
+              <ul class="main-list">
+                <li>
+                  <a href="#" onclick="myFunction('home')" class="active">Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#" onclick="myFunction('about')">About Us </a>
+                </li>
+                <li>
+                  <a href="#" onclick="myFunction('servicediv')">Services </a>
+                </li>
+                <li>
+                  <a href="#" onclick="myFunction('userdiv')">Our Team </a>
+                </li>
+                <li>
+                  <a href="#" onclick="myFunction('contactus')">Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#" onclick="myFunction('testimonials')">Testimonials
+                  </a>
+                </li>
+                <li class="hide">
+                  <button class="btn-book btn-composer" onclick="myFunction('symptoms')">
+                    Virtual Consulation
+                  </button>
+                </li>
+                <li class="hide mobile-icons">
+                  <div class="col-4 d-flex align-items-center col-md-auto px-0 icon-container">
+                    <a href="${CLINIC_TWITTER}" target="_blank" class="fgColorInBg btn ml-auto icon-btn">
+                      <i class="fa fa-twitter">&#8203; </i>
+                    </a>
+                    <a href="${CLINIC_INSTAGRAM}" target="_blank" class="fgColorInBg btn icon-btn">
+                      <i class="fa fa-instagram">&#8203; </i>
+                    </a>
+                    <a href="${CLINIC_FACEBOOK}" target="_blank" class="fgColorInBg btn icon-btn">
+                      <i class="fa fa-facebook">&#8203; </i>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <button class="btn-book btn-composer" onclick="myFunction('symptoms')">
+              Virtual Consulation
+            </button>
+          </div>
+        </nav>
+      </div>
+      <div class="main-header">
+        <div class="tagline">
+          <h1><span class="small">A World of</span> Beauty & Look</h1>
+        </div>
+        <img src="https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/tile1-img.png" class="header-img">
+      </div>
+    </div>
+
+    <!-- services starts -->
+    <div class="services-section">
+      <div class="row mx-0 service-wrapper">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="service-wrapper2">
+            <!-- -------- ADD YOUR DESIGN BELOW THIS DONT CHANGE ANYTHING ABOVE -------- -->
+            <!-- -- stitle and sdescription class should be there for mapping -- -->
+            <div class="content">
+              <img src="https://g99plus.b-cdn.net/Websites/website1/services.png" />
+              <h4 class="stitle">Service B</h4>
+              <p class="sdescription">this is Service B</p>
+            </div>
+            <!-- -------- yOUR CONTENT SHOUD GO IN BETWEEN THIS -------- -->
+          </div>
+        </div>
+      </div>
+      <!-- ----------------- BELOW DIV  SHOULD NOT GET MODIFIED ------------------ -->
+      <div id="service" class="img-grid2">
+        <div id="service-insert" class="row mx-0">
+        </div>
+      </div>
+      <!-- ----------------- ABOVE DIV WILL BE USED FOR SERVICE ------------------ -->
+    </div>
+    <!-- services ends -->
+
+
+    <!-- review starts -->
+    <div id="testimonials" class="review-section">
+      <h1 class="fgColor">Trusted By Thousands Of Happy Customers</h1>
+      <p>
+        These are the stories of our customers who have joined us with great
+        pleasure when using this crazy feature.
+      </p>
+      <div class="reviews">
+        <div data-review-limit="50" data-url="https://app.gogroth.com/rumaaesthetics/" class="reviewmgr-stream"></div>
+      </div>
+    </div>
+    <!-- review ends -->
+
+    <!-- cta starts -->
+    <div class="cta-section">
+      <div class="title-wrapper">
+        <div class="tagline">
+          <h1><span class="small">A World of</span> Beauty & Look</h1>
+        </div>
+      </div>
+      <div class="row mx-0">
+        <div class="col-6 imgs-wrapper">
+          <img src="https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/tile2-img1.png" class="first-img">
+          <img src="https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/tile2-img2.png" class="second-img">
+        </div>
+        <div class="col-6 content-wrapper">
+          <p>${CLINIC_ABOUT}</p>
+          <button class="btn-fixed btn-book" onclick="myFunction('booknow')">
+            Book Now
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- cta ends -->
+
+    <!-- user starts -->
+    <div class="users-section">
+      <div class="tagline">
+        <h1><span class="small">A World of</span> Beauty & Look</h1>
+      </div>
+      <div class="row mx-0 custom-user-wrapper">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="user-wrapper2">
+            <!-- -------- ADD YOUR DESIGN BELOW THIS DONT CHANGE ANYTHING ABOVE -------- -->
+            <!-- -- username should be there for mapping -- -->
+            <div class="user-content">
+              <div class="user-img">
+                <img src="https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/tile3-img1.png">
+              </div>
+              <h4 class="utitle fgColor">User Name</h4>
+              <div class="user-button-section buttons-wrapper">
+                <button class="btn-book btn-profile" data-target="#myModal" data-toggle="modal" id="3705"
+                  value="https://devemr.growthemr.com/ap-booking/business?b=1092&amp;u=3705">View Profile</button>
+                <button class="btn btn-book btn-booking"><a target="_blank"
+                    href="https://devemr.growthemr.com/ap-booking?b=1092&amp;lpid=17479&amp;u=3705"
+                    style="color: rgb(255, 255, 255);"> Book Now </a> </button>
+              </div>
+            </div>
+
+            <!-- -------- yOUR CONTENT SHOUD GO IN BETWEEN THIS -------- -->
+          </div>
+        </div>
+      </div>
+      <!-- ----------------- BELOW DIV  SHOULD NOT GET MODIFIED ------------------ -->
+      <section id="userdiv" class="our-people px-2">
+        <div class="divs">
+          <div id="users" class="row"></div>
+        </div>
+      </section>
+      <!-- ----------------- ABOVE DIV WILL BE USED FOR USER ------------------ -->
+    </div>
+    <!-- user ends -->
+
+    <!-- Contact starts -->
+    <div class="contact-section-wrapper">
+      <div class="contact-section">
+        <div class="contact-about">
+          <p>
+            ${CLINIC_ABOUT}
+          </p>
+        </div>
+        <div class="contact-form">${CONTACT_FORM}</div>
+      </div>
+      <!-- Contact ends -->
+    </div>
+
+    <div class="divs-contact">
+      <div class="maps-and-contact">
+
+        <div class="row mx-0">
+          <div class="col-lg-6 col-md-12">
+            <div class="maps">
+              <address>${CLINIC_ADDRESS}</address>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <h1 class="fgColor text-center">
+              CONTACTS
+            </h1>
+            <div class="contact-hours-wrapper">
+
+              <div class="working-hours">
+                <h4 class="fgColor">
+                  <i class="fa fa-clock-o">&#8203; </i> Opening Hours
+                  </h3>
+                  <div class="schedule-wrapper">
+                    <div class="work-wrapper">
+                      <p>mon</p>
+                      <p class="hours">09:02 AM - 05:00 PM</p>
+                    </div>
+                    <div class="work-wrapper">
+                      <p>tue</p>
+                      <p class="hours">09:02 AM - 05:00 PM</p>
+                    </div>
+                    <div class="work-wrapper">
+                      <p>wed</p>
+                      <p class="hours">09:02 AM - 05:00 PM</p>
+                    </div>
+                    <div class="work-wrapper">
+                      <p>thu</p>
+                      <p class="hours">09:02 AM - 05:00 PM</p>
+                    </div>
+                    <div class="work-wrapper">
+                      <p>fri</p>
+                      <p class="hours">09:02 AM - 05:00 PM</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="contact-wrapper">
+
+                <div class="wrapper7 last">
+
+                  <div class="a-section">
+                    <h4 class="fgColor">
+                      <i class="fa fa-phone">&#8203; </i> Call us
+                    </h4>
+                    <p> ${CLINIC_CONTACT_NUMBER}
+                    </p>
+                  </div>
+
+                  <div class="a-section">
+                    <h4 class="fgColor">
+                      <i class="fa fa-envelope">&#8203; </i> Email
+                    </h4>
+                    <p>
+                      ${CLINIC_NOTIFICATION_EMAIL}
+                    </p>
+                  </div>
+
+
+                  <div class="a-section">
+                    <h4 class="fgColor">
+                      <i class="fa fa-map-marker">&#8203; </i> Address
+                    </h4>
+                    <p>
+                      ${CLINIC_ADDRESS}
+                    </p>
+                  </div>
+
+                  <div class="a-section">
+                    <h4 class="fgColor">
+                      <i class="fa fa-share-alt">&#8203; </i> Follow us
+                    </h4>
+                    <div class="social-media">
+                      <div class="icons" class="fgColor">
+                        <a href="${CLINIC_TWITTER}" target="_blank" class="twitter fgColor">
+                          <i class="fa fa-twitter">&#8203; </i>
+                        </a>
+                        <a href="${CLINIC_INSTAGRAM}" target="_blank" class="insta fgColor">
+                          <i class="fa fa-instagram">&#8203; </i>
+                        </a>
+                        <a href="${CLINIC_FACEBOOK}" target="_blank" class="facebook fgColor">
+                          <i class="fa fa-facebook">&#8203; </i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+    <!-- ---------------------------- FOOTER STARTS ---------------------------- -->
+
+    <div class="footer bgColor text-center d-flex flex-column flex-md-row mx-0 justify-content-between  pt-3 pt-md-0">
+      <p>© 2021,${CLINIC_NAME} All rights reserved</p>
+      <p class="d-flex flex-column flex-md-row mx-0 align-items-center pb-3 pb-md-0">
+        Site Developed And Maintained By
+        <img src="https://g99plus.b-cdn.net/AEMR/assets/img/growth_plus.png" alt="g99 logo" class="g99_logo ml-2">
+      </p>
+    </div>
+  </div>
+
+  <script>
+    var menuIcon = $("#hamburger-icon");
+    var mainMenu = $(".main-menu");
+    var menuItems = $(".main-menu ul li a");
+    menuIcon.click(function (e) {
+      console.log("e");
+      mainMenu.toggleClass("active");
+      menuIcon.toggleClass("active");
+    });
+    menuItems.click(function (e) {
+      menuIcon.toggleClass("active");
+      mainMenu.toggleClass("active");
+    });
+  </script>
+</body>
+
+</html>
