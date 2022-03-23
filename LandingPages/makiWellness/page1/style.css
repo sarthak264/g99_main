@@ -102,6 +102,10 @@ p {
   padding-top: 1em;
   font-style: italic;
 }
+.tile1 .dark,
+.tile2 .dark {
+  color: #b5b35c;
+}
 .tile2 .action-btn {
   padding-top: 2em;
 }
@@ -112,7 +116,7 @@ p {
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: rgb(5, 9, 12);
+  background-color: #eaeaea;
   height: 100%;
   background-size: cover;
   min-height: 880px;
@@ -134,7 +138,7 @@ p {
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: rgb(5, 9, 12);
+  background-color: #b5b35c;
   height: 100%;
 }
 .tagline {
@@ -183,7 +187,7 @@ p {
   padding-bottom: 1em;
 }
 .dark {
-  color: #32cd32;
+  color: #808080;
   font-weight: 700;
 }
 .content4 {
@@ -208,7 +212,7 @@ p {
   align-items: center;
 }
 .price-btn {
-  background-color: #32cd32;
+  background-color: #7d7878;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
@@ -224,7 +228,7 @@ p {
   text-transform: uppercase;
 }
 .price-btn.black {
-  background-color: #32cd32;
+  background-color: #7d7878;
   color: rgb(255, 255, 255);
 }
 .footer {
@@ -239,7 +243,7 @@ p {
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: #000;
+  background-color: #b5b35c;
 }
 .footer p {
   margin-top: 0px;
@@ -308,7 +312,7 @@ p {
     margin-right: 30px;
   }
   .action-button button {
-    background-color: rgb(16, 18, 20);
+    background-color: #7d7878;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;

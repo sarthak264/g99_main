@@ -62,7 +62,7 @@ p {
   font-weight: 700;
   font-size: 106px;
   line-height: 116%;
-  color: #32cd32;
+  color: #b5b35c;
   padding-top: 30px;
   padding-right: 0px;
   padding-bottom: 30px;
@@ -139,7 +139,7 @@ p {
   padding-bottom: 4em;
 }
 .content3 h1 {
-  color: rgb(255, 255, 255);
+  color: #b5b35c;
   font-weight: 600;
   font-size: 46px;
 }
@@ -220,7 +220,7 @@ p {
   margin-bottom: 0px !important;
 }
 .price-btn {
-  background-color: #32cd32;
+  background-color: #7d7878;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
@@ -255,7 +255,7 @@ p {
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: #000;
+  background-color: #b5b35c;
 }
 .footer p {
   margin-top: 0px;
@@ -285,7 +285,7 @@ p {
     margin-right: 30px;
   }
   .action-button button {
-    background-color: #32cd32;
+    background-color: #7d7878;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
