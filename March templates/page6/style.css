@@ -373,7 +373,7 @@ div#users {
 
 /* user section */
 .users-section {
-  padding: 100px 0;
+  padding: 100px 10px;
   background-image: url("https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/Group%2044107.png");
   background-size: cover;
 }
@@ -761,5 +761,74 @@ div#users {
     padding-right: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-header {
+    padding: 0 10px;
+  }
+  .tagline h1 {
+    font-size: 75px;
+    font-weight: 900;
+  }
+  .tagline h1 .small {
+    font-size: 38px;
+    line-height: 51px;
+    font-weight: 300;
+  }
+  .cta-section,
+  .services-section {
+    padding: 50px 30px;
+  }
+  .cta-section .first-img {
+    padding-bottom: 50px;
+  }
+  .cta-section .second-img {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .tagline h1 {
+    font-size: 65px;
+    font-weight: 900;
+  }
+
+  .tagline h1 .small {
+    font-size: 30px;
+    line-height: 51px;
+    font-weight: 300;
+  }
+  .main-header {
+    min-height: 500px;
+  }
+  .header-img {
+    width: 100%;
+  }
+  .cta-section {
+    padding: 50px 10px;
+  }
+  .cta-section .first-img {
+    padding-bottom: 50px;
+  }
+  .cta-section .first-img {
+    padding-bottom: 50px;
+  }
+  .cta-section .second-img {
+    padding-top: 50px;
+  }
+  .cta-section .content-wrapper {
+    padding-top: 50px;
+  }
+  .cta-section .content-wrapper .btn-book {
+    margin-top: 20px;
+  }
+  .services-section {
+    padding: 50px 10px;
+  }
+  .review-section {
+    padding: 20px;
+  }
+  .contact-section {
+    padding: 10px 40px;
   }
 }

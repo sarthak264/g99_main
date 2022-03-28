@@ -22,19 +22,131 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <div id="home" class="main">
-        
-        <section class="contact-section">
+        <div class="main-header-section">
             <div class="row">
-                <div class="col-6 first-col">
-                    <h2 class="heading">
-                        A World of <br>
-                        Beauty & Look
-                    </h2>
+                <div class="col-lg-7">
+                    <div class="content-wrapper tagline">
+                        <h1 class="fgColor">A World of Beauty & Look</h1>
+                        <p>
+                            At Elle, we offer a complete range of beauty services to fit your needs. From hair styling,
+                            to facial skin care, to body massage, manicures, pedicures and more, we are your all-in-one
+                            resource for a beautiful new you come and experience it today!
+                        </p>
+                        <button class="btn-fixed btn-book" onclick="myFunction('booknow')">
+                            Book Now
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="gradient-wrapper">
+                        <!-- <img src="https://g99plus.b-cdn.net/Websites/march%20websites/medicalspa3/header%20img.svg"
+                            alt="woman model" class="header-img"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews-section service-section">
+            <div class="tagline">
+                <h1 class="small fgColor">A World of Beauty & Look</h1>
+                <p>
+                    ${CLINIC_ABOUT}
+                </p>
+            </div>
+            <div class="row mx-0 service-wrapper">
+                <div class="col-lg-4 col-md-6 col-sm-12 px-0 px-sm-3">
+                    <div class="service-wrapper2">
+                        <!-- -------- ADD YOUR DESIGN BELOW THIS DONT CHANGE ANYTHING ABOVE -------- -->
+                        <!-- -- stitle and sdescription class should be there for mapping -- -->
+                        <div class="img-container">
+                            <img src="https://g99plus.b-cdn.net/Websites/website1/services.png" />
+                        </div>
+                        <div class="content">
+                            <h4 class="stitle fgColor">Service B</h4>
+                            <p class="sdescription">this is Service B</p>
+                        </div>
+                        <!-- -------- yOUR CONTENT SHOUD GO IN BETWEEN THIS -------- -->
+                    </div>
+                </div>
+            </div>
+            <!-- ----------------- BELOW DIV  SHOULD NOT GET MODIFIED ------------------ -->
+            <div id="service" class="img-grid2">
+                <div id="service-insert" class="row mx-0">
+                </div>
+            </div>
+            <!-- ----------------- ABOVE DIV WILL BE USED FOR SERVICE ------------------ -->
+        </div>
+        <div class="main-header-section users-section">
+            <div class="row mx-0">
+                <div class="col-md-6 half">
+                    <div class="tagline">
+                        <h1 class="small fgColor">A World of Beauty & Look</h1>
+                    </div>
+                </div>
+                <div class="col-md-6 half">
                     <p>
                         ${CLINIC_ABOUT}
                     </p>
                 </div>
-                <div class="col-6 form-wrapper">
+            </div>
+            <div class="main-users-section">
+                <div class="row mx-0 custom-user-wrapper">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="user-wrapper2">
+                            <!-- -------- ADD YOUR DESIGN BELOW THIS DONT CHANGE ANYTHING ABOVE -------- -->
+                            <!-- -- username should be there for mapping -- -->
+                            <div class="user-content">
+                                <div class="user-img">
+                                    <img
+                                        src="https://g99plus.b-cdn.net/Websites/march%20websites/medicalspa3/doctor.svg">
+                                </div>
+                                <p class="utitle fgColor">User Name</p>
+                                <div class="user-button-section buttons-wrapper">
+                                    <button class="btn-book btn-profile mr-2" data-target="#myModal" data-toggle="modal"
+                                        id="3705"
+                                        value="https://devemr.growthemr.com/ap-booking/business?b=1092&amp;u=3705">View
+                                        Profile</button>
+                                    <button class="btn btn-book btn-booking ml-2"><a target="_blank"
+                                            href="https://devemr.growthemr.com/ap-booking?b=1092&amp;lpid=17479&amp;u=3705"
+                                            style="color: rgb(255, 255, 255);"> Book Now </a> </button>
+                                </div>
+                            </div>
+
+                            <!-- -------- yOUR CONTENT SHOUD GO IN BETWEEN THIS -------- -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------------- BELOW DIV  SHOULD NOT GET MODIFIED ------------------ -->
+                <section id="userdiv" class="our-people px-2">
+                    <!-- <h1 class="heading fgColor text-center">Our People</h1> -->
+                    <div class="divs">
+                        <div id="users" class="row"></div>
+                    </div>
+                </section>
+                <!-- ----------------- ABOVE DIV WILL BE USED FOR USER ------------------ -->
+            </div>
+        </div>
+        <div class="reviews-section">
+            <div class="row mx-0">
+                <div class="col-0 col-xl-5 review-img"></div>
+                <div class="col-12 col-xl-7 review-wrapper tagline">
+                    <h1 class="small fgColor">A World of Beauty & Look</h1>
+                    <div class="reviews">
+                        <div data-review-limit="50" data-url="https://app.gogroth.com/rumaaesthetics/"
+                            class="reviewmgr-stream">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="contact-section">
+            <div class="row">
+                <div class="col-md-6 first-col tagline">
+                    <h1 class="small fgColor">A World of Beauty & Look</h1>
+                    <p>
+                        ${CLINIC_ABOUT}
+                    </p>
+                </div>
+                <div class="col-md-6 form-wrapper">
                     ${CONTACT_FORM}
                 </div>
             </div>
@@ -133,8 +245,7 @@
                 </div>
             </div>
             <!-- ---------------------------- FOOTER STARTS ---------------------------- -->
-            <div
-                class="footer bgColor text-center d-flex flex-column flex-md-row mx-0 justify-content-between  pt-3 pt-md-0">
+            <div class="footer bgColor text-center d-flex flex-column flex-md-row mx-0 justify-content-between">
                 <p>© 2021,${CLINIC_NAME} All rights reserved</p>
                 <p class="d-flex flex-column flex-md-row mx-0 align-items-center pb-3 pb-md-0">
                     Site Developed And Maintained By
