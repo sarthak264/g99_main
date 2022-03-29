@@ -27,10 +27,10 @@ p {
   font-size: 18px;
   line-height: 170%;
   color: rgb(78, 66, 68);
-  margin-top: 0px !important;
-  margin-right: 0px !important;
-  margin-bottom: 0px !important;
-  margin-left: 0px !important;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
 .bg-img {
   position: relative;
@@ -56,6 +56,9 @@ p {
   line-height: 140%;
   text-transform: uppercase;
   color: rgb(78, 66, 68);
+}
+.tagline p {
+  margin-bottom: 20px;
 }
 .content2 {
   max-width: 540px;
@@ -91,7 +94,35 @@ p {
 .tile2 .contact-form iframe {
   max-width: 100%;
 }
+.tile2 .special-p {
+  margin-bottom: 30px;
+}
 .tile3 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20Red%20Light.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 36%;
+}
+.tile3 .content2 p {
+  color: #fff;
+  font-weight: 500;
+}
+.right2 {
+  height: 100%;
+}
+.images-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tile4 {
   padding: 0 1rem 4rem;
 }
 .left4 {
@@ -169,9 +200,6 @@ button {
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
-}
-.tile4 {
-  margin-top: -5em;
 }
 .tile5 {
   padding-top: 150px;
@@ -337,11 +365,6 @@ img {
   color: white;
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .tile4 {
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-top: 0px;
-  }
   .tile5,
   .tile12 .content-center {
     padding-left: 2em;
@@ -420,10 +443,6 @@ img {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  .tile4 {
-    padding-left: 2em;
-    padding-right: 2em;
-  }
   .tile5,
   .tile12 .content-center {
     padding-left: 2em;
@@ -459,7 +478,7 @@ img {
     z-index: 9;
   }
   .tagline h1 {
-    font-size: 24px;
+    font-size: 38px;
     font-weight: 600;
     color: #fff;
   }
@@ -507,15 +526,6 @@ img {
     margin-top: 40px;
     justify-content: center;
   }
-  .tile4 {
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-top: 0px;
-  }
-  .tile4.tile10 {
-    padding-left: 2em;
-    padding-right: 2em;
-  }
   .left4 {
     min-height: auto;
     padding-top: 2em;
@@ -523,10 +533,6 @@ img {
   .content-center {
     min-height: auto;
     padding-top: 2em;
-  }
-  .tile4 .right4 {
-    padding-top: 0px;
-    margin-top: 0px;
   }
   .tile12 .right5 {
     padding-left: 2em;
@@ -539,16 +545,25 @@ img {
     margin-left: auto;
     text-align: center;
   }
-  .bg-img {
+  /* .bg-img {
     height: 480px;
-  }
+  } */
   .small-screen {
     display: none;
   }
   .tagline {
     bottom: 2em;
-    max-width: 250px;
+    max-width: 300px;
     left: 2em;
+  }
+  .tile1 .tagline p {
+    color: #fff;
+  }
+  .tile2 .special-p {
+    margin-bottom: 20px;
+  }
+  .tile3 {
+    padding-bottom: 2rem;
   }
   .head {
     padding-top: 1em !important;

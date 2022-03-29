@@ -1,104 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css" />
+    <title>Botox</title>
+  </head>
 
-  <title>Botox</title>
-</head>
-
-<body>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-  <img src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/g2-p2.png" height="0" width="0" class="d-none" />
-  <div class="main">
-    <div class="head">
-      <div class="logo">
-        <img src="${BUSINESS_LOGO}" />
-      </div>
-      <div class="address">
-        <div class="action-button">
-          <button data-target="#myModal" data-toggle="modal" class="btn price-btn">
-            Book Now
-          </button>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <img
+      src="https://g99plus.b-cdn.net/group2%20landingpage2%20grey/g2-p2.png"
+      height="0"
+      width="0"
+      class="d-none"
+    />
+    <div class="main">
+      <div class="head">
+        <div class="logo">
+          <img src="${BUSINESS_LOGO}" />
         </div>
-        <div class="adress">
-          <p class="businessname">${CLINIC_NAME}</p>
-          <p class="businessAddress">${CLINIC_ADDRESS}</p>
-          <p class="businessAddress">${CLINIC_CONTACT_NUMBER}</p>
-        </div>
-      </div>
-    </div>
-    <div class="tile1">
-      <div class="bg-img">
-        <img src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Female-Treatment-1.jpg"
-          class="small-screen" />
-        <div class="tagline">
-          <h1>Facial Rejuvenation</h1>
-          <div class="btn4 no-paddd">
-            <button data-target="#myModal" data-toggle="modal" class="btn ntn-pink">
-              BOOK NOW
+        <div class="address">
+          <div class="action-button">
+            <button
+              data-target="#myModal"
+              data-toggle="modal"
+              class="btn price-btn"
+            >
+              Book Now
             </button>
+          </div>
+          <div class="adress">
+            <p class="businessname">${CLINIC_NAME}</p>
+            <p class="businessAddress">${CLINIC_ADDRESS}</p>
+            <p class="businessAddress">${CLINIC_CONTACT_NUMBER}</p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="tile2">
-      <div class="row mx-0">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="left2">
-            <div class="content2">
-              <h1>20% off For new Clients only</h1>
-              <div class="btn4">
-                <button data-target="#myModal" data-toggle="modal" class="btn ntn-pink">
-                  BOOK NOW
-                </button>
+      <div class="tile1">
+        <div class="bg-img">
+          <img
+            src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Female-Treatment-1.jpg"
+            class="small-screen"
+          />
+          <div class="tagline">
+            <h1>Facial Rejuvenation</h1>
+            <p>
+              The Hydrafacial, through its patented vortex technology and
+              incredibly powerful solutions, exfoliates, hydrates, and treats
+              the skin with a medical-grade resurfacing treatment, delivering an
+              immediate result and glowing skin all without any downtime.
+            </p>
+            <div class="btn4 no-paddd">
+              <button
+                data-target="#myModal"
+                data-toggle="modal"
+                class="btn ntn-pink"
+              >
+                BOOK NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tile2">
+        <div class="row mx-0">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="left2">
+              <div class="content2">
+                <p class="special-p">
+                  We have options to treat many skin types and conditions with
+                  lymphatic drainage, stronger exfoliation tips, and
+                  skin-changing boosters.
+                </p>
+                <h1>20% off For new Clients only</h1>
+                <div class="btn4">
+                  <button
+                    data-target="#myModal"
+                    data-toggle="modal"
+                    class="btn ntn-pink"
+                  >
+                    BOOK NOW
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="right2">
+              <div class="contact-form">${CONTACT_FORM}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tile2 tile3">
+        <div class="row mx-0">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="left2">
+              <div class="content2">
+                <!-- <h1>20% off For new Clients only</h1> -->
+                <p class="mb-3">
+                  This powerful facial allows us to remove dead skin while
+                  decongesting impurities from the pores (think blackheads),
+                  infusing antioxidants and nourishing peptides. There’s no
+                  denying it. Your skin will look and feel amazing!
+                </p>
+                <p>
+                  We can adjust this incredible treatment for any skin type and
+                  concern. This is a fabulous preparation for the perfect
+                  palette before getting injectables like Botox, Dysport, and
+                  fillers.
+                </p>
+                <div class="btn4">
+                  <button
+                    data-target="#myModal"
+                    data-toggle="modal"
+                    class="btn ntn-pink"
+                  >
+                    BOOK NOW
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="right2">
+              <div class="row mx-0 images-wrapper">
+                <div class="col-6 px-0">
+                  <img
+                    src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20M%20Glow%20Up.jpg"
+                    class="compare-img"
+                  />
+                </div>
+                <div class="col-6 px-0">
+                  <img
+                    src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20S%20Glow.jpg"
+                    class="compare-img"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="right2">
-            <div class="contact-form">${CONTACT_FORM}</div>
+      </div>
+      <!-- <div class="tile4">
+        <div class="row mx-0 justify-content-center align-items-center">
+          <div class="col-sm-4 col-lg-3 px-1 py-3 py-md-0">
+            <img
+              src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20M%20Glow%20Up.jpg"
+              class="compare-img"
+            />
+          </div>
+          <div class="col-sm-4 col-lg-4 px-1 py-3 py-md-0">
+            <img
+              src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20Red%20Light.jpg"
+              class="compare-img"
+            />
+          </div>
+          <div class="col-sm-4 col-lg-3 px-1 py-3 py-md-0">
+            <img
+              src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20S%20Glow.jpg"
+              class="compare-img"
+            />
           </div>
         </div>
+      </div> -->
+      <div class="footer">
+        <p class="text-center">©Copyright 2021, All Rights Reserved</p>
       </div>
     </div>
-    <div class="tile3">
-      <div class="row mx-0 justify-content-center align-items-center">
-        <div class="col-sm-4 col-lg-3 px-1 py-3 py-md-0">
-          <img
-            src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20M%20Glow%20Up.jpg"
-            class="compare-img">
-        </div>
-        <div class="col-sm-4 col-lg-4 px-1 py-3 py-md-0">
-          <img
-            src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20Red%20Light.jpg"
-            class="compare-img">
-        </div>
-        <div class="col-sm-4 col-lg-3 px-1 py-3 py-md-0">
-          <img src="https://g99plus.b-cdn.net/Landingpages/defy%20aesthetics/page2/Plug%20and%20Play%20-%20S%20Glow.jpg"
-            class="compare-img">
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <p class="text-center">©Copyright 2021, All Rights Reserved</p>
-    </div>
-  </div>
-  <style></style>
-</body>
-
+    <style></style>
+  </body>
 </html>
