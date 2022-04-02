@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+}
+
+p.normal {
+    font-size: 16px;
+}
+
+p.small-text {
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+input.sign-input {
+    margin: 0 7px;
+    font-size: 14px;
+    border: none;
+    border-bottom: #3e3e3e dotted thin;
+    outline: none;
+}
+
+.radio-input-grp label {
+    font-size: 11px;
+    color: #6f6f6f;
+}
+
+input.radio-input {
+    accent-color: #616861;
+}
+
+.red {
+    color: #ea3223;
+}
+
+.page-wrapper {
+    padding: 5rem 0;
+}
+
+.form-wrapper {
+    /* width: 100vw; */
+    /* height: 90vh; */
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 32px 36px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    font-size: 24px;
+    color: #555555;
+    text-align: center;
+}
+
+.form-divider {
+    height: 0;
+    width: 100%;
+    margin-top: 16px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.form-grp1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 72px;
+    row-gap: 12px;
+    padding: 20px 0;
+}
+
+.input-grp1 {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.input-grp1 p {
+    font-size: 11px;
+    font-weight: bold;
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+.input-type1 {
+    width: 70%;
+    border-radius: 6px;
+    padding: 6px 3px 2px 3px;
+    box-shadow: 0 1px 2px #eee inset;
+    border: 1px solid #ccc;
+}
+
+.details-section {
+    display: flex;
+}
+
+.details-section>div {
+    width: 300px;
+}
+
+.consigne {
+    margin-right: 72px;
+}
+
+.input-grp2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.input-grp2 p {
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.input-type2 {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: inset 0 2px 6px #eee;
+}
+
+.shipping-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2rem 0;
+}
+
+.shipping-section .input-type2 {
+    width: 60%;
+}
+
+.sc-first .top-form {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.sc-first .bottom-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 16px;
+}
+
+.terms-grid {
+    display: flex;
+}
+
+.terms-grid-item {
+    width: 300px;
+    padding: 12px 0;
+    margin: 0 36px;
+}
+
+.terms-grid-item:first-of-type {
+    margin-left: 0;
+}
+
+.lc-form-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 16px 0;
+}
+
+.lc-input-group {
+    display: flex;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin: 3rem 0;
+}
+
+.submit-btn {
+    padding: 9px 25px;
+    font-size: 11px;
+    color: #fff;
+    background: linear-gradient(to top, #3d94f6 0%, #1e62d0 100%);
+    border-radius: 4px;
+    border: 1px solid #0d4aab;
+    text-shadow: -1px -1px 0px #003ea1;
+}
+
+.submit-btn img {
+    margin-right: 5px;
+}
+
+.last-instructions {
+    margin: 11px auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    .shipping-section {
+        grid-template-columns: 60% 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .shipping-section {
+        grid-template-columns: 1fr;
+    }
+
+    .sc-first {
+        margin-bottom: 20px;
+    }
+
+    .lc-form-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .terms-grid-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .details-section {
+        flex-wrap: wrap;
+    }
+
+    .details-section>div {
+        width: 100%;
+    }
+
+    .consigne {
+        margin: 0;
+    }
+
+    .input-type2 {
+        width: 70%;
+    }
+
+    .input-grp2 p {
+        white-space: nowrap;
+    }
+
+    .sc-first .bottom-form {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-wrapper {
+        padding: 32px 15px;
+    }
+
+    input.sign-input {
+        width: 100%;
+    }
+
+    .form-grp1 {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 10px;
+    }
+
+    .input-grp1 {
+        flex-direction: column;
+    }
+
+    .input-type1 {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .shipping-section .small-text {
+        margin-bottom: 0;
+    }
+
+    .sc-first .top-form,
+    .sc-first .bottom-form {
+        grid-template-columns: 1fr;
+    }
+
+    .sc-first .top-form {
+        row-gap: 10px;
+    }
+
+    .terms-grid {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .terms-grid-item {
+        /* width: 100%; */
+        margin: 0;
+    }
+
+    .lc-form-group {
+        grid-template-columns: 1fr;
+        column-gap: 0.5rem;
+    }
+
+    .lc-input-group {
+        overflow: hidden;
+    }
+
+    .buttons-wrapper {
+        margin: 2rem 0;
+    }
+}

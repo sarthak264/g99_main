@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bill of lading</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <div class="form-wrapper">
+      <h3 class="form-title">Bill of Lading</h3>
+      <div class="form-divider"></div>
+      <div class="form-grp1">
+        <div class="input-grp1">
+          <p>To Consigne</p>
+          <input type="text" placeholder="axsx" id="" class="input-type1" />
+        </div>
+        <div class="input-grp1">
+          <p>FROM</p>
+          <input type="text" placeholder="axsx" id="" class="input-type1" />
+        </div>
+        <div class="input-grp1">
+          <p>FROM</p>
+          <input type="text" placeholder="axsx" id="" class="input-type1" />
+        </div>
+        <div class="input-grp1">
+          <p>FROM</p>
+          <input type="text" placeholder="axsx" id="" class="input-type1" />
+        </div>
+        <div class="input-grp1">
+          <p>Type a question</p>
+          <input type="text" id="" class="input-type1" />
+        </div>
+        <div class="input-grp1">
+          <p>C.O.D AMOUNT</p>
+          <input type="text" id="" class="input-type1" />
+        </div>
+      </div>
+      <div class="details-section">
+        <div class="consigne">
+          <p class="small-text">CONSIGNE DETAILS</p>
+          <div class="form-grp2">
+            <div class="input-grp2">
+              <p>To Consigne</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>C.O.D (Optional)</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>Street</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>Destination</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>Zip</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>Phone</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>P.O.#:</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+          </div>
+        </div>
+        <div class="shipper">
+          <p class="small-text">SHIPPER DETAILS</p>
+          <div class="form-grp2">
+            <div class="input-grp2">
+              <p>FROM</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>STREET</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>ORIGIN</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>ZIP</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>PHONE</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>VEHICLE No.</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shipping-section">
+        <!-- sc refers to shipping section-->
+        <div class="sc-first">
+          <div class="top-form">
+            <div class="left-form">
+              <p class="small-text">SHIPPING SELECT</p>
+              <div class="radio-form-grp">
+                <div class="radio-input-grp">
+                  <input type="radio" id="" name="shipping-select" value="" class="radio-input" />
+                  <label for="prepaid">PREPAID (Shipper)</label>
+                </div>
+                <div class="radio-input-grp">
+                  <input type="radio" id="" name="shipping-select" value="" class="radio-input" />
+                  <label for="collect">COLLECT (Consignee)</label>
+                </div>
+              </div>
+            </div>
+            <div class="right-form">
+              <p class="small-text">
+                C.O.D AMOUNT
+              </p>
+              <input type="text" id="" class="input-type1">
+            </div>
+          </div>
+          <div class="bottom-form">
+            <div class="form-1">
+              <p class="small-text">
+                ROUTING
+              </p>
+              <input type="text" class="input-type1">
+              <!-- radio-input-grp class is only used so it's label style can be used here -->
+              <div class="radio-input-grp">
+                <label>ROUTING INSTRUCTIONS</label>
+              </div>
+            </div>
+            <div class="form-2">
+              <p class="small-text">PAYMENT METHOD</p>
+              <div class="radio-form-grp">
+                <div class="radio-input-grp">
+                  <input type="radio" id="" name="cod-fee" value="" class="radio-input" />
+                  <label for="prepaid">COMPANY CHECK OK</label>
+                </div>
+                <div class="radio-input-grp">
+                  <input type="radio" id="" name="cod-fee" value="" class="radio-input" />
+                  <label for="collect">CASH OR CERT.CHECK ONLY</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-3">
+              <p class="small-text">C.O.D FEE</p>
+              <div class="radio-form-grp">
+                <div class="radio-input-grp">
+                  <input type="radio" id="" name="cod-fee" value="" class="radio-input" />
+                  <label for="prepaid">PREPAID</label>
+                </div>
+                <div class="radio-input-grp">
+                  <input type="radio" id="" name="cod-fee" value="" class="radio-input" />
+                  <label for="collect">COLLECT</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sc-second">
+          <div class="form-grp2">
+            <p class="small-text">BILL TO</p>
+            <div class="input-grp2">
+              <p>NAME</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>ADDRESS</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>CITY</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>STATE</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+            <div class="input-grp2">
+              <p>ZIP</p>
+              <input type="text" id="" class="input-type2" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <iframe data-client-id="5321bc1dec233a2e15000006" title="Spreadsheet" scrolling="no" allowtransparency="true"
+        allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen" data-type="iframe"
+        class="custom-field-frame custom-field-frame-rendered frame-xd-ready frame-ready" id="customFieldFrame_51"
+        src="//app-widgets.jotform.io/spreadsheet/?qid=51&amp;ref=https%3A%2F%2Fform.jotform.com&amp;injectCSS=false"
+        style="max-width: 1000px; border: medium none; width: 430px; height: 323px;" data-width="1000" data-height="280"
+        frameborder="0">
+      </iframe> -->
+      <div class="terms-grid">
+        <div class="terms-grid-item">
+          <p>
+            NOTE (1) Where the rate is dependent on the value, shippers are
+            required to state specifically in writing the agreed or declared
+            value of the property as follows: "The agreed or declared value of
+            the property is specifically stated by the shipper to be not
+            exceeding
+            <input type="text" id="" class="sign-input" />
+          </p>
+          <br />
+          <p>
+            CORLETT EXPRESS TRUCKING, Inc., Liability for loss or damage to
+            any shipment or any part theory, is limited to the actual value of
+            the article(s) lost, damaged, or destroyed or $5.00 per pound,
+            whichever is less.
+          </p>
+        </div>
+        <div class="terms-grid-item">
+          <p>
+            Subject to section 7 of conditions, if the shipment is to be
+            delivered to the consignee without recourse on the consignor shall
+            sign the following statement:
+          </p>
+          <p>
+            The carrier shall not make delivery of the shipment without
+            payment of freight and all other changes.
+          </p>
+          <br />
+          <p>Signature of consignor</p>
+          <input type="text" id="" class="sign-input" />
+        </div>
+      </div>
+      <div class="last-conformation">
+        <p>
+          This is to certify that the above named articles are properly
+          classified, described, packaged, marked, and labeled, and are in
+          proper condition for transportation, according to the applicable
+          regulation of the Department of Transportation.
+        </p>
+        <!-- ls refers to last conformation -->
+        <div class="lc-form-group">
+          <div class="lc-input-group">
+            <p>SHIPPER</p>
+            <input type="text" id="" class="sign-input" />
+          </div>
+          <div class="lc-input-group">
+            <p>PER</p>
+            <input type="text" id="" class="sign-input" />
+          </div>
+          <div class="lc-input-group">
+            <p>DATE</p>
+            <input type="text" id="" class="sign-input" />
+          </div>
+          <div class="lc-input-group">
+            <p>TIME</p>
+            <input type="text" id="" class="sign-input" />
+          </div>
+        </div>
+        <div class="lc-form-group">
+          <div class="lc-input-group">
+            <p>CARRIER</p>
+            <input type="text" id="" class="sign-input" />
+          </div>
+          <div class="lc-input-group">
+            <p>PER</p>
+            <input type="text" id="" class="sign-input" />
+          </div>
+          <div class="lc-input-group">
+            <p>DATE</p>
+            <input type="text" id="" class="sign-input" />
+          </div>
+          <div class="lc-input-group">
+            <p>TIME</p>
+            <input type="text" id="" class="sign-input" />
+          </div>
+        </div>
+      </div>
+      <div class="buttons-wrapper">
+        <button class="submit-btn">
+          Submit
+        </button>
+        <button class="submit-btn">
+          <img src="https://cdn.jotfor.ms/images/printer.png" style="vertical-align:middle">Print
+        </button>
+      </div>
+      <p class="normal last-instructions">
+        <span class="red">*</span>Please click on <strong>SUBMIT</strong> and
+        then <strong>DOWNLOAD</strong> to print the form
+      </p>
+    </div>
+</body>
+
+</html>
