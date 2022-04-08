@@ -220,6 +220,32 @@ img {
     transform: translateX(50px);
 }
 
+/* footer */
+.footer {
+    height: auto !important;
+    padding: 1rem 3rem;
+    background-color: #FC881D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin-bottom: 0;
+    color: #2C2C2C;
+}
+
+.footer .left-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 1rem;
+}
+
+.footer .left-side .logo {
+    margin-right: 1rem;
+}
+
 @media screen and (max-width: 768px) {
 
     /* general container code */
@@ -281,6 +307,16 @@ img {
         margin: 0;
         transform: translateX(0);
     }
+
+    /* footer */
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .left-side {
+        padding-right: 0;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -332,5 +368,14 @@ img {
 
     .laptop-wrapper {
         padding: 2rem 0 0;
+    }
+
+    /* footer */
+    .footer {
+        padding: 1rem 10px;
+    }
+
+    .footer .left-side {
+        flex-direction: column;
     }
 }
