@@ -93,12 +93,13 @@ img {
 /* header */
 .header {
     position: relative;
-    padding: 130px 0 175px;
+    padding: 130px 0 225px;
     /* background-color: #1b1525;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
     transform: rotate(-1deg) translateY(-20px);
     border-bottom-right-radius: 70px; */
     z-index: 99;
+    overflow: visible;
 }
 
 .header::before {
@@ -107,12 +108,38 @@ img {
     inset: 0;
     height: 100%;
     width: 100%;
-    background-color: #1b1525;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    background-image: url('https://g99plus.b-cdn.net/g99%20landing%20pages/page3/header-bg-blue.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: #1b1525; */
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
     /* transform: rotate(-1deg) translateY(-20px); */
-    border-bottom-right-radius: 70px;
-    border-bottom-left-radius: 70px;
+    /* border-bottom-right-radius: 70px; */
+    /* border-bottom-left-radius: 70px; */
     z-index: -99;
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://g99plus.b-cdn.net/g99%20landing%20pages/page3/header-bg-yellow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: #1b1525; */
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
+    /* transform: rotate(-1deg) translateY(-20px); */
+    /* border-bottom-right-radius: 70px; */
+    /* border-bottom-left-radius: 70px; */
+    z-index: -999;
+}
+
+.header::after,
+.header::before {
+    background-size: cover;
 }
 
 .orange-dot {
@@ -173,13 +200,19 @@ img {
     margin: 60px auto 0;
 }
 
+.header-images-wrapper {
+    width: 100%;
+}
+
 .header-images-wrapper .header-1 {
     margin-top: 75px;
 }
 
 /* tile 1 */
 .tile1 {
-    padding-top: 70px;
+    position: relative;
+    /* padding-top: 70px; */
+    z-index: -999;
 }
 
 /* tile 2 */
@@ -312,6 +345,17 @@ img {
 
     .header {
         padding: 40px 0 70px;
+    }
+
+    .header::after {
+        top: 0;
+        background-image: none;
+        background-color: #1b1525;
+        clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 95.01%);
+    }
+
+    .header::before {
+        display: none;
     }
 
     .header-content .header-subtitle {
