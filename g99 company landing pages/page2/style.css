@@ -146,8 +146,10 @@ img.header-1 {
 }
 
 img.tile1-1 {
+    position: relative;
     display: block;
     margin: 0 auto;
+    z-index: 9;
 }
 
 /* tile 2 */
@@ -325,8 +327,10 @@ img.tile5-1 {
 }
 
 img.tile6-1 {
+    position: relative;
     display: block;
     margin: 0 auto;
+    z-index: 9;
 }
 
 /* tile 7 */
@@ -386,7 +390,89 @@ img.tile7-1 {
     margin-right: 1rem;
 }
 
+@media screen and (max-width: 991px) {
+    .header {
+        display: block;
+        padding: 3rem 0;
+    }
+
+    .header::after {
+        width: 700px;
+    }
+
+    .header-content-wrapper {
+        position: relative;
+        z-index: 99;
+    }
+
+    img.header-1 {
+        padding-top: 2rem;
+        min-height: auto;
+        max-width: 100%;
+        margin: 0 auto;
+        transform: translateX(0);
+    }
+
+    .header-content {
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 768px) {
+    .tile {
+        padding: 70px 0;
+    }
+
+    .single-image-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .single-image-wrapper img {
+        margin: 0;
+        transform: translate(0);
+    }
+
+    /* list content */
+    .list-content-wrapper {
+        justify-content: flex-start !important;
+        padding-bottom: 20px;
+    }
+
+    .list-content .title {
+        margin-bottom: 20px;
+    }
+
+    /* header */
+    .header {
+        min-height: auto;
+    }
+
+    .header::after {
+        width: 600px;
+        max-width: 70%;
+        height: 105%;
+    }
+
+    /* tile 1 */
+    .tile1 .caption {
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+
+    /* tile 4 */
+    .tile4 {
+        margin: 70px 0;
+    }
+
+    .tile4 .title {
+        margin-bottom: 30px;
+    }
+
+    .tile4 .caption {
+        padding: 0 10px;
+    }
 
     /* footer */
     .footer {
@@ -400,6 +486,54 @@ img.tile7-1 {
 }
 
 @media screen and (max-width: 480px) {
+    .tile {
+        padding: 50px 0;
+    }
+
+    /* list content */
+    .list-content .list {
+        margin-left: -15px;
+    }
+
+    .list-content .list .point::before {
+        left: -25px;
+    }
+
+    /* header */
+    .header-content .title {
+        font-size: 44px;
+        line-height: 54px;
+        margin-bottom: 10px;
+    }
+
+    .header-content .subtitle {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .header::after {
+        display: none;
+    }
+
+    /* tile 1 */
+    .tile1 {
+        padding: 20px 0;
+    }
+
+    .tile1 .caption {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    /* tile 4 */
+    .tile4 {
+        margin: 30px 0;
+        padding: 50px 10px;
+    }
+
+    .tile4 .title {
+        margin-bottom: 20px;
+    }
 
     /* footer */
     .footer {
