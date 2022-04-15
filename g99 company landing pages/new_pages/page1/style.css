@@ -198,6 +198,30 @@ img {
     z-index: -999;
 }
 
+.tile1 .main-content-wrapper {
+    position: relative;
+}
+
+.tile1 img.envolope {
+    position: absolute;
+    z-index: -9;
+}
+
+.tile1 .envolope1 {
+    top: -40%;
+    left: 15%;
+}
+
+.tile1 .envolope2 {
+    top: 0;
+    left: -25%;
+}
+
+.tile1 .envolope3 {
+    bottom: -30%;
+    left: 0;
+}
+
 /* tile 2 */
 .tile2::before {
     content: '';
