@@ -1,0 +1,454 @@
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.625;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 400;
+    color: #231f20;
+}
+
+img {
+    max-width: 100%;
+}
+
+button.get-started {
+    padding: 3px 25px;
+    background-color: #3b5437;
+    font-family: 'Futura PT', sans-serif;
+    font-size: 24px;
+    /* line-height: 1.5; */
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #fff;
+    box-shadow: #3b5437 0px 3px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+button.get-started:hover {
+    opacity: 0.6;
+}
+
+.heading-48 {
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+
+.heading-36 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 163px;
+    background-color: rgb(229, 229, 229);
+    margin: 40px auto;
+}
+
+/* navbar */
+.nav {
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.nav a.phone {
+    color: #000;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.nav button.get-started {
+    margin-left: 25px;
+}
+
+/* header */
+.header {
+    padding: 200px 13%;
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/milfordmd/tummy_tuck/header-1.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.header .content-wrapper {
+    max-width: 840px;
+    margin: 0 auto 200px;
+    /* padding: 200px 0 380px; */
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.56);
+    text-align: center;
+}
+
+.header .content-wrapper .title {
+    font-size: 55px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+
+.header .content-wrapper .subtitle {
+    font-size: 38px;
+    text-transform: capitalize;
+}
+
+.header .contact-wrapper {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.header .contact-wrapper .title {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+/* tile 1 */
+.tile1 {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/milfordmd/tummy_tuck/tile1-1.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tile1 .content-wrapper {
+    padding: 225px 138px 225px 65px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.tile1 .content-wrapper p {
+    margin-bottom: 26px;
+}
+
+.tile1 .content-wrapper p b {
+    font-weight: 600;
+}
+
+/* tile 2 */
+.tile2 .img-wrapper {
+    position: relative;
+}
+
+.tile2 .img-wrapper .content-wrapper {
+    position: absolute;
+    bottom: 0;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    text-align: center;
+}
+
+.tile2 .img-wrapper .content-wrapper .title {
+    font-size: 34px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.tile2 .img-wrapper .content-wrapper p {
+    font-size: 19px;
+    margin-bottom: 0;
+}
+
+.tile2 .img-wrapper .content-wrapper p .phone {
+    color: #69b745;
+    transition: all 0.1s ease-in-out;
+}
+
+.tile2 .img-wrapper .content-wrapper p .phone:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+/* tile 3 */
+.tile3 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/milfordmd/tummy_tuck/tile3-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tile1 .mobile-img-wrapper,
+.tile3 .mobile-img-wrapper {
+    display: none;
+}
+
+.tile3 .content-wrapper {
+    padding: 175px 138px 175px 65px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.tile3 .content-wrapper p {
+    margin-bottom: 26px;
+}
+
+
+/* tile 4 */
+.tile4 {
+    padding: 85px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.tile4-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.tile4-wrapper .title {
+    padding: 0 10px;
+}
+
+.tile4-wrapper .comparison-row {
+    margin-bottom: 10px;
+}
+
+.tile4-wrapper .comparison-row .img-wrapper img {
+    margin-bottom: 10px;
+}
+
+/* tile 5 */
+.tile5 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.tile5 .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile5 .heading-wrapper {
+    text-align: center;
+}
+
+.tile5 .subtitle {
+    font-size: 30px;
+}
+
+.tile5 .title {
+    font-weight: 400;
+}
+
+.tile5 .content-wrapper p {
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.tile5 .content-wrapper p b {
+    font-weight: 600;
+}
+
+/* footer */
+.footer {
+    height: auto;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0d0d0d;
+    text-align: center;
+}
+
+.footer a.phone {
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer a.phone:hover {
+    text-decoration: none;
+}
+
+.footer-logo {
+    margin: 20px auto 10px;
+    filter: brightness(0) invert(1);
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.footer p.small {
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* tile 1 */
+    .tile1 .content-wrapper {
+        padding: 65px;
+    }
+
+    /* tile 3 */
+    .tile3 .content-wrapper {
+        padding: 65px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    /* header */
+    .header {
+        padding: 200px 5% 0;
+    }
+
+    .header .content-wrapper {
+        padding: 15px;
+        margin-bottom: 100px;
+    }
+
+    /* tile 1 */
+    .tile1 .content-wrapper {
+        padding: 35px;
+    }
+
+    /* tile 3 */
+    .tile3 .content-wrapper {
+        padding: 35px;
+    }
+
+    /* tile 4 */
+    .tile4-wrapper .comparison-row {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    /* tile 5 */
+    .tile5 {
+        padding: 100px 10%;
+    }
+
+    .tile5 .image-wrapper {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* header */
+    .header {
+        padding: 300px 0 0;
+    }
+
+    .header .content-wrapper {
+        margin-bottom: 0;
+    }
+
+    .header .contact-wrapper {
+        display: none;
+    }
+
+    /* tile 3 */
+    .tile1,
+    .tile3 {
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+    }
+
+    .tile1 .mobile-img-wrapper,
+    .tile3 .mobile-img-wrapper {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .heading-48 {
+        font-size: 32px;
+    }
+
+    .line {
+        margin: 20px auto 30px;
+    }
+
+    /* navbar */
+    .nav {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nav a.phone {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    .nav button.get-started {
+        display: none;
+    }
+
+    /* header */
+    .header .content-wrapper .title {
+        font-size: 42px;
+        letter-spacing: 3px;
+    }
+
+    .header .line {
+        margin: 15px auto;
+        background-color: rgb(115, 115, 115);
+    }
+
+    .header .content-wrapper .subtitle {
+        font-size: 24px;
+    }
+
+    /* tile 1 */
+    .tile1 .content-wrapper {
+        padding: 15px;
+    }
+
+    /* tile 2 */
+    .tile2 .img-wrapper .content-wrapper {
+        position: relative;
+        background-color: #000;
+    }
+
+    /* tile 3 */
+    .tile3 .content-wrapper {
+        padding: 15px;
+    }
+
+    /* tile 4 */
+    .tile4 {
+        padding: 40px 0;
+    }
+
+    /* tile 5 */
+    .tile5 {
+        padding: 60px 20px;
+    }
+
+    .tile5 .subtitle {
+        font-size: 20px;
+    }
+}
