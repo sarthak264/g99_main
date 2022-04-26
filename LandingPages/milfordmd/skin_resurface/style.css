@@ -1,5 +1,6 @@
 body {
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: sans-serif;
+    /* font-family: 'Proxima Nova', sans-serif; */
     font-size: 18px;
     font-weight: 300;
     line-height: 1.625;
@@ -12,7 +13,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Century Gothic', sans-serif;
+    /* font-family: 'Futura PT', sans-serif; */
     font-weight: 400;
     color: #231f20;
 }
@@ -98,7 +100,7 @@ button.get-started:hover {
 
 .header .content-wrapper {
     max-width: 800px;
-    padding: 200px 0 380px;
+    padding: 200px 0 185px;
     text-align: center;
 }
 
