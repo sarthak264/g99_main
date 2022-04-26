@@ -230,7 +230,7 @@ img.header-2 {
 .tile1 {
     position: relative;
     padding-top: 90px;
-    z-index: -999;
+    /* z-index: -999; */
 }
 
 /* tile 2 */
@@ -329,6 +329,10 @@ img.header-2 {
 }
 
 @media screen and (max-width: 768px) {
+    .images-wrapper img {
+        padding-top: 2rem;
+    }
+
     .right-content.main-content-wrapper {
         justify-content: center;
     }
@@ -358,6 +362,10 @@ img.header-2 {
 }
 
 @media screen and (max-width: 480px) {
+    .images-wrapper img {
+        padding-top: 1rem;
+    }
+
     .tile {
         padding: 70px 0;
     }
