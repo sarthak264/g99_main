@@ -189,6 +189,7 @@ img.tile1-1 {
     height: 600px;
     background: linear-gradient(94.11deg, rgba(59, 130, 246, 0.1) 2.4%, rgba(59, 130, 246, 0) 101.34%);
     border-radius: 50%;
+    z-index: -9;
 }
 
 .tile2::before {
@@ -326,6 +327,7 @@ img.tile2-2 {
     top: 50%;
     transform: translate(0, -50%);
     border-radius: 50%;
+    z-index: -9;
 }
 
 .tile5 .list-content-wrapper {
@@ -378,7 +380,6 @@ img.tile6-1 {
 /* tile 7 */
 .tile7 {
     position: relative;
-    background: linear-gradient(0deg, #E4EFFF 0%, rgba(228, 239, 255, 0.13) 92.51%, rgba(228, 239, 255, 0) 100%);
 }
 
 .tile7::after {
@@ -404,6 +405,42 @@ img.tile7-1 {
     margin-left: auto;
     /* transform: translateX(90px); */
     z-index: 99;
+}
+
+/* tile 6 */
+.tile8 {
+    position: relative;
+    background: linear-gradient(0deg, #E4EFFF 0%, rgba(228, 239, 255, 0.13) 92.51%, rgba(228, 239, 255, 0) 100%);
+}
+
+.tile8::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 550px;
+    top: 0;
+    background-color: #EFF3FA;
+    border-radius: 25px;
+    transform: skewX(15deg) translateX(-30%);
+}
+
+img.tile8-1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.tile8 .review {
+    max-width: 550px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #193766;
+}
+
+.tile8 .reviewer {
+    color: #193766CC;
 }
 
 /* footer */

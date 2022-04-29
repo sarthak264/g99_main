@@ -205,6 +205,24 @@ img {
     margin-left: auto;
 }
 
+/* tile 5 */
+.tile5 .images-wrapper .tile5-1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.tile5 .review {
+    max-width: 550px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.tile5 .reviewer {
+    color: #0D0E25CC;
+}
 
 /* footer */
 .footer {

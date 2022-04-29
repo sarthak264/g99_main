@@ -302,6 +302,62 @@ img.header-2 {
     text-align: center;
 }
 
+/* tile 2 */
+.tile6 {
+    margin-bottom: 5rem;
+}
+
+.tile6 .main-content-wrapper {
+    justify-content: flex-end;
+}
+
+.tile6::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0D0E25F2;
+    border-radius: 20px;
+    transform: rotate(-3deg);
+}
+
+.tile6::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FC881D;
+    border-radius: 20px;
+    transform: rotate(-0.9deg);
+    z-index: -9;
+}
+
+img.tile6-2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.tile6 .review {
+    max-width: 550px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #fff;
+}
+
+.tile6 .reviewer {
+    color: #fff;
+    opacity: 80%;
+}
+
+img.tile6-1 {
+    display: block;
+    margin-right: auto;
+}
+
 /* footer */
 .footer {
     height: auto !important;
