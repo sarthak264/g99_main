@@ -1,0 +1,486 @@
+body {
+    font-family: "Metric", sans-serif;
+    line-height: 1;
+}
+
+.main {
+    overflow-x: hidden;
+}
+
+.price-btn {
+    align-self: flex-start;
+    background-color: #071F24;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Metric", sans-serif;
+    font-size: 26px;
+    line-height: 1.2em;
+    color: #fff;
+    padding: 15px 35px 10px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+.price-btn:hover {
+    background-color: #071F24;
+}
+
+/* nav */
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2d2925;
+    z-index: 98;
+}
+
+.nav-content-wrapper {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .logo {
+    position: relative;
+    z-index: 999;
+}
+
+.nav .nav-logo {
+    height: 125px;
+}
+
+.nav .right-side {
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.nav .nav-link {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav .nav-link i {
+    padding-right: 10px;
+}
+
+/* header */
+
+.header {
+    position: relative;
+    background-color: #2d2925;
+}
+
+.header-content-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header-content-wrapper>.row {
+    flex: 1;
+}
+
+.header .vertical-section {
+    position: relative;
+    z-index: 9;
+    margin-top: 17%;
+    background-color: #2d2925;
+}
+
+.header .vertical-section .top p {
+    font-size: 20px;
+    color: #fff;
+    writing-mode: vertical-rl;
+}
+
+.header .vertical-section .top .line {
+    height: 50px;
+    width: 1px;
+    background-color: #fff;
+    margin: 20px auto;
+    text-transform: capitalize;
+}
+
+.header .vertical-section .social-icons-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .vertical-section .social-icons-wrapper a {
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header>.row {
+    flex: 1;
+}
+
+.header .row .first-col {
+    display: flex;
+    align-items: center;
+    padding-top: 17%;
+    background-color: #2d2925;
+}
+
+.header .row .first-col .title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #FFF7C5;
+    padding-bottom: 30px;
+}
+
+.header .first-col .price-btn {
+    display: none;
+}
+
+.header-bg {
+    position: relative;
+    background-color: #2d2925;
+    flex: 1;
+    /* background-image: url("https://aionnyc.gogroth.com/wp-content/uploads/2021/09/Microneedling-bg.jpg"); */
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.75; */
+    z-index: 9;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://aionnyc.gogroth.com/wp-content/uploads/2021/09/Microneedling-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 100%;
+    mix-blend-mode: screen;
+    /* background-color: #2d2925; */
+    z-index: 99;
+    opacity: 0.75;
+}
+
+/* tile 1 */
+.tile1 {
+    padding: 5%;
+}
+
+.tile1 .title {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tile1 .package-card-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tile1 .package-card {
+    /* width: 33%; */
+    height: auto;
+    /* padding: 20px 30px; */
+    /* margin: 0 10px; */
+    margin: 3%;
+    padding: 5%;
+    background-color: #071F24;
+    border: 5px solid #E1A608;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.tile1 .package-card .package-title {
+    font-family: 'Metric', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.tile1 .package-card .line {
+    height: 1px;
+    width: 80%;
+    margin: 5px auto 25px;
+    background-color: #fff;
+}
+
+.tile1 .package-card .package-list {
+    padding: 0;
+}
+
+.tile1 .package-card .package-list li {
+    position: relative;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    list-style: none;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.tile1 .package-card .package-list li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: .65em;
+    color: #fff;
+    padding-right: 0.25rem;
+}
+
+/* tile 2 */
+.tile2 {
+    background-color: #2F5249;
+}
+
+.tile2 .map-wrapper iframe {
+    min-height: 500px;
+    width: 100%;
+}
+
+.tile2 .contact-wrapper {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.tile2 .contact-wrapper .title {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* footer */
+.footer-wrapper {
+    position: relative;
+    padding: 100px 0 40px 0;
+    background-color: #2A2622;
+}
+
+.footer-wrapper::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-image: url("https://aionnyc.gogroth.com/wp-content/uploads/2021/08/Footer-Shape.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    opacity: 0.21;
+    transform: rotate(0deg);
+}
+
+.footer {
+    position: relative;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+    z-index: 9;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer-logo {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.footer .social-icons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer .social-icons-wrapper .social-link {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.footer .clinic-details {
+    text-align: center;
+}
+
+.footer .clinic-details p,
+.footer .clinic-details a {
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+.footer .price-btn {
+    margin: 30px auto;
+}
+
+.bottom-footer {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.bottom-footer .right-side {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.bottom-footer .right-side p {
+    padding-right: 10px;
+}
+
+.bottom-footer p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+
+    /* nav */
+    .nav .nav-logo {
+        height: 100px;
+    }
+
+    .nav .price-btn {
+        font-size: 17px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    /* tile 1 */
+    .tile1 .package-card-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* nav */
+    .nav .nav-link {
+        display: none;
+    }
+
+    /* header */
+    .header::before {
+        background-size: cover;
+    }
+
+    .header .row .first-col .title {
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    /* footer */
+    .bottom-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-side {
+        padding-top: 15px;
+    }
+
+    .footer .clinic-details .detail-card {
+        padding: 10px;
+    }
+
+    .footer .clinic-details p.details>a,
+    .footer .clinic-details p.details {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* header */
+    .header::before {
+        background-position: center right;
+    }
+
+    .header .vertical-section {
+        z-index: 9;
+    }
+
+    .header .vertical-section .top p {
+        font-size: 15px;
+    }
+
+    .header .vertical-section .social-icons-wrapper a {
+        font-size: 13px;
+    }
+
+    .header .row .first-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        background-color: transparent;
+    }
+
+    .header .row .first-col .title {
+        /* position: absolute; */
+        /* top: 50%; */
+        /* left: 44%; */
+        /* transform: translate(-50%, -50%); */
+        font-size: 26px;
+        color: #FBE766;
+        /* padding-top: 50px; */
+    }
+
+    .header .first-col .price-btn {
+        display: block;
+        font-size: 14px;
+        margin: 1rem auto 0;
+    }
+
+    .first-col {
+        height: 100%;
+    }
+
+    .header-bg {
+        height: 0;
+    }
+
+    /* tile 1 */
+    .tile1 .package-card-row {
+        grid-template-columns: 1fr;
+    }
+
+    /* tile 2 */
+    .tile2 .map-wrapper iframe {
+        height: 450px;
+    }
+
+    /* footer */
+    .bottom-footer .right-side {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-side p {
+        padding-bottom: 10px;
+    }
+}
