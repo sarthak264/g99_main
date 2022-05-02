@@ -1,6 +1,7 @@
 body {
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     /* font-family: 'Proxima Nova', sans-serif; */
+    font-family: 'Century Gothic', sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.625;
@@ -87,7 +88,7 @@ button.get-started:hover {
 /* header */
 .header {
     padding: 200px 13%;
-    background-image: url('https://g99plus.b-cdn.net/Landingpages/milfordmd/tummy_tuck/header_gray.jpeg');
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/milfordmd/tummy_tuck/header_gray_modified.jpg');
     background-repeat: no-repeat;
     background-position-x: 100%;
     background-position-y: 0%;

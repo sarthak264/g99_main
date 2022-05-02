@@ -1,5 +1,6 @@
 body {
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: 'Century Gothic', sans-serif;
     /* font-family: 'Proxima Nova', sans-serif; */
     font-size: 18px;
     font-weight: 300;
@@ -91,7 +92,7 @@ button.get-started:hover {
 
 /* header */
 .header {
-    padding: 0 13%;
+    /* padding: 0 13%; */
     background-image: url('https://g99plus.b-cdn.net/Landingpages/milfordmd/skin_resurfacing/header-1.jpg');
     background-repeat: no-repeat;
     background-position: top center;
@@ -116,6 +117,7 @@ button.get-started:hover {
 }
 
 .header .contact-wrapper {
+    max-width: 800px;
     text-align: center;
     padding-bottom: 20px;
 }
