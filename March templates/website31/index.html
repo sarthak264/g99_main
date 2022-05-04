@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <title>Website-31</title>
+</head>
+
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <div id="home" class="main">
+        <!-- --------------------------- vertical button section --------------------------- -->
+        <div class="btn-vertical">
+            <button onclick="myFunction('booknow')" class="btn-fixed btn-book">
+                BookNow
+            </button>
+        </div>
+        <!-- ------------------------- vertical button end ------------------------- -->
+        <!-- --------------------------- header-section ---------------------------- -->
+        <div class="front header-section-main">
+            <div class="upper-part">
+                <header class="header row mx-0 px-4 pt-2 text-muted align-items-center gap-md-5 p-md-3 px-md-4">
+                    <div class="col-8 d-md-flex gap-md-5 col-md-auto ml-md-auto px-0 main-container">
+                        <p class="mb-0">
+                            <i class="fa fa-envelope">
+                            </i>
+                            <a href="mailto:${CLINIC_NOTIFICATION_EMAIL}" class="pl-1">${CLINIC_NOTIFICATION_EMAIL}
+                            </a>
+                        </p>
+                        <p class="mb-0">
+                            <i class="fa fa-mobile-phone">
+                            </i>
+                            <a href="tel:${CLINIC_CONTACT_NUMBER}" class="pl-1">${CLINIC_CONTACT_NUMBER}</a>
+                        </p>
+                    </div>
+                    <div class="col-4 d-flex align-items-center col-md-auto px-0 icon-container">
+                        <a href="${CLINIC_TWITTER}" target="_blank" class="fgColorInBg btn icon-btn"><i
+                                class="fa fa-twitter">
+                            </i></a>
+                        <a href="${CLINIC_INSTAGRAM}" target="_blank" class="fgColorInBg btn icon-btn"><i
+                                class="fa fa-instagram">​
+                            </i></a>
+                        <a href="${CLINIC_FACEBOOK}" target="_blank" class="fgColorInBg btn icon-btn"><i
+                                class="fa fa-facebook">​
+                            </i></a>
+                    </div>
+                </header>
+                <nav
+                    class="d-flex justify-content-between mt-4 align-items-center mt-md-1 justify-content-sm-between px-3">
+                    <div class="logo-container px-3">
+                        <img src="${BUSINESS_LOGO}" />
+                    </div>
+                    <div class="menu-toggle">
+                        <div id="hamburger-icon">
+                            <span class="line line-1"></span>
+                            <span class="line line-2"></span>
+                            <span class="line line-3"></span>
+                        </div>
+                    </div>
+                    <div class="border-div main-menu">
+                        <div class="main-nav">
+                            <div class="logo-container mobile-only">
+                                <img src="${BUSINESS_LOGO}" />
+                            </div>
+                            <ul class="main-list">
+                                <li>
+                                    <a href="#" onclick="myFunction('home')" class="active">Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="myFunction('about')">About Us </a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="myFunction('servicediv')">Services </a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="myFunction('userdiv')">Our Team </a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="myFunction('contactus')">Contact Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="myFunction('testimonials')">Testimonials
+                                    </a>
+                                </li>
+                                <li class="hide">
+                                    <button onclick="myFunction('symptoms')" class="btn-book btn-composer">
+                                        Virtual Consulation
+                                    </button>
+                                </li>
+                                <li class="hide mobile-icons">
+                                    <div class="col-4 d-flex align-items-center col-md-auto px-0 icon-container">
+                                        <a href="${CLINIC_TWITTER}" target="_blank"
+                                            class="fgColorInBg btn ml-auto icon-btn"><i class="fa fa-twitter">​
+                                            </i></a>
+                                        <a href="${CLINIC_INSTAGRAM}" target="_blank"
+                                            class="fgColorInBg btn icon-btn"><i class="fa fa-instagram">​
+                                            </i></a>
+                                        <a href="${CLINIC_FACEBOOK}" target="_blank" class="fgColorInBg btn icon-btn"><i
+                                                class="fa fa-facebook">​
+                                            </i></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <button onclick="myFunction('symptoms')" class="btn-book btn-composer">
+                            Virtual Consulation
+                        </button>
+                    </div>
+                </nav>
+            </div>
+            <div class="main-header">
+                <div class="tagline">
+                    <h1 class="fgColor">
+                        <span class="small">A World of</span> Beauty &amp; Look
+                    </h1>
+                </div>
+                <img src="https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/tile1-img.png"
+                    class="header-img" />
+            </div>
+        </div>
+        <!-- services starts -->
+        <div class="services-section">
+            <div class="row mx-0 service-wrapper">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="service-wrapper2">
+                        <!-- -------- ADD YOUR DESIGN BELOW THIS DONT CHANGE ANYTHING ABOVE -------- -->
+                        <!-- -- stitle and sdescription class should be there for mapping -- -->
+                        <div class="content">
+                            <img src="https://g99plus.b-cdn.net/Websites/website1/services.png" />
+                            <h4 class="stitle">Service B
+                            </h4>
+                            <p class="sdescription">this is Service B
+                            </p>
+                        </div>
+                        <!-- -------- yOUR CONTENT SHOUD GO IN BETWEEN THIS -------- -->
+                    </div>
+                </div>
+            </div>
+            <!-- ----------------- BELOW DIV  SHOULD NOT GET MODIFIED ------------------ -->
+            <div id="service" class="img-grid2">
+                <div id="service-insert" class="row mx-0">
+                </div>
+            </div>
+            <!-- ----------------- ABOVE DIV WILL BE USED FOR SERVICE ------------------ -->
+        </div>
+        <!-- services ends -->
+        <!-- review starts -->
+        <div id="testimonials" class="review-section">
+            <h1 class="fgColor">Trusted By Thousands Of Happy Customers
+            </h1>
+            <p>
+                These are the stories of our customers who have joined us with great
+                pleasure when using this crazy feature.
+            </p>
+            <div class="reviews">
+                <div data-review-limit="50" data-url="https://app.gogroth.com/rumaaesthetics/" class="reviewmgr-stream">
+                </div>
+            </div>
+        </div>
+        <!-- review ends -->
+        <!-- cta starts -->
+        <div class="cta-section">
+            <div class="title-wrapper">
+                <div class="tagline">
+                    <h1 class="fgColor">
+                        <span class="small">A World of</span> Beauty &amp; Look
+                    </h1>
+                </div>
+            </div>
+            <div class="row mx-0">
+                <div class="col-md-6 imgs-wrapper">
+                    <img src="https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/tile2-img1.png"
+                        class="first-img" />
+                    <img src="https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/tile2-img2.png"
+                        class="second-img" />
+                </div>
+                <div class="col-md-6 content-wrapper">
+                    <p>${CLINIC_ABOUT}
+                    </p>
+                    <button onclick="myFunction('booknow')" class="btn-fixed btn-book">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- cta ends -->
+        <!-- user starts -->
+        <div class="users-section">
+            <div class="tagline">
+                <h1 class="fgColor">
+                    <span class="small">A World of</span> Beauty &amp; Look
+                </h1>
+            </div>
+            <div class="row mx-0 custom-user-wrapper">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="user-wrapper2">
+                        <!-- -------- ADD YOUR DESIGN BELOW THIS DONT CHANGE ANYTHING ABOVE -------- -->
+                        <!-- -- username should be there for mapping -- -->
+                        <div class="user-content">
+                            <div class="user-img">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/tile3-img1.png" />
+                            </div>
+                            <h4 class="utitle fgColor">User Name
+                            </h4>
+                            <div class="user-button-section buttons-wrapper">
+                                <button data-target="#myModal" data-toggle="modal" id="3705"
+                                    value="https://devemr.growthemr.com/ap-booking/business?b=1092&u=3705"
+                                    class="btn-book btn-profile">View Profile</button>
+                                <button class="btn btn-book btn-booking"><a target="_blank"
+                                        href="https://devemr.growthemr.com/ap-booking?b=1092&lpid=17479&u=3705"
+                                        id="imyvsk"> Book Now </a> </button>
+                            </div>
+                        </div>
+                        <!-- -------- yOUR CONTENT SHOUD GO IN BETWEEN THIS -------- -->
+                    </div>
+                </div>
+            </div>
+            <!-- ----------------- BELOW DIV  SHOULD NOT GET MODIFIED ------------------ -->
+            <section id="userdiv" class="our-people px-2">
+                <div class="divs">
+                    <div id="users" class="row">
+                    </div>
+                </div>
+            </section>
+            <!-- ----------------- ABOVE DIV WILL BE USED FOR USER ------------------ -->
+        </div>
+        <!-- user ends -->
+        <!-- Contact starts -->
+        <div class="contact-section-wrapper">
+            <div class="contact-section">
+                <div class="contact-about">
+                    <p>
+                        ${CLINIC_ABOUT}
+                    </p>
+                </div>
+                <div class="contact-form">${CONTACT_FORM}
+                </div>
+            </div>
+            <!-- Contact ends -->
+        </div>
+        <div class="virtual-consult-div pt-4" id="symptoms">
+            <div class="consultation">
+                <h1 class="fgColor text-center">
+                    Virtual Consultation
+                </h1>
+                <p></p>
+
+            </div>
+            <div class="symptom-frame" id="symtom-iframe">
+                <iframe
+                    src="https://devemr.growthemr.com/assets/static/composer.html?bid=723&amp;lpid=16276?color=rgb(255, 255, 255)&amp;bgColor=rgb(60, 61, 49)"></iframe>
+            </div>
+        </div>
+
+        <!-- ------------------------------ book now ------------------------------- -->
+        <div class="virtual-consult-div pt-4" id="booknow">
+            <div class="consultation">
+                <h1 class="fgColor text-center">
+                    Book an Appointment
+                </h1>
+                <p></p>
+
+            </div>
+            <div class="booknow-frame" id="booknow-iframe">
+
+                <iframe
+                    src="https://devemr.growthemr.com/ap-booking/website?b=723&amp;c=939&amp;lpid=16276&amp;color=rgb(255, 255, 255)&amp;bgColor=rgb(60, 61, 49)"
+                    style="min-height: 1000px;"></iframe>
+            </div>
+        </div>
+        <div class="divs-contact">
+            <div class="maps-and-contact">
+                <div class="row mx-0">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="maps">
+                            <address>${CLINIC_ADDRESS}
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <h1 class="fgColor text-center">
+                            CONTACTS
+                        </h1>
+                        <div class="contact-hours-wrapper">
+                            <div class="working-hours">
+                                <h4 class="fgColor">
+                                    <i class="fa fa-clock-o">​
+                                    </i> Opening Hours
+                                </h4>
+                                <div class="schedule-wrapper">
+                                    <div class="work-wrapper">
+                                        <p>mon
+                                        </p>
+                                        <p class="hours">09:02 AM - 05:00 PM
+                                        </p>
+                                    </div>
+                                    <div class="work-wrapper">
+                                        <p>tue
+                                        </p>
+                                        <p class="hours">09:02 AM - 05:00 PM
+                                        </p>
+                                    </div>
+                                    <div class="work-wrapper">
+                                        <p>wed
+                                        </p>
+                                        <p class="hours">09:02 AM - 05:00 PM
+                                        </p>
+                                    </div>
+                                    <div class="work-wrapper">
+                                        <p>thu
+                                        </p>
+                                        <p class="hours">09:02 AM - 05:00 PM
+                                        </p>
+                                    </div>
+                                    <div class="work-wrapper">
+                                        <p>fri
+                                        </p>
+                                        <p class="hours">09:02 AM - 05:00 PM
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-wrapper">
+                                <div class="wrapper7 last">
+                                    <div class="a-section">
+                                        <h4 class="fgColor">
+                                            <i class="fa fa-phone">​
+                                            </i> Call us
+                                        </h4>
+                                        <p> ${CLINIC_CONTACT_NUMBER}
+                                        </p>
+                                    </div>
+                                    <div class="a-section">
+                                        <h4 class="fgColor">
+                                            <i class="fa fa-envelope">​
+                                            </i> Email
+                                        </h4>
+                                        <p>
+                                            ${CLINIC_NOTIFICATION_EMAIL}
+                                        </p>
+                                    </div>
+                                    <div class="a-section">
+                                        <h4 class="fgColor">
+                                            <i class="fa fa-map-marker">​
+                                            </i> Address
+                                        </h4>
+                                        <p>
+                                            ${CLINIC_ADDRESS}
+                                        </p>
+                                    </div>
+                                    <div class="a-section">
+                                        <h4 class="fgColor">
+                                            <i class="fa fa-share-alt">​
+                                            </i> Follow us
+                                        </h4>
+                                        <div class="social-media">
+                                            <div class="icons">
+                                                <a href="${CLINIC_TWITTER}" target="_blank" class="twitter fgColor"><i
+                                                        class="fa fa-twitter">​
+                                                    </i></a>
+                                                <a href="${CLINIC_INSTAGRAM}" target="_blank" class="insta fgColor"><i
+                                                        class="fa fa-instagram">​
+                                                    </i></a>
+                                                <a href="${CLINIC_FACEBOOK}" target="_blank" class="facebook fgColor"><i
+                                                        class="fa fa-facebook">​
+                                                    </i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------------- FOOTER STARTS ---------------------------- -->
+        <div
+            class="footer bgColor text-center d-flex flex-column flex-md-row mx-0 justify-content-between pt-3 pt-md-0">
+            <p>© 2021,${CLINIC_NAME} All rights reserved
+            </p>
+            <p class="d-flex flex-column flex-md-row mx-0 align-items-center pb-3 pb-md-0">
+                Site Developed And Maintained By
+                <img src="https://g99plus.b-cdn.net/AEMR/assets/img/growth_plus.png" alt="g99 logo"
+                    class="g99_logo ml-2" />
+            </p>
+        </div>
+    </div>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            font-family: Roboto, sans-serif;
+        }
+
+        #symptoms {
+            max-width: 80%;
+            margin-top: 0px;
+            margin-right: auto;
+            margin-bottom: 0px;
+            margin-left: auto;
+        }
+
+        #booknow-iframe {
+            max-width: 80%;
+            margin-top: 0px;
+            margin-right: auto;
+            margin-bottom: 0px;
+            margin-left: auto;
+        }
+
+        .reviews iframe {
+            min-height: 500px;
+        }
+
+        #booknow-iframe iframe,
+        #symptoms iframe,
+        #symptom-frame iframe {
+            width: 100%;
+            border: none;
+            height: 100vh;
+        }
+
+        #imyvsk {
+            color: rgb(255, 255, 255);
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .fgColor {
+            color: rgb(26, 26, 26);
+        }
+
+        .bgColor {
+            background-color: rgb(220, 173, 173);
+        }
+
+        .front {
+            position: relative;
+        }
+
+        .line {
+            width: 35px;
+            height: 5px;
+            background-color: black;
+            margin-top: 6px;
+            margin-right: 0px;
+            margin-bottom: 6px;
+            margin-left: 0px;
+        }
+
+        .main-menu ul {
+            list-style-position: initial;
+            list-style-image: initial;
+            list-style-type: none;
+        }
+
+        #hamburger-icon {
+            width: 35px;
+            height: 20px;
+            position: relative;
+            display: block;
+        }
+
+        #hamburger-icon .line {
+            display: block;
+            background-image: initial;
+            background-position-x: initial;
+            background-position-y: initial;
+            background-size: initial;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: rgb(0, 0, 0);
+            width: 35px;
+            height: 2px;
+            position: absolute;
+            left: 0px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            transition-property: all;
+        }
+
+        #hamburger-icon .line.line-1 {
+            top: 0px;
+        }
+
+        #hamburger-icon .line.line-2 {
+            top: 50%;
+        }
+
+        #hamburger-icon .line.line-3 {
+            top: 100%;
+        }
+
+        #hamburger-icon.active .line-1 {
+            transform: translateY(0px) translateX(0px) rotate(46deg);
+        }
+
+        #hamburger-icon.active .line-2 {
+            opacity: 0;
+        }
+
+        #hamburger-icon.active .line-3 {
+            transform: translateY(-19px) translateX(0px) rotate(132deg);
+        }
+
+        .main-menu {
+            display: flex;
+            justify-content: start;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            height: 100vh;
+            min-width: 220px;
+            max-width: 250px;
+            padding-top: 0px;
+            padding-right: 1rem;
+            padding-bottom: 0px;
+            padding-left: 1rem;
+            transform: translateX(100%);
+            z-index: 99999;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s;
+            transition-property: all;
+            width: 50vw !important;
+        }
+
+        .main-menu>.btn-book {
+            display: none;
+            align-self: center;
+        }
+
+        .main-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            color: rgb(79, 86, 101);
+        }
+
+        .main-menu .main-list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.5rem;
+            column-gap: 0.5rem;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            font-size: 1.5rem;
+        }
+
+        .main-list .icon-container {
+            margin-top: 0.5rem;
+        }
+
+        .main-list .btn-book {
+            align-self: center;
+            margin-top: 0.5rem;
+        }
+
+        .header>.icon-container {
+            display: none !important;
+        }
+
+        .menu-toggle {
+            position: absolute;
+            right: 1.5rem;
+            top: 1.5rem;
+            z-index: 999999;
+        }
+
+        .icon-container {
+            column-gap: 0.5rem;
+        }
+
+        .icon-btn {
+            width: 1.6rem;
+            height: 1.6rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(94, 37, 48);
+            color: rgb(237, 228, 219);
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+
+        .logo-container img {
+            max-height: 80px;
+        }
+
+        .border-div {
+            align-self: stretch !important;
+        }
+
+        .main-nav .active {
+            color: rgb(94, 37, 48);
+        }
+
+        .main {
+            overflow-x: hidden;
+        }
+
+        .header-section-main a {
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+        }
+
+        .header-section-main p a {
+            padding-left: 5px;
+        }
+
+        .header-section-main .fgColorInBg {
+            color: rgb(255, 255, 255);
+        }
+
+        .btn-book {
+            background-color: rgb(220, 173, 173);
+            padding-top: 10px;
+            padding-right: 90px;
+            padding-bottom: 10px;
+            padding-left: 90px;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgb(255, 255, 255);
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+            border-top-width: initial;
+            border-right-width: initial;
+            border-bottom-width: initial;
+            border-left-width: initial;
+            border-top-style: none;
+            border-right-style: none;
+            border-bottom-style: none;
+            border-left-style: none;
+            border-top-color: initial;
+            border-right-color: initial;
+            border-bottom-color: initial;
+            border-left-color: initial;
+            border-image-source: initial;
+            border-image-slice: initial;
+            border-image-width: initial;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+        }
+
+        .btn-book.btn-composer {
+            padding-top: 10px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+        }
+
+        .btn-vertical button {
+            position: fixed;
+            right: -52px;
+            transform: rotate(-90deg);
+            top: 40%;
+            z-index: 50;
+            width: 150px;
+            height: auto;
+            text-align: center;
+        }
+
+        .btn-vertical .btn-book {
+            padding-top: 10px;
+            padding-right: 0px;
+            padding-bottom: 10px;
+            padding-left: 0px;
+        }
+
+        ul {
+            list-style-position: initial;
+            list-style-image: initial;
+            list-style-type: none;
+        }
+
+        .tagline h1 {
+            display: flex;
+            flex-direction: column;
+            font-size: 115px;
+            font-weight: 900;
+        }
+
+        .tagline h1 .small {
+            font-size: 58px;
+            line-height: 51px;
+            font-weight: 300;
+        }
+
+        .main-header {
+            background-image: url("https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/Group%2044107.png");
+            background-size: cover;
+            min-height: 800px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header-img {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .services-section {
+            padding-top: 100px;
+            padding-right: 100px;
+            padding-bottom: 100px;
+            padding-left: 100px;
+        }
+
+        .service-wrapper {
+            row-gap: 2rem;
+        }
+
+        .service-wrapper2 {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 1em;
+            padding-top: 1em;
+            padding-right: 1em;
+            padding-left: 1em;
+            background-color: rgb(252, 252, 252);
+            box-shadow: rgba(143, 143, 143, 0.15) 2px 0px 20px 9px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-bottom-left-radius: 6px;
+            height: 100%;
+            margin-bottom: 2em;
+            flex-direction: column;
+        }
+
+        .service-wrapper2 .stitle {
+            color: rgb(220, 173, 173);
+            margin-bottom: 20px;
+        }
+
+        .service-wrapper2 p.s-description {
+            margin-bottom: 0px;
+        }
+
+        .service-wrapper2 .content {
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            max-width: 100%;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            text-align: left;
+        }
+
+        .service-wrapper2 img {
+            max-width: 100px;
+            margin-bottom: 40px;
+        }
+
+        #service,
+        div#users {
+            max-width: 80%;
+            margin-top: 0px;
+            margin-right: auto;
+            margin-bottom: 0px;
+            margin-left: auto;
+        }
+
+        #service-insert .col-lg-4 {
+            margin-top: 2em;
+        }
+
+        .review-section {
+            padding-top: 70px;
+            padding-right: 70px;
+            padding-bottom: 70px;
+            padding-left: 70px;
+            text-align: center;
+            background-image: url("https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/Group%2044107.png");
+            background-size: cover;
+        }
+
+        .cta-section {
+            padding-top: 100px;
+            padding-right: 100px;
+            padding-bottom: 100px;
+            padding-left: 100px;
+        }
+
+        .cta-section .title-wrapper {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .cta-section .imgs-wrapper {
+            display: flex;
+        }
+
+        .cta-section .imgs-wrapper>img {
+            width: 50%;
+            height: auto;
+        }
+
+        .cta-section .first-img {
+            padding-bottom: 200px;
+        }
+
+        .cta-section .second-img {
+            padding-top: 200px;
+        }
+
+        .cta-section .content-wrapper {
+            padding-top: 100px;
+        }
+
+        .cta-section .content-wrapper .btn-book {
+            margin-top: 50px;
+        }
+
+        .users-section {
+            padding-top: 100px;
+            padding-right: 10px;
+            padding-bottom: 100px;
+            padding-left: 10px;
+            background-image: url("https://g99plus.b-cdn.net/Websites/march%20websites/Medical-SPA6/Group%2044107.png");
+            background-size: cover;
+        }
+
+        .users-section .tagline {
+            width: fit-content;
+            margin-top: 0px;
+            margin-right: auto;
+            margin-bottom: 50px;
+            margin-left: auto;
+        }
+
+        .user-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .user-img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .user-img img {
+            width: 80%;
+            display: block;
+            margin-top: 0px;
+            margin-right: auto;
+            margin-bottom: 0px;
+            margin-left: auto;
+        }
+
+        .user-button-section {
+            width: 100%;
+            display: flex;
+        }
+
+        .user-button-section .btn-book {
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0%;
+            padding-top: 15px;
+            padding-right: 0px;
+            padding-bottom: 15px;
+            padding-left: 0px;
+        }
+
+        #users>.row {
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0%;
+        }
+
+        #users .col-lg-4 {
+            margin-bottom: 2em;
+        }
+
+        .contact-section {
+            width: 100%;
+            max-width: 680px;
+            padding-top: 75px;
+            padding-right: 10px;
+            padding-bottom: 75px;
+            padding-left: 10px;
+            margin-top: 0px;
+            margin-right: auto;
+            margin-bottom: 0px;
+            margin-left: auto;
+        }
+
+        .contact-section .contact-about p {
+            text-align: center;
+        }
+
+        .contact-section .contact-form {
+            text-align: center;
+        }
+
+        .footer p {
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+
+        .divs-contact {
+            padding-top: 2em;
+            padding-right: 0px;
+            padding-bottom: 2em;
+            padding-left: 0px;
+        }
+
+        .social-media a {
+            font-size: 22px;
+            padding-right: 0.5em;
+            text-decoration-line: none;
+            text-decoration-thickness: initial;
+            text-decoration-style: initial;
+            text-decoration-color: initial;
+        }
+
+        .maps-and-contact h4 {
+            font-size: 20px;
+        }
+
+        .maps-and-contact p {
+            font-size: 15px;
+            word-break: break-word;
+            max-width: 230px;
+        }
+
+        .working-hours h4 {
+            padding-bottom: 10px;
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+            border-bottom-color: gainsboro;
+            margin-bottom: 0px;
+        }
+
+        .maps-and-contact h1 {
+            padding-top: 0px;
+            padding-bottom: 15px;
+        }
+
+        .maps,
+        .maps address {
+            height: 100%;
+        }
+
+        .maps iframe {
+            width: 100%;
+            border-top-width: initial;
+            border-right-width: initial;
+            border-bottom-width: initial;
+            border-left-width: initial;
+            border-top-style: none;
+            border-right-style: none;
+            border-bottom-style: none;
+            border-left-style: none;
+            border-top-color: initial;
+            border-right-color: initial;
+            border-bottom-color: initial;
+            border-left-color: initial;
+            border-image-source: initial;
+            border-image-slice: initial;
+            border-image-width: initial;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            height: 100%;
+        }
+
+        .contact-hours-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .work-wrapper {
+            display: flex;
+            justify-content: space-around;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: gainsboro;
+            padding-top: 0.7rem;
+            padding-right: 1.5rem;
+            padding-bottom: 0.7rem;
+            padding-left: 0px;
+        }
+
+        .work-wrapper p {
+            text-transform: capitalize;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+
+        .work-wrapper .hours {
+            margin-left: 1.5rem;
+        }
+
+        .footer p .g99_logo {
+            height: 1.3em;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 0em;
+            padding-right: 6em;
+            padding-bottom: 0px;
+            padding-left: 1em;
+            height: 60px;
+        }
+
+        .divs {
+            padding-top: 2em;
+            padding-right: 0px;
+            padding-bottom: 2em;
+            padding-left: 0px;
+        }
+
+        .reviews iframe {
+            min-height: 500px;
+        }
+
+        #booknow-iframe iframe,
+        #symptoms iframe,
+        #symptom-frame iframe {
+            width: 100%;
+            border-top-width: initial;
+            border-right-width: initial;
+            border-bottom-width: initial;
+            border-left-width: initial;
+            border-top-style: none;
+            border-right-style: none;
+            border-bottom-style: none;
+            border-left-style: none;
+            border-top-color: initial;
+            border-right-color: initial;
+            border-bottom-color: initial;
+            border-left-color: initial;
+            border-image-source: initial;
+            border-image-slice: initial;
+            border-image-width: initial;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            height: 100vh;
+        }
+
+        @media screen and (min-width: 768px) {
+            .header>.icon-container {
+                display: flex !important;
+            }
+
+            .menu-toggle {
+                display: none;
+            }
+
+            .main-menu {
+                position: relative;
+                justify-content: space-between;
+                height: auto;
+                width: auto;
+                min-width: auto;
+                max-width: none;
+                margin-left: 2rem;
+                flex-grow: 1;
+                transform: translateX(0px);
+                background-color: transparent;
+            }
+
+            .main-menu>.btn-book {
+                display: inline-block;
+            }
+
+            .main-nav {
+                position: relative;
+                flex-grow: 1;
+                margin-right: 1rem;
+                align-items: center;
+            }
+
+            .main-menu .main-list {
+                flex-grow: 1;
+                flex-direction: row;
+                justify-content: space-evenly;
+                height: 100%;
+                font-size: 18px;
+            }
+
+            .main-list li {
+                display: flex;
+                align-items: center;
+            }
+
+            .main-list .hide {
+                display: none;
+            }
+
+            .main-menu .main-list li a {
+                white-space: nowrap;
+            }
+
+            .header {
+                column-gap: 1.5rem;
+            }
+
+            .header .main-container {
+                column-gap: 1.5rem;
+            }
+
+            .icon-container {
+                column-gap: 1.5rem;
+            }
+
+            .logo-container.mobile-only {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 992px) {
+            .main-header {
+                padding-top: 0px;
+                padding-right: 7%;
+                padding-bottom: 0px;
+                padding-left: 7%;
+            }
+
+            .upper-part {
+                padding-top: 0px;
+                padding-right: 7%;
+                padding-bottom: 0px;
+                padding-left: 7%;
+            }
+
+            .border-div {
+                border-top-width: 1px;
+                border-top-style: solid;
+                border-top-color: rgb(171, 171, 171);
+            }
+        }
+
+        @media screen and (min-width: 1500px) {
+            .upper-part ul li {
+                padding-top: 0px;
+                padding-right: 1.5em;
+                padding-bottom: 0px;
+                padding-left: 1.5em;
+            }
+
+            .main-menu .main-list {
+                justify-content: flex-end;
+                row-gap: 0.5rem;
+                column-gap: 0.5rem;
+            }
+        }
+
+        @media screen and (max-width: 991px) {
+            .contact-hours-wrapper {
+                justify-content: space-around;
+            }
+
+            .border-div {
+                border-top-width: 1px;
+                border-top-style: solid;
+                border-top-color: rgb(171, 171, 171);
+            }
+
+            .service-wrapper2 .content {
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+            }
+
+            .maps iframe {
+                height: 300px;
+            }
+
+            .maps-and-contact h2 {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            .footer {
+                padding-top: 1em;
+                padding-right: 1em;
+                padding-bottom: 0em;
+                padding-left: 1em;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .main-header {
+                padding-top: 0px;
+                padding-right: 10px;
+                padding-bottom: 0px;
+                padding-left: 10px;
+            }
+
+            .tagline h1 {
+                font-size: 75px;
+                font-weight: 900;
+            }
+
+            .tagline h1 .small {
+                font-size: 38px;
+                line-height: 51px;
+                font-weight: 300;
+            }
+
+            .cta-section {
+                padding-top: 50px;
+                padding-right: 30px;
+                padding-bottom: 50px;
+                padding-left: 30px;
+            }
+
+            .services-section {
+                padding-top: 50px;
+                padding-right: 30px;
+                padding-bottom: 50px;
+                padding-left: 30px;
+            }
+
+            .cta-section .first-img {
+                padding-bottom: 50px;
+            }
+
+            .cta-section .second-img {
+                padding-top: 50px;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            #booknow-iframe {
+                max-width: 100%;
+                padding-top: 1em;
+                padding-right: 1em;
+                padding-bottom: 1em;
+                padding-left: 1em;
+            }
+
+            .div81,
+            #symptoms {
+                max-width: 100%;
+                padding-top: 1em;
+                padding-right: 1em;
+                padding-bottom: 1em;
+                padding-left: 1em;
+            }
+
+            .main-menu.active {
+                transform: translateX(0px);
+                box-shadow: rgba(0, 0, 0, 0.46) -1px 1px 13px 2px;
+            }
+
+            .main-nav {
+                justify-content: flex-start;
+                padding-top: 3em;
+                flex-direction: column;
+            }
+
+            .logo-container.mobile-only img {
+                margin-bottom: 1em;
+                display: block;
+            }
+
+            .main-list .mobile-icons .icon-container {
+                justify-content: center;
+                margin-right: auto !important;
+                margin-bottom: 0px !important;
+                margin-left: auto !important;
+                margin-top: 2.5rem !important;
+            }
+
+            #service,
+            div#users {
+                max-width: 100%;
+                margin-top: 0px;
+                margin-right: auto;
+                margin-bottom: 0px;
+                margin-left: auto;
+            }
+
+            .service-wrapper2 {
+                padding-top: 1em;
+                padding-right: 1em;
+                padding-bottom: 1em;
+                padding-left: 1em;
+            }
+
+            .service-wrapper2 .content {
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+            }
+
+            .contact-hours-wrapper {
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .working-hours h4 {
+                border-top-width: initial;
+                border-right-width: initial;
+                border-bottom-width: initial;
+                border-left-width: initial;
+                border-top-style: none;
+                border-right-style: none;
+                border-bottom-style: none;
+                border-left-style: none;
+                border-top-color: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image-source: initial;
+                border-image-slice: initial;
+                border-image-width: initial;
+                border-image-outset: initial;
+                border-image-repeat: initial;
+                margin-bottom: 10px;
+            }
+
+            .working-hours {
+                padding-bottom: 1em;
+                margin-bottom: 2em;
+            }
+
+            .wrapper7.last,
+            .wrapper7.last p {
+                text-align: center;
+                margin-top: 0px;
+                margin-right: auto;
+                margin-bottom: 0px;
+                margin-left: auto;
+            }
+
+            .a-section {
+                padding-bottom: 1em;
+            }
+
+            .footer {
+                height: auto;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            .tagline h1 {
+                font-size: 65px;
+                font-weight: 900;
+            }
+
+            .tagline h1 .small {
+                font-size: 30px;
+                line-height: 51px;
+                font-weight: 300;
+            }
+
+            .main-header {
+                min-height: 500px;
+            }
+
+            .header-img {
+                width: 100%;
+            }
+
+            .cta-section {
+                padding-top: 50px;
+                padding-right: 10px;
+                padding-bottom: 50px;
+                padding-left: 10px;
+            }
+
+            .cta-section .first-img {
+                padding-bottom: 50px;
+            }
+
+            .cta-section .second-img {
+                padding-top: 50px;
+            }
+
+            .cta-section .content-wrapper {
+                padding-top: 50px;
+            }
+
+            .cta-section .content-wrapper .btn-book {
+                margin-top: 20px;
+            }
+
+            .services-section {
+                padding-top: 50px;
+                padding-right: 10px;
+                padding-bottom: 50px;
+                padding-left: 10px;
+            }
+
+            .review-section {
+                padding-top: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                padding-left: 20px;
+            }
+
+            .contact-section {
+                padding-top: 10px;
+                padding-right: 40px;
+                padding-bottom: 10px;
+                padding-left: 40px;
+            }
+        }
+    </style>
+</body>
+
+</html>
