@@ -48,7 +48,7 @@ p {
     width: 100%;
     position: absolute;
     bottom: 2em;
-    background-image: linear-gradient(90deg, rgba(229, 164, 181, 0.67) 0%, rgba(229, 164, 181, 0) 48.68%);
+    background-image: linear-gradient(90deg, rgba(247, 77, 15, 0.67) 0%, rgba(229, 164, 181, 0) 48.68%);
 }
 
 .tagline h1 {
@@ -198,7 +198,7 @@ button {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(230, 189, 200);
+    background-color: #f74e0f;
 }
 
 .title5 {
@@ -239,7 +239,7 @@ button {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(230, 189, 200);
+    background-color: #f74e0f;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -309,7 +309,7 @@ button {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(230, 189, 200);
+    background-color: #f74e0f;
     height: 100%;
 }
 
@@ -417,7 +417,7 @@ iframe {
 }
 
 .price-btn {
-    background-color: rgb(230, 189, 200);
+    background-color: #f74e0f;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -434,7 +434,7 @@ iframe {
 }
 
 .price-btn.btn-light {
-    color: rgb(223, 167, 182);
+    color: #f74e0f;
     background-color: rgb(255, 255, 255);
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
@@ -524,7 +524,7 @@ iframe {
     }
 
     .action-button button {
-        background-color: rgb(230, 189, 200);
+        background-color: #f74e0f;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
