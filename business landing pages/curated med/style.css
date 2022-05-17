@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+span,
+h1 {
+    font-family: Comfortaa, cursive !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: rgb(78, 66, 68);
+}
+
+.logo img {
+    max-height: 80px;
+}
+
+.img1 {
+    position: relative;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.bg-blue {
+    width: 90%;
+    height: 92%;
+    top: 4%;
+    left: 5%;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #ffd700;
+    position: absolute;
+    opacity: 0.3;
+}
+
+img.blur {
+    width: 100%;
+}
+
+.left2 {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 550px;
+    margin-bottom: 2em;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+.gold {
+    color: #ffd700;
+}
+
+.content1 {
+    position: absolute;
+    bottom: 0em;
+    left: 5em;
+}
+
+.bg1 {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(16, 18, 20);
+    height: 849px;
+}
+
+.bg2 {
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(16, 18, 20);
+    height: 780px;
+    background-image: url("https://g99plus.b-cdn.net/Group6%20p1/image%2028.png");
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile2 {
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+
+.price-btn {
+    background-color: rgb(16, 18, 20);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: #ffd700;
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-btn.black {
+    color: rgb(0, 0, 0);
+    background-color: #ffd700;
+    margin-top: 2em;
+}
+
+.content8 {
+    max-width: 950px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.content8 p {
+    font-size: 24px;
+}
+
+.wrapper9 {
+    max-width: 85%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.content10 {
+    max-width: 80%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    position: relative;
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #ffd700;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.head {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address p.businessAddress {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 1400px) {
+    .wrapper9 {
+        max-width: 80%;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    }
+
+    .wrapper2 {
+        max-width: 80%;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .price-btn.black {
+        margin-top: 1em;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .content1 {
+        position: relative;
+        left: unset;
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-bottom: 2em;
+        padding-left: 1em;
+    }
+
+    .contact-form {
+        height: auto;
+    }
+
+    .bg1 {
+        height: auto;
+        background-image: url("https://g99plus.b-cdn.net/Group6%20p1/image%2021.png");
+    }
+
+    .wrapper9 {
+        max-width: 100%;
+        padding-bottom: 2em;
+    }
+
+    .content10 {
+        margin-top: 6em;
+        margin-bottom: 4em;
+    }
+
+    .bg2 {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: rgb(16, 18, 20);
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        height: 50px;
+        text-align: center;
+        color: #ffd700;
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .head {
+        padding-top: 1em !important;
+        padding-right: 1em !important;
+        padding-bottom: 1em !important;
+        padding-left: 1em !important;
+    }
+
+    .head .action-button {
+        display: none;
+    }
+
+    .tile2 {
+        padding-top: 50px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+        padding-left: 15px;
+    }
+
+    .content10 {
+        max-width: 100%;
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+    }
+}
