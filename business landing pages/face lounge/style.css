@@ -27,13 +27,19 @@ img {
     max-width: 100%;
 }
 
-p {
+p,
+a {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 170%;
     color: rgb(78, 66, 68);
     font-family: Poppins, sans-serif !important;
+}
+
+a:hover {
+    color: rgb(78, 66, 68);
+    text-decoration: none;
 }
 
 li {
@@ -46,7 +52,7 @@ li {
     /* list-style: none; */
 }
 
-li.point { 
+li.point {
     margin-bottom: 5px;
 }
 
@@ -250,7 +256,7 @@ li.point {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
     font-size: 14px;
     line-height: 20px;
     padding-top: 10px;
