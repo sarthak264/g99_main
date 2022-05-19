@@ -1,0 +1,748 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Comfortaa", Sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.price-btn {
+    display: block;
+    padding: 12px 24px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 0.38px;
+    fill: #fff;
+    color: #fff;
+    background-color: #DAB68A;
+    border-radius: 30px 30px 30px 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.price-btn:hover {
+    background-color: #1A1A1A;
+}
+
+.price-btn.black {
+    background-color: #000000;
+}
+
+.price-btn.black:hover {
+    background-color: #DAB68A;
+    color: #000;
+}
+
+/* row tile */
+.dark {
+    background-color: #1A1A1A;
+}
+
+.tile-row {
+    position: relative;
+    display: grid;
+}
+
+.tile-row::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/beauty%20lab%20studio/permanent%20makeup/logo.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.27;
+    z-index: 99;
+}
+
+.img-first.tile-row::after {
+    width: 100%;
+    background-size: 45% auto;
+    background-position: top right;
+}
+
+.content-first.tile-row::after {
+    width: 60%;
+    background-size: 45% auto;
+    background-position: bottom left;
+}
+
+.tile-row.img-first {
+    grid-template-columns: 40% 60%;
+}
+
+.tile-row.content-first {
+    grid-template-columns: 60% 40%;
+}
+
+.tile-row .tile-img {
+    min-height: 600px;
+}
+
+.tile-row .tile-content {
+    position: relative;
+    padding: 6% 5% 6% 10%;
+    z-index: 999;
+}
+
+.tile-row .tile-logo {
+    margin-bottom: 5px;
+}
+
+.tile-row .tile-title {
+    color: #DAB68A;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.tile-row .tile-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.4em;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+}
+
+.tile-row .tile-text a.phone-number {
+    color: #DAB68A;
+}
+
+.tile-row .tile-text a.phone-number:hover {
+    text-decoration: none;
+}
+
+.dark .tile-row .tile-text {
+    color: #fff;
+}
+
+/* header */
+.header {
+    min-height: 30vh;
+    background-color: #1A1A1A;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header .heading {
+    color: #DAB68A;
+    font-family: "Comfortaa", Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+/* tile 1 */
+.tile1 .tile-img {
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/beauty%20lab%20studio/permanent%20makeup/tile1-1.jpeg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* tile 2 */
+.tile2 .tile-img {
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/beauty%20lab%20studio/permanent%20makeup/tile2-1.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* tile 3 */
+.tile3 .tile-img {
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/beauty%20lab%20studio/permanent%20makeup/tile3-1.jpeg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* tile 4 */
+.tile4 .tile-img {
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/beauty%20lab%20studio/permanent%20makeup/tile4-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* tile 5 */
+
+.tile5 {
+    position: relative;
+    padding: 0 0 5% 0;
+    background-color: #1A1A1A;
+}
+
+.tile5 .head-section {
+    padding: 2% 0;
+    text-align: center;
+}
+
+.tile5 .design-wrapper {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tile5 .jira-icon {
+    width: 20px;
+    fill: #DAB68A;
+}
+
+.tile5 .golden-line {
+    flex-grow: 1;
+    -webkit-box-flex: 1;
+    border-top: 2px solid #DAB68A;
+}
+
+.tile5 .title {
+    color: #DAB68A;
+    font-family: "Comfortaa", Sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.1em;
+}
+
+.tile5::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/beauty%20lab%20studio/permanent%20makeup/logo.png');
+    background-size: 45% auto;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    z-index: 0;
+    opacity: 0.27;
+}
+
+.tile5>.local-row {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.tile5 .img-wrapper {
+    min-height: 550px;
+    width: 100%;
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/beauty%20lab%20studio/permanent%20makeup/tile5-1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.tile5 .content-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+    padding: 10px;
+    z-index: 9;
+}
+
+.tile5 .price-list {
+    /* width: 100%; */
+    margin-left: -100px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #DAB68AD1;
+    border: 5px solid #DAB68A;
+}
+
+.tile5 .price-list ul {
+    list-style: none;
+}
+
+.tile5 .price-item .upper-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.tile5 .price-item .upper-part p {
+    color: #1A1A1A;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    line-height: 1.1em;
+    margin-bottom: 0;
+}
+
+.tile5 .price {
+    font-weight: 700;
+}
+
+.tile5 .price-item .upper-part .line {
+    flex: 1;
+    border-top: 2px dotted #DAB68A;
+    margin: 0 10px;
+}
+
+.tile5 .lower-part p {
+    color: #fff;
+}
+
+.tile5 .price-btn {
+    align-self: flex-start;
+}
+
+/* tile 6 */
+.tile6 .contact-img {
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/beauty%20lab%20studio/permanent%20makeup/tile6-1.jpeg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.tile6 .contact-wrapper {
+    background-color: #FFFFFFBF;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.tile6 .contact-wrapper .heading {
+    color: #1A1A1A;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+
+/* tile 7 */
+.tile7 {
+    padding: 7% 0;
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/beauty%20lab%20studio/permanent%20makeup/tile7-bg.png"), linear-gradient(to right, #DAB68A, #DAB68A);
+    background-position: -203px 0px;
+}
+
+.tile7-bg {
+    height: 550px;
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/beauty%20lab%20studio/permanent%20makeup/tile7-1.jpeg");
+    background-size: cover;
+    background-position: 0px -157px;
+}
+
+.tile7-main-content {
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tile7 img.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.tile7 h2.title {
+    color: #1A1A1A;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.1em;
+    margin-bottom: 30px;
+}
+
+.tile7 a.number {
+    color: #1A1A1A;
+    font-family: "Comfortaa", Sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+}
+
+.tile7 a.number:hover {
+    text-decoration: none;
+}
+
+/* map */
+.map {
+    height: 300px;
+}
+
+.map iframe.map-iframe {
+    height: 100%;
+    width: 100%;
+}
+
+/* footer */
+.footer {
+    height: auto;
+    display: inline-block;
+    background-color: #1A1A1A;
+}
+
+.upper-footer {
+    /* margin: 0 5%; */
+    padding: 3% 5% 0% 5%;
+}
+
+.upper-footer .left-side {
+    padding-bottom: 2%;
+}
+
+.upper-footer .logo {
+    width: 15%;
+    margin-bottom: 20px;
+}
+
+.upper-footer a,
+.upper-footer p {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: 0px;
+}
+
+.upper-footer .text {
+    margin-right: 15%;
+    font-weight: 400;
+}
+
+.upper-footer a {
+    margin-bottom: 20px;
+}
+
+.upper-footer i {
+    font-size: 50px;
+    color: #DAB68A;
+}
+
+.upper-footer .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.lower-footer {
+    border-top: 1px solid #A28437;
+    margin: 0 5%;
+    min-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-footer>.row {
+    width: 100%;
+}
+
+.lower-footer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.lower-footer .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lower-footer .g99-logo {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .tile-row.img-first {
+        grid-template-columns: 50% 50%;
+    }
+
+    .tile-row.content-first {
+        grid-template-columns: 50% 50%;
+    }
+
+    .tile-row .tile-img {
+        min-height: 575px;
+    }
+
+    .tile-row .tile-content {
+        padding: 03% 10% 03% 10%;
+    }
+
+    .tile-row .tile-title {
+        font-size: 40px;
+    }
+
+    .tile-row .tile-text {
+        font-size: 14px;
+    }
+
+    /* header */
+    .header {
+        min-height: 250px;
+    }
+
+    .header .heading {
+        font-size: 30px;
+    }
+
+    /* tile 5 */
+    .tile5 .local-row {
+        grid-template-columns: 50% 50%;
+        padding: 20px;
+    }
+
+    /* tile 6 */
+    .tile6 .contact-img {
+        background-position: center center;
+    }
+
+    /* tile 7 */
+    .tile7 {
+        background-position: -396px 0px;
+    }
+
+    .tile7 h2.title {
+        font-size: 40px;
+    }
+
+    .tile7 a.number {
+        font-size: 50px;
+    }
+
+    .tile7-bg {
+        height: 450px;
+        background-position: center center;
+    }
+
+    /* footer */
+    .upper-footer a,
+    .upper-footer p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /* row tile */
+    .tile-row::after {
+        top: 0;
+        background-attachment: scroll;
+    }
+
+    .img-first.tile-row::after {
+        width: 100%;
+        background-size: 45% auto;
+        background-position: bottom left;
+    }
+
+    .content-first.tile-row::after {
+        width: 100%;
+        background-size: 45% auto;
+        background-position: bottom left;
+    }
+
+    .tile-row.img-first {
+        grid-template-columns: 100%;
+    }
+
+    .tile-row.content-first {
+        grid-template-columns: 100%;
+    }
+
+    .content-first.tile-row .tile-img {
+        order: 0;
+    }
+
+    .content-first.tile-row .tile-content {
+        order: 1;
+    }
+
+    .tile-row .tile-img {
+        height: 400px;
+    }
+
+    .tile-row .tile-content {
+        padding: 30px 20px 20px 20px;
+    }
+
+    .tile-row .tile-title {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    /* header */
+    .header {
+        min-height: 150px;
+    }
+
+    .header .heading {
+        font-size: 20px;
+    }
+
+    /* tile 1 */
+    .tile1 .tile-img {
+        height: 450px;
+    }
+
+    /* tile 2 */
+    .tile2 .tile-img {
+        height: 350px;
+    }
+
+    /* tile 3 */
+    .tile3 .tile-img {
+        height: 400px;
+        background-position: center center;
+    }
+
+    /* tile 4 */
+    .tile4 .tile-img {
+        height: 350px;
+    }
+
+    /* tile 5 */
+    .tile5 .head-section {
+        padding-bottom: 10px;
+    }
+
+    .tile5 .title {
+        font-size: 25px;
+        letter-spacing: 2px;
+        padding: 10px;
+    }
+
+    .tile5::after {
+        background-attachment: scroll;
+    }
+
+    .tile5 .price-item .upper-part p {
+        font-size: 15px;
+    }
+
+    .tile5 .img-wrapper {
+        position: relative;
+        min-height: 350px;
+        z-index: 9;
+    }
+
+    .tile5 .local-row {
+        grid-template-columns: 100%;
+        padding: 0;
+    }
+
+    .tile5 .price-list {
+        margin-left: 0;
+        margin-top: -50px;
+    }
+
+    /* tile 6 */
+    .tile6 .contact-img {
+        min-height: 300px;
+    }
+
+    .tile6 .contact-wrapper {
+        padding: 20px;
+    }
+
+    .tile6 .contact-wrapper .heading {
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+
+    /* tile 7 */
+    .tile7 {
+        background-position-x: -600px;
+        padding: 0;
+    }
+
+    .tile7-bg {
+        height: 500px;
+    }
+
+    .tile7-main-content {
+        padding: 30px 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .tile7-main-content img.logo {
+        width: 25%;
+    }
+
+    .tile7 h2.title {
+        font-size: 35px;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+
+    .tile7 a.number {
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+
+    /* footer */
+    .upper-footer {
+        text-align: center;
+        padding: 7% 10%;
+    }
+
+    .upper-footer a,
+    .upper-footer p {
+        font-size: 14px;
+    }
+
+    .upper-footer .right-side {
+        align-items: center;
+    }
+
+    .upper-footer .text {
+        margin-right: 0;
+    }
+
+    .lower-footer {
+        padding: 5% 0;
+    }
+
+    .lower-footer>.row {
+        text-align: center;
+    }
+
+    .lower-footer .right-side {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+        padding: 10px;
+    }
+}
