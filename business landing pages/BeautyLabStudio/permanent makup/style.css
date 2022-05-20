@@ -134,6 +134,64 @@ a:hover {
     color: #fff;
 }
 
+/* head */
+.head {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address a {
+    font-family: Montserrat, sans-serif;
+    color: rgb(78, 66, 68);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.address p.businessname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address .businessAddress {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
 /* header */
 .header {
     min-height: 30vh;
@@ -402,7 +460,7 @@ a:hover {
 /* footer */
 .footer {
     height: auto;
-    display: inline-block;
+    display: block;
     background-color: #1A1A1A;
 }
 
@@ -553,7 +611,31 @@ a:hover {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .head .price-btn {
+        margin-right: 30px;
+    }
+}
+
 @media screen and (max-width: 767px) {
+
+    /* head */
+    .head {
+        padding-top: 1em !important;
+        padding-right: 1em !important;
+        padding-bottom: 1em !important;
+        padding-left: 1em !important;
+    }
+
+    .head .price-btn {
+        display: none;
+    }
 
     /* row tile */
     .tile-row::after {
