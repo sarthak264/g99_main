@@ -37,16 +37,11 @@ a:hover {
 }
 
 .price-btn:hover {
-    background-color: #1A1A1A;
+    color: #fff !important;
 }
 
 .price-btn.black {
     background-color: #000000;
-}
-
-.price-btn.black:hover {
-    background-color: #DAB68A;
-    color: #000;
 }
 
 /* row tile */
