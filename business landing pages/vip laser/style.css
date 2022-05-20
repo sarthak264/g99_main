@@ -662,4 +662,20 @@ iframe {
     .benifits-iframe {
         height: 200px;
     }
+
+    .title5 {
+        padding: 40px 20px;
+    }
+
+    .tile6 {
+        margin-top: -2rem;
+    }
+
+    .footer {
+        height: auto !important;
+        /* flex-direction: column; */
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        justify-content: center;
+    }
 }
