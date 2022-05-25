@@ -81,7 +81,7 @@ p {
 .content1 h1 {
     font-weight: 700;
     font-size: 28px;
-    color: rgb(231, 84, 36) !important;
+    color: #d2e842 !important;
 }
 
 .content1 p {
@@ -90,6 +90,11 @@ p {
 
 .fs-77 {
     font-size: 77px;
+}
+
+.above-form .title {
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .tile2 {
