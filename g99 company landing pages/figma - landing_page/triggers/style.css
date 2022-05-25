@@ -94,7 +94,7 @@ img {
     color: #000;
     padding: 10px 35px;
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     cursor: pointer;
 }
 

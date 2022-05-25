@@ -20,7 +20,7 @@ img {
     color: #fff;
     padding: 10px 35px;
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     cursor: pointer;
 }
 
