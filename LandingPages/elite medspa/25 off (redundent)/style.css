@@ -1,0 +1,101 @@
+.font-mon {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-play {
+    font-family: 'Playfair Display', serif;
+}
+
+/* tile 2 */
+.tile2 {
+    position: relative;
+    height: 740px;
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/elite_medspa/discount_page/tile2-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.tile2-wrapper {
+    position: relative;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.tile2-2 {
+    position: absolute;
+    top: 360px;
+    left: 560px;
+    height: 360px;
+    width: 360px;
+}
+
+/* tile 4 */
+.tile4 {
+    background-color: rgb(244, 239, 233);
+    text-align: center;
+}
+
+.tile4 .title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    color: rgb(181, 136, 104);
+}
+
+/* footer */
+.footer {
+    height: 90px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.footer-content-wrapper {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .logo {
+    height: 50px;
+}
+
+.footer .call-us {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.footer .call-us a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) {
+
+    /* footer */
+    .footer-content-wrapper {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /* footer */
+    .footer {
+        height: 160px;
+    }
+
+    .footer-content-wrapper {
+        flex-direction: column;
+    }
+
+    .footer .logo {
+        margin-bottom: 1rem;
+    }
+}
