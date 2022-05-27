@@ -27,7 +27,8 @@ img {
 }
 
 p {
-    font-family: Raleway, sans-serif;
+    /* font-family: Raleway, sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -58,8 +59,7 @@ p {
     font-size: 36px;
     line-height: 117.8%;
     text-transform: uppercase;
-    color: #fff;
-    /* color: #000; */
+    color: rgb(255, 255, 255);
     padding-top: 30px;
     padding-right: 0px;
     padding-bottom: 30px;
@@ -67,7 +67,7 @@ p {
 }
 
 .content2 {
-    max-width: 540px;
+    max-width: 600px;
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
@@ -200,7 +200,7 @@ button {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #FFB6C170;
+    background-color: rgba(255, 182, 193, 0.44);
 }
 
 .title5 {
@@ -216,7 +216,7 @@ button {
 .title5 p {
     font-size: 24px;
     line-height: 170%;
-    color: #F66031;
+    color: rgb(246, 96, 49);
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -233,7 +233,10 @@ button {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 15px;
-    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
 
 .button6 {
@@ -313,7 +316,7 @@ button {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #FFB6C170;
+    background-color: rgba(255, 182, 193, 0.44);
     height: 100%;
 }
 
@@ -330,7 +333,7 @@ button {
 }
 
 .bg-8 .content-8 p {
-    color: #F66031;
+    color: rgb(246, 96, 49);
 }
 
 .right8 {
@@ -472,7 +475,10 @@ iframe {
     background-origin: initial;
     background-clip: initial;
     background-color: rgb(243, 239, 239);
-    padding: 0 2rem;
+    padding-top: 0px;
+    padding-right: 2rem;
+    padding-bottom: 0px;
+    padding-left: 2rem;
 }
 
 .footer p {
@@ -664,7 +670,10 @@ iframe {
     }
 
     .title5 {
-        padding: 40px 20px;
+        padding-top: 40px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px;
     }
 
     .tile6 {
@@ -672,10 +681,9 @@ iframe {
     }
 
     .footer {
-        height: auto !important;
-        /* flex-direction: column; */
         flex-wrap: wrap-reverse;
         text-align: center;
         justify-content: center;
+        height: auto !important;
     }
 }
