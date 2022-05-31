@@ -39,7 +39,7 @@ p {
 .bg-img {
     position: relative;
     height: 500px;
-    background-image: url("https://g99plus.b-cdn.net/Landingpages/vip_filler/LASER_HAIR_VIP_LASER-scaled.jpeg");
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/VIP%20Laser/1%20(1).jpg");
     width: 100%;
     background-size: cover;
     background-position-x: 50%;
@@ -486,6 +486,12 @@ iframe {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+}
+
+@media screen and (max-width: 1200px) {
+    .bg-img {
+        background-position-y: 55%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
