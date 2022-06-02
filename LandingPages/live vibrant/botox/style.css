@@ -251,9 +251,17 @@ span.up {
     text-transform: uppercase;
 }
 
+.price-btn:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
 .price-btn.black {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+}
+
+.price-btn.black:hover {
+    color: rgb(0, 0, 0) !important;
 }
 
 .footer {
