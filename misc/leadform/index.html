@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead Notification mail</title>
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <div class="page-wrapper">
+        <div class="mail-wrapper">
+            <img src="https://g99plus.b-cdn.net/SPA/unnamed.png" alt="g99 logo" class="logo">
+            <div class="upper-wrapper">
+                <h1 class="title">
+                    New Lead Notification for ${BUSINESS_NAME}
+                </h1>
+                <p>
+                    You have received a new lead using Growth99+!
+                </p>
+                <p>
+                    We suggest you get in touch with the lead below as soon as possible to convert them into a customer.
+                </p>
+            </div>
+            <button class="details-button">
+                Show Lead Details
+            </button>
+            <h3>
+                Lead Information
+            </h3>
+            <div class="table-wrapper">
+                ${DATA_HTML}
+            </div>
+            <p class="thanks">
+                Thanks,
+                <br>
+                Team Growth99+
+            </p>
+        </div>
+    </div>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        p {
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .page-wrapper {
+            background: rgb(232, 240, 254);
+            padding: 1rem;
+            font-family: 'Poppins', sans-serif;
+            margin: -8px;
+        }
+
+        .mail-wrapper {
+            max-width: 85%;
+            margin: 0 auto;
+            padding: 0.5rem 2rem;
+            background: rgb(255, 255, 255);
+            border: 1px solid gainsboro;
+            border-radius: 15px;
+            box-shadow: rgba(41, 48, 66, 0.17) 0px 0px 0.875rem 0px;
+        }
+
+        .logo {
+            display: block;
+            width: 100%;
+            max-width: 230px;
+            margin: 0 auto;
+            padding: 0.5rem 0;
+        }
+
+        .upper-wrapper {
+            padding: 0.5rem 0;
+        }
+
+        .title {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0.3rem 0;
+        }
+
+        .details-button {
+            display: block;
+            background: rgb(0, 158, 222);
+            padding: 0.6rem 0.9rem;
+            border: none;
+            outline: none;
+            border-radius: 6px;
+            margin: 20px auto 0;
+
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+        }
+
+        .table-wrapper {
+            border-top: 1px solid gainsboro;
+            border-bottom: 3px solid gainsboro;
+        }
+
+        .thanks {
+            font-size: 16px;
+            font-weight: bold;
+            color: rgb(59, 57, 57);
+            padding-top: 20px;
+        }
+
+        @media screen and (max-width: 480px) {
+            .mail-wrapper {
+                max-width: 90%;
+                padding: 0.5rem 1.5rem;
+            }
+        }
+    </style>
+</body>
+
+</html>
