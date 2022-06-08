@@ -150,6 +150,13 @@ body {
     padding: 3rem 4.6%;
 }
 
+.main-content .img-btn {
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+
 .main-content h1.entry-title {
     font-family: 'Oswald', sans-serif;
     font-size: 26px;
