@@ -160,6 +160,12 @@ p {
     justify-content: center;
 }
 
+.img31 img {
+    width: 400px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
 .head {
     height: 130px;
     display: flex;
