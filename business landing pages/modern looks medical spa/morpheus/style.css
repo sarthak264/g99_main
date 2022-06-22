@@ -147,6 +147,11 @@ li {
     padding-bottom: 2em;
 }
 
+.content1 h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
 .content1 p,
 .content1 h1,
 .content1 h2 {
@@ -299,6 +304,7 @@ li {
 .img-wrapper4 {
     display: flex;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 
 .wrapper42,
