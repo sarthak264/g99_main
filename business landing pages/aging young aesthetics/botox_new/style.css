@@ -487,6 +487,8 @@ p {
         padding-right: 1em !important;
         padding-bottom: 1em !important;
         padding-left: 1em !important;
+        max-height: none !important;
+        height: auto !important;
     }
 
     .head .action-button {
@@ -512,6 +514,7 @@ p {
 
     .heading3 h3 {
         font-size: 34px;
+        color: #212529;
     }
 
     .tile2 h3 {
