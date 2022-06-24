@@ -39,12 +39,22 @@ p {
     margin-left: 0px !important;
 }
 
+.subtitle {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
 .bg-img {
     position: relative;
     height: 695px;
-    background-image: url("https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%206.png");
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/deluxe%20laser%20aesthetics/AdobeStock_363492061first%20(1).jpeg");
     width: 100%;
     background-size: cover;
+}
+
+.square-img {
+    width: 100%;
+    max-width: 480px;
 }
 
 .tagline {
@@ -58,7 +68,7 @@ p {
 .tagline h1 {
     font-style: normal;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 59px;
     line-height: 140%;
     text-transform: uppercase;
     color: rgb(78, 66, 68);
@@ -75,6 +85,15 @@ p {
     flex-direction: column;
     justify-content: center;
     height: 560px;
+}
+
+.content2 h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: rgb(78, 66, 68);
 }
 
 .content2 .btn4 {
@@ -112,20 +131,22 @@ p {
     display: flex;
     width: 60%;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     height: 200px;
 }
 
 .tile3 .title3 p {
     font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 44px;
     color: rgb(255, 255, 255);
+    padding-left: 10%;
 }
 
 .left4 {
-    min-height: 414px;
+    min-height: 420px !important;
+    /* min-height: 610px; */
     position: relative;
     max-width: 560px;
     margin-top: 0px;
@@ -266,21 +287,21 @@ button {
 
 .tile12 {
     margin-top: 130px;
-    height: 695px;
+    /* height: 695px; */
     background-image: url("https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%2014.png");
     width: 100%;
     background-size: cover;
 }
 
 .tile12 .contact-form {
-    min-height: 690px;
+    /* min-height: 690px; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .tile12 .content-center {
-    min-height: 690px;
+    min-height: 450px;
 }
 
 iframe,
@@ -420,6 +441,10 @@ img {
         margin-top: 2em;
     }
 
+    .tile4 .right4 {
+        padding-top: 50px;
+    }
+
     .wrapper4 {
         position: relative;
     }
@@ -539,7 +564,7 @@ img {
     }
 
     .tagline h1 {
-        font-size: 24px;
+        font-size: 36px;
         font-weight: 400;
     }
 
@@ -555,11 +580,16 @@ img {
     .tile3 .title3 {
         text-align: center;
         width: 100%;
+        align-items: center;
+    }
+
+    .tile3 .title3 p {
+        padding-left: 0;
     }
 
     .btn4 {
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
     }
 
     .right4 {
@@ -611,7 +641,7 @@ img {
     }
 
     .tile4 .right4 {
-        padding-top: 0px;
+        padding-top: 30px;
         margin-top: 0px;
     }
 
@@ -647,9 +677,9 @@ img {
     }
 
     .tagline {
-        bottom: 2em;
-        max-width: 250px;
-        left: 2em;
+        bottom: 1em;
+        max-width: 300px;
+        left: 1em;
     }
 
     .head {
@@ -657,9 +687,35 @@ img {
         padding-right: 1em !important;
         padding-bottom: 1em !important;
         padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
     }
 
     .head .action-button {
         display: none;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .bit-small {
+        font-size: 30px;
+    }
+
+    .tagline {
+        max-width: 250px;
+    }
+
+    .tagline h1 {
+        font-size: 25px;
+    }
+
+    .content2 h1 {
+        font-size: 30px;
+    }
+}
+
+/* @media screen and (min-width: 1199px) {
+    .left4 {
+        min-height: 570px;
+    }
+} */
