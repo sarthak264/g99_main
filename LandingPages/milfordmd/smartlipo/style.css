@@ -368,7 +368,8 @@ button.get-started:hover {
     }
 
     .header .contact-wrapper {
-        display: none;
+        /* display: none; */
+        padding-top: 2rem;
     }
 
     /* tile 3 */
