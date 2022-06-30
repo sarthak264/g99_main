@@ -16,28 +16,53 @@
 </head>
 
 <body>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet" />
-    <img src="https://g99plus.b-cdn.net/thumbnails/preview.jpg" height="0" width="0" class="d-none" />
+    <p class="mx-0 my-0">
+        <img height="0" src="https://g99plus.b-cdn.net/thumbnails/preview.jpg" width="0" class="d-none" />
+    </p>
     <div id="home" class="main">
-        <div class="pages">
+        <div class="toggle-container">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="menus mclose">
+            <div class="sticky-menus">
+                <div class="item">
+                    <a href="#" onclick="myFunction('medical')">Medical Aesthetics </a>
+                </div>
+                <div class="item">
+                    <a href="#" onclick="myFunction('dental')">Dental </a>
+                </div>
+                <div class="item">
+                    <a href="#" onclick="myFunction('plastic')">Plastic surgery </a>
+                </div>
+                <div class="item">
+                    <a href="#" onclick="myFunction('academy')">Academy ( Online Courses ) </a>
+                </div>
+            </div>
+        </div>
+        <div id="medical" class="pages">
+            <div class="title1">
+                <h2>
+                    Medical Aesthetics
+                </h2>
+            </div>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
                             <div id="iy3wb" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/ruma.png" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    RUMA Aesthetics
+                                <p>RUMA Aesthetics
                                 </p>
                             </div>
                             <div class="preview">
@@ -49,35 +74,13 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="i545l" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
-                            </div>
-                        </div>
-                        <div class="page-body">
-                            <div class="title">
-                                <p>
-                                    Grossman | Capraro Plastic Surgery
-                                </p>
-                            </div>
-                            <div class="preview">
-                                <a href="https://grossmancapraroplasticsurgery.com/" target="_blank">Preview</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-wrapper">
-                        <div class="thumbnail-hover">
                             <div id="i2bse" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/raw.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    RAW REJUVENATION AND WELLNESS
+                                <p>RAW REJUVENATION AND WELLNESS
                                 </p>
                             </div>
                             <div class="preview">
@@ -91,13 +94,12 @@
                         <div class="thumbnail-hover">
                             <div id="inq4v" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/elitemedspa.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    My Elite Medspa
+                                <p>My Elite Medspa
                                 </p>
                             </div>
                             <div class="preview">
@@ -110,14 +112,12 @@
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
                             <div id="i935d" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/gfacemd.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    GFaceMD
+                                <p>GFaceMD
                                 </p>
                             </div>
                             <div class="preview">
@@ -131,13 +131,12 @@
                         <div class="thumbnail-hover">
                             <div id="i0uzk" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/paychaney.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    PamChaney Aesthetics
+                                <p>PamChaney Aesthetics
                                 </p>
                             </div>
                             <div class="preview">
@@ -151,13 +150,12 @@
                         <div class="thumbnail-hover">
                             <div id="it3yu" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/elaa%20medical.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    ELLA Medical Aesthetics
+                                <p>ELLA Medical Aesthetics
                                 </p>
                             </div>
                             <div class="preview">
@@ -171,13 +169,12 @@
                         <div class="thumbnail-hover">
                             <div id="i4k05" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/beautifhi.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Beautiphi You
+                                <p>Beautiphi You
                                 </p>
                             </div>
                             <div class="preview">
@@ -191,13 +188,12 @@
                         <div class="thumbnail-hover">
                             <div id="i4zux" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/utam%20celss.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Utam Stems Cells
+                                <p>Utam Stems Cells
                                 </p>
                             </div>
                             <div class="preview">
@@ -211,13 +207,12 @@
                         <div class="thumbnail-hover">
                             <div id="ixoo4s" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Aesthetically%20Savy.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Aesthetically Savy
+                                <p>Aesthetically Savy
                                 </p>
                             </div>
                             <div class="preview">
@@ -231,13 +226,12 @@
                         <div class="thumbnail-hover">
                             <div id="ifg9m1" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Peninsula%20Glow.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Peninsula Glow
+                                <p>Peninsula Glow
                                 </p>
                             </div>
                             <div class="preview">
@@ -251,13 +245,12 @@
                         <div class="thumbnail-hover">
                             <div id="ipcks6" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/GLO%20Aesthetics.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    GLO Aesthetics
+                                <p>GLO Aesthetics
                                 </p>
                             </div>
                             <div class="preview">
@@ -267,37 +260,36 @@
                     </div>
                 </div>
                 <!-- <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-wrapper">
-                        <div class="thumbnail-hover">
-                            <div id="i8fhgg" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
-                            </div>
-                        </div>
-                        <div class="page-body">
-                            <div class="title">
-                                <p>
-                                    Delle Chiaie Cosmetic Medicine
-                                </p>
-                            </div>
-                            <div class="preview">
-                                <a href="https://surfacemedicalesthetics.com/" target="_blank">Preview</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+<div class="page-wrapper">
+<div class="thumbnail-hover">
+<div id="i8fhgg" class="thumbnail">
+<img
+src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+</div>
+</div>
+<div class="page-body">
+<div class="title">
+<p>
+Delle Chiaie Cosmetic Medicine
+</p>
+</div>
+<div class="preview">
+<a href="https://surfacemedicalesthetics.com/" target="_blank">Preview</a>
+</div>
+</div>
+</div>
+</div> -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
                             <div id="iopw9i" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Everglow%20Medical%20Aesthetics.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Everglow Medical Aesthetics
+                                <p>Everglow Medical Aesthetics
                                 </p>
                             </div>
                             <div class="preview">
@@ -311,13 +303,12 @@
                         <div class="thumbnail-hover">
                             <div id="iw019i" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/hushmedspa.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Hush Medspa
+                                <p>Hush Medspa
                                 </p>
                             </div>
                             <div class="preview">
@@ -331,13 +322,12 @@
                         <div class="thumbnail-hover">
                             <div id="iglw6i" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/glow%20laser.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Glow Laser and Beauty Center
+                                <p>Glow Laser and Beauty Center
                                 </p>
                             </div>
                             <div class="preview">
@@ -351,13 +341,12 @@
                         <div class="thumbnail-hover">
                             <div id="i6x7rw" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/samara%20medsap.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Samara Medspa
+                                <p>Samara Medspa
                                 </p>
                             </div>
                             <div class="preview">
@@ -371,13 +360,12 @@
                         <div class="thumbnail-hover">
                             <div id="iisrc7" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/nuan%20asthetics.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Nuance Aesthetics
+                                <p>Nuance Aesthetics
                                 </p>
                             </div>
                             <div class="preview">
@@ -389,35 +377,14 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="izrxnp" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
-                            </div>
-                        </div>
-                        <div class="page-body">
-                            <div class="title">
-                                <p>
-                                    Audrey Rose Institute Of Medical Aesthetics
-                                </p>
-                            </div>
-                            <div class="preview">
-                                <a href="https://injectinjectables.com/" target="_blank">Preview</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-wrapper">
-                        <div class="thumbnail-hover">
                             <div id="iq476d" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/heraspace.png" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    HerSpace MedSpa
+                                <p>HerSpace MedSpa
                                 </p>
                             </div>
                             <div class="preview">
@@ -430,14 +397,12 @@
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
                             <div id="itruhy" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/aiyana.png" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    AIYANA aesthetics
+                                <p>AIYANA aesthetics
                                 </p>
                             </div>
                             <div class="preview">
@@ -450,14 +415,12 @@
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
                             <div id="i9ig7z" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/aera.png" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Aère Aesthetics
+                                <p>Aère Aesthetics
                                 </p>
                             </div>
                             <div class="preview">
@@ -471,13 +434,12 @@
                         <div class="thumbnail-hover">
                             <div id="i1j43b" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/bella%20rose.png" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Bella Rose Medispa
+                                <p>Bella Rose Medispa
                                 </p>
                             </div>
                             <div class="preview">
@@ -491,13 +453,12 @@
                         <div class="thumbnail-hover">
                             <div id="id1e9h" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/form%20medspa.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Form MedSpa
+                                <p>Form MedSpa
                                 </p>
                             </div>
                             <div class="preview">
@@ -507,38 +468,37 @@
                     </div>
                 </div>
                 <!-- <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-wrapper">
-                        <div class="thumbnail-hover">
-                            <div id="imyjnx" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
-                            </div>
-                        </div>
-                        <div class="page-body">
-                            <div class="title">
-                                <p>
-                                    Glow Skin Cosmetic Laser Center
-                                </p>
-                            </div>
-                            <div class="preview">
-                                <a href="https://glow-skin-cosmetic-laser-center.business.site/"
-                                    target="_blank">Preview</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+<div class="page-wrapper">
+<div class="thumbnail-hover">
+<div id="imyjnx" class="thumbnail">
+<img
+src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+</div>
+</div>
+<div class="page-body">
+<div class="title">
+<p>
+Glow Skin Cosmetic Laser Center
+</p>
+</div>
+<div class="preview">
+<a href="https://glow-skin-cosmetic-laser-center.business.site/"
+target="_blank">Preview</a>
+</div>
+</div>
+</div>
+</div> -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
                             <div id="i6g698" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/sa%20flaw%20less.png" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Flawless Laser & Med Spa
+                                <p>Flawless Laser & Med Spa
                                 </p>
                             </div>
                             <div class="preview">
@@ -552,13 +512,12 @@
                         <div class="thumbnail-hover">
                             <div id="irkgmm" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/skin%20volution.png" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    SkinVolution Laser & Vein Center
+                                <p>SkinVolution Laser & Vein Center
                                 </p>
                             </div>
                             <div class="preview">
@@ -572,13 +531,12 @@
                         <div class="thumbnail-hover">
                             <div id="ivvcdi" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/beauty%20laser.png" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Beauty Lab and Laser
+                                <p>Beauty Lab and Laser
                                 </p>
                             </div>
                             <div class="preview">
@@ -592,13 +550,12 @@
                         <div class="thumbnail-hover">
                             <div id="igghkb" class="thumbnail">
                                 <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/method%20asthtics.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Method Aesthetics Scottsdale
+                                <p>Method Aesthetics Scottsdale
                                 </p>
                             </div>
                             <div class="preview">
@@ -611,14 +568,12 @@
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
                             <div id="iwvx0a" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Atelier.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Atelier Aesthetic Clinique
+                                <p>Atelier Aesthetic Clinique
                                 </p>
                             </div>
                             <div class="preview">
@@ -631,14 +586,12 @@
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
                             <div id="i8dr98" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/vital.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Vital Aesthetics
+                                <p>Vital Aesthetics
                                 </p>
                             </div>
                             <div class="preview">
@@ -651,14 +604,12 @@
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
                             <div id="ibngu4" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/enhanced.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Enchanted Medical Aesthetics
+                                <p>Enchanted Medical Aesthetics
                                 </p>
                             </div>
                             <div class="preview">
@@ -671,14 +622,12 @@
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
                             <div id="ifa8lh" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/dyanmic.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    Dynamic Health Solutions
+                                <p>Dynamic Health Solutions
                                 </p>
                             </div>
                             <div class="preview">
@@ -691,18 +640,496 @@
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
                             <div id="iwnkjj" class="thumbnail">
-                                <img
-                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" />
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/skyosers.PNG" />
                             </div>
                         </div>
                         <div class="page-body">
                             <div class="title">
-                                <p>
-                                    SkyRose Rejuvenation Clinic & Spa
+                                <p>SkyRose Rejuvenation Clinic & Spa
                                 </p>
                             </div>
                             <div class="preview">
                                 <a href="https://skyrosercs.org/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnkkj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Taylered%20Aesthetics.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Taylered Aesthetics
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://tayleredaesthetics.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnkwj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Flawless%20Med%20Spa%20.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Stay Flawless
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://stayflawless.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwpkjj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/WacoFunctionalmed.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Waco Functional Medicine
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://wacofunctionalmed.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnqjj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Dash%20Medical%20Spa.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>DASH Medical Spa
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://dashmedicalspa.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnsjj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/La%20Bella%20Medical%20Aesthetics.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>La Bella Aesthetics
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://labellaaesthetics.net/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwfkjj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Agingyoungaesthetics.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Aging Young Aesthetics
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://agingyoungaesthetics.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwqkjj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Belladermalogan.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Bella Derma Aesthetics
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://belladermalogan.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnojj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Pureluxmedspa.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Pure Lux Med Spa
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://pureluxmedspa.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnkoj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Gig%20Harbor%20Aesthetics.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Gig Harbor Aesthetics
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://gigharboraesthetics.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnkmj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Rejuvenate%20Tennessee.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Rejuvenate
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://rejuvenate-tennessee.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnajj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Willowmedspa.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Willow Med Spa
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://willowmedspa.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnkdj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Go%20Flawless%20Now.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Go Flawless Now
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://goflawlessnow.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnkdjci" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Prevaaesthetics.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Preva Aesthetics
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://prevaaesthetics.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnkdjch" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Vanityskinaesthetic.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Vanity Aesthetics Lounge
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://vanityskinaesthetic.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwnkdjcha" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Cvillehealthspa.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Health and Wellness Spa
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://cvillehealthspa.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="dental" class="pages">
+            <div class="title1">
+                <h2>
+                    Dental
+                </h2>
+            </div>
+            <div class="row mx-0">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwndjj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Dr%20Brianharris.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Dr. Brian Harris
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://drbrianharris.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwukjj" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/whitewooddental%20.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>White Wood Dental
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://whitewooddental.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="plastic" class="pages">
+            <div class="title1">
+                <h2>
+                    Plastic surgery
+                </h2>
+            </div>
+            <div class="row mx-0">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="i545l" class="thumbnail">
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/grossman.PNG" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Grossman | Capraro Plastic Surgery
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://grossmancapraroplasticsurgery.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="i545l-2" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/astheticcentre.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Aesthetic Center of Plastic Surgery
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://theaestheticcenter.net/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="i545l-3" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/cvfplastic.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Cache Valley Facial Plastics surgery
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://cvfacialplastics.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="academy" class="pages">
+            <div class="title1">
+                <h2>
+                    Academy (Online Courses)
+                </h2>
+            </div>
+            <div class="row mx-0">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-2" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/rum%20academy.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>RUMA Academy
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://rumaacademy.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-3" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/gface_academy.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>GFace Academy
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://gfaceacademy.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-4" class="thumbnail">
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/neos.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Neos Aesthetic Academy
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://neosaestheticacademy.com/" target="_blank">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="izrxnp" class="thumbnail">
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/aurdo.png" />
+                            </div>
+                        </div>
+                        <div class="page-body">
+                            <div class="title">
+                                <p>Audrey Rose Institute Of Medical Aesthetics
+                                </p>
+                            </div>
+                            <div class="preview">
+                                <a href="https://injectinjectables.com/" target="_blank">Preview</a>
                             </div>
                         </div>
                     </div>
@@ -736,6 +1163,7 @@
             padding-bottom: 1em;
             padding-left: 1em;
             background-color: rgba(230, 236, 243, 0.69);
+            box-shadow: rgba(41, 48, 66, 0.1) 0px 0px 2rem 0px;
         }
 
         .col-lg-4 {
@@ -795,7 +1223,8 @@
         }
 
         .page-wrapper .thumbnail img {
-            opacity: 0;
+            opacity: 1;
+            max-width: 100%;
         }
 
         .thumbnail {
@@ -856,6 +1285,71 @@
             text-decoration-color: initial;
         }
 
+        .title1 {
+            margin-top: 1em;
+            margin-right: 0px;
+            margin-bottom: 1em;
+            margin-left: 0px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: rgb(220, 220, 220);
+        }
+
+        .toggle-container {
+            position: sticky;
+            top: 0;
+            background-color: rgba(220, 220, 220, 0.2);
+            display: none;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 10px 10%;
+            z-index: 99999;
+        }
+
+        .toggle-container i {
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .menus {
+            position: sticky;
+            top: 0px;
+            z-index: 5555;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .sticky-menus {
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: rgb(66, 66, 67);
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top: 0px;
+            background-color: rgb(220, 220, 220);
+            z-index: 555;
+            padding-top: 0.5em;
+            padding-right: 1em;
+            padding-bottom: 0.5em;
+            padding-left: 1em;
+        }
+
+        .sticky-menus .item {
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            white-space: nowrap;
+        }
+
+        .sticky-menus .item a {
+            color: rgb(48, 48, 48);
+            font-family: Lato, sans-serif;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
         #iy3wb {
             background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/ruma.png");
         }
@@ -904,10 +1398,6 @@
             background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/GLO%20Aesthetics.PNG");
         }
 
-        #i8fhgg {
-            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Delle%20Chiaie%20Cosmetic%20Medicine.PNG");
-        }
-
         #iopw9i {
             background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Everglow%20Medical%20Aesthetics.PNG");
         }
@@ -952,10 +1442,6 @@
             background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/form%20medspa.png");
         }
 
-        #imyjnx {
-            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/glowcenter.png");
-        }
-
         #i6g698 {
             background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/sa%20flaw%20less.png");
         }
@@ -992,12 +1478,116 @@
             background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/skyosers.PNG");
         }
 
+        #iwnkkj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Taylered%20Aesthetics.png");
+        }
+
+        #iwnkwj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Flawless%20Med%20Spa%20.png");
+        }
+
+        #iwpkjj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/WacoFunctionalmed.png");
+        }
+
+        #iwukjj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/whitewooddental%20.png");
+        }
+
+        #iwnqjj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Dash%20Medical%20Spa.png");
+        }
+
+        #iwnsjj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/La%20Bella%20Medical%20Aesthetics.png");
+        }
+
+        #iwfkjj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Agingyoungaesthetics.png");
+        }
+
+        #iwqkjj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Belladermalogan.png");
+        }
+
+        #iwnojj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Pureluxmedspa.png");
+        }
+
+        #iwnkoj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Gig%20Harbor%20Aesthetics.png");
+        }
+
+        #iwnkmj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Rejuvenate%20Tennessee.png");
+        }
+
+        #iwndjj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Dr%20Brianharris.png");
+        }
+
+        #iwnajj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Willowmedspa.png");
+        }
+
+        #iwnkdj {
+            background-image: url("https://g99plus.b-cdn.net/Landingpages/g99WebsiteTemplatePage/Go%20Flawless%20Now.png");
+        }
+
         @media screen and (max-width: 767px) {
             .pages .page-wrapper {
                 margin-bottom: 2em;
             }
+
+            .toggle-container {
+                display: flex;
+            }
+
+            .menus {
+                position: fixed;
+                top: 0;
+                right: 0;
+                height: 100%;
+                width: 50%;
+                min-width: 280px;
+                transition: all 0.2s linear;
+            }
+
+            .menus.mclose {
+                transform: translateX(100%);
+            }
+
+            .menus.mopen {
+                transform: translateX(0%);
+            }
+
+            .sticky-menus {
+                height: 100%;
+                flex-direction: column;
+            }
         }
     </style>
+    <script>
+        $(document).ready(function () {
+            $(".toggle-container>i").click(
+                function () {
+                    if ($(".menus").hasClass("mopen")) {
+                        $(".menus").removeClass("mopen");
+                        $(".menus").addClass("mclose");
+
+                        $(".toggle-container>i").addClass("fa-bars");
+                        $(".toggle-container>i").removeClass("fa-times");
+                    } else {
+                        $(".menus").removeClass("mclose");
+                        $(".menus").addClass("mopen");
+
+                        $(".toggle-container>i").removeClass("fa-bars");
+                        $(".toggle-container>i").addClass("fa-times");
+                    }
+                }
+            )
+        });
+    </script>
 </body>
 
 </html>
