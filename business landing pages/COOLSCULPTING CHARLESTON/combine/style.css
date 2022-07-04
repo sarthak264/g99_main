@@ -578,14 +578,6 @@ body {
     padding-left: 10px;
 }
 
-@media screen and (min-width: 992px) {
-
-    /* main content */
-    .main-content {
-        margin: 0 14%;
-    }
-}
-
 @media screen and (min-width: 850px) {
 
     /* main content */
@@ -594,6 +586,15 @@ body {
         padding: 3rem 3% 0;
     }
 }
+
+@media screen and (min-width: 992px) {
+
+    /* main content */
+    .main-content {
+        margin: 0 14%;
+    }
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
