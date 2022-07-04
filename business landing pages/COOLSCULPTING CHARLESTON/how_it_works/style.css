@@ -23,6 +23,10 @@ a:hover {
     color: #404040;
 }
 
+span.blue {
+    color: #00b7fb;
+}
+
 img {
     max-width: 100%;
 }
@@ -174,130 +178,6 @@ body {
     left: -5px;
 }
 
-/* hero section */
-/* .hero-section {
-    position: relative;
-}
-
-.hero-section button.abs-btn {
-    position: absolute;
-    left: 20%;
-    top: 30px;
-    white-space: nowrap;
-    font-size: 45px;
-    padding: 20px 40px;
-    transform: translateX(-50%);
-}
-
-.hero-section .hero-content-wrapper {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    background: url('https://g99plus.b-cdn.net/Landingpages/COOLSCULPTING%20CHARLESTON/hero-bg.png') no-repeat;
-    background-size: contain;
-    margin-right: 30px;
-    opacity: 0.95;
-    padding: 1.5rem;
-    width: 580px;
-    padding-right: 40px;
-}
-
-.hero-content-wrapper .side-padding {
-    padding: 0 60px;
-    text-align: center;
-}
-
-.hero-content-wrapper .upper-heading {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 44px;
-    color: #333333;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: -10px;
-}
-
-.hero-content-wrapper .lower-heading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-    font-weight: 500;
-    color: #404040;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.hero-content-wrapper p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: #7a7a7a;
-}
-
-.hero-content-wrapper .blue-btn {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    margin: 5px;
-}
-
-.hero-content-wrapper .dark-blue-btn {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 15px;
-    color: #fff;
-    background: #1E4872;
-    padding: 12px 24px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 3px;
-    outline: none;
-    cursor: pointer;
-} */
-
-/* tile 2 */
-/* .tile-2 {
-    padding: 3rem 55px;
-    border-bottom: 1px solid #f2f2f2;
-}
-
-.tile-2 .custom-row {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.tile-2 .custom-card {
-    text-align: center;
-    width: 30%;
-}
-
-.tile-2 .custom-card.with-margin {
-    margin-right: 5%;
-}
-
-.tile-2 .custom-card .title {
-    font-size: 21px;
-    font-weight: normal;
-    color: #4f4f4f;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 18px;
-}
-
-.tile-2 .custom-card img {
-    margin-bottom: 24px;
-}
-
-.tile-2 .custom-card .blue-btn {
-    margin: 10px;
-}
-
-.tile-2 .custom-card .blue-btn:hover {
-    background: #404040;
-} */
-
 /* main content */
 .main-content {
     padding: 3rem 4.6%;
@@ -425,112 +305,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-/* testimonials */
-/* .testimonials {
-    background: #fafafa url("https://g99plus.b-cdn.net/Landingpages/COOLSCULPTING%20CHARLESTON/testmonials-bg.png") right center no-repeat;
-    padding-left: 8%;
-}
-
-.testimonials .upper-heading {
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 45px;
-    color: #404040;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding-top: 20px;
-}
-
-.testimonials .upper-heading span.smaller {
-    font-size: 20px;
-}
-
-.testimonials ul {
-    padding-left: 20px;
-    margin-bottom: 30px;
-}
-
-.testimonials ul li {
-    list-style: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 300;
-    color: #404040;
-}
-
-.testimonials .badges-container {
-    padding-top: 30px;
-    padding-bottom: 30px;
-} */
-
-/* cta block */
-/* .cta-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #00b7fb;
-    padding: 40px;
-    text-align: center;
-}
-
-.cta-block .cta {
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1;
-    margin: 0;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.cta-block .text-btn {
-    padding: 8px 15px;
-    margin-left: 20px;
-    border: none;
-    border-radius: 7px;
-    font-size: 20px;
-    font-weight: 400;
-    color: #404040;
-    background-color: #fff;
-    text-transform: uppercase;
-    transition: all 0.1s ease-in-out;
-}
-
-.cta-block .text-btn:hover {
-    color: #00b7fb;
-    text-decoration: none;
-} */
-
-/* video section */
-/* .video-section {
-    padding: 55px 0;
-    text-align: center;
-}
-
-.video-section .title {
-    font-size: 21px;
-    font-weight: normal;
-    color: #404040;
-    margin-bottom: 24px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.video-section .video-row {
-    width: 95%;
-    margin: 0 auto;
-    padding: 30px;
-}
-
-.video-section .video-row .video-wrapper {
-    padding: 0;
-}
-
-.video-section .video-wrapper video {
-    max-width: 90%;
-    margin: 0 auto;
-} */
 
 /* contact footer */
 .contact-footer {
@@ -682,76 +456,6 @@ body {
     }
 }
 
-
-/* @media screen and (min-width: 768px) and (max-width: 991px) {
-
-    .tile-2 .custom-card .title {
-        font-size: 26px;
-    }
-
-    .tile-2 .custom-card .blue-btn {
-        width: 100%;
-        padding: 8px 15px;
-    }
-
-    .testimonials .content-wrapper {
-        width: 52%;
-        padding: 0 5%;
-    }
-
-    .testimonials .upper-heading {
-        font-size: 20px;
-        line-height: 22px;
-    }
-
-    .testimonials .upper-heading span.smaller {
-        font-size: 20px;
-    }
-
-    .testimonials .badges-container {
-        display: flex;
-    }
-
-    .testimonials .badges-container img {
-        flex: 1;
-        max-width: 60px;
-    }
-
-    .video-section .video-row .video-wrapper:nth-of-type(1) {
-        display: none;
-    }
-} */
-
-/* @media screen and (max-width: 1200px) {
-
-    .tile-2 {
-        padding: 3rem 4.6%;
-    }
-
-    .cta-block {
-        flex-direction: column;
-    }
-
-    .cta-block .cta {
-        padding-bottom: 30px;
-    }
-} */
-
-/* @media screen and (max-width: 991px) {
-
-    .hero-section .hero-content-wrapper {
-        position: relative;
-        width: auto;
-        margin-right: 0;
-    }
-
-    .hero-section button.abs-btn {
-        right: -10%;
-        top: 20%;
-        left: auto;
-    }
-} */
-
 @media screen and (max-width: 767px) {
 
     /* header */
@@ -797,87 +501,10 @@ body {
         margin-right: 0;
     }
 
-    /* hero section */
-    /* .hero-section button.abs-btn {
-        display: none;
-    }
-
-    .hero-section .hero-content-wrapper {
-        padding: 1.5rem 0;
-    }
-
-    .hero-section .side-padding {
-        padding: 0 4.6%;
-    } */
-
-    /* tile 2 */
-    /* .tile-2 {
-        padding-bottom: 0;
-    }
-
-    .tile-2 .custom-row {
-        flex-direction: column;
-    }
-
-    .tile-2 .custom-card {
-        width: 100%;
-    }
-
-    .tile-2 .custom-card.with-margin {
-        margin-right: 0;
-        margin-bottom: 2.5rem;
-    } */
-
     /* main content */
     iframe {
         height: 375px;
     }
-
-    /* testimonials */
-    /* .testimonials {
-        padding-left: 5%;
-    }
-
-    .testimonials .content-wrapper {
-        padding-bottom: 55px;
-    }
-
-    .testimonials .upper-heading {
-        font-size: 25px;
-        line-height: 28px;
-    }
-
-    .testimonials .upper-heading span.smaller {
-        font-size: 25px;
-        line-height: 28px;
-    }
-
-    .testimonials .badges-container {
-        display: none;
-    } */
-
-    /* cta block */
-    /* .cta-block .text-btn {
-        font-size: 16px;
-    }
-
-    .cta-block .cta {
-        padding-bottom: 15px;
-    } */
-
-    /* video section */
-    /* .video-section .video-row {
-        width: 90%;
-        padding: 0;
-    }
-
-    .video-section .video-row .video-wrapper {
-        padding-bottom: 30px;
-    } */
-
-    /* .video-section .video-wrapper video {
-        max-width: 100%;
-    } */
 
     /* contact footer */
     .contact-footer {
