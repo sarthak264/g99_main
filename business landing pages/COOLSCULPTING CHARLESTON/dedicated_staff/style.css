@@ -262,7 +262,7 @@ body {
     color: #404040;
 }
 
-.main-content .cta-box .blue-btn {
+.main-content .cta-box .right-side a {
     margin-right: 25%;
 }
 
@@ -501,9 +501,13 @@ body {
         padding: 15px;
     }
 
+    .main-content .cta-box .right-side a {
+        margin-right: 0;
+        width: 100%;
+    }
+
     .main-content .cta-box .blue-btn {
         width: 100%;
-        margin-right: 0;
     }
 
     .main-content .custom-row .column {
