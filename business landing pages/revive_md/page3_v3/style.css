@@ -1,0 +1,606 @@
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-16 {
+    font-size: 17px;
+}
+
+.lh-md {
+    line-height: 141%;
+}
+
+.lh-lg {
+    line-height: 200%;
+}
+
+.font-29 {
+    color: #292724;
+}
+
+.font-35 {
+    color: #353535;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    overflow-x: hidden;
+}
+
+.price-btn {
+    padding: 12px 34px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #FFF7F1;
+    text-transform: uppercase;
+    background-color: #9E9D3D;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.big-title {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 140%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.big-title.bronze {
+    color: #9E9D3D;
+}
+
+.big-title.white {
+    color: #fff;
+}
+
+span.thick-brown {
+    color: #9E9D3D;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* navbar */
+.custom-nav {
+    padding: 40px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-nav .left-side {
+    display: flex;
+    align-items: center;
+}
+
+.custom-nav p {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+
+.custom-nav p span.light {
+    font-weight: 200;
+}
+
+.custom-nav .time {
+    padding: 0 32px;
+}
+
+/* tile 1 */
+.tile1 {
+    padding: 150px 0 100px;
+    background: url('https://g99plus.b-cdn.net/Landingpages/revive%20md/page3_v3/tile1-1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tile1 .left-side {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.tile1 .left-side .content-wrapper {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.20);
+    text-align: right;
+    padding: 20px;
+}
+
+.tile1 .left-side .content-wrapper h1.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.tile1 .left-side .content-wrapper p {
+    color: #fff;
+}
+
+.tile1 .right-side .content-wrapper {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.tile1 .right-side .content-wrapper iframe {
+    max-width: 100%;
+}
+
+.tile1 .right-side .price-btn {
+    width: 100%;
+    padding: 20px 35px;
+}
+
+.tile1 p.small-text {
+    font-size: 10px;
+    color: #9E9D3D;
+    margin-bottom: 24px;
+}
+
+/* tile 2 */
+.tile2 {
+    padding: 90px 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+}
+
+.tile2>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tile2 .left-side {
+    align-items: center;
+}
+
+.tile2 p {
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.tile2-1 {
+    filter: grayscale(100%);
+}
+
+/* tile 3 */
+.tile3 {
+    padding: 90px 30px;
+    background: url('https://g99plus.b-cdn.net/Landingpages/revive%20md/page3_v3/tile3-1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.tile3 .big-title {
+    margin-bottom: 40px;
+}
+
+.tile3 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.tile3 ul li {
+    margin-bottom: 30px;
+}
+
+.tile3 ul li:last-of-type {
+    margin-bottom: 0px;
+}
+
+.tile3 ul li p {
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #9E9D3D;
+    padding-bottom: 8px;
+}
+
+/* gallery */
+.gallery {
+    text-align: center;
+    padding: 90px 30px;
+}
+
+.gallery p {
+    max-width: 475px;
+    margin: 0 auto;
+}
+
+.gallery .ba-1 {
+    display: block;
+    margin: 25px auto 40px;
+}
+
+/* tile 5 */
+.tile5 {
+    padding: 120px 0;
+    background: url('https://g99plus.b-cdn.net/Landingpages/revive%20md/page3_v3/tile5-1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tile5 .big-title {
+    margin-bottom: 40px;
+}
+
+.tile5>.row {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.tile5 .left-side .content-wrapper {
+    width: 100%;
+}
+
+.tile5 .left-side .content-wrapper p {
+    color: #fff;
+}
+
+.tile5 .tile5-grp {
+    display: block;
+    margin: 0 auto;
+    mix-blend-mode: luminosity;
+    filter: drop-shadow(0px 2.12593px 10.6296px rgba(0, 0, 0, 0.1));
+}
+
+.tile5 .right-side .content-wrapper {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.tile5 .right-side .content-wrapper iframe {
+    max-width: 100%;
+}
+
+.tile5 .right-side .price-btn {
+    width: 100%;
+    padding: 20px 35px;
+}
+
+.tile5 p.small-text {
+    font-size: 10px;
+    color: #9E9D3D;
+    margin-bottom: 24px;
+}
+
+/* review */
+.review {
+    padding: 200px 30px 150px;
+    overflow: hidden;
+}
+
+.review-wrapper {
+    position: relative;
+    background: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px 20px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.review-wrapper .tile6-bg {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: -999;
+}
+
+.review-wrapper::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    top: 5%;
+    left: -5%;
+    height: 90%;
+    width: 110%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: -9;
+}
+
+.review-wrapper::before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    top: 10%;
+    left: -10%;
+    height: 80%;
+    width: 120%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: -9;
+}
+
+.review-wrapper .top-img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.review-wrapper .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.review-wrapper .subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #9E9D3D;
+}
+
+/* tile 7 */
+.tile7 {
+    padding: 150px 30px;
+    background: url('https://g99plus.b-cdn.net/Landingpages/revive%20md/page3_v3/tile7-1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tile7 .content-wrapper {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.tile7 p {
+    color: #fff;
+}
+
+.tile7 .gap {
+    margin-bottom: 40px;
+}
+
+/* last cta */
+.last-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+
+.last-cta p {
+    margin-bottom: 3px;
+    letter-spacing: 0.5px;
+}
+
+.last-cta .price-btn {
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    /* navbar */
+    .custom-nav {
+        padding: 30px 40px;
+    }
+
+    .custom-nav .phone {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    /* navbar */
+    .custom-nav {
+        gap: 30px;
+    }
+
+    .custom-nav .left-side {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .custom-nav .time {
+        display: none;
+    }
+
+    .custom-nav .phone {
+        display: inline-block;
+    }
+
+    /* tile 1 */
+    .tile1 {
+        padding: 100px 0 70px;
+    }
+
+    /* tile 2 */
+    .tile2 {
+        padding: 60px 30px;
+        column-gap: 50px;
+    }
+
+    /* gallery */
+    .gallery {
+        padding: 60px 30px;
+    }
+
+    /* tile 5 */
+    .tile5 {
+        padding: 90px 0;
+    }
+
+    .tile5 .left-side {
+        padding: 0 30px !important;
+    }
+
+    /* last cta */
+    .last-cta {
+        padding: 60px 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /* navbar */
+    .custom-nav {
+        padding: 30px;
+    }
+
+    /* tile 2 */
+    .tile2 {
+        grid-template-columns: 1fr;
+    }
+
+    .tile2-1 {
+        margin-bottom: 2rem;
+    }
+
+    /* review */
+    .review {
+        padding: 150px 30px 100px;
+    }
+
+    .review-wrapper {
+        margin: 0 10%;
+    }
+
+    /* tile 7 */
+    .tile7 {
+        padding: 100px 30px;
+    }
+
+    /* last cta */
+    .last-cta p {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* navbar */
+    .custom-nav .phone {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* navbar */
+    .custom-nav {
+        padding: 30px 15px;
+        gap: 20px;
+    }
+
+    .custom-nav .price-btn {
+        padding: 12px 20px;
+    }
+
+    .big-title {
+        font-size: 32px;
+        line-height: 120%;
+    }
+
+    /* tile 1 */
+    .tile1 .right-side {
+        padding: 0 20px !important;
+    }
+
+    .tile1 .left-side .content-wrapper {
+        padding-left: 0;
+    }
+
+    /* tile 2 */
+    .tile2 {
+        padding: 40px 20px;
+    }
+
+    .tile2-1 {
+        margin-bottom: 1rem;
+    }
+
+    /* tile 3 */
+    .tile3 {
+        padding: 60px 20px;
+    }
+
+    /* gallery */
+    .gallery {
+        padding: 40px 20px;
+    }
+
+    /* tile 5 */
+    .tile5 {
+        padding: 90px 20px;
+    }
+
+    .tile5 .left-side {
+        padding: 0 !important;
+    }
+
+    .tile5 .big-title {
+        margin-bottom: 24px;
+    }
+
+    /* review */
+
+    .review {
+        padding: 100px 20px 60px;
+    }
+
+    .review-wrapper {
+        margin: 0;
+    }
+
+    .review-wrapper::after {
+        display: none;
+    }
+
+    .review-wrapper::before {
+        display: none;
+    }
+
+    /* tile 7 */
+    .tile7 {
+        padding: 70px 20px;
+    }
+
+    .tile7 .big-title {
+        font-size: 32px;
+        line-height: 120%;
+    }
+
+    /* last cta */
+    .last-cta {
+        padding: 40px 20px;
+    }
+}
