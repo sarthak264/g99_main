@@ -302,11 +302,12 @@ p {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
     font-size: 14px;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
+    color: #4E4244;
 }
 
 .ba-section {
