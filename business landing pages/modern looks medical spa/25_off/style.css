@@ -471,12 +471,6 @@ li {
     padding: 1rem 0;
 }
 
-@media screen and (min-width: 576px) {
-    .ba-section .ba-image {
-        height: 100%;
-    }
-}
-
 @media screen and (min-width: 1200px) {
     .ba-section .ba-image {
         padding: 0;
