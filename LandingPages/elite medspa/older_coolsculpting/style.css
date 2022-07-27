@@ -435,8 +435,14 @@ iframe {
 
 @media screen and (min-width: 768px) {
     .rest-content {
-        width: 65%;
+        width: 85%;
         margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .rest-content {
+        width: 70%;
     }
 }
 
