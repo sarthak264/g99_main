@@ -99,7 +99,7 @@ p {
 }
 
 .contact-form {
-    height: 515px;
+    /* height: 515px; */
     display: flex;
     text-align: center;
     justify-content: center;
@@ -346,18 +346,29 @@ p {
         display: none;
     }
 
+    .wrapper1 {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
     .wrapper1 h3 {
         font-size: 60px;
+        line-height: 110%;
+        margin-bottom: 2rem;
     }
 
     .bg1 {
         min-height: 200px;
-        height: 400px;
+        /* height: 400px; */
     }
 
     .bg4 {
         background-position-x: 100%;
         background-position-y: 50%;
+    }
+
+    .tile5 {
+        margin-top: 10px;
     }
 
     .bg5 {

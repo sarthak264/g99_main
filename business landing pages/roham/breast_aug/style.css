@@ -357,6 +357,11 @@ p {
         padding: 0rem 1rem 3rem;
     }
 
+    .tile4,
+    .tile5 {
+        padding-top: 0;
+    }
+
     .tile8 {
         min-height: auto;
     }
