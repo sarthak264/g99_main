@@ -86,10 +86,10 @@ h3 {
     background-color: #F3EFEA;
 }
 
-.head-logo,
+/* .head-logo,
 .logo-wrapper {
     height: 100%;
-}
+} */
 
 .head .right-side {
     display: flex;
@@ -257,7 +257,7 @@ li {
 }
 
 .footer-logo {
-    max-height: 90px;
+    max-width: 190px;
 }
 
 .upper-footer .icons-wrapper {
@@ -386,10 +386,10 @@ li {
     }
 
     /* head */
-    .head {
+    /* .head {
         max-height: 130px !important;
         height: 130px;
-    }
+    } */
 
     .head img {
         display: inline-block;
@@ -519,7 +519,7 @@ li {
     }
 
     .footer-logo {
-        max-height: 125px;
+        /* max-height: 125px; */
         padding-bottom: 2rem;
     }
 
