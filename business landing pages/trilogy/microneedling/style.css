@@ -221,7 +221,7 @@ p {
 
 .tile4 {
     padding-top: 4em;
-    padding-bottom: 4em;
+    padding-bottom: 3em;
 }
 
 .tile5 p {
@@ -277,6 +277,11 @@ p {
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
+}
+
+.ba-section {
+    padding: 0rem 0 2rem;
+    text-align: center;
 }
 
 @media screen and (min-width: 1400px) {
@@ -391,6 +396,10 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+    .ba-section .ba-image {
+        padding: 1rem 0;
+    }
+
     .head {
         padding-top: 1em !important;
         padding-right: 1em !important;

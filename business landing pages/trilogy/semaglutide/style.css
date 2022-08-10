@@ -270,7 +270,23 @@ p {
     margin-left: 0px;
 }
 
+.ba-section {
+    padding: 3rem 0;
+}
+
+.ba-section h2 {
+    font-family: Righteous, cursive !important;
+}
+
+.ba-image {
+    height: 100%;
+}
+
 @media screen and (max-width: 991px) {
+    .ba-section {
+        padding: 0 0 2rem;
+    }
+
     .bg1 {
         min-height: auto;
     }
@@ -328,6 +344,15 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+    .ba-section {
+        padding: 0 0 1rem;
+    }
+
+    .ba-image.first {
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+
     .head {
         padding-top: 1em !important;
         padding-right: 1em !important;

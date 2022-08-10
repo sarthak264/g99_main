@@ -35,6 +35,10 @@ h3 {
     font-size: 72px !important;
 }
 
+img {
+    max-width: 100%;
+}
+
 .title1 {
     position: absolute;
     bottom: 11em;
@@ -258,6 +262,14 @@ h3 {
     text-align: left;
 }
 
+.ba-section {
+    padding: 3rem 0 0;
+}
+
+.ba-section h2 {
+    font-family: Righteous, cursive !important;
+}
+
 @media screen and (min-width: 1500px) {
     .tile1 {
         padding-top: 0px;
@@ -277,6 +289,10 @@ h3 {
 }
 
 @media screen and (max-width: 991px) {
+    .ba-section {
+        padding: 0 0 0;
+    }
+
     h3 {
         font-style: normal;
         font-weight: normal;
@@ -356,6 +372,15 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
+
+    .ba-section {
+        padding: 1rem 0 0;
+    }
+
+    .ba-image.first {
+        padding-bottom: 2rem;
+    }
+
     .tile1 {
         text-align: left;
     }
