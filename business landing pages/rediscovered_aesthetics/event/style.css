@@ -200,6 +200,7 @@ li {
 }
 
 .tile2 .content2 {
+    position: relative;
     max-width: 420px;
     padding-top: 1em;
     padding-right: 1em;
@@ -209,7 +210,31 @@ li {
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
+    z-index: 9;
 }
+
+.tile2 .content2.first p,
+.tile2 .content2.first li {
+    font-weight: 500;
+}
+
+.tile2 .content2.first::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://g99plus.b-cdn.net/Landingpages/rediscover_aesthetics/events/GSR%20kit-backgrnd.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    z-index: -9;
+}
+
+/* .tile2 .content2 p {
+    color: #fff;
+} */
 
 .content2 .action-btn {
     margin-bottom: 2rem;
@@ -250,6 +275,15 @@ li {
     margin-left: 0px;
 }
 
+.tile3 p.heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p strong {
+    font-weight: 600;
+}
+
 .tile3 .flex {
     display: flex;
     padding-top: 1em;
@@ -270,16 +304,16 @@ li {
 .tile3 .img31 {
     margin-top: -9em;
     margin-right: 3em;
-    background-image: url('https://g99plus.b-cdn.net/Landingpages/rediscover_aesthetics/events/Kit%201.png');
+    /* background-image: url('https://g99plus.b-cdn.net/Landingpages/rediscover_aesthetics/events/Kit%201.png'); */
 }
 
 .tile3 .img32 {
     margin-bottom: -9em;
     margin-left: 2em;
-    background-image: url('https://g99plus.b-cdn.net/Landingpages/rediscover_aesthetics/events/kit%202.png');
+    /* background-image: url('https://g99plus.b-cdn.net/Landingpages/rediscover_aesthetics/events/kit%202.png'); */
 }
 
-.img31,
+/* .img31,
 .img32 {
     width: 300px;
     height: 300px;
@@ -287,7 +321,7 @@ li {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-}
+} */
 
 .tile4 {
     margin-top: 9em;
@@ -354,7 +388,7 @@ li {
 
 @media screen and (min-width: 1024px) {
     .tile3 img {
-        max-width: 300px;
+        max-width: 350px;
     }
 }
 
