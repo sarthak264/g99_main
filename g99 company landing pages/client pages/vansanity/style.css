@@ -1,0 +1,410 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700 !important;
+}
+
+.main {
+    overflow-x: hidden;
+}
+
+.blue-text {
+    color: rgb(36, 171, 226) !important;
+}
+
+.main-logo {
+    max-height: 70px;
+}
+
+.mid-section-img {
+    display: block;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    padding-top: 7rem;
+    padding-right: 0px;
+    padding-bottom: 7rem;
+    padding-left: 0px;
+    max-width: 1350px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.header-content {
+    max-width: 495px;
+}
+
+.header-content .logo {
+    display: block;
+    width: 70%;
+    margin-bottom: 1.5rem;
+}
+
+.header-content .title {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 38px;
+    color: rgb(53, 53, 53);
+    margin-bottom: 20px;
+}
+
+.header-content .description {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(53, 53, 53);
+    margin-bottom: 30px;
+}
+
+.header-content .get-in-touch {
+    padding-top: 15px;
+    padding-right: 45px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    background-color: rgb(36, 171, 226);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+}
+
+.cta {
+    padding-top: 35px;
+    padding-right: 0px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    background-color: rgb(36, 171, 226);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.cta .small {
+    font-weight: 600;
+}
+
+.cta .title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 20px;
+}
+
+.cta .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.contact-section {
+    padding-top: 5rem;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.contact-content .small {
+    font-weight: 600;
+}
+
+.contact-content .title {
+    font-size: 2.125rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    color: rgb(51, 51, 51);
+    margin-bottom: 40px;
+}
+
+.contact-content .description {
+    font-size: 0.9907rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.contact-wrapper .title {
+    font-size: 26px;
+    text-align: center;
+    color: rgb(57, 66, 88);
+    margin-bottom: 20px;
+}
+
+.contact-section .terms {
+    color: rgb(0, 0, 0);
+    margin-bottom: 2.5rem;
+}
+
+.contact-section hr {
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+}
+
+.products {
+    padding-top: 30px;
+}
+
+.products .title {
+    font-size: 1.1875rem;
+    font-weight: 600;
+    line-height: 1.1875rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.products hr {
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+}
+
+.product-card {
+    margin-bottom: 2rem;
+}
+
+.product-card h3 {
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+}
+
+.product-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.trusted-by {
+    padding-top: 2rem;
+    padding-right: 0px;
+    padding-bottom: 2rem;
+    padding-left: 0px;
+    background-color: rgb(237, 236, 237);
+}
+
+.blue-wrapper {
+    padding-top: 35px;
+    padding-right: 0px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    background-color: rgb(36, 171, 226);
+    text-align: center;
+}
+
+.blue-wrapper h2 {
+    font-size: 36px;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.trusted-by .section .heading {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    color: rgb(36, 171, 226);
+    text-align: center;
+    margin-top: 35px;
+    margin-right: 0px;
+    margin-bottom: 35px;
+    margin-left: 0px;
+}
+
+.trusted-by .section .img-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.trusted-by .section .img-grid .img-section {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.footer-section {
+    padding-top: 1.5rem;
+    padding-right: 5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-section p {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding-top: 4rem;
+        padding-right: 0px;
+        padding-bottom: 4rem;
+        padding-left: 0px;
+    }
+
+    .header .header-img {
+        margin-top: 3rem;
+    }
+
+    .cta .title {
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+
+    .contact-section {
+        padding-top: 3rem;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .contact-content .title {
+        margin-bottom: 20px;
+    }
+
+    .trusted-by .section .img-grid .img-section {
+        width: 33%;
+    }
+
+    .footer-section {
+        padding-top: 1rem;
+        padding-right: 3rem;
+        padding-bottom: 1rem;
+        padding-left: 3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding-top: 2rem;
+        padding-right: 0px;
+        padding-bottom: 2rem;
+        padding-left: 0px;
+    }
+
+    .header-content .logo {
+        margin-bottom: 15px;
+    }
+
+    .header-content .title {
+        font-size: 29px;
+        line-height: 38px;
+        margin-bottom: 15px;
+    }
+
+    .header-content .description {
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 30px;
+    }
+
+    .header .header-img {
+        margin-top: 2rem;
+    }
+
+    .cta .title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+
+    .products .title {
+        margin-bottom: 30px;
+    }
+
+    .product-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .trusted-by {
+        padding-top: 1rem;
+        padding-right: 0px;
+        padding-bottom: 1rem;
+        padding-left: 0px;
+    }
+
+    .trusted-by .section .heading {
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .trusted-by .section .img-grid .img-section {
+        width: 50%;
+        margin-bottom: 0px;
+    }
+
+    .footer-section {
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        flex-direction: column;
+    }
+
+    .footer-section .footer-logo {
+        margin-top: 1rem;
+    }
+}
