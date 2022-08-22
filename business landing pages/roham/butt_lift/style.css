@@ -100,7 +100,6 @@ p {
 }
 
 .contact-form {
-    /* height: 515px; */
     display: flex;
     text-align: center;
     justify-content: center;
@@ -134,39 +133,6 @@ p {
 .left3 img {
     max-width: 100%;
     width: 100%;
-}
-
-.bg4 {
-    background-image: url("https://g99plus.b-cdn.net/Group5%20p2%20Cool%20Tone/image%2016.png");
-    min-height: 400px;
-    background-size: cover;
-    width: 100%;
-}
-
-.bg5 {
-    background-image: url("https://g99plus.b-cdn.net/Group5%20p2%20Cool%20Tone/image%2018.png");
-    min-height: 400px;
-    background-size: cover;
-    width: 100%;
-}
-
-.tile4 {
-    margin-top: 150px;
-}
-
-.wrapper4 {
-    min-height: 400px;
-    max-width: 1024px;
-    padding-top: 1em;
-    padding-right: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .wrapper4 p {
@@ -225,7 +191,7 @@ p {
 }
 
 .price-btn {
-    background-color: #000;
+    background-color: rgb(0, 0, 0);
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -242,7 +208,7 @@ p {
 }
 
 .price-btn:hover {
-    background-color: #000 !important;
+    background-color: rgb(0, 0, 0) !important;
     color: rgb(255, 255, 255) !important;
 }
 
@@ -271,12 +237,18 @@ p {
 }
 
 .ba-section {
-    padding: 3rem 0;
+    padding-top: 3rem;
+    padding-right: 0px;
+    padding-bottom: 3rem;
+    padding-left: 0px;
 }
 
 @media screen and (max-width: 991px) {
     .ba-section {
-        padding: 1rem 0 2rem;
+        padding-top: 1rem;
+        padding-right: 0px;
+        padding-bottom: 2rem;
+        padding-left: 0px;
     }
 
     .wrapper1 {
@@ -296,10 +268,6 @@ p {
     .tile5 {
         margin-top: 80px;
     }
-
-    .tile4 {
-        margin-top: 80px;
-    }
 }
 
 @media screen and (min-width: 768px) {
@@ -314,7 +282,7 @@ p {
     }
 
     .action-button button {
-        background-color: #000;
+        background-color: rgb(0, 0, 0);
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
@@ -331,18 +299,24 @@ p {
     }
 
     .action-button button:hover {
-        background-color: #000 !important;
+        background-color: rgb(0, 0, 0) !important;
         color: rgb(255, 255, 255) !important;
     }
 }
 
 @media screen and (max-width: 767px) {
     .ba-section {
-        padding: 1rem 0;
+        padding-top: 1rem;
+        padding-right: 0px;
+        padding-bottom: 1rem;
+        padding-left: 0px;
     }
 
     .ba-section .ba-image {
-        padding: 0.6rem 0;
+        padding-top: 0.6rem;
+        padding-right: 0px;
+        padding-bottom: 0.6rem;
+        padding-left: 0px;
     }
 
     .head {
@@ -364,16 +338,6 @@ p {
         min-height: 200px;
         height: 400px;
     }
-
-    .bg4 {
-        background-position-x: 100%;
-        background-position-y: 50%;
-    }
-
-    .bg5 {
-        background-position-x: 50%;
-        background-position-y: 0%;
-    }
 }
 
 @media screen and (max-width: 575px) {
@@ -383,7 +347,8 @@ p {
 
     .bg1 {
         height: auto;
-        background-position: center center;
+        background-position-x: 50%;
+        background-position-y: 50%;
     }
 
     .tile5 {
