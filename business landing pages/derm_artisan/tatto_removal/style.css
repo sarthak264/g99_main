@@ -231,7 +231,8 @@ p {
 }
 
 .price-btn {
-    background-color: rgb(52, 48, 49);
+    /* background-color: rgb(52, 48, 49); */
+    background-color: #9D4F59;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -247,6 +248,11 @@ p {
     text-transform: uppercase;
 }
 
+.price-btn:hover {
+    background-color: #9D4F59;
+    color: rgb(255, 255, 255) !important;
+}
+
 .price-btn.btn-light {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -259,8 +265,9 @@ p {
 
 .footer {
     height: 100px;
+    padding: 0 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-image: initial;
     background-position-x: initial;
@@ -316,7 +323,8 @@ p {
     }
 
     .action-button button {
-        background-color: rgb(52, 48, 49);
+        /* background-color: rgb(52, 48, 49); */
+        background-color: #9D4F59;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
@@ -330,6 +338,11 @@ p {
         padding-left: 25px;
         font-weight: bold;
         text-transform: uppercase;
+    }
+
+    .action-button button:hover {
+        background-color: #9D4F59;
+        color: rgb(255, 255, 255) !important;
     }
 }
 
@@ -371,5 +384,16 @@ p {
 
     .head .action-button {
         display: none;
+    }
+
+    .footer {
+        height: auto !important;
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .footer img {
+        padding-top: 10px;
     }
 }
