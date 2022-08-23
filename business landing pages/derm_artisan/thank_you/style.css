@@ -20,7 +20,7 @@ body {
 h3,
 span,
 h1 {
-    font-family: Raleway, sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 img {
@@ -33,7 +33,15 @@ p {
     font-size: 16px;
     line-height: 170%;
     color: rgb(78, 66, 68);
-    font-family: Raleway, sans-serif;
+    /* font-family: Raleway, sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .vertical-center {
@@ -43,7 +51,7 @@ p {
 }
 
 .price-btn {
-    background-color: #F43E7C;
+    background-color: #9D4F59;
     /* border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -82,9 +90,10 @@ p {
 }
 
 .footer {
+    padding: 0 50px;
     height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-image: initial;
     background-position-x: initial;
@@ -95,7 +104,7 @@ p {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .footer p {
@@ -103,7 +112,7 @@ p {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    color: #fff;
+    color: #000;
 }
 
 .pos-rel {
@@ -164,16 +173,19 @@ p {
     font-size: 18px;
     line-height: 21px;
     /* color: rgb(78, 66, 68); */
-    color: #000;
+    color: #808080;
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    font-weight: 500;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
-    color: #000;
+    color: #808080;
 }
 
 .ba-section {
@@ -186,12 +198,14 @@ p {
 }
 
 /* new code */
-.font-mon {
-    font-family: 'Montserrat', sans-serif;
+.font-playfair {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Playfair Display', serif;
 }
 
-.font-ub {
-    font-family: 'Ubuntu', sans-serif;
+.font-open {
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* tile 1 */
@@ -204,7 +218,7 @@ p {
     font-size: 75px;
     line-height: 1;
     font-weight: 400;
-    color: #F43E7C;
+    color: #9D4F59;
     margin-bottom: 20px;
 }
 
@@ -346,7 +360,7 @@ p {
     }
 
     .action-button button {
-        background-color: #F43E7C;
+        background-color: #9D4F59;
         /* border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
@@ -470,6 +484,17 @@ p {
 
     .tile2.tile5 {
         padding-top: 1em;
+    }
+
+    .footer {
+        height: auto !important;
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .footer img {
+        padding-top: 10px;
     }
 }
 
