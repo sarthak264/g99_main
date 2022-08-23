@@ -380,6 +380,10 @@ p {
     color: rgb(0, 0, 0);
 }
 
+.logo img {
+    max-height: 80px !important;
+}
+
 .address {
     font-family: Raleway, sans-serif;
     font-style: normal;
