@@ -205,6 +205,10 @@ p {
     color: rgb(0, 0, 0);
 }
 
+.logo img {
+    max-height: 80px !important;
+}
+
 .address {
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -223,9 +227,11 @@ p {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
     font-size: 14px;
+    font-weight: 500;
     line-height: 20px;
+    color: #808080;
     padding-top: 10px;
     margin-bottom: 0px;
 }
