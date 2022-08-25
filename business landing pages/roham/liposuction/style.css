@@ -23,7 +23,8 @@ p {
     font-size: 18px;
     line-height: 200%;
     color: rgb(78, 66, 68);
-    font-family: Poppins, sans-serif !important;
+    /* font-family: Poppins, sans-serif !important; */
+    font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
@@ -31,7 +32,8 @@ h3 {
     font-weight: normal;
     color: rgb(255, 255, 255);
     line-height: 1.5;
-    font-family: Righteous, cursive !important;
+    /* font-family: Righteous, cursive !important; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 72px !important;
 }
 
@@ -152,6 +154,7 @@ img {
 }
 
 .head {
+    background-color: #000;
     height: 130px;
     display: flex;
     align-items: center;
@@ -173,13 +176,17 @@ img {
     color: rgb(0, 0, 0);
 }
 
+div.head .logo img {
+    max-height: 60px !important;
+}
+
 .address {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: rgb(78, 66, 68);
+    color: #fff;
 }
 
 .address p.businessname {
@@ -187,19 +194,20 @@ img {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    color: rgb(78, 66, 68);
+    color: #fff;
     margin-bottom: 0px;
 }
 
 .address p.businessAddress {
     font-size: 14px;
+    color: #fff;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
 }
 
 .price-btn {
-    background-color: rgb(52, 48, 49);
+    background-color: #000;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -240,6 +248,38 @@ img {
     background-origin: initial;
     background-clip: initial;
     background-color: rgb(243, 239, 239);
+}
+
+.upper-footer {
+    background-color: #1c1c1c;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.upper-footer p,
+.upper-footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.upper-footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-footer .map {
+    margin-bottom: 1rem;
+}
+
+.upper-footer p strong {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .footer p {
@@ -346,7 +386,7 @@ img {
     }
 
     .action-button button {
-        background-color: rgb(52, 48, 49);
+        background-color: #96CCCC;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
@@ -381,6 +421,8 @@ img {
         padding-right: 1em !important;
         padding-bottom: 1em !important;
         padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
     }
 
     .head .action-button {

@@ -18,8 +18,10 @@ body {
 }
 
 span,
-h1 {
-    font-family: "Pontano Sans", sans-serif !important;
+h1,
+h2 {
+    /* font-family: "Pontano Sans", sans-serif !important; */
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -27,7 +29,8 @@ img {
 }
 
 p {
-    font-family: "Pontano Sans", sans-serif;
+    /* font-family: "Pontano Sans", sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -252,6 +255,7 @@ p {
 }
 
 .head {
+    background-color: #000;
     height: 130px;
     display: flex;
     align-items: center;
@@ -277,6 +281,10 @@ p {
     color: rgb(0, 0, 0);
 }
 
+div.head .logo img {
+    max-height: 60px !important;
+}
+
 .address {
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -286,22 +294,18 @@ p {
     color: rgb(78, 66, 68);
 }
 
-.logo img {
-    max-width: 120px;
-    max-height: 80px;
-}
-
 .address p.businessname {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    color: rgb(78, 66, 68);
+    color: #fff;
     margin-bottom: 0px;
 }
 
 .address p.businessAddress {
     font-size: 14px;
+    color: #fff;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
@@ -311,6 +315,38 @@ p {
 .ba-section {
     padding: 3rem 1rem 4rem;
     text-align: center;
+}
+
+.upper-footer {
+    background-color: #1c1c1c;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.upper-footer p,
+.upper-footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.upper-footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-footer .map {
+    margin-bottom: 1rem;
+}
+
+.upper-footer p strong {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 @media screen and (min-width: 1500px) {
@@ -454,8 +490,8 @@ p {
         padding-left: 1em;
         justify-content: space-between;
         align-items: center;
-        height: auto;
-        max-height: 100px;
+        height: auto !important;
+        max-height: none !important;
     }
 
     .head .logo {
