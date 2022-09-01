@@ -249,9 +249,10 @@ p {
     flex-direction: column;
     justify-content: center;
     min-height: 890px;
-    background-image: url("https://g99plus.b-cdn.net/Group5%20p1%20BreastLIt/image%209.png");
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/valley_primary_care/thank_you/AdobeStock_141713466.jpeg");
     width: 100%;
     background-size: cover;
+    background-position: left center;
 }
 
 .head {
