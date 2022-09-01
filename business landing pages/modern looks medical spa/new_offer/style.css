@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+h3,
+span,
+h1 {
+    font-family: Popins, sans-serif !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170%;
+    color: rgb(78, 66, 68);
+    font-family: Popins, sans-serif !important;
+}
+
+.content2 {
+    max-width: 500px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.content1 {
+    max-width: 500px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.content1 h1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 130%;
+}
+
+.tile1 .content1 p {
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.tile2 {
+    padding-top: 4em;
+    padding-right: 1em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+}
+
+.tile3 {
+    background-color: rgba(202, 219, 235, 0.286);
+    padding-top: 6em;
+    padding-right: 0px;
+    padding-bottom: 6em;
+    padding-left: 0px;
+    display: block;
+    position: relative;
+}
+
+.tile3::after {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    opacity: 0.1;
+    background-image: url("https://g99plus.b-cdn.net/Group8%20p3/image%209.png");
+}
+
+.tile3 img {
+    max-width: 380px;
+}
+
+.tile3 .img1 {
+    margin: 0 auto;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/modern_looks_medspa/new_offer/Facial%202.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 12% 10%;
+}
+
+.box-shadow {
+    max-width: 80%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(47, 128, 237, 0.15) 0px 0px 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 2em;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-btn {
+    background-color: rgb(52, 48, 49);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-btn.black {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(243, 239, 239);
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.head {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address p.businessAddress {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.ba-section {
+    padding: 2rem 0;
+}
+
+@media screen and (min-width: 1400px) {
+    .img1 img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .price-btn.black {
+        margin-top: 1em;
+    }
+
+    .content2 {
+        margin-bottom: 2em;
+    }
+
+    .content1,
+    .tile3 .img1 {
+        margin-bottom: 2em;
+    }
+
+    .img1 {
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-shadow {
+        max-width: 100%;
+        margin-top: 2em;
+    }
+
+    .content1 h1,
+    .content1 h3 {
+        font-size: 36px;
+    }
+
+    .tile1 .content1 h1 {
+        font-size: 45px;
+    }
+
+    .tile3 img {
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        max-width: 100%;
+    }
+
+    .tile2 {
+        padding-bottom: 0px;
+    }
+
+    .tile4 {
+        padding-bottom: 4em;
+    }
+
+    .tile3 {
+        padding-top: 3em;
+        padding-right: 0px;
+        padding-bottom: 3em;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: rgb(52, 48, 49);
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        height: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .head {
+        padding-top: 1em !important;
+        padding-right: 1em !important;
+        padding-bottom: 1em !important;
+        padding-left: 1em !important;
+    }
+
+    .head .action-button {
+        display: none;
+    }
+
+    .tile1 .content1 h1 {
+        font-size: 35px;
+    }
+
+    .tile1 .content1 p {
+        font-size: 20px;
+    }
+
+    .tile2 {
+        padding-top: 2rem;
+    }
+
+    .tile3 {
+        padding-bottom: 1rem;
+    }
+
+    .ba-section {
+        padding-bottom: 0;
+    }
+
+    .ba-section .ba-image {
+        padding: 0.6rem 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .tile3 .img1 {
+        width: 90%;
+        height: 90vw;
+        /* margin: 0 auto; */
+    }
+}
