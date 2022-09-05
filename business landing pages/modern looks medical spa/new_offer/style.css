@@ -61,7 +61,10 @@ p {
 .tile1 .content1 p {
     font-size: 22px;
     line-height: 150%;
+<<<<<<< HEAD
     color: #35c1c6;
+=======
+>>>>>>> 11235678e80ff5cfdf466e46d935256bc7683907
 }
 
 .tile2 {
