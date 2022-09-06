@@ -184,9 +184,10 @@ div.head .logo img {
 .address p.businessname {
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    color: #fff;
+    font-size: 22px;
+    line-height: 26px;
+    color: #96CCCC;
+    padding-left: 5px;
     margin-bottom: 0px;
 }
 
@@ -291,6 +292,10 @@ div.head .logo img {
         padding-left: 0px;
     }
 
+    .head .action-button {
+        display: none;
+    }
+
     .wrapper1 {
         display: block;
     }
@@ -339,7 +344,7 @@ div.head .logo img {
     }
 
     .action-button button:hover {
-        background-color: rgb(0, 0, 0) !important;
+        background-color: #96CCCC !important;
         color: rgb(255, 255, 255) !important;
     }
 }
@@ -366,10 +371,6 @@ div.head .logo img {
         padding-left: 1em !important;
         height: auto !important;
         max-height: none !important;
-    }
-
-    .head .action-button {
-        display: none;
     }
 
     .wrapper1 h3 {
