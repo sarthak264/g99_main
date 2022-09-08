@@ -29,7 +29,7 @@ p {
 h3 {
     font-style: normal;
     font-weight: normal;
-    color: #fff;
+    color: rgb(78, 66, 68);
     line-height: 1.5;
     text-align: left;
     font-family: Righteous, cursive !important;
@@ -43,7 +43,7 @@ img {
 .title1 {
     position: absolute;
     bottom: 11em;
-    left: 13em;
+    right: 10em;
     color: rgb(255, 255, 255);
 }
 
@@ -307,14 +307,14 @@ img {
         font-style: normal;
         font-weight: normal;
         line-height: 250.19%;
-        color: rgb(255, 255, 255);
+        color: rgb(78, 66, 68);
         font-size: 36px !important;
     }
 
     .title1 {
         position: absolute;
         bottom: 2em;
-        left: 4em;
+        bottom: 4em;
         color: rgb(255, 255, 255);
     }
 
@@ -388,7 +388,7 @@ img {
 
     .title1 {
         bottom: 1.5em;
-        left: 2em;
+        right: 4em;
     }
 
     .left2 {
@@ -465,6 +465,10 @@ img {
 @media screen and (max-width: 480px) {
     .second-tile .left2 p {
         font-size: 22px;
+    }
+
+    .title1 {
+        right: 2em;
     }
 
     h3 {
