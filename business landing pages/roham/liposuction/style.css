@@ -30,7 +30,7 @@ p {
 h3 {
     font-style: normal;
     font-weight: normal;
-    color: rgb(255, 255, 255);
+    color: #000;
     line-height: 1.5;
     /* font-family: Righteous, cursive !important; */
     font-family: 'Open Sans', sans-serif;
@@ -70,15 +70,19 @@ img {
 
 .tile1 {
     padding-top: 0px;
-    padding-right: 2em;
+    padding-right: 0;
     padding-bottom: 0px;
-    padding-left: 2em;
+    padding-left: 0;
     text-align: center;
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
     position: relative;
+}
+
+.tile1 .action-btn {
+    margin-top: 15px;
 }
 
 .tile1 img {
@@ -213,7 +217,7 @@ div.head .logo img {
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    height: 50px;
+    min-height: 50px;
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 10px;
@@ -299,7 +303,7 @@ div.head .logo img {
 }
 
 .ba-section {
-    padding: 4rem 1rem 0rem;
+    padding: 2rem 1rem 0rem;
     text-align: center;
 }
 
@@ -330,12 +334,16 @@ div.head .logo img {
         display: none;
     }
 
+    .contact-form {
+        padding-top: 1rem;
+    }
+
     h3 {
         font-style: normal;
-        font-weight: normal;
-        line-height: 250.19%;
-        color: rgb(255, 255, 255);
-        font-size: 36px !important;
+        font-weight: 600;
+        line-height: 200%;
+        color: #000;
+        font-size: 60px !important;
     }
 
     .title1 {
@@ -362,6 +370,14 @@ div.head .logo img {
 
     .content4 p {
         color: rgb(78, 66, 68);
+    }
+
+    .tile4 {
+        padding-top: 0 !important;
+    }
+
+    .tile4 .content3 {
+        padding-bottom: 2rem;
     }
 
     .tile4 .img-wrapper1 {
@@ -396,7 +412,7 @@ div.head .logo img {
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
         border-bottom-left-radius: 100px;
-        height: 50px;
+        min-height: 50px;
         text-align: center;
         color: rgb(255, 255, 255);
         padding-top: 10px;
@@ -492,5 +508,15 @@ div.head .logo img {
         padding-right: 5px;
         padding-bottom: 0px;
         padding-left: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h3 {
+        font-size: 45px !important;
+    }
+
+    .tile1 .action-btn {
+        margin-top: 0;
     }
 }

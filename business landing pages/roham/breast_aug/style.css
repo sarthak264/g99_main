@@ -58,7 +58,7 @@ p {
 .left1 {
     position: absolute;
     left: 0;
-    top: 30%;
+    top: 20%;
 }
 
 .abs1 {
@@ -90,7 +90,7 @@ p {
     min-height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     max-width: 500px;
     margin-top: 0px;
@@ -124,6 +124,7 @@ p {
     position: absolute;
     top: -4em;
     right: 0px;
+    z-index: -9;
 }
 
 .vertical-center {
@@ -286,6 +287,28 @@ div.head .logo img {
     max-height: 60px !important;
 }
 
+.price-btn {
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-btn:hover {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
 .address {
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -315,7 +338,7 @@ div.head .logo img {
 
 
 .ba-section {
-    padding: 3rem 1rem 4rem;
+    padding: 3rem 0rem 1rem;
     text-align: center;
 }
 
@@ -393,11 +416,15 @@ div.head .logo img {
 
 @media screen and (max-width: 991px) {
     .ba-section {
-        padding: 0rem 1rem 3rem;
+        padding: 0rem 0rem 1rem;
     }
 
     .left1 {
         max-width: none;
+    }
+
+    .head .action-button {
+        display: none;
     }
 
     .tile4,
@@ -471,7 +498,7 @@ div.head .logo img {
         font-family: Raleway, sans-serif !important;
     }
 
-    .left1 h1 {
+    .tile1 h1 {
         font-size: 32px;
         font-weight: 700;
         font-family: Raleway, sans-serif !important;
@@ -485,9 +512,43 @@ div.head .logo img {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: #96CCCC;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        min-height: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .action-button button:hover {
+        background-color: #96CCCC !important;
+        color: rgb(255, 255, 255) !important;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .ba-section .ba-image {
-        padding: 1rem 0;
+        padding: 1rem 0 0;
     }
 
     .head {

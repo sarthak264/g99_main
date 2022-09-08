@@ -54,20 +54,24 @@ p {
     height: 650px;
 }
 
-.wrapper1 h3 {
+.top-right {
+    padding: 0 1rem;
+}
+
+.tile1 h3 {
     font-style: normal;
     font-weight: normal;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 130.19%;
-    color: rgb(255, 255, 255);
+    color: ;
 }
 
 .left1 {
     align-items: center;
     justify-content: center;
-    height: 500px;
-    width: 50%;
-    display: flex;
+    /* height: 500px; */
+    /* width: 50%; */
+    /* display: flex; */
 }
 
 .vertical-center {
@@ -205,7 +209,7 @@ div.head .logo img {
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    height: 50px;
+    min-height: 50px;
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 10px;
@@ -292,6 +296,14 @@ div.head .logo img {
         padding-left: 0px;
     }
 
+    .top-right {
+        padding: 1.5rem 0 0;
+    }
+
+    .tile1 h3 {
+        font-size: 55px;
+    }
+
     .head .action-button {
         display: none;
     }
@@ -332,7 +344,7 @@ div.head .logo img {
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
         border-bottom-left-radius: 100px;
-        height: 50px;
+        min-height: 50px;
         text-align: center;
         color: rgb(255, 255, 255);
         padding-top: 10px;
@@ -373,8 +385,12 @@ div.head .logo img {
         max-height: none !important;
     }
 
-    .wrapper1 h3 {
-        font-size: 60px;
+    .top-right {
+        padding: 1rem 0 0;
+    }
+
+    .tile1 h3 {
+        font-size: 50px;
     }
 
     .bg1 {

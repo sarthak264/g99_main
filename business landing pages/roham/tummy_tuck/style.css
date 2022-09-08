@@ -53,20 +53,22 @@ p {
     height: 650px;
 }
 
-.wrapper1 h3 {
+.tile1 h3 {
     font-style: normal;
     font-weight: normal;
-    font-size: 86.4492px;
-    line-height: 250.19%;
-    color: rgb(255, 255, 255);
+    font-size: 75px;
+    line-height: 150%;
+    color: #000;
 }
 
-.left1 {
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-    width: 50%;
-    display: flex;
+.tile1 .left1 {
+    height: 100%;
+}
+
+.tile1 .left1 img {
+    height: 100%;
+    object-fit: cover;
+    object-position: 10% 50%;
 }
 
 .vertical-center {
@@ -89,15 +91,8 @@ p {
 }
 
 .right1 {
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    justify-content: flex-end;
-    max-width: 420px;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    padding: 2rem 0;
+    max-width: 550px;
 }
 
 .contact-form {
@@ -118,6 +113,10 @@ p {
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
+}
+
+.tile2 {
+    padding-top: 2rem;
 }
 
 .left2 {
@@ -224,7 +223,7 @@ div.head .logo img {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+p.businessAddress {
     font-size: 14px;
     color: #fff;
     line-height: 20px;
@@ -238,7 +237,7 @@ div.head .logo img {
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    height: 50px;
+    min-height: 50px;
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 10px;
@@ -306,7 +305,7 @@ div.head .logo img {
 }
 
 .ba-section {
-    padding: 4rem 0 0rem;
+    padding: 2rem 0 0rem;
     text-align: center;
 }
 
@@ -327,10 +326,6 @@ div.head .logo img {
         width: 100%;
         font-size: 36px;
         height: auto;
-    }
-
-    .right1 {
-        width: 100%;
     }
 
     .tile5 {
@@ -359,7 +354,7 @@ div.head .logo img {
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
         border-bottom-left-radius: 100px;
-        height: 50px;
+        min-height: 50px;
         text-align: center;
         color: rgb(255, 255, 255);
         padding-top: 10px;
@@ -394,7 +389,7 @@ div.head .logo img {
         padding: 2rem 1rem;
     }
 
-    .wrapper1 h3 {
+    .tile1 h3 {
         font-size: 60px;
         line-height: 110%;
         margin-bottom: 2rem;
