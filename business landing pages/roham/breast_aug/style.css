@@ -152,6 +152,7 @@ p {
 
 .tile5 {
     padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 .tile5 .pos2 {
@@ -430,6 +431,10 @@ div.head .logo img {
     .tile4,
     .tile5 {
         padding-top: 0;
+    }
+
+    .tile5 {
+        padding-bottom: 50px;
     }
 
     .tile8 {

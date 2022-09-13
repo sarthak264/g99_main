@@ -89,6 +89,10 @@ img {
     width: 100%;
 }
 
+.tile1 .content3 p {
+    padding-top: 0;
+}
+
 .vertical-center {
     display: flex;
     justify-content: center;
@@ -351,6 +355,10 @@ div.head .logo img {
         bottom: 2em;
         left: 4em;
         color: rgb(255, 255, 255);
+    }
+
+    .tile1 h3 {
+        line-height: 150%;
     }
 
     .mob-only {
