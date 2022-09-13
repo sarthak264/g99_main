@@ -237,6 +237,11 @@ p {
     margin-bottom: 30px;
 }
 
+.ba-section {
+    padding: 2rem 0 1rem;
+    text-align: center;
+}
+
 @media screen and (min-width: 1400px) {
     .img1 img {
         width: 100%;
@@ -339,6 +344,12 @@ p {
 
     .head .action-button {
         display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ba-section .ba-image {
+        padding: 0.5rem 0;
     }
 }
 
