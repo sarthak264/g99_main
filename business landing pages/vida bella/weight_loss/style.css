@@ -277,14 +277,14 @@ button {
 
 .tile12 {
     margin-top: 30px;
-    height: 695px;
+    /* height: 695px; */
     background-image: url("https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%2014.png");
     width: 100%;
     background-size: cover;
 }
 
 .tile12 .contact-form {
-    min-height: 690px;
+    /* min-height: 690px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -690,6 +690,8 @@ img {
         padding-right: 1em !important;
         padding-bottom: 1em !important;
         padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
     }
 
     .head .action-button {
