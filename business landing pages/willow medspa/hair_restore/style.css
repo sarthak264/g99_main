@@ -218,9 +218,25 @@ p {
     padding: 0.5rem 0;
 }
 
+.video-wrapper {
+    padding: 0 0 2rem;
+}
+
+.video-wrapper video.review {
+    display: block;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
 @media screen and (min-width: 1200px) {
     .ba-section .ba-image {
         padding: 1rem 0;
+    }
+
+    .video-wrapper video.review {
+        max-width: 1050px;
     }
 }
 
