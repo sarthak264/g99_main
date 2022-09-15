@@ -1,0 +1,529 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* main classes */
+.yellow-tint {
+    position: relative;
+    background-color: #fff;
+}
+
+.yellow-tint::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 950px;
+    z-index: 0;
+    background-color: #F3EFEA;
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/revive%20md/rev224_v2/dark-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -25% 0%;
+}
+
+.width-wrapper {
+    position: relative;
+    max-width: 1050px;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+.price-btn {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px 0;
+    background-color: #AC968F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+/* top */
+.top {
+    background-color: #332F31;
+    text-align: center;
+    min-height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top p {
+    line-height: 22px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+/* head */
+.head {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(51, 47, 49, 0.15);
+    background-color: #F3EFEA;
+}
+
+/* .head-logo,
+.logo-wrapper {
+    height: 100%;
+} */
+
+.head .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head p,
+.head a {
+    display: flex;
+    column-gap: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #332F31;
+}
+
+.head .price-btn {
+    padding: 10px 20px;
+    margin-left: 30px;
+    background-color: #332F31;
+}
+
+/* tile 1 */
+.tile1 h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 65px;
+    padding: 40px 0;
+}
+
+.tile1 .top-section {
+    position: relative;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3EFEA;
+}
+
+.tile1 .form-wrapper {
+    position: absolute;
+    right: 150px;
+    top: 40px;
+    max-width: 410px;
+    padding: 30px;
+    background-color: #332F31;
+    box-shadow: 0px 8px 20px 0px #00000029;
+    z-index: 999;
+}
+
+.tile1 .form-wrapper p {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.tile1 .form-wrapper h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #fff;
+}
+
+.tile1-1 {
+    width: 100%;
+    min-height: 420px;
+    object-fit: cover;
+}
+
+/* tile 2 */
+.tile2 {
+    position: relative;
+    padding: 100px 0;
+}
+
+.tile2 h2 {
+    font-size: 40px;
+    line-height: 48px;
+    color: #332F31;
+    margin-bottom: 25px;
+}
+
+.tile2 ul {
+    padding: 0;
+    padding-left: 15px;
+    margin-bottom: 24px;
+}
+
+.tile2 p,
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #332F31;
+}
+
+/* tile 3 */
+.tile3 {
+    position: relative;
+}
+
+.tile3-1 {
+    position: absolute;
+    /* object-fit: contain; */
+    max-width: 80%;
+    height: 100%;
+}
+
+.tile3 .review-wrapper {
+    background-color: #fff;
+    padding: 90px 70px;
+    box-shadow: 0px 8px 20px 0px #00000029;
+    margin: 30px 0;
+}
+
+.tile3 .review {
+    font-size: 24px;
+    line-height: 34px;
+    color: #332F31;
+    margin-bottom: 8px;
+}
+
+.tile3 .name {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/* tile 4 */
+.tile4 {
+    padding: 70px 10px;
+}
+
+/* tile 5 */
+.tile5 {
+    padding: 0 0 90px;
+}
+
+.tile5 h2 {
+    font-size: 40px;
+    line-height: 62px;
+    margin-bottom: 20px;
+}
+
+.tile5 p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #332F31;
+    margin-bottom: 24px;
+}
+
+/* upper footer */
+.upper-footer {
+    background-color: #332F31;
+    padding: 60px 50px 80px;
+}
+
+.upper-footer .first-col {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    max-width: 190px;
+}
+
+.upper-footer .icons-wrapper {
+    display: flex;
+    column-gap: 30px;
+}
+
+.upper-footer i {
+    font-size: 24px;
+    color: #F3EFEA;
+}
+
+.upper-footer h3 {
+    font-size: 24px;
+    line-height: 48px;
+    color: #AC968F;
+}
+
+.upper-footer p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+/* lower footer */
+.lower-footer {
+    background-color: #332F31;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 50px;
+    border-top: 1px solid #5A5256;
+}
+
+.lower-footer p {
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* tile 1 */
+    .tile1 .top-section {
+        padding: 0 50px;
+    }
+
+    .tile1 .form-wrapper {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .yellow-tint::after {
+        height: 850px;
+    }
+
+    /* tile 1 */
+    .tile1 .top-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px 40px;
+    }
+
+    .tile1 h1 {
+        padding: 30px 0;
+    }
+
+    .tile1 .form-wrapper {
+        position: relative;
+        top: auto;
+        right: auto;
+        max-width: 500px;
+    }
+
+    .tile1-1 {
+        min-height: 250px;
+        object-position: 20%;
+        /* object-fit: none; */
+    }
+
+    /* tile 2 */
+    .tile2 {
+        padding: 70px 0;
+    }
+
+    /* tile 4 */
+    .tile4 {
+        padding: 50px 10px;
+    }
+
+    /* tile 5 */
+    .tile5 {
+        padding: 0 0 60px;
+    }
+
+    .tile5 h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 14px;
+    }
+
+    .tile5 p {
+        font-size: 15px;
+    }
+
+    /* upper footer */
+    .upper-footer {
+        padding: 40px 20px;
+    }
+
+    .upper-footer>.row>div:nth-of-type(1),
+    .upper-footer>.row>div:nth-of-type(2) {
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .yellow-tint::after {
+        height: 1000px;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    /* head */
+    /* .head {
+        max-height: 130px !important;
+        height: 130px;
+    } */
+
+    .head img {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .head .price-btn {
+        display: none;
+    }
+
+    /* tile 2 */
+    .tile2 {
+        padding: 50px 0;
+    }
+
+    .tile2-1 {
+        padding-top: 2rem;
+    }
+
+    .tile2 .content-wrapper {
+        max-width: 519px;
+        margin: 0 auto;
+    }
+
+    /* tile 3 */
+    .tile3 {
+        background-image: url('https://g99plus.b-cdn.net/Landingpages/revive%20md/rev224/tile3-1.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile3-1 {
+        display: none;
+    }
+
+    /* tile 4 */
+    .tile4 {
+        padding: 40px 10px;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .tile4-1 {
+        padding-bottom: 1rem;
+    }
+
+    /* tile 5 */
+    .tile5 {
+        padding: 0 0 40px;
+    }
+
+    .tile5 .content-wrapper {
+        max-width: 626px;
+        margin: 0 auto;
+    }
+
+    .tile5-1 {
+        padding-top: 2rem;
+    }
+
+    /* upper footer */
+    .upper-footer img {
+        margin: 0;
+    }
+
+    /* lower footer */
+    .lower-footer {
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* head */
+    .head {
+        padding: 15px;
+        column-gap: 30px;
+    }
+
+    .head p span {
+        display: none;
+    }
+
+    /* tile 1 */
+    .tile1 .top-section {
+        align-items: flex-start;
+    }
+
+    .tile1 h1 {
+        font-size: 40px;
+        line-height: 45px;
+        padding: 20px 0 20px;
+    }
+
+    .tile1 .form-wrapper {
+        padding: 20px;
+    }
+
+    /* tile 2 */
+    .tile2 {
+        padding: 40px 0 50px;
+    }
+
+    .tile2 h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    /* tile 3 */
+    .tile3 .review-wrapper {
+        padding: 40px 15px;
+    }
+
+    .tile3 .review {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    /* upper footer */
+    .upper-footer {
+        padding: 40px 0;
+    }
+
+    .footer-logo {
+        /* max-height: 125px; */
+        padding-bottom: 2rem;
+    }
+
+    .upper-footer>.row>div {
+        padding-bottom: 1rem;
+    }
+}
