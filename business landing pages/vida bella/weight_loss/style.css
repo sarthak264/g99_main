@@ -337,11 +337,12 @@ img {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
     font-size: 14px;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
+    color: rgb(78, 66, 68);
 }
 
 .footer {
@@ -392,6 +393,12 @@ img {
     padding-bottom: 2rem;
     padding-left: 0px;
     text-align: center;
+}
+
+.right5 {
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {

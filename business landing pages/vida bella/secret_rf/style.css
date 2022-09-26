@@ -36,6 +36,11 @@ p {
     font-family: Popins, sans-serif !important;
 }
 
+.tile1 {
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/vida_bella/secret%20rf/header-bg.jpeg');
+    background-size: cover;
+}
+
 .content2 {
     max-width: 500px;
     margin-top: 0px;
@@ -96,7 +101,7 @@ p {
     width: 380px;
     height: 380px;
     border-radius: 50%;
-    background-image: url('https://g99plus.b-cdn.net/Landingpages/vida_bella/secret%20rf/secret%20RF%202.jpeg');
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/vida_bella/secret%20rf/AdobeStock_283287515.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 50%;
@@ -220,11 +225,13 @@ p {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
+    font-family: Popins, sans-serif;
     font-size: 14px;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
+    color: rgb(78, 66, 68);
 }
 
 .review {
@@ -241,6 +248,18 @@ p {
     padding: 2rem 0 1rem;
     text-align: center;
 }
+
+/* .ba-section h2 {
+    font-size: 36px;
+    font-weight: 200;
+    text-transform: uppercase;
+} */
+
+/* @media screen and (min-width: 1200px) {
+    .ba-section .ba-image {
+        padding: 0;
+    }
+} */
 
 @media screen and (min-width: 1400px) {
     .img1 img {
@@ -332,6 +351,10 @@ p {
         font-weight: bold;
         text-transform: uppercase;
     }
+
+    .ba-section .ba-image {
+        padding: 1rem 0;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -347,13 +370,17 @@ p {
     .head .action-button {
         display: none;
     }
-}
 
-@media screen and (max-width: 480px) {
     .ba-section .ba-image {
         padding: 0.5rem 0;
     }
 }
+
+/* @media screen and (max-width: 480px) {
+    .ba-section .ba-image {
+        padding: 0.5rem 0;
+    }
+} */
 
 @media screen and (max-width: 480px) {
     .content1 h1 {
