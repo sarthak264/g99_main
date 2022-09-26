@@ -43,7 +43,10 @@ p {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
-    padding: 0 !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
 }
 
 .bg-img {
@@ -99,20 +102,6 @@ p {
 
 .tile2 .contact-form iframe {
     max-width: 100%;
-}
-
-.tile3 {
-    height: 200px;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: rgb(181, 185, 194);
 }
 
 .tile3 .title3 {
@@ -215,10 +204,6 @@ button {
     margin-left: auto;
 }
 
-/* .tile4 {
-    margin-top: -5em;
-} */
-
 .tile4.tile10 {
     margin-top: -5em;
 }
@@ -277,14 +262,12 @@ button {
 
 .tile12 {
     margin-top: 30px;
-    /* height: 695px; */
     background-image: url("https://g99plus.b-cdn.net/group2%20landingpage2%20grey/image%2014.png");
     width: 100%;
     background-size: cover;
 }
 
 .tile12 .contact-form {
-    /* min-height: 690px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -361,33 +344,6 @@ img {
     margin-bottom: 0px;
 }
 
-.price-btn {
-    background-color: rgb(225, 172, 141);
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    height: 50px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 10px;
-    padding-left: 35px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.price-btn.btn-light {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-}
-
-.price-btn.black {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-}
-
 .footer {
     height: 100px;
     display: flex;
@@ -414,18 +370,27 @@ img {
 
 .review {
     margin-bottom: 5px;
-    padding: 0 !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
 }
 
 .reviewer {
     font-weight: 600;
     text-align: right;
     margin-bottom: 30px;
-    padding: 0 !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
 }
 
 .ba-section {
-    padding: 2rem 0 2rem;
+    padding-top: 2rem;
+    padding-right: 0px;
+    padding-bottom: 2rem;
+    padding-left: 0px;
     text-align: center;
 }
 
@@ -561,7 +526,10 @@ img {
 
 @media screen and (max-width: 767px) {
     .ba-section .ba-image {
-        padding: 1rem 0;
+        padding-top: 1rem;
+        padding-right: 0px;
+        padding-bottom: 1rem;
+        padding-left: 0px;
     }
 
     .btn4.no-paddd {

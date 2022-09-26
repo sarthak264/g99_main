@@ -278,21 +278,15 @@ p {
 }
 
 .ba-section {
-    padding: 2rem 0 0;
+    padding: 2rem 0 1rem;
     text-align: center;
 }
 
-.ba-section .ba-image {
-    padding: 0.5rem 0;
-}
-
-@media screen and (min-width: 1200px) {
-    .ba-section .ba-image {
-        padding: 0;
-    }
-}
-
 @media screen and (max-width: 991px) {
+    .ba-section {
+        padding: 1rem 0;
+    }
+
     .left1 {
         width: 100%;
         font-size: 36px;
@@ -355,6 +349,14 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+
+    .ba-section .ba-image {
+        padding-top: 0.5rem;
+        padding-right: 0px;
+        padding-bottom: 0.5rem;
+        padding-left: 0px;
+    }
+
     .wrapper1 {
         display: block;
     }
