@@ -162,17 +162,49 @@ li {
     background-size: cover;
 }
 
+.content2 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://g99plus.b-cdn.net/Landingpages/botaniq_health/emface/Emface_PIC_A013-C033-0801WG_ENUS100-1.jpg');
+    background-size: cover;
+    padding: 2rem;
+}
+
+.last-tile .content2 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('https://g99plus.b-cdn.net/Landingpages/botaniq_health/emface/Emface_PIC_Applicator-energies-1_ENUS100.png');
+}
+
+.content2 p {
+    font-weight: 600;
+    color: rgb(78, 66, 68);
+}
+
 .content3 {
     height: 900px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    max-width: 560px;
+    max-width: 960px;
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
+    text-align: center;
+}
+
+.content3 h3 {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.content3 p {
+    font-weight: 500;
+}
+
+.content3 .action-btn {
+    display: block;
+    margin: 0 auto;
 }
 
 .tile5 {
@@ -341,6 +373,11 @@ li {
     margin-left: 0px;
 }
 
+.ba-section {
+    padding: 2rem 0 1rem;
+    text-align: center;
+}
+
 @media screen and (max-width: 991px) {
     .tile2 {
         padding-top: 0;
@@ -378,6 +415,10 @@ li {
         padding-left: 25px;
         font-weight: bold;
         text-transform: uppercase;
+    }
+
+    .ba-section .ba-image {
+        padding: 1rem 0;
     }
 }
 
@@ -545,5 +586,24 @@ li {
 
     .head .action-button {
         display: none;
+    }
+
+    .ba-section .ba-image {
+        padding: 0.5rem 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ba-section {
+        padding: 1rem 0;
+    }
+
+    .left2 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .content2 {
+        padding: 2rem 1rem;
     }
 }
