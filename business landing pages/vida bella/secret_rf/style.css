@@ -249,18 +249,6 @@ p {
     text-align: center;
 }
 
-/* .ba-section h2 {
-    font-size: 36px;
-    font-weight: 200;
-    text-transform: uppercase;
-} */
-
-/* @media screen and (min-width: 1200px) {
-    .ba-section .ba-image {
-        padding: 0;
-    }
-} */
-
 @media screen and (min-width: 1400px) {
     .img1 img {
         width: 100%;
@@ -375,12 +363,6 @@ p {
         padding: 0.5rem 0;
     }
 }
-
-/* @media screen and (max-width: 480px) {
-    .ba-section .ba-image {
-        padding: 0.5rem 0;
-    }
-} */
 
 @media screen and (max-width: 480px) {
     .content1 h1 {
