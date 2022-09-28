@@ -57,15 +57,21 @@ img {
 .title1 {
     position: absolute;
     bottom: 11em;
-    right: 10em;
+    right: 2em;
+    left: 35%;
     color: rgb(255, 255, 255);
+}
+
+.title1 h3,
+.title1 p {
+    color: #000;
 }
 
 .title1-para {
     max-width: fit-content;
     text-align: left;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .contact-form {
@@ -131,13 +137,13 @@ img {
     padding-top: 100px !important;
 }
 
-.tile3 .img-wrapper1 {
+/* .tile3 .img-wrapper1 {
     width: 80%;
     margin: 0 auto;
-}
+} */
 
 .tile4 .img-wrapper1 {
-    background-image: url("https://g99plus.b-cdn.net/Landingpages/the%20spa%20md/coolsculpt%202%20cropped.jpeg");
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/the%20spa%20md/coolsculpt%202%20cropped%202.jpeg");
     background-position-x: 50%;
     background-position-y: 0%;
     background-repeat-x: initial;
@@ -146,14 +152,14 @@ img {
     background-origin: initial;
     background-clip: initial;
     background-color: initial;
-    height: 760px;
+    height: 460px;
     width: 100%;
     background-size: cover;
 }
 
 .content4 {
-    position: absolute;
-    width: 940px;
+    /* position: absolute; */
+    /* width: 940px; */
     padding-top: 1em;
     padding-right: 1em;
     padding-bottom: 1em;
@@ -167,20 +173,20 @@ img {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgba(13, 12, 17, 0.81);
-    top: 50%;
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    /* top: 50%;
     left: 50%;
     right: 0px;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
 }
 
 .mob-only {
     display: none;
 }
 
-.content4 p {
+/* .content4 p {
     color: rgb(255, 255, 255);
-}
+} */
 
 .head {
     height: 130px;
@@ -345,6 +351,10 @@ img {
         color: rgb(255, 255, 255);
     }
 
+    .title1-para {
+        font-size: 19px;
+    }
+
     .mob-only {
         display: block;
     }
@@ -415,7 +425,8 @@ img {
 
     .title1 {
         bottom: 1.5em;
-        right: 4em;
+        right: 2em;
+        left: 3em;
     }
 
     .left2 {
@@ -483,6 +494,8 @@ img {
 
     .img-wrapper-tile1 img {
         min-height: 400px;
+        object-fit: cover;
+        object-position: 70% 0%;
     }
 
     .tile5 p {
@@ -495,11 +508,21 @@ img {
 
 @media screen and (max-width: 480px) {
     .title1 {
+        left: 2em;
         right: 2em;
+        bottom: 2em;
     }
 
     h3 {
         font-size: 30px !important;
+    }
+
+    .title1 h3 {
+        line-height: 140%;
+    }
+
+    .title1-para {
+        line-height: 170%;
     }
 
     .tile3 .img-wrapper1 {
