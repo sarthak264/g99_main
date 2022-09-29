@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+span,
+h3,
+h2 {
+    /* font-family: Righteous, cursive !important; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    /* font-family: Popins, sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+}
+
+.bg1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://g99plus.b-cdn.net/Landingpages/roham/butt_lift/But%20Lift%20background.jpeg");
+    min-height: 707px;
+    background-size: cover;
+    width: 100%;
+}
+
+.wrapper1 {
+    position: relative;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    display: flex;
+    height: 650px;
+}
+
+.top-right {
+    padding: 0 1rem;
+}
+
+.tile1 h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 130.19%;
+    color: ;
+}
+
+.left1 {
+    align-items: center;
+    justify-content: center;
+    /* height: 500px; */
+    /* width: 50%; */
+    /* display: flex; */
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper1 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 171.19%;
+    max-width: 420px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.right1 {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 420px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.contact-form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.right3 {
+    max-width: 580px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.left2 {
+    max-width: 580px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.left3 img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.wrapper4 p {
+    color: rgb(255, 255, 255);
+}
+
+.tile5 {
+    margin-top: 100px;
+}
+
+.head {
+    background-color: #000;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+div.head .logo img {
+    max-height: 60px !important;
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.address p.businessname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #96CCCC;
+    padding-left: 5px;
+    margin-bottom: 0px;
+}
+
+.address p.businessAddress {
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.price-btn {
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-btn:hover {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.price-btn.btn-light {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.price-btn.black {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.upper-footer {
+    background-color: #1c1c1c;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.upper-footer p,
+.upper-footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.upper-footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-footer .map {
+    margin-bottom: 1rem;
+}
+
+.upper-footer p strong {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.action-btn {
+    margin-top: 1em;
+    margin-right: 0px;
+    margin-bottom: 1em;
+    margin-left: 0px;
+}
+
+.ba-section {
+    padding-top: 2rem;
+    padding-right: 0px;
+    padding-bottom: 1rem;
+    padding-left: 0px;
+    text-align: center;
+}
+
+/* .ba-section {
+    padding: 3rem 0 1rem;
+    text-align: center;
+} */
+
+.ba-section h2 {
+    /* font-size: 36px; */
+    font-weight: 500;
+    /* text-transform: uppercase; */
+}
+
+.ba-section .ba-image {
+    padding: 0.6rem 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .ba-section .ba-image {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* .ba-section {
+        padding-top: 1rem;
+        padding-right: 0px;
+        padding-bottom: 2rem;
+        padding-left: 0px;
+    } */
+
+    .top-right {
+        padding: 1.5rem 0 0;
+    }
+
+    .tile1 h3 {
+        font-size: 55px;
+    }
+
+    .head .action-button {
+        display: none;
+    }
+
+    .wrapper1 {
+        display: block;
+    }
+
+    .left1 {
+        width: 100%;
+        font-size: 36px;
+        height: auto;
+    }
+
+    .right1 {
+        width: 100%;
+    }
+
+    .tile5 {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: #96CCCC;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        min-height: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .action-button button:hover {
+        background-color: #96CCCC !important;
+        color: rgb(255, 255, 255) !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* .ba-section {
+        padding-top: 1rem;
+        padding-right: 0px;
+        padding-bottom: 1rem;
+        padding-left: 0px;
+    }
+
+    .ba-section .ba-image {
+        padding-top: 0.6rem;
+        padding-right: 0px;
+        padding-bottom: 0.6rem;
+        padding-left: 0px;
+    } */
+
+    .head {
+        padding-top: 1em !important;
+        padding-right: 1em !important;
+        padding-bottom: 1em !important;
+        padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .top-right {
+        padding: 1rem 0 0;
+    }
+
+    .tile1 h3 {
+        font-size: 50px;
+    }
+
+    .bg1 {
+        min-height: 200px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .wrapper1 {
+        height: auto;
+    }
+
+    .bg1 {
+        height: auto;
+        background-position-x: 50%;
+        background-position-y: 50%;
+    }
+
+    .tile5 {
+        margin-top: 10px;
+    }
+}
