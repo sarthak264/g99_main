@@ -118,8 +118,8 @@ li {
 
 .content1 h1 {
     font-weight: 500;
-    font-size: 64px;
-    line-height: 160%;
+    font-size: 45px;
+    line-height: 150%;
 }
 
 .tile1 {
@@ -129,6 +129,16 @@ li {
     padding-right: 0px;
     padding-bottom: 8em;
     padding-left: 0px;
+}
+
+.tile1 h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.tile2 {
+    padding: 1rem 0 2rem;
 }
 
 .tile2 h2 {
@@ -162,7 +172,7 @@ li {
 
 .abs1 {
     position: absolute;
-    top: -5em;
+    top: 1em;
     margin-left: -20em;
     background-image: initial;
     background-position-x: initial;
@@ -297,11 +307,13 @@ li {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
+    font-family: Poppins, sans-serif !important;
     font-size: 14px;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
+    color: rgb(78, 66, 68);
 }
 
 .ba-section {
@@ -394,6 +406,8 @@ li {
         padding-right: 1em !important;
         padding-bottom: 1em !important;
         padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
     }
 
     .head .action-button {
@@ -451,10 +465,21 @@ li {
 
 @media screen and (max-width: 480px) {
     .tile1 {
-        padding: 8rem 0 3rem;
+        padding: 5rem 0 3rem;
     }
 
     .tile4 {
         padding: 3rem 0 1rem;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .abs1 {
+        width: 55%;
+        margin-left: -17em;
+    }
+
+    .abs1 img {
+        width: 100%;
     }
 }

@@ -63,13 +63,14 @@ li {
 
 .tagline {
     width: 100%;
-    position: absolute;
-    bottom: 2em;
-    max-width: 463px;
-    padding-top: 30px;
+    /* position: absolute; */
+    /* bottom: 2em; */
+    /* max-width: 463px; */
+    /* padding-top: 30px;
     padding-right: 0px;
-    padding-bottom: 30px;
-    padding-left: 3em;
+    padding-bottom: 30px; */
+    /* padding-left: 3em; */
+    padding: 0;
 }
 
 .tagline h1 {
@@ -79,6 +80,15 @@ li {
     line-height: 140%;
     text-transform: uppercase;
     color: rgb(78, 66, 68);
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.tile1 .offer {
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 650px;
+    /* padding-left: 1rem; */
 }
 
 .contact-form {
@@ -350,11 +360,12 @@ li {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
     font-size: 14px;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
+    color: rgb(78, 66, 68);
 }
 
 .price-btn {
@@ -529,6 +540,8 @@ li {
         padding-right: 1em !important;
         padding-bottom: 1em !important;
         padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
     }
 
     .head .action-button {

@@ -45,23 +45,45 @@ p {
 }
 
 .tile1 {
-    min-height: 550px;
+    min-height: 600px;
     display: flex;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: stretch;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('https://g99plus.b-cdn.net/Landingpages/curate/hormone_therapy/hormone%20backgrnd.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: 33% 0%;
 }
 
 .tile1 .row {
     width: 100%;
 }
 
+.tile1 .row:nth-of-type(2) {
+    padding-bottom: 3rem;
+}
+
+.content0 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+p.offer {
+    font-size: 20px;
+    color: #212529;
+    font-weight: 500;
+    text-align: center;
+}
+
+p>b.bold {
+    font-size: 20px;
+}
+
 .content1 {
-    max-width: 500px;
-    margin-top: 0px;
+    /* max-width: 500px; */
+    margin-top: 2rem;
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
@@ -270,11 +292,13 @@ p {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
+    font-family: Poppins, sans-serif !important;
     font-size: 14px;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
+    color: rgb(78, 66, 68);
 }
 
 @media screen and (min-width: 1400px) {
@@ -286,6 +310,10 @@ p {
 @media screen and (max-width: 991px) {
     .price-btn.black {
         margin-top: 1em;
+    }
+
+    .content0 {
+        padding-top: 2rem;
     }
 
     .content2 {
@@ -375,6 +403,8 @@ p {
         padding-right: 1em !important;
         padding-bottom: 1em !important;
         padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
     }
 
     .head .action-button {
