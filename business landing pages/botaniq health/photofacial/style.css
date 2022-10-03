@@ -139,6 +139,10 @@ li {
     padding-top: 0;
 }
 
+.tile2 .right2 {
+    height: 100%;
+}
+
 .tile2 .contact-form iframe {
     max-width: 100%;
 }

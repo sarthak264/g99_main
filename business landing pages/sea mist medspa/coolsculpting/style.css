@@ -232,6 +232,7 @@ li {
 /* tile 5 */
 .tile5 {
     padding: 0 0 90px;
+    /* position: relative; */
 }
 
 .tile5 h2 {
@@ -245,6 +246,16 @@ li {
     line-height: 24px;
     color: #332F31;
     margin-bottom: 24px;
+}
+
+.yellow-tint>p.small {
+    position: absolute;
+    font-size: 11px;
+    bottom: 1rem;
+    /* left: 90%; */
+    right: 1rem;
+    margin-bottom: 0;
+    white-space: nowrap;
 }
 
 /* upper footer */
@@ -479,6 +490,12 @@ li {
 }
 
 @media screen and (max-width: 480px) {
+
+    /* small */
+    .yellow-tint>p.small {
+        bottom: 0.6rem;
+        right: 1rem;
+    }
 
     /* head */
     .head {
