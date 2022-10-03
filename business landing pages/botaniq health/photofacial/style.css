@@ -172,7 +172,8 @@ li {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('https://g99plus.b-cdn.net/Landingpages/botaniq_health/emface/Emface_PIC_Applicator-energies-1_ENUS100.png');
 }
 
-.content2 p {
+.content2 p,
+.content2 li {
     font-weight: 600;
     color: rgb(78, 66, 68);
 }
@@ -216,7 +217,7 @@ li {
     background-origin: initial;
     background-clip: initial;
     background-color: initial;
-    height: 600px;
+    height: 630px;
     width: 100%;
     background-size: cover;
 }
@@ -232,6 +233,7 @@ li {
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
+    padding-top: 2rem;
 }
 
 .tile4 {
