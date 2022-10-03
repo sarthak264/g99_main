@@ -211,6 +211,7 @@ li {
     right: 0px;
     position: absolute;
     content: "";
+    z-index: -9;
 }
 
 .img1 {
