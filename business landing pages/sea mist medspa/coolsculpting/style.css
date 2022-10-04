@@ -5,6 +5,7 @@
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    color: #373737 !important;
 }
 
 img {
@@ -20,7 +21,7 @@ h3 {
 /* main classes */
 .yellow-tint {
     position: relative;
-    background-color: #F3EFEA;
+    background-color: #fff;
 }
 
 .yellow-tint::after {
@@ -30,8 +31,8 @@ h3 {
     width: 100%;
     height: 950px;
     z-index: 0;
-    background-color: #332F31;
-    background-image: url('https://g99plus.b-cdn.net/Landingpages/revive%20md/rev224/dark-bg.png');
+    background-color: #F3EFEA;
+    /* background-image: url('https://g99plus.b-cdn.net/Landingpages/revive%20md/rev224_v2/dark-bg.png'); */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: -25% 0%;
@@ -48,7 +49,7 @@ h3 {
     width: 100%;
     max-width: 350px;
     padding: 10px 0;
-    background-color: #AC968F;
+    background-color: #9CDBD9;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -103,7 +104,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    color: #332F31;
+    color: #373737;
     white-space: nowrap;
 }
 
@@ -118,7 +119,7 @@ h3 {
     font-weight: 400;
     line-height: 65px;
     padding: 40px 0;
-    color: #332F31;
+    color: #373737;
 }
 
 .tile1 .top-section {
@@ -131,7 +132,7 @@ h3 {
 .tile1 .form-wrapper {
     position: absolute;
     right: 150px;
-    top: 40px;
+    top: 90%;
     max-width: 410px;
     padding: 30px;
     background-color: #fff;
@@ -149,7 +150,7 @@ h3 {
     font-size: 30px;
     font-weight: 400;
     line-height: 40px;
-    color: #332F31;
+    color: #373737;
 }
 
 .tile1-1 {
@@ -167,7 +168,7 @@ h3 {
 .tile2 h2 {
     font-size: 40px;
     line-height: 48px;
-    color: #fff;
+    color: #373737;
     margin-bottom: 25px;
 }
 
@@ -182,7 +183,7 @@ li {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
+    color: #373737;
 }
 
 /* tile 3 */
@@ -301,17 +302,18 @@ li {
 
 /* lower footer */
 .lower-footer {
-    background-color: #332F31;
+    background-color: #9cdbd9;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 50px;
-    border-top: 1px solid #5A5256;
+    /* border-top: 1px solid #5A5256; */
 }
 
 .lower-footer p {
     line-height: 24px;
-    color: #fff;
+    font-weight: 500;
+    color: #fff !important;
     margin-bottom: 0;
 }
 
