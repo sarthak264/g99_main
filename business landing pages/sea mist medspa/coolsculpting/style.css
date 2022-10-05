@@ -220,6 +220,24 @@ li {
     /* margin-bottom: 0; */
 }
 
+/* new tile */
+.new-tile h2 {
+    font-size: 40px;
+    line-height: 48px;
+    color: #373737;
+    margin-bottom: 25px;
+}
+
+.new-tile p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* first new tile */
+.new-first {
+    padding-top: 70px;
+}
+
 /* tile 4 */
 .tile4 {
     padding: 70px 10px;
@@ -232,7 +250,7 @@ li {
 
 /* tile 5 */
 .tile5 {
-    padding: 0 0 90px;
+    padding: 0 0 70px;
     /* position: relative; */
 }
 
@@ -257,6 +275,11 @@ li {
     right: 1rem;
     margin-bottom: 0;
     white-space: nowrap;
+}
+
+/* new second */
+.new-second {
+    padding-bottom: 70px;
 }
 
 /* upper footer */
@@ -542,6 +565,22 @@ li {
     .tile3 .review {
         font-size: 18px;
         line-height: 27px;
+    }
+
+    /* new tile */
+    .new-tile h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    /* new first */
+    .new-first {
+        padding-top: 40px;
+    }
+
+    /* new second */
+    .new-second {
+        padding-bottom: 50px;
     }
 
     /* upper footer */
