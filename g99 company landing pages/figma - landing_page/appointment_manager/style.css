@@ -250,6 +250,16 @@ img {
     margin-right: 1rem;
 }
 
+@media screen and (min-width: 1200px) {
+    .laptop-wrapper .laptop {
+        max-width: 600px;
+    }
+
+    .tile5 .images-wrapper .tile5-1 {
+        max-width: 500px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .left-content .main-content {
         padding-left: 50px;
@@ -390,7 +400,7 @@ img {
     }
 
     .laptop-wrapper {
-        padding: 2rem 0 0;
+        padding: 2rem 0.75rem 0;
     }
 
     /* footer */
