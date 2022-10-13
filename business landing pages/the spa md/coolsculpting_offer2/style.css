@@ -20,21 +20,21 @@ body {
 p {
     font-style: normal;
     font-weight: normal;
-    font-size: 19px;
-    line-height: 170%;
+    font-size: 18px;
+    line-height: 160%;
     color: rgb(78, 66, 68);
     /* font-family: Poppins, sans-serif !important; */
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Hind', sans-serif;
 }
 
 li {
     font-style: normal;
     font-weight: normal;
-    font-size: 19px;
-    line-height: 170%;
+    font-size: 18px;
+    line-height: 160%;
     color: rgb(78, 66, 68);
     /* font-family: Poppins, sans-serif !important; */
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Hind', sans-serif;
 }
 
 h3 {
@@ -45,7 +45,7 @@ h3 {
     text-align: left;
     font-family: Righteous, cursive !important;
     font-family: 'Yeseva One', cursive !important;
-    font-size: 65px !important;
+    font-size: 62px !important;
 }
 
 h2 {
@@ -54,6 +54,17 @@ h2 {
 
 img {
     max-width: 100%;
+}
+
+p>img.coolsculpting-logo {
+    /* display: block; */
+    width: 1.5em !important;
+}
+
+h1>img.coolsculpting-logo,
+h3>img.coolsculpting-logo {
+    width: 0.75em !important;
+    padding-left: 0.1em;
 }
 
 .caption {
@@ -118,6 +129,7 @@ img {
     margin-bottom: 0px;
     margin-left: auto;
     position: relative;
+    text-align: left;
 }
 
 .tile1.first-tile {
@@ -125,9 +137,9 @@ img {
     background-size: cover;
 }
 
-.tile1 img {
+/* .tile1 img {
     width: 100%;
-}
+} */
 
 .vertical-center {
     display: flex;
@@ -142,7 +154,7 @@ img {
     padding-left: 0px;
 }
 
-.content3 p {
+.content3 p:first-of-type {
     padding-top: 45px;
 }
 
@@ -155,7 +167,7 @@ img {
 
 .tile4 {
     position: relative;
-    padding-top: 100px !important;
+    /* padding-top: 100px !important; */
 }
 
 .new-tile {
@@ -208,12 +220,18 @@ img {
 .content4 h3,
 .new-tile1 h3 {
     font-size: 35px !important;
-    line-height: 150%;
+    line-height: 135%;
     text-align: center;
 }
 
 .new-tile1 {
-    padding: 2rem 0 0;
+    padding: 4rem 2rem 2rem;
+}
+
+.new-tile2 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 0 1rem;
 }
 
 .mob-only {
@@ -406,6 +424,27 @@ img {
         font-size: 19px;
     }
 
+    .tile2-1 {
+        padding: 0 2rem;
+    }
+
+    .new-tile1 {
+        padding: 2rem 1rem 0rem;
+    }
+
+    .new-tile1-1 {
+        margin-bottom: 2rem;
+    }
+
+    .new-tile {
+        padding-top: 0;
+    }
+
+    .new-tile2 {
+        max-width: none;
+        padding: 2rem 2rem 2rem;
+    }
+
     .mob-only {
         display: block;
     }
@@ -425,7 +464,7 @@ img {
         width: 100%;
         right: unset;
         transform: unset;
-        margin-top: 40px;
+        margin-top: 10px;
         background-color: transparent;
     }
 
@@ -503,6 +542,10 @@ img {
 
     .head .action-button {
         display: none;
+    }
+
+    .new-tile2 {
+        padding: 1rem 15px 2rem;
     }
 }
 
@@ -582,6 +625,11 @@ img {
         font-size: 30px !important;
     }
 
+    .tile1 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
     .title1 {
         padding-top: 1rem;
     }
@@ -594,11 +642,16 @@ img {
         line-height: 170%;
     }
 
+    .tile2-1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .tile3 .img-wrapper1 {
         width: 100%;
     }
 
     .new-tile1 {
-        padding: 1rem 0 1rem;
+        padding: 1rem 0px 1rem;
     }
 }
