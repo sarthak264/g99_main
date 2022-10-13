@@ -60,15 +60,15 @@ p {
 .tagline {
     width: 100%;
     position: absolute;
-    bottom: 4em;
-    max-width: 463px;
-    left: 4em;
+    top: 6em;
+    max-width: 563px;
+    left: 5em;
 }
 
 .tagline h1 {
     font-style: normal;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 68px;
     line-height: 140%;
     text-transform: uppercase;
     color: rgb(78, 66, 68);
@@ -401,7 +401,28 @@ img {
     align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+    .tagline {
+        left: 2em;
+        max-width: 550px;
+    }
+
+    .tagline h1 {
+        font-size: 57px;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .tagline {
+        max-width: 400px;
+        bottom: 2em;
+        left: 2em;
+    }
+
+    .tagline h1 {
+        font-size: 43px;
+    }
+
     .tile4 {
         padding-left: 2em;
         padding-right: 2em;
@@ -471,10 +492,6 @@ img {
 
     .small-screen {
         display: block;
-    }
-
-    .tagline {
-        bottom: 2em;
     }
 }
 
@@ -546,8 +563,12 @@ img {
         padding-left: 0px;
     }
 
+    .tagline {
+        top: 3em;
+    }
+
     .tagline h1 {
-        font-size: 24px;
+        font-size: 38px;
         font-weight: 400;
     }
 
@@ -677,5 +698,15 @@ img {
 @media screen and (max-width: 480px) {
     .tile4.tile10 {
         margin-top: 3rem;
+    }
+
+    .tagline {
+        max-width: 180px;
+        left: .5em;
+    }
+
+    .tagline h1 {
+        font-size: 25px;
+        font-weight: 400;
     }
 }

@@ -55,7 +55,7 @@ p {
     font-family: Comfortaa, cursive !important;
     font-style: normal;
     font-weight: normal;
-    font-size: 86.4492px;
+    font-size: 105px;
     line-height: 125%;
     /* color: rgb(123, 71, 148); */
     color: #4E4244;
@@ -66,6 +66,7 @@ p {
     justify-content: center;
     height: 500px;
     width: 50%;
+    max-width: 600px;
     display: flex;
 }
 
@@ -301,7 +302,7 @@ p {
     }
 
     .left1 {
-        width: 100%;
+        /* width: 100%; */
         font-size: 36px;
         height: auto;
     }
@@ -370,8 +371,13 @@ p {
         padding-left: 0px;
     }
 
+    .left1 {
+        width: 100%;
+        max-width: 350px;
+    }
+
     .wrapper1 {
-        display: block;
+        height: auto;
     }
 
     .bg1 {
@@ -412,5 +418,11 @@ p {
     .bg5 {
         background-position-x: 50%;
         background-position-y: 0%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper1 h3 {
+        font-size: 46px;
     }
 }
