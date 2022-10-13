@@ -58,11 +58,16 @@ img {
 
 p>img.coolsculpting-logo {
     /* display: block; */
-    width: 1.5em !important;
+    width: .75em !important;
 }
 
-h1>img.coolsculpting-logo,
-h3>img.coolsculpting-logo {
+.tile1 h3>img.coolsculpting-logo {
+    width: 0.5em !important;
+    padding-left: 0.1em;
+}
+
+.tile4 h3>img.coolsculpting-logo,
+.new-tile1 h3>img.coolsculpting-logo {
     width: 0.75em !important;
     padding-left: 0.1em;
 }
