@@ -43,13 +43,22 @@ h3 {
     color: rgb(78, 66, 68);
     line-height: 1.3;
     text-align: left;
-    font-family: Righteous, cursive !important;
-    font-family: 'Yeseva One', cursive !important;
+    font-family: Righteous, cursive;
+    font-family: 'Yeseva One', cursive;
+    font-family: 'Comic Neue', cursive;
     font-size: 62px !important;
+    font-weight: 700;
+}
+
+.content4 h3.smaller-h3 {
+    font-size: 25px !important;
+    padding-bottom: 0.5rem;
 }
 
 h2 {
-    font-family: 'Yeseva One', cursive !important;
+    font-family: 'Yeseva One', cursive;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
 }
 
 img {
@@ -124,7 +133,7 @@ p>img.coolsculpting-logo {
 }
 
 .tile1 {
-    padding-top: 0px;
+    padding-top: 50px;
     padding-right: 2em;
     padding-bottom: 0px;
     padding-left: 2em;
@@ -176,7 +185,7 @@ p>img.coolsculpting-logo {
 }
 
 .new-tile {
-    padding-top: 60px;
+    padding: 60px 0 50px 30px;
 }
 
 .tile3 .img-wrapper1 {
@@ -184,8 +193,14 @@ p>img.coolsculpting-logo {
     margin: 0 auto;
 }
 
+.center-img {
+    display: block;
+    margin: 3rem auto 0;
+    padding: 0 20px;
+}
+
 .tile4 .img-wrapper1 {
-    background-image: url("https://g99plus.b-cdn.net/Landingpages/the%20spa%20md/image%203.jpeg");
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/the%20spa%20md/CoolSculpting%20Elite%20Landing%20page%20photo.JPEG");
     background-position-x: 50%;
     background-position-y: 0%;
     background-repeat-x: initial;
@@ -196,7 +211,9 @@ p>img.coolsculpting-logo {
     background-color: initial;
     height: 460px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .content4 {
@@ -240,6 +257,7 @@ p>img.coolsculpting-logo {
 }
 
 .mob-only {
+    padding: 0;
     display: none;
 }
 
@@ -405,6 +423,10 @@ p>img.coolsculpting-logo {
         margin-left: auto;
     }
 
+    .new-tile {
+        padding-top: 60px;
+    }
+
     .tile1 img {
         max-width: 100%;
     }
@@ -433,6 +455,14 @@ p>img.coolsculpting-logo {
         padding: 0 2rem;
     }
 
+    .new-tile {
+        padding: 50px 0;
+    }
+
+    .tile3 .img-wrapper1 {
+        padding-top: 2rem;
+    }
+
     .new-tile1 {
         padding: 2rem 1rem 0rem;
     }
@@ -451,6 +481,7 @@ p>img.coolsculpting-logo {
     }
 
     .mob-only {
+        padding-top: 2rem;
         display: block;
     }
 
@@ -489,6 +520,10 @@ p>img.coolsculpting-logo {
         background-clip: initial;
         background-color: initial;
         height: auto;
+    }
+
+    .left2 {
+        max-width: none;
     }
 }
 
@@ -605,6 +640,10 @@ p>img.coolsculpting-logo {
         padding-left: 1em;
     }
 
+    .new-tile {
+        padding: 30px 0;
+    }
+
     .img-wrapper-tile1 img {
         min-height: 400px;
         object-fit: cover;
@@ -650,6 +689,11 @@ p>img.coolsculpting-logo {
     .tile2-1 {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .center-img {
+        margin: 2rem auto 1rem;
+        padding: 0 15px;
     }
 
     .tile3 .img-wrapper1 {
