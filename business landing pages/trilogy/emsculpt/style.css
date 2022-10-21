@@ -42,8 +42,13 @@ img {
 .title1 {
     position: absolute;
     bottom: 11em;
-    left: 13em;
+    left: 12em;
     color: rgb(255, 255, 255);
+    max-width: 500px;
+}
+
+.title1 h2 {
+    font-family: Righteous, cursive !important;
 }
 
 .contact-form {
@@ -69,6 +74,7 @@ img {
 .left2 h2 {
     font-family: Righteous, cursive !important;
     margin-bottom: 20px;
+    display: none;
 }
 
 .tile1 {
@@ -301,7 +307,12 @@ img {
         font-size: 36px !important;
     }
 
+    .title1 h2 {
+        font-size: 25px;
+    }
+
     .title1 {
+        max-width: 300px;
         position: absolute;
         bottom: 2em;
         left: 4em;
@@ -433,11 +444,19 @@ img {
         padding-left: 0px;
     }
 
+    .left2 h2 {
+        display: block;
+    }
+
     .content4 {
         padding-top: 0px;
         padding-right: 0px;
         padding-bottom: 0px;
         padding-left: 0px;
+    }
+
+    .title1 h2 {
+        display: none;
     }
 
     .tile1 {
