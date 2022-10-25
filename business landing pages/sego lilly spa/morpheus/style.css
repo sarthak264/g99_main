@@ -357,8 +357,8 @@ p {
 .address p.businessname {
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 24px;
+    line-height: 24px;
     color: rgb(78, 66, 68);
     margin-bottom: 0px;
 }
@@ -409,6 +409,41 @@ p {
     text-align: center;
 }
 
+.upper-footer {
+    background-color: #1c1c1c;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.upper-footer p,
+.upper-footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.upper-footer p.d-flex {
+    column-gap: 10px;
+}
+
+.upper-footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-footer .map {
+    margin-bottom: 1rem;
+}
+
+.upper-footer p strong {
+    font-size: 20px;
+    font-weight: 600;
+}
 
 @media screen and (max-width: 991px) {
     .content41 {
