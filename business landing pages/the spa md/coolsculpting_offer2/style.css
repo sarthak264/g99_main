@@ -403,6 +403,17 @@ p>img.coolsculpting-logo {
     padding-right: 2rem;
 }
 
+.tile5 img {
+    width: auto;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tile5-1 {
+    max-width: 400px;
+}
+
 @media screen and (min-width: 1200px) {
     .ba-section .ba-image {
         padding-top: 0px;
@@ -438,9 +449,10 @@ p>img.coolsculpting-logo {
     h3 {
         font-style: normal;
         font-weight: normal;
-        line-height: 250.19%;
+        line-height: 150.19%;
         color: rgb(78, 66, 68);
-        font-size: 36px !important;
+        font-size: 50px !important;
+        font-weight: 700;
     }
 
     .center-img {
@@ -530,6 +542,11 @@ p>img.coolsculpting-logo {
 
     .left2 {
         max-width: none;
+    }
+
+    .tile5 img {
+        max-width: 100%;
+        padding: 1rem 0;
     }
 }
 
@@ -672,7 +689,9 @@ p>img.coolsculpting-logo {
     } */
 
     h3 {
-        font-size: 30px !important;
+        font-size: 37px !important;
+        font-weight: 700;
+        line-height: 140%;
     }
 
     .tile1 {
