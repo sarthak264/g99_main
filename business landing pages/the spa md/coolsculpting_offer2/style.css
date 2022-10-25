@@ -258,9 +258,14 @@ p>img.coolsculpting-logo {
     padding: 2rem 0 1rem;
 }
 
-.mob-only {
+/* .mob-only {
     padding: 0;
     display: none;
+} */
+
+.mob-only {
+    max-width: 500px;
+    padding-top: 1rem;
 }
 
 /* .content4 p {
@@ -498,11 +503,6 @@ p>img.coolsculpting-logo {
         padding: 2rem 2rem 2rem;
     }
 
-    .mob-only {
-        padding-top: 2rem;
-        display: block;
-    }
-
     .content3-1 {
         padding-top: 30px;
     }
@@ -589,6 +589,11 @@ p>img.coolsculpting-logo {
         right: 2em;
         left: 3em;
     } */
+
+    .mob-only {
+        max-width: 100%;
+        padding-top: 2rem;
+    }
 
     .left2 {
         max-width: 100%;
