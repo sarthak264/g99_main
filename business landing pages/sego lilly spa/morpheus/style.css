@@ -41,6 +41,11 @@ p {
     justify-content: flex-end;
 }
 
+.tile1 img {
+    width: 400px !important;
+    max-width: 400px !important;
+}
+
 .left1 {
     width: 80%;
     background-image: initial;
@@ -65,7 +70,7 @@ p {
 
 .left1-img1 {
     position: relative;
-    margin-left: -7em;
+    margin-left: -9em;
 }
 
 .left1-img2 {
@@ -139,7 +144,7 @@ p {
 
 .abs-left {
     position: absolute;
-    left: -8em;
+    left: -11em;
     top: 10em;
 }
 
@@ -445,7 +450,31 @@ p {
     font-weight: 600;
 }
 
+@media screen and (max-width: 1200px) {
+    .abs-left {
+        left: -12em;
+    }
+
+    .tile1 .abs-left {
+        width: 330px !important;
+    }
+
+    .tile1 .abs-left img {
+        width: 330px !important;
+    }
+}
+
 @media screen and (max-width: 991px) {
+    .tile1 .abs-left {
+        width: auto !important;
+    }
+
+    .tile1 img {
+        width: 100% !important;
+        /* max-width: 100% !important; */
+        /* max-width: none !important; */
+    }
+
     .content41 {
         padding-top: 3em;
     }
