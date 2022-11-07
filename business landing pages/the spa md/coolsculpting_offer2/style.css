@@ -253,6 +253,25 @@ p>img.coolsculpting-logo {
     padding: 4rem 2rem 2rem;
 }
 
+/* .new-tile1-1 {
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+} */
+
+.dissapear-img {
+    padding: 1rem 0 2rem;
+    max-width: 100% !important;
+}
+
+.tile1 .dissapear-img {
+    padding: 1rem 0 2rem;
+}
+
+.main-logos.main-logos-2 img {
+    padding: 0;
+}
+
 .new-tile2 {
     max-width: 900px;
     margin: 0 auto;
@@ -265,8 +284,18 @@ p>img.coolsculpting-logo {
 } */
 
 .mob-only {
+    width: 100%;
     max-width: 500px;
-    padding-top: 1rem;
+}
+
+.mob-only2 {
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/the%20spa%20md/clinic.JPEG');
+    background-size: cover;
+    background-position: center center;
+}
+
+.mob-only2 img {
+    display: none;
 }
 
 /* .content4 p {
@@ -410,7 +439,7 @@ p>img.coolsculpting-logo {
 }
 
 .main-logos img {
-    width: auto;
+    width: 100%;
     max-width: 500px;
     display: block;
     margin: 0 auto;
@@ -549,6 +578,30 @@ p>img.coolsculpting-logo {
         max-width: 100%;
         padding: 1rem 0;
     }
+
+    .main-logos.main-logos-2 img {
+        max-width: 100%;
+        padding: 1rem 0;
+    }
+
+    .ba-section {
+        padding-top: 0rem;
+    }
+
+    .mob-only {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .mob-only2 {
+        /* min-height: 600px; */
+        /* margin: 0 15px; */
+        background-image: none;
+    }
+
+    .mob-only2 img {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -593,7 +646,7 @@ p>img.coolsculpting-logo {
 
     .mob-only {
         max-width: 100%;
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 
     .left2 {
