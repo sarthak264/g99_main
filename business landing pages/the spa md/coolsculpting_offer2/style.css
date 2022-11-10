@@ -20,35 +20,37 @@ body {
 p {
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 160%;
-    color: rgb(78, 66, 68);
-    /* font-family: Poppins, sans-serif !important; */
-    /* font-family: 'Hind', sans-serif; */
-    font-family: 'Comic Neue', cursive;
+    /* color: rgb(78, 66, 68); */
+    color: #002554;
+    /* font-family: 'Comic Neue', cursive; */
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
 li {
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 160%;
-    color: rgb(78, 66, 68);
-    /* font-family: Poppins, sans-serif !important; */
-    /* font-family: 'Hind', sans-serif; */
-    font-family: 'Comic Neue', cursive;
+    /* color: rgb(78, 66, 68); */
+    color: #002554;
+    /* font-family: 'Comic Neue', cursive; */
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
 h3 {
     font-style: normal;
     font-weight: normal;
-    color: rgb(78, 66, 68);
+    /* color: rgb(78, 66, 68); */
+    color: #002554;
     line-height: 1.3;
     text-align: left;
     font-family: 'Comic Neue', cursive;
-    font-size: 62px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px !important;
     font-weight: 700;
 }
 
@@ -59,7 +61,9 @@ h3 {
 
 h2 {
     font-family: 'Comic Neue', cursive;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #002554;
 }
 
 img {
@@ -98,14 +102,14 @@ p>img.coolsculpting-logo {
 
 .title1 h3,
 .title1 p {
-    color: #000;
+    color: #fff;
 }
 
 .title1-para {
     max-width: fit-content;
     text-align: left;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 150%;
 }
 
@@ -128,6 +132,17 @@ p>img.coolsculpting-logo {
     margin-left: auto;
 }
 
+.second-tile .right-side {
+    background-color: #0056aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-tile p {
+    color: #fff;
+}
+
 .second-tile .left2 p {
     font-size: 18px;
     font-weight: 400;
@@ -148,8 +163,34 @@ p>img.coolsculpting-logo {
 }
 
 .tile1.first-tile {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('https://g99plus.b-cdn.net/Landingpages/the%20spa%20md/meet-the-staff-mi-the-spa-md.png');
-    background-size: cover;
+    position: relative;
+    background-color: #0056aa;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.tile1.first-tile>.row {
+    position: relative;
+    z-index: 99;
+}
+
+.tile1.first-tile::after {
+    position: absolute;
+    inset: 0;
+    left: 5.5rem;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/the%20spa%20md/experience-elite-desktop-cropped.png');
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+
+.tile1.first-tile .price-btn {
+    background-color: #fff;
+    color: #0056aa;
 }
 
 /* .tile1 img {
@@ -265,7 +306,11 @@ p>img.coolsculpting-logo {
 }
 
 .tile1 .dissapear-img {
-    padding: 1rem 0 2rem;
+    padding: 2rem 0 0rem;
+}
+
+.main-logos {
+    padding: 2rem 0;
 }
 
 .main-logos.main-logos-2 img {
@@ -289,14 +334,14 @@ p>img.coolsculpting-logo {
 }
 
 .mob-only2 {
-    background-image: url('https://g99plus.b-cdn.net/Landingpages/the%20spa%20md/clinic.JPEG');
-    background-size: cover;
-    background-position: center center;
+    /* background-image: url('https://g99plus.b-cdn.net/Landingpages/the%20spa%20md/clinic.JPEG'); */
+    /* background-size: cover;
+    background-position: center center; */
 }
 
-.mob-only2 img {
+/* .mob-only2 img {
     display: none;
-}
+} */
 
 /* .content4 p {
     color: rgb(255, 255, 255);
@@ -338,7 +383,7 @@ p>img.coolsculpting-logo {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    color: rgb(78, 66, 68);
+    color: #002554;
     margin-bottom: 0px;
 }
 
@@ -350,7 +395,7 @@ p>img.coolsculpting-logo {
 }
 
 .price-btn {
-    background-color: rgb(52, 48, 49);
+    background-color: #0056aa;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -390,7 +435,8 @@ p>img.coolsculpting-logo {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(243, 239, 239);
+    /* background-color: rgb(243, 239, 239); */
+    background-color: #0056aa;
 }
 
 .footer p {
@@ -398,6 +444,7 @@ p>img.coolsculpting-logo {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    color: #fff;
 }
 
 .action-btn {
@@ -485,7 +532,7 @@ p>img.coolsculpting-logo {
         font-style: normal;
         font-weight: normal;
         line-height: 150.19%;
-        color: rgb(78, 66, 68);
+        color: #002554;
         font-size: 50px !important;
         font-weight: 700;
     }
@@ -498,6 +545,14 @@ p>img.coolsculpting-logo {
         /* position: absolute;
         bottom: 4em; */
         color: rgb(255, 255, 255);
+    }
+
+    .tile1.first-tile {
+        padding-bottom: 0px;
+    }
+
+    .tile1.first-tile::after {
+        opacity: 0.4;
     }
 
     .title1-para {
@@ -553,7 +608,7 @@ p>img.coolsculpting-logo {
     }
 
     .content4 p {
-        color: rgb(78, 66, 68);
+        color: #002554;
     }
 
     .tile4 .img-wrapper1 {
@@ -616,7 +671,7 @@ p>img.coolsculpting-logo {
     }
 
     .action-button button {
-        background-color: rgb(52, 48, 49);
+        background-color: #0056aa;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
@@ -697,15 +752,15 @@ p>img.coolsculpting-logo {
     }
 
     .left2 {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
     }
 
-    .tile2-1 {
+    /* .tile2-1 {
         padding-bottom: 1.5rem;
-    }
+    } */
 
     .content4 {
         padding-top: 0px;
@@ -758,6 +813,10 @@ p>img.coolsculpting-logo {
         padding-left: 0;
     }
 
+    .content4 h3 {
+        font-size: 30px !important;
+    }
+
     .title1 {
         padding-top: 1rem;
     }
@@ -785,6 +844,10 @@ p>img.coolsculpting-logo {
     }
 
     .new-tile1 {
-        padding: 1rem 0px 1rem;
+        padding: 1rem 0px 0rem;
+    }
+
+    .main-logos {
+        padding: 1rem 0;
     }
 }
