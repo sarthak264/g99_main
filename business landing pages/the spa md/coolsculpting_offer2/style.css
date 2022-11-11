@@ -70,6 +70,26 @@ img {
     max-width: 100%;
 }
 
+img.coolsculpting-image {
+    width: 100%;
+    max-width: 200px;
+    padding: 0 0 1rem;
+}
+
+.tile1.tile4 .coolsculpting-image {
+    padding: 1rem 0 0;
+}
+
+img.elite-image {
+    width: 100%;
+    max-width: 250px;
+    padding: 0 0 1rem;
+}
+
+.tile1.tile3 .elite-image {
+    padding: 1rem 0 0;
+}
+
 p>img.coolsculpting-logo {
     /* display: block; */
     width: .75em !important;
@@ -130,6 +150,13 @@ p>img.coolsculpting-logo {
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
+}
+
+.left2 .white-bg {
+    padding: 1rem;
+    padding-bottom: 0;
+    background-color: #fff;
+    display: inline-block;
 }
 
 .second-tile .right-side {
@@ -276,11 +303,20 @@ p>img.coolsculpting-logo {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
+    text-align: left;
     /* background-color: rgba(0, 0, 0, 0.9); */
     /* top: 50%;
     left: 50%;
     right: 0px;
     transform: translateX(-50%); */
+}
+
+.content4 ul {
+    text-align: left;
+}
+
+.content4 img {
+    text-align: left;
 }
 
 .content4 h3,
@@ -337,15 +373,16 @@ p>img.coolsculpting-logo {
     /* background-image: url('https://g99plus.b-cdn.net/Landingpages/the%20spa%20md/clinic.JPEG'); */
     /* background-size: cover;
     background-position: center center; */
+    padding-top: 1rem;
 }
 
 /* .mob-only2 img {
     display: none;
 } */
 
-/* .content4 p {
-    color: rgb(255, 255, 255);
-} */
+.content4 p {
+    text-align: center;
+}
 
 .head {
     height: 130px;
@@ -507,7 +544,7 @@ p>img.coolsculpting-logo {
 
 @media screen and (min-width: 1500px) {
     .tile1 {
-        padding-top: 0px;
+        padding-top: 50px;
         padding-right: 5em;
         padding-bottom: 0px;
         padding-left: 5em;
@@ -520,10 +557,6 @@ p>img.coolsculpting-logo {
 
     .new-tile {
         padding-top: 60px;
-    }
-
-    .tile1 img {
-        max-width: 100%;
     }
 }
 
