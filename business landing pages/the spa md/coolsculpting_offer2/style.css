@@ -66,6 +66,18 @@ h2 {
     color: #002554;
 }
 
+h1 sup,
+h2 sup,
+h3 sup {
+    font-size: 40%;
+    /* transform: translateY(20px); */
+    top: -10px;
+}
+
+p sup {
+    font-size: 50%;
+}
+
 img {
     max-width: 100%;
 }
@@ -125,12 +137,27 @@ p>img.coolsculpting-logo {
     color: #fff;
 }
 
+.tile1 .first-tile-1 {
+    display: block;
+    max-width: 215px;
+    padding-bottom: 15px;
+}
+
+.tile1 .first-tile-2 {
+    max-width: 300px;
+    padding-bottom: 10px;
+}
+
 .title1-para {
-    max-width: fit-content;
     text-align: left;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 21px;
     line-height: 150%;
+}
+
+.title1-para span.bigger {
+    font-size: 130%;
+    padding-top: 5px;
 }
 
 .contact-form {
@@ -844,6 +871,14 @@ p>img.coolsculpting-logo {
     .tile1 {
         padding-right: 0;
         padding-left: 0;
+    }
+
+    .tile1 .first-tile-1 {
+        max-width: 70%;
+    }
+
+    .tile1 .first-tile-2 {
+        max-width: 100%;
     }
 
     .content4 h3 {
