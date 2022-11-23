@@ -68,10 +68,15 @@ h2 {
 
 h1 sup,
 h2 sup,
+
 h3 sup {
     font-size: 40%;
     /* transform: translateY(20px); */
     top: -10px;
+}
+
+.title1 h3 sup {
+    top: -25px;
 }
 
 p sup {
