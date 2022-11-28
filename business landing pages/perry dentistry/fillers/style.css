@@ -120,7 +120,7 @@ p.bigger {
 .tile1 {
     position: relative;
     z-index: 1;
-    padding-top: 8em;
+    padding-top: 6em;
     padding-right: 0px;
     padding-bottom: 8em;
     padding-left: 0px;
@@ -302,19 +302,7 @@ p.bigger {
     }
 }
 
-@media screen and (min-width: 576px) {
-    .ba-section .ba-image {
-        height: 100%;
-    }
-}
-
 @media screen and (max-width: 1024px) {
-
-    .img3,
-    .img3 img {
-        height: 100%;
-    }
-
     .content2 {
         padding-top: 0px;
         padding-right: 1em;
@@ -434,8 +422,16 @@ p.bigger {
 }
 
 @media screen and (max-width: 480px) {
+    .tile1 {
+        padding: 0 0 2em;
+    }
+
     .img1 {
         padding: 0;
+    }
+
+    .tile4 {
+        padding-top: 0;
     }
 
     .ba-section {
