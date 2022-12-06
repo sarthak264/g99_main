@@ -341,7 +341,8 @@ button {
 }
 
 .title5 {
-    height: 352px;
+    position: relative;
+    height: 275px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -350,13 +351,15 @@ button {
 }
 
 .title5 p {
-    font-size: 24px;
+    position: absolute;
+    font-size: 34px;
     line-height: 170%;
     color: rgb(255, 255, 255);
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    top: 30%;
 }
 
 .button6 {
@@ -774,6 +777,11 @@ iframe {
         padding-left: 40px;
     }
 
+    .title5 p {
+        top: 25%;
+        font-size: 28px;
+    }
+
     .bg-img {
         height: auto;
         background-image: initial;
@@ -825,5 +833,11 @@ iframe {
 
     .review-wrapper {
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title5 p {
+        top: 20%;
     }
 }
