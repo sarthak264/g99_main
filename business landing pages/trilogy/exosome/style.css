@@ -194,6 +194,13 @@ li {
     padding: 5rem 0 2rem;
 }
 
+.contact-form {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .tile2 .contact-form {
     padding-top: 0px;
     margin-top: 0px;
@@ -414,6 +421,10 @@ button {
     padding-top: 40px;
 }
 
+.last-tile {
+    padding: 1rem 0 3rem;
+}
+
 .tile7 {
     padding-top: 100px;
     padding-right: 130px;
@@ -563,6 +574,16 @@ iframe {
         padding-left: 25px;
         font-weight: bold;
         text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .last-tile {
+        padding: 1rem 0 2rem;
+    }
+
+    .last-tile img {
+        padding: 0 0 1.5rem;
     }
 }
 
