@@ -90,6 +90,11 @@ p {
     line-height: 117.8%;
 }
 
+.tagline p {
+    font-size: 30px;
+    line-height: 150%;
+}
+
 .white p,
 .white h1,
 .white h3 {
@@ -396,6 +401,10 @@ p {
 
     .tagline h1 {
         font-size: 40px;
+    }
+
+    .tagline p {
+        font-size: 24px;
     }
 
     .content3 h3,
