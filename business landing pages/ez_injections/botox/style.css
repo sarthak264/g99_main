@@ -435,3 +435,10 @@ p {
         padding: 1rem 0 0;
     }
 }
+
+@media (max-width: 480px) {
+    .tagline {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
