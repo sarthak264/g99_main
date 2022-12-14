@@ -84,6 +84,14 @@ p {
     color: rgb(78, 66, 68);
 }
 
+p.small-text {
+    font-size: 15px !important;
+}
+
+.golden-text {
+    color: #c4965c;
+}
+
 .tagline h1 {
     font-weight: 100;
     font-size: 72px;
@@ -111,6 +119,7 @@ p {
     font-size: 36px;
     line-height: 151.9%;
     padding-bottom: 0.8em;
+    color: #14191f;
 }
 
 .tile2 p {
@@ -212,6 +221,7 @@ p {
 
 .dark {
     font-weight: 700;
+    color: #c4965c;
 }
 
 .content4 {
@@ -239,7 +249,7 @@ p {
 }
 
 .price-btn {
-    background-color: rgb(16, 18, 20);
+    background-color: #c4965c;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -256,8 +266,8 @@ p {
 }
 
 .price-btn.black {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    color: #fff;
+    background-color: #c4965c;
 }
 
 .footer {
@@ -274,7 +284,7 @@ p {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(243, 239, 239);
+    background-color: #000;
 }
 
 .footer p {
@@ -282,6 +292,8 @@ p {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    font-weight: 500;
+    color: #fff;
 }
 
 .pos-rel {
@@ -373,7 +385,7 @@ p {
     }
 
     .action-button button {
-        background-color: rgb(16, 18, 20);
+        background-color: #c4965c;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
