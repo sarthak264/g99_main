@@ -105,6 +105,7 @@ h3 {
     font-size: 16px;
     font-weight: 500;
     color: #332F31;
+    white-space: nowrap;
 }
 
 .head .price-btn {
