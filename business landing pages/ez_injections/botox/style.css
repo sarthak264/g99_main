@@ -131,6 +131,11 @@ p.small-text {
     font-style: italic;
 }
 
+.tile2 .content4 .bigger {
+    font-size: 120%;
+    padding-top: 1.5em;
+}
+
 .tile2 .action-btn {
     padding-top: 2em;
 }
@@ -142,7 +147,7 @@ p.small-text {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(5, 9, 12);
+    background-color: #c4965c;
     height: 100%;
     background-size: cover;
     background-repeat-x: no-repeat;
@@ -169,7 +174,7 @@ p.small-text {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(5, 9, 12);
+    background-color: #fdfaf6;
     height: 100%;
 }
 
@@ -249,7 +254,7 @@ p.small-text {
 }
 
 .price-btn {
-    background-color: #c4965c;
+    background-color: #000;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -267,7 +272,7 @@ p.small-text {
 
 .price-btn.black {
     color: #fff;
-    background-color: #c4965c;
+    background-color: #000;
 }
 
 .footer {
@@ -284,7 +289,7 @@ p.small-text {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #000;
+    background-color: #fdfaf6;
 }
 
 .footer p {
@@ -292,8 +297,8 @@ p.small-text {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    font-weight: 500;
-    color: #fff;
+    /* font-weight: 500; */
+    color: #000;
 }
 
 .pos-rel {
@@ -311,6 +316,7 @@ p.small-text {
     padding-left: 3em;
     z-index: 2;
     position: relative;
+    /* background-color: #fdfaf6; */
 }
 
 .logo {
@@ -320,6 +326,10 @@ p.small-text {
     font-size: 28px;
     line-height: 21px;
     color: rgb(0, 0, 0);
+}
+
+.logo img {
+    max-height: 80px;
 }
 
 .address {
@@ -385,7 +395,7 @@ p.small-text {
     }
 
     .action-button button {
-        background-color: #c4965c;
+        background-color: #000;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
