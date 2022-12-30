@@ -147,7 +147,7 @@ p.small-text {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #c4965c;
+    background-color: #2E2929;
     height: 100%;
     background-size: cover;
     background-repeat-x: no-repeat;
@@ -174,7 +174,7 @@ p.small-text {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #fdfaf6;
+    background-color: #2E2929;
     height: 100%;
 }
 
@@ -254,7 +254,7 @@ p.small-text {
 }
 
 .price-btn {
-    background-color: #000;
+    background-color: #c4965c;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -272,7 +272,7 @@ p.small-text {
 
 .price-btn.black {
     color: #fff;
-    background-color: #000;
+    background-color: #c4965c;
 }
 
 .footer {
@@ -289,7 +289,7 @@ p.small-text {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #fdfaf6;
+    background-color: #2E2929;
 }
 
 .footer p {
@@ -298,7 +298,7 @@ p.small-text {
     margin-bottom: 0px;
     margin-left: 0px;
     /* font-weight: 500; */
-    color: #000;
+    color: #fff;
 }
 
 .pos-rel {
@@ -395,7 +395,7 @@ p.small-text {
     }
 
     .action-button button {
-        background-color: #000;
+        background-color: #c4965c;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
