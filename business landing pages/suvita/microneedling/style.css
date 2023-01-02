@@ -77,9 +77,9 @@ li {
 
 .tile3 {
     background-color: rgba(202, 219, 235, 0.286);
-    padding-top: 6em;
+    padding-top: 0em;
     padding-right: 0px;
-    padding-bottom: 6em;
+    padding-bottom: 0em;
     padding-left: 0px;
     display: block;
     position: relative;
@@ -95,11 +95,13 @@ li {
     content: "";
     opacity: 0.1;
     background-image: url("https://g99plus.b-cdn.net/Group8%20p3/image%209.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.tile3 img {
+/* .tile3 img {
     max-width: 380px;
-}
+} */
 
 .tile3 .img1 {
     margin-top: 0px;
@@ -233,6 +235,10 @@ li {
     margin-bottom: 0px;
 }
 
+.ba-section {
+    padding: 3rem 0 2rem;
+}
+
 @media screen and (min-width: 1400px) {
     .img1 img {
         width: 100%;
@@ -339,5 +345,13 @@ li {
 
     .head .action-button {
         display: none;
+    }
+
+    .ba-section .ba-image {
+        padding: 0.5rem 0;
+    }
+
+    .ba-section {
+        padding: 3rem 0 0;
     }
 }
