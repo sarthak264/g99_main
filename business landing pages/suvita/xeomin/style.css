@@ -316,6 +316,10 @@ p {
     margin-bottom: 0px;
 }
 
+.ba-section {
+    padding: 3rem 0 2rem;
+}
+
 @media screen and (max-width: 991px) {
     .price-btn.black {
         margin-top: 1em;
@@ -387,5 +391,13 @@ p {
         margin-right: auto;
         margin-bottom: 0px;
         margin-left: auto;
+    }
+
+    .ba-section .ba-image {
+        padding: 0.5rem 0;
+    }
+
+    .ba-section {
+        padding: 2rem 0 0;
     }
 }
