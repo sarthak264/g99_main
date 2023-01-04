@@ -1,0 +1,584 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+h3,
+span {
+    font-family: Poppins, sans-serif !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170%;
+    color: rgb(78, 66, 68);
+    font-family: Poppins, sans-serif !important;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq {
+    cursor: pointer;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item button {
+    color: rgb(0, 0, 0);
+}
+
+.faq-item button:hover {
+    color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.price-btn {
+    background-color: rgb(52, 48, 49);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-btn.black {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #E2D9D8;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.tile2 .content2 {
+    max-width: 500px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.content1 {
+    max-width: 500px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.content1 h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 160%;
+}
+
+.content1 h2 {
+    font-size: 26px;
+}
+
+.tile1 h1,
+.tile1 h2,
+.tile1 h3 {
+    font-family: "Playfair Display", serif;
+}
+
+.tile1 h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 65px;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    color: rgb(55, 55, 55);
+}
+
+.tile1 .top-section {
+    position: relative;
+    padding-top: 0px;
+    padding-right: 150px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile1 .form-wrapper {
+    position: absolute;
+    right: 150px;
+    top: 90%;
+    max-width: 410px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 8px 20px 0px;
+    z-index: 999;
+}
+
+.tile1 .form-wrapper p {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: rgb(51, 47, 49);
+}
+
+.tile1 .form-wrapper h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgb(55, 55, 55);
+}
+
+.tile1-1 {
+    width: 100%;
+    min-height: 420px;
+    object-fit: cover;
+    transform: scaleX(-1);
+}
+
+.tile2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}
+
+.before-and-after {
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}
+
+.before-and-after p {
+    font-style: italic;
+    text-align: center;
+}
+
+.tile3 .content1 {
+    padding-top: 3em;
+    padding-right: 0px;
+    padding-bottom: 3em;
+    padding-left: 0px;
+}
+
+.tile3 .img3,
+.tile3 .img3 img {
+    height: 100%;
+    text-align: center;
+}
+
+.tile4 {
+    padding-top: 4em;
+    padding-right: 0em;
+    padding-bottom: 2em;
+    padding-left: 0em;
+}
+
+.tile7 .content7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile7 .content7 h4 {
+    padding-bottom: 0.75em;
+}
+
+.tile7 ul {
+    list-style-type: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.tile7 ul li {
+    padding-bottom: 0.5em;
+}
+
+.bg-blue {
+    background-color: #E2D9D8;
+}
+
+.tile5 .container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.tile5 {
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/sherisse%20hill%20aesthetic%20derm/filler/unnamed%20(2).png");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+}
+
+.tile5 .testimonials {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.tile5 p.reviewer {
+    font-weight: bold;
+}
+
+.tile5 .card {
+    width: 300px;
+}
+
+.tile6 {
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tile6 .card-body {
+    max-width: 600px;
+}
+
+.tile6 .btn {
+    font-size: 1em;
+}
+
+.head {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address p.businessAddress {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1200px) {
+    .tile1 .top-section {
+        padding-top: 0px;
+        padding-right: 50px;
+        padding-bottom: 0px;
+        padding-left: 50px;
+    }
+
+    .tile1 .form-wrapper {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .img3,
+    .img3 img {
+        height: 100%;
+    }
+
+    .tile2 .content2 {
+        padding-top: 0px;
+        padding-right: 1em;
+        padding-bottom: 0px;
+        padding-left: 1em;
+    }
+
+    .content1 {
+        padding-top: 0px;
+        padding-right: 1em;
+        padding-bottom: 0px;
+        padding-left: 1em;
+    }
+
+    .tile3 .content1 {
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .before-and-after .img {
+        padding-top: 2em;
+    }
+
+    .tile1 .top-section {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+
+    .tile1 h1 {
+        padding-top: 30px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+    }
+
+    .tile1 .form-wrapper {
+        position: relative;
+        top: auto;
+        right: auto;
+        max-width: 500px;
+    }
+
+    .tile1-1 {
+        min-height: 250px;
+        object-position: 100% center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: rgb(52, 48, 49);
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        height: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .head {
+        padding-top: 1em !important;
+        padding-right: 1em !important;
+        padding-bottom: 1em !important;
+        padding-left: 1em !important;
+    }
+
+    .head .action-button {
+        display: none;
+    }
+
+    .content1 h1,
+    .content1 h3 {
+        font-size: 36px;
+    }
+
+    .tile1 {
+        padding-top: 2em;
+        padding-bottom: 0px;
+    }
+
+    .tile1 h1 {
+        font-size: 30px;
+        line-height: 45px;
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    .tile1 .form-wrapper h2 {
+        font-size: 21px;
+    }
+
+    .content1 {
+        padding-top: 2em;
+        padding-right: 0em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+        text-align: center;
+    }
+
+    .tile3 .content1 {
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-bottom: 2em;
+        padding-left: 1em;
+        text-align: unset;
+    }
+
+    .tile5 .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tile5 .card {
+        margin-top: 2em;
+    }
+
+    .tile5 .testimonials {
+        padding-bottom: 0em;
+    }
+
+    .tile4 {
+        padding-bottom: 0em;
+    }
+
+    .tile4 .content1 {
+        padding-top: 2em;
+        padding-right: 0em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+    }
+
+    .tile6 .btn {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tile1 .top-section {
+        align-items: flex-start;
+    }
+
+    .tile1 .form-wrapper {
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .tile6 .btn {
+        font-size: 0.5em;
+    }
+
+    .tile6 h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .tile2 .price-btn {
+        font-size: 0.75em;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .tile5 .card {
+        width: 200px;
+    }
+
+    .tile1 h2 {
+        font-size: 1.5em;
+    }
+}
