@@ -19,7 +19,8 @@ body {
 
 h3,
 span,
-h1 {
+h1,
+h2 {
     font-family: Popins, sans-serif !important;
 }
 
@@ -219,6 +220,10 @@ p {
     margin-bottom: 0px;
 }
 
+.ba-section {
+    padding: 2rem 0 0;
+}
+
 @media screen and (min-width: 1400px) {
     .img1 img {
         width: 100%;
@@ -321,5 +326,13 @@ p {
 
     .head .action-button {
         display: none;
+    }
+
+    .ba-section .ba-image {
+        padding: 0.6rem 0;
+    }
+
+    .ba-section {
+        padding: 2rem 0 0;
     }
 }
