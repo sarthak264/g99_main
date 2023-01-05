@@ -270,6 +270,10 @@ p.small-text {
     text-transform: uppercase;
 }
 
+.big-btn {
+    height: auto;
+}
+
 .price-btn.black {
     color: #fff;
     background-color: #c4965c;
@@ -418,6 +422,8 @@ p.small-text {
         padding-right: 1em !important;
         padding-bottom: 1em !important;
         padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
     }
 
     .head .action-button {
@@ -462,5 +468,13 @@ p.small-text {
     .tagline {
         padding-left: 2em;
         padding-right: 2em;
+    }
+}
+
+@media (max-width: 400px) {
+
+    /* on live page the bottom space will be filled out with contact form */
+    .tagline {
+        top: 0;
     }
 }
