@@ -31,27 +31,83 @@
         </div>
         <div class="menus mclose">
             <div class="sticky-menus">
-                <div class="item">
+                <div class="item item-list">
                     <a href="#" onclick="myFunction('service_specials')">Service Specials</a>
+                    <ul>
+                        <li>
+                            <a href="#" onclick="myFunction('coolsculpting')">Coolsculpting</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('facials')">Facials</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('sculptra')">Sculptra</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('microneedling')">Microneedling</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('PRP_PRF')">PRP/PRF</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('laser_hair_removal')">Laser Hair Removal</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('filler')">Filler</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('botox_dysport')">Botox/Dysport</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('specials')">Specials</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('iv_therapy')">IV Therapy</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="item">
                     <a href="#" onclick="myFunction('membership')">Membership</a>
                 </div>
-                <div class="item">
+                <div class="item item-list">
                     <a href="#" onclick="myFunction('holidays')">Holidays</a>
+                    <ul>
+                        <li>
+                            <a href="#" onclick="myFunction('thanksgiving')">Thanksgiving</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('christmas')">Christmas</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('halloween')">Halloween</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item item-list">
+                    <a href="#" onclick="myFunction('sale_days')">Saledays</a>
+                    <ul>
+                        <li>
+                            <a href="#" onclick="myFunction('black_friday')">Black Friday</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="myFunction('cyber-monday')">Cyber-Monday</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div id="service_specials" class="pages">
             <div class="title1">
-                <h2>Service Specials</h2>
+                <h2>Service Specials
+                </h2>
             </div>
-            <h3>Coolsculpting</h3>
+            <h3 id="coolsculpting">Coolsculpting
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/coolsculpting/coolsculpting-03.png" />
                             </div>
@@ -61,7 +117,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-2" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/coolsculpting/coolsculpting-3.png" />
                             </div>
@@ -71,7 +127,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-3" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/coolsculpting/coolsculpting.png" />
                             </div>
@@ -81,7 +137,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-4" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/coolsculpting/the-spa-md-coolsculpting.png" />
                             </div>
@@ -91,7 +147,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-5" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/coolsculpting/thebeautyhut%20ads%20CoolSculpting%20%202.png" />
                             </div>
@@ -101,7 +157,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-6" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/coolsculpting/thebeautyhut%20ads%20CoolSculpting%20.png" />
                             </div>
@@ -111,7 +167,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-7" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/coolsculpting/trilogy-coolsculpting-01.png" />
                             </div>
@@ -121,7 +177,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-8" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/coolsculpting/trilogy-coolsculpting-02.png" />
                             </div>
@@ -131,7 +187,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-9" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/coolsculpting/trilogy-coolsculpting-03.png" />
                             </div>
@@ -141,7 +197,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-10" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/coolsculpting/trilogy-coolsculpting.png" />
                             </div>
@@ -149,12 +205,13 @@
                     </div>
                 </div>
             </div>
-            <h3>Facials</h3>
+            <h3 id="facials">Facials
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-11" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/357679826-hydrafacialkeravive_treatment_3.jpg" />
                             </div>
@@ -164,7 +221,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-12" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/Acne-Facial.png" />
                             </div>
@@ -174,7 +231,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-13" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/curate%20md%20skinbar%20facial%2001.png" />
                             </div>
@@ -184,7 +241,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-14" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/facial-of-the-month.png" />
                             </div>
@@ -194,7 +251,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-15" onclick="loadModal(event)" class="thumbnail">
                                 <img src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/facial.png" />
                             </div>
                         </div>
@@ -203,7 +260,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-16" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/Facial456.png" />
                             </div>
@@ -213,7 +270,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-17" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/Hydrafacial.png" />
                             </div>
@@ -223,7 +280,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-18" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/Hydrafacial43.png" />
                             </div>
@@ -233,7 +290,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-19" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/MD%20Beauty%20Spa%20custom%20facial%2001.png" />
                             </div>
@@ -243,7 +300,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-20" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/MD%20Beauty%20Spa%20custom%20facial%2002.png" />
                             </div>
@@ -253,7 +310,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-21" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/sevid-hydrafacial.png" />
                             </div>
@@ -263,7 +320,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-22" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/skin-confident-Signature-Facial-1.png" />
                             </div>
@@ -273,7 +330,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-23" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/facial/tea-facial.png" />
                             </div>
@@ -281,12 +338,13 @@
                     </div>
                 </div>
             </div>
-            <h3>Sculptra</h3>
+            <h3 id="sculptra">Sculptra
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-24" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/sculptra/Fresh%20aesthetics%20%20sculptra%2001.png" />
                             </div>
@@ -296,7 +354,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-25" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/sculptra/Fresh%20aesthetics%20%20sculptra%2002.png" />
                             </div>
@@ -306,7 +364,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-26" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/sculptra/method%20%20Sculptra%20and%20filler%2001.png" />
                             </div>
@@ -316,7 +374,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-27" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/sculptra/method%20%20Sculptra%20and%20filler%2002.png" />
                             </div>
@@ -326,7 +384,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-28" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/sculptra/sculptra.png" />
                             </div>
@@ -334,12 +392,13 @@
                     </div>
                 </div>
             </div>
-            <h3>Microneedling</h3>
+            <h3 id="microneedling">Microneedling
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-29" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/ella%20Micropen%20Microneedling%202.png" />
                             </div>
@@ -349,7 +408,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-30" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/ella%20Micropen%20Microneedling.png" />
                             </div>
@@ -359,7 +418,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-31" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Euro%20Looks%20Ad%20Microneedling%202.png" />
                             </div>
@@ -369,7 +428,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-32" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Euro%20Looks%20Ad%20Microneedling.png" />
                             </div>
@@ -379,7 +438,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-33" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Halina%20%20Microneedling%20%202.png" />
                             </div>
@@ -389,7 +448,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-34" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Halina%20%20Microneedling%2002.png" />
                             </div>
@@ -399,7 +458,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-35" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Halina%20%20Microneedling.png" />
                             </div>
@@ -409,7 +468,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-36" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/methods%20ads%20vivace%20microneedling%202.png" />
                             </div>
@@ -419,7 +478,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-37" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/methods%20ads%20vivace%20microneedling.png" />
                             </div>
@@ -429,7 +488,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-38" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Microneedling%20%20(1).png" />
                             </div>
@@ -439,7 +498,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-39" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Microneedling-05-e.jpg" />
                             </div>
@@ -449,7 +508,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-40" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Microneedling-2.png" />
                             </div>
@@ -459,7 +518,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-41" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/MicroNeedling.png" />
                             </div>
@@ -469,7 +528,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-42" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Mivaglo%20Microneedling%202.png" />
                             </div>
@@ -479,7 +538,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-43" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Mivaglo%20Microneedling.png" />
                             </div>
@@ -489,7 +548,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-44" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Trilogy%20microneedling%201.png" />
                             </div>
@@ -499,7 +558,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-45" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Trilogy%20microneedling%202.png" />
                             </div>
@@ -509,7 +568,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-46" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/microneedling/Vivace-Microneedling.png" />
                             </div>
@@ -517,12 +576,13 @@
                     </div>
                 </div>
             </div>
-            <h3>PRP/PRF</h3>
+            <h3 id="PRP_PRF">PRP/PRF
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-47" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/prp-prf/key%20wellness%20PRP%2001%20.png" />
                             </div>
@@ -532,7 +592,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-48" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/prp-prf/key%20wellness%20PRP%2002.png" />
                             </div>
@@ -542,7 +602,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-49" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/prp-prf/PRP-Injections.png" />
                             </div>
@@ -552,7 +612,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-50" onclick="loadModal(event)" class="thumbnail">
                                 <img src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/prp-prf/prp-prf.png" />
                             </div>
                         </div>
@@ -561,7 +621,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-51" onclick="loadModal(event)" class="thumbnail">
                                 <img src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/prp-prf/prp.png" />
                             </div>
                         </div>
@@ -570,7 +630,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-52" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/prp-prf/Resurgence%20PRP%20%20%20%203.png" />
                             </div>
@@ -580,7 +640,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-53" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/prp-prf/Resurgence%20PRP%20%20%20%205.png" />
                             </div>
@@ -590,7 +650,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-54" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/prp-prf/Suvita%20PRP.png" />
                             </div>
@@ -600,7 +660,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-55" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/prp-prf/texas%20wellness%20prp%2002.png" />
                             </div>
@@ -608,12 +668,13 @@
                     </div>
                 </div>
             </div>
-            <h3>Laser Hair Removal</h3>
+            <h3 id="laser_hair_removal">Laser Hair Removal
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-56" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/Artisan%20lhr%202.png" />
                             </div>
@@ -623,7 +684,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-57" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/Artisan%20lhr.png" />
                             </div>
@@ -633,7 +694,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-58" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/bellavida%20brazilian%20LHR%202.png" />
                             </div>
@@ -643,7 +704,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-59" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/bellavida%20LHR%2001.png" />
                             </div>
@@ -653,7 +714,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-60" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/bellavida%20LHR%2002.png" />
                             </div>
@@ -663,7 +724,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-61" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/Bellavida%20underarm%20LHR.png" />
                             </div>
@@ -673,7 +734,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-62" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/Botox%20Bar%20LHR%202.png" />
                             </div>
@@ -683,7 +744,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-63" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/fierce%20aesthetics%20lhr%20(1).png" />
                             </div>
@@ -693,7 +754,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-64" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/Laser-Hair-Removal.png" />
                             </div>
@@ -703,7 +764,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-65" onclick="loadModal(event)" class="thumbnail">
                                 <img src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/LHR.png" />
                             </div>
                         </div>
@@ -712,7 +773,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-66" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/Mivaglo%20IPL%20and%20Laser%20hair%20removal.png" />
                             </div>
@@ -722,7 +783,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-67" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/plush-laser-hair-removal.png" />
                             </div>
@@ -732,7 +793,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-68" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/revive%20LHR%202.png" />
                             </div>
@@ -742,7 +803,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-69" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/soulnbeauty%20LHR%202.png" />
                             </div>
@@ -752,7 +813,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-70" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/soulnbeauty%20LHR.png" />
                             </div>
@@ -762,7 +823,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-71" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/LHR/Suvita%20%20LHR.png" />
                             </div>
@@ -770,12 +831,13 @@
                     </div>
                 </div>
             </div>
-            <h3>Filler</h3>
+            <h3 id="filler">Filler
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-72" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/aesthetic-beauty-house-dermal-filler.png" />
                             </div>
@@ -785,7 +847,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-73" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/aesthetic-beauty-house-lip-filler01.png" />
                             </div>
@@ -795,7 +857,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-74" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/aestheticallysavy%20filler.png" />
                             </div>
@@ -805,7 +867,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-75" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/aestique%20filler%202.png" />
                             </div>
@@ -815,7 +877,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-76" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/aestique%20filler.png" />
                             </div>
@@ -825,7 +887,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-77" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/Allen%20Filler%20%202.png" />
                             </div>
@@ -835,7 +897,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-78" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/Allen%20Filler.png" />
                             </div>
@@ -845,7 +907,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-79" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/amara%20botox%20filler%20all%202.png" />
                             </div>
@@ -855,7 +917,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-80" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/beautynursebre%20%20Filler%20%202.png" />
                             </div>
@@ -865,7 +927,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-81" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/beautynursebre%20%20Filler.png" />
                             </div>
@@ -875,7 +937,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-82" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/bella%20%20rose%20lip%20filler%202.png" />
                             </div>
@@ -885,7 +947,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-83" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/bella%20%20rose%20lip%20filler.png" />
                             </div>
@@ -895,7 +957,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-84" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/Botox%20Bar%20filler%202.png" />
                             </div>
@@ -905,7 +967,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-85" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/Botox%20Bar%20filler.png" />
                             </div>
@@ -915,7 +977,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-86" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/c&d%20filler%202.png" />
                             </div>
@@ -925,7 +987,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-87" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/c&d%20filler.png" />
                             </div>
@@ -935,7 +997,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-88" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/deluxe%20filler%20(1).png" />
                             </div>
@@ -945,7 +1007,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-89" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/eden%20ads%20filler%20%20(2).png" />
                             </div>
@@ -955,7 +1017,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-90" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/eden%20ads%20filler%20(1).png" />
                             </div>
@@ -965,7 +1027,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-91" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/ella%20Filler%202.png" />
                             </div>
@@ -975,7 +1037,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-92" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/ella%20Filler.png" />
                             </div>
@@ -985,7 +1047,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-93" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/greenrelief%20%20lip%20filler%202.png" />
                             </div>
@@ -995,7 +1057,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-94" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/greenrelief%20%20lip%20filler.png" />
                             </div>
@@ -1005,7 +1067,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-95" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/Halina%20filler%20(2).png" />
                             </div>
@@ -1015,7 +1077,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-96" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/Halina%20filler.png" />
                             </div>
@@ -1025,7 +1087,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-97" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/healthandwell%20ads%20filler%201.png" />
                             </div>
@@ -1035,7 +1097,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-98" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/La%20belle%20filler%202.png" />
                             </div>
@@ -1045,7 +1107,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-99" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/La%20belle%20filler.png" />
                             </div>
@@ -1055,7 +1117,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-100" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/line%20out%20%20filler%204.png" />
                             </div>
@@ -1065,7 +1127,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-101" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/line%20out%20%20filler.png" />
                             </div>
@@ -1075,7 +1137,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-102" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/line%20out%20Filler%202.png" />
                             </div>
@@ -1085,7 +1147,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-103" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/line%20out%20Filler.png" />
                             </div>
@@ -1095,7 +1157,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-104" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/lip%20filler%2002.png" />
                             </div>
@@ -1105,7 +1167,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-105" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/lip%20filler%201%202.png" />
                             </div>
@@ -1115,7 +1177,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-106" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/live%20vibrant%20lip%20filler%2001.png" />
                             </div>
@@ -1125,7 +1187,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-107" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/Lush.%20Med%20Spa%20filler%2001.png" />
                             </div>
@@ -1135,7 +1197,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-108" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/Lush.%20Med%20Spa%20filler%2002.png" />
                             </div>
@@ -1145,7 +1207,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-109" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/Lush.%20Med%20Spa%20filler%2003.png" />
                             </div>
@@ -1155,20 +1217,41 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-110" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/MG%20lip%20filler%202.png" />
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-110-2" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/Mivaglo%20%20filler%202.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-110-3" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/filler/Mivaglo%20%20filler.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h3>Botox/Dysport</h3>
+            <h3 id="botox_dysport">Botox/Dysport
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-111" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/aestheticallysavy%20botox.png" />
                             </div>
@@ -1178,7 +1261,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-112" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/beauty-by-you--botox.png" />
                             </div>
@@ -1188,7 +1271,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-113" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/botox-3.png" />
                             </div>
@@ -1198,7 +1281,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-114" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/botox-special.png" />
                             </div>
@@ -1208,7 +1291,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-115" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/botox332.png" />
                             </div>
@@ -1218,7 +1301,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-116" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/botox34.png" />
                             </div>
@@ -1228,7 +1311,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-117" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/Botox3435.png" />
                             </div>
@@ -1238,7 +1321,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-118" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/botox43.png" />
                             </div>
@@ -1248,7 +1331,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-119" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/botox453.png" />
                             </div>
@@ -1258,7 +1341,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-120" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/Botox465.png" />
                             </div>
@@ -1268,7 +1351,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-121" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/botox5667.png" />
                             </div>
@@ -1278,7 +1361,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-122" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/botox57.png" />
                             </div>
@@ -1288,7 +1371,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-123" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/curate%20md%20skinbar%20ads%20botox%202.png" />
                             </div>
@@ -1298,7 +1381,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-124" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/curate%20md%20skinbar%20ads%20botox.png" />
                             </div>
@@ -1308,7 +1391,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-125" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/deluxe%20botox%2004.png" />
                             </div>
@@ -1318,7 +1401,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-126" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/fresh-aesthetic-botox-02.png" />
                             </div>
@@ -1328,7 +1411,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-127" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/gentle%20giant%20ads%20botox.png" />
                             </div>
@@ -1338,7 +1421,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-128" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/greenrelief%20botox.png" />
                             </div>
@@ -1348,7 +1431,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-129" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/iconique%20ads%20botox.png" />
                             </div>
@@ -1358,7 +1441,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-130" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/key%20WELLNESS%20BOTOX.png" />
                             </div>
@@ -1368,7 +1451,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-131" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/live%20vibrant%20botox%2001.png" />
                             </div>
@@ -1378,7 +1461,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-132" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/lush%20skin%20botox.png" />
                             </div>
@@ -1388,7 +1471,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-133" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/Lush.%20Med%20Spa%20botox%2002.png" />
                             </div>
@@ -1398,7 +1481,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-134" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/Nova%20health%20botox%20(1).png" />
                             </div>
@@ -1408,7 +1491,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-135" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/Nova%20health%20botox%20(2).png" />
                             </div>
@@ -1418,7 +1501,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-136" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/sevid%20ads%20botox%2001.png" />
                             </div>
@@ -1428,7 +1511,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-137" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/sevid%20ads%20botox%2002%202.png" />
                             </div>
@@ -1438,20 +1521,41 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-138" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/sevid%20ads%20botox%2002.png" />
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-138-2" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/Mivaglo%20%20botox%202.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-138-3" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/botox-dysport/Mivaglo%20%20botox.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h3>Specials</h3>
+            <h3 id="specials">Specials
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-139" onclick="loadModal(event)" class="thumbnail">
                                 <img src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/18.png" />
                             </div>
                         </div>
@@ -1460,7 +1564,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-140" onclick="loadModal(event)" class="thumbnail">
                                 <img src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/19.png" />
                             </div>
                         </div>
@@ -1469,7 +1573,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-141" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/earth%20remedies%20special.png" />
                             </div>
@@ -1479,7 +1583,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-142" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/embryand%20special%202.png" />
                             </div>
@@ -1489,7 +1593,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-143" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/forma%20special%202.png" />
                             </div>
@@ -1499,7 +1603,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-144" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/holioday-special-01.png" />
                             </div>
@@ -1509,7 +1613,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-145" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/holioday-special-02.png" />
                             </div>
@@ -1519,7 +1623,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-146" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/nufaceglow%20specials.png" />
                             </div>
@@ -1529,7 +1633,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-147" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/refine%20Special%20popup%2002.png" />
                             </div>
@@ -1539,7 +1643,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-148" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/relux%20special.png" />
                             </div>
@@ -1549,7 +1653,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-149" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/sandpoint%20Special.png" />
                             </div>
@@ -1559,7 +1663,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-150" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/special%20(1).png" />
                             </div>
@@ -1569,7 +1673,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-151" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/special%20(2).png" />
                             </div>
@@ -1579,7 +1683,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-152" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/specials-sm.png" />
                             </div>
@@ -1589,9 +1693,93 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iy3wb" class="thumbnail">
+                            <div id="iy3wb-153" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/specials/sprited%20specials.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 id="iv_therapy">IV Therapy
+            </h3>
+            <div class="row mx-0">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-139" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/IV%20therapy/method%20Coolsculpt%20(2).png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-140" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/IV%20therapy/method%20Coolsculpt.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-141" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/IV%20therapy/method%20filler%202.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-142" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/IV%20therapy/method%20filler.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-143" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/IV%20therapy/method%20iv%202.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-144" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/IV%20therapy/method%20iv.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-145" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/IV%20therapy/method%20microneedling%20%202.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iy3wb-146" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/IV%20therapy/method%20microneedling.png" />
                             </div>
                         </div>
                     </div>
@@ -1600,31 +1788,32 @@
         </div>
         <div id="membership" class="pages">
             <div class="title1">
-                <h2>Membership</h2>
+                <h2>Membership
+                </h2>
             </div>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwnkdjchb-2" class="thumbnail">
+                            <div id="iwnkdjchb-2" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/membership/amara%20membership%20specials%20(02).png" />
                             </div>
                         </div>
                         <!-- <div class="page-body">
-                            <div class="title">
-                                <p> Zen Dermatology </p>
-                            </div>
-                            <div class="preview">
-                                <a href="https://zendermatology.com/" target="_blank">Preview</a>
-                            </div>
-                        </div> -->
+<div class="title">
+<p> Zen Dermatology </p>
+</div>
+<div class="preview">
+<a href="https://zendermatology.com/" target="_blank">Preview</a>
+</div>
+</div> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwnkdjchb-2" class="thumbnail">
+                            <div id="iwnkdjchb-2-2" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/membership/md%20beauty%20spa%20membership%202.png" />
                             </div>
@@ -1634,7 +1823,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwnkdjchb-2" class="thumbnail">
+                            <div id="iwnkdjchb-2-3" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/membership/md%20beauty%20spa%20membership.png" />
                             </div>
@@ -1644,7 +1833,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwnkdjchb-2" class="thumbnail">
+                            <div id="iwnkdjchb-2-4" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/membership/Membership-offer-Raw-Aesthetics-And-Wellness.jpg" />
                             </div>
@@ -1655,14 +1844,16 @@
         </div>
         <div id="holidays" class="pages">
             <div class="title1">
-                <h2>Holidays</h2>
+                <h2>Holidays
+                </h2>
             </div>
-            <h3>Thanksgiving</h3>
+            <h3 id="thanksgiving">Thanksgiving
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj" onclick="loadModal(event)" class="thumbnail">
                                 <img src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/thanksgiving/3.png" />
                             </div>
                         </div>
@@ -1671,7 +1862,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-2" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/thanksgiving/line%20out%20%20filler.png" />
                             </div>
@@ -1681,7 +1872,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-3" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/thanksgiving/line%20out%20%20iller.png" />
                             </div>
@@ -1691,7 +1882,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-4" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/thanksgiving/line%20out%20%20SkinPen%20%202.png" />
                             </div>
@@ -1701,7 +1892,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-5" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/thanksgiving/line%20out%20%20SkinPen.png" />
                             </div>
@@ -1709,12 +1900,13 @@
                     </div>
                 </div>
             </div>
-            <h3>Christmas</h3>
+            <h3 id="christmas">Christmas
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-6" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/christmas/line%20out%20Dysport%20%202.png" />
                             </div>
@@ -1724,7 +1916,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-7" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/christmas/line%20out%20Dysport.png" />
                             </div>
@@ -1734,7 +1926,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-8" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/christmas/line%20out%20Facials%202.png" />
                             </div>
@@ -1744,7 +1936,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-9" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/christmas/line%20out%20Facials.png" />
                             </div>
@@ -1754,7 +1946,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-10" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/christmas/line%20out%20Filler%202.png" />
                             </div>
@@ -1764,7 +1956,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-11" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/christmas/line%20out%20Filler.png" />
                             </div>
@@ -1772,12 +1964,13 @@
                     </div>
                 </div>
             </div>
-            <h3>Halloween</h3>
+            <h3 id="halloween">Halloween
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-12" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/halloween/line%20out%20botox%202.png" />
                             </div>
@@ -1787,7 +1980,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-13" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/halloween/line%20out%20botox.png" />
                             </div>
@@ -1797,7 +1990,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-14" onclick="loadModal(event)" class="thumbnail">
                                 <img src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/halloween/post.png" />
                             </div>
                         </div>
@@ -1806,7 +1999,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-15" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/halloween/Prima%20Beauty%20ads%20(1).png" />
                             </div>
@@ -1816,7 +2009,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-16" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/halloween/Prima%20Beauty%20ads%20(2).png" />
                             </div>
@@ -1826,7 +2019,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-17" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/halloween/Prima%20Beauty%20ads%20(3).png" />
                             </div>
@@ -1836,7 +2029,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-18" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/halloween/Prima%20Beauty%20ads%20(4).png" />
                             </div>
@@ -1844,12 +2037,19 @@
                     </div>
                 </div>
             </div>
-            <h3>Black Friday</h3>
+        </div>
+        <div id="sale_days" class="pages">
+            <div class="title1">
+                <h2>Saledays
+                </h2>
+            </div>
+            <h3 id="black_friday">Black Friday
+            </h3>
             <div class="row mx-0">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-19" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/1-4.png" />
                             </div>
@@ -1859,7 +2059,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-20" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/11.png" />
                             </div>
@@ -1869,7 +2069,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-21" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/3.png" />
                             </div>
@@ -1879,7 +2079,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-22" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/9.png" />
                             </div>
@@ -1889,7 +2089,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-23" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/aiyana.png" />
                             </div>
@@ -1899,7 +2099,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-24" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/black-friday-2.png" />
                             </div>
@@ -1909,7 +2109,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-25" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/ico%20(1).png" />
                             </div>
@@ -1919,7 +2119,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-26" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/ico%20(2).png" />
                             </div>
@@ -1929,7 +2129,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-27" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/ico%20(3).png" />
                             </div>
@@ -1939,7 +2139,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-28" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/ico%20(4).png" />
                             </div>
@@ -1949,7 +2149,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-29" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/ico%20(5).png" />
                             </div>
@@ -1959,7 +2159,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-30" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/ico%20(6).png" />
                             </div>
@@ -1969,7 +2169,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-31" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/ico%20(7).png" />
                             </div>
@@ -1979,7 +2179,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-32" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/mbawspa.png" />
                             </div>
@@ -1989,12 +2189,67 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="page-wrapper">
                         <div class="thumbnail-hover">
-                            <div id="iwndjj" class="thumbnail">
+                            <div id="iwndjj-33" onclick="loadModal(event)" class="thumbnail">
                                 <img
                                     src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/black%20friday/renewal%20popup%201.png" />
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <h3 id="cyber-monday">Cyber Monday
+            </h3>
+            <div class="row mx-0">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwndjj-19-2" onclick="loadModal(event)" class="thumbnail">
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/cyber/2.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwndjj-20-2" onclick="loadModal(event)" class="thumbnail">
+                                <img src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/cyber/3.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwndjj-21-2" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/cyber/belle%20visage.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="page-wrapper">
+                        <div class="thumbnail-hover">
+                            <div id="iwndjj-22-2" onclick="loadModal(event)" class="thumbnail">
+                                <img
+                                    src="https://g99plus.b-cdn.net/Landingpages/g99_offers_page/cyber/cyber-monday-store.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+        class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-dismiss="modal" class="btn-modal-close"><i class="fa fa-close">
+                    </i></button>
+                <div class="modal-body">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"
+                        id="imagepreview" />
                 </div>
             </div>
         </div>
@@ -2017,6 +2272,106 @@
             margin-right: 0px;
             margin-bottom: 0px;
             margin-left: 0px;
+        }
+
+        #imagepreview {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+        }
+
+        .item-list ul {
+            display: none;
+            position: absolute;
+            background-image: initial;
+            background-position-x: initial;
+            background-position-y: initial;
+            background-size: initial;
+            background-repeat-x: initial;
+            background-repeat-y: initial;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: rgb(255, 255, 255);
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            list-style-type: none;
+            transition-duration: 0.2s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            transition-property: all;
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: rgba(0, 0, 0, 0.15);
+            border-right-color: rgba(0, 0, 0, 0.15);
+            border-bottom-color: rgba(0, 0, 0, 0.15);
+            border-left-color: rgba(0, 0, 0, 0.15);
+            border-image-source: initial;
+            border-image-slice: initial;
+            border-image-width: initial;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-top-left-radius: 0.25rem;
+            border-top-right-radius: 0.25rem;
+            border-bottom-right-radius: 0.25rem;
+            border-bottom-left-radius: 0.25rem;
+        }
+
+        .item-list ul li a {
+            display: block;
+            width: 100%;
+            padding-top: 0.25rem;
+            padding-right: 1rem;
+            padding-bottom: 0.25rem;
+            padding-left: 0.5rem;
+            clear: both;
+            font-weight: 400;
+            color: rgb(33, 37, 41);
+            text-align: inherit;
+            text-decoration-line: none;
+            text-decoration-thickness: initial;
+            text-decoration-style: initial;
+            text-decoration-color: initial;
+            white-space: nowrap;
+        }
+
+        .item-list ul li a:hover {
+            color: rgb(30, 33, 37);
+            background-color: rgb(233, 236, 239);
+        }
+
+        .item-list:hover ul {
+            display: block;
+        }
+
+        button.btn-modal-close {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            z-index: 5;
+            cursor: pointer;
+            background-image: initial;
+            background-position-x: initial;
+            background-position-y: initial;
+            background-size: initial;
+            background-repeat-x: initial;
+            background-repeat-y: initial;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: rgb(255, 255, 255);
         }
 
         .pages {
@@ -2042,18 +2397,8 @@
             overflow-x: hidden;
             overflow-y: hidden;
             background-color: rgb(255, 255, 255);
-            margin-bottom: 4em;
+            margin-bottom: 3em;
             height: 100%;
-        }
-
-        .page-body {
-            padding-top: 1em;
-            padding-right: 1em;
-            padding-bottom: 1em;
-            padding-left: 1em;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
         }
 
         h2,
@@ -2068,6 +2413,7 @@
         h3 {
             padding-left: 1rem;
             padding-bottom: 1rem;
+            padding-top: 1rem;
         }
 
         .page-body p {
@@ -2095,7 +2441,6 @@
             overflow-y: hidden;
             position: relative;
             width: 100%;
-            /* height: 363px; */
         }
 
         .page-wrapper .thumbnail img {
@@ -2229,20 +2574,14 @@
             font-weight: 700;
         }
 
-        @media screen and (min-width: 1400px) {
-            /* .page-wrapper .thumbnail-hover {
-                height: 450px;
-            } */
+        .modal-open .modal {
+            top: 20%;
         }
 
         @media screen and (max-width: 767px) {
             .pages .page-wrapper {
                 margin-bottom: 2em;
             }
-
-            /* .page-wrapper .thumbnail-hover {
-                max-height: 300px;
-            } */
 
             .toggle-container {
                 display: flex;
