@@ -22,6 +22,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;700&display=swap"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <img src="https://g99plus.b-cdn.net/thumbnails/group8%20filler3.png" height="0" width="0" class="d-none" />
     <div class="main">
         <div class="head">
@@ -49,9 +51,33 @@
             <div class="row mx-0 vertical-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="content1">
-                        <h1>
+                        <img
+                            src="https://g99plus.b-cdn.net/Landingpages/LushMedSpa/Beauty-lush-White-logo-1536x729.png" />
+                        <img src="https://g99plus.b-cdn.net/Landingpages/beauty%20lush%20medspa/kybella/Union%201.png"
+                            class="name-img" alt="" />
+                        <!-- <h1>
                             KYBELLA
-                        </h1>
+                        </h1> -->
+                        <p>
+                            Appointment must take place within 30 Days
+                        </p>
+                        <h2>
+                            $9/Unit
+                        </h2>
+                        <div class="timer-wrapper">
+                            <div class="hours">
+                                <h2>24</h2>
+                                <p>HOURS</p>
+                            </div>
+                            <div class="minutes">
+                                <h2>00</h2>
+                                <p>MINUTES</p>
+                            </div>
+                            <div class="seconds">
+                                <h2>00</h2>
+                                <p>SECONDS</p>
+                            </div>
+                        </div>
                         <p>
                             Kybella is a type of injection that rids the body of small, stubborn areas of excess fat. It
                             is the only injectable product that has the approval of the FDA for permanently removing
@@ -65,7 +91,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 px-0">
                     <div class="img1">
                         <img
-                            src="https://g99plus.b-cdn.net/Landingpages/beauty%20lush%20medspa/kybella/Kybella%20Head%20image.jpeg" />
+                            src="https://g99plus.b-cdn.net/Landingpages/beauty%20lush%20medspa/kybella/unnamed%20(3).png" />
                     </div>
                 </div>
             </div>
@@ -189,6 +215,56 @@
     </div>
     <style>
     </style>
+    <script>
+        var hoursText;
+        var minutesText;
+        var secondsText;
+
+        setTimeout(() => {
+            hoursText = $(".hours h2");
+            minutesText = $(".minutes h2");
+            secondsText = $(".seconds h2");
+        }, 3000);
+
+        const currentTime = new Date().getTime();
+
+        // Get the time remaining in the timer (in milliseconds) from local storage, or set it to 24 hours if it doesn't exist
+        let timeRemaining = localStorage.getItem('timer') || 86400000;
+
+        function addZero(variable) {
+            if (variable.toString().length == 1) {
+                variable = "0" + variable;
+            }
+            return variable;
+        }
+
+        // Update the timer every 1000 milliseconds (1 second)
+        setInterval(() => {
+            // Decrement the time remaining by 1 second
+            timeRemaining -= 1000;
+
+            // If the timer has expired, reset it to 24 hours
+            if (timeRemaining <= 0) {
+                timeRemaining = 86400000;
+            }
+
+            // Save the updated time remaining in local storage
+            localStorage.setItem('timer', timeRemaining);
+
+            // Calculate the hours, minutes, and seconds remaining and display them
+            var hours = Math.floor(timeRemaining / (1000 * 60 * 60));
+            var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+            // document.getElementById('timer').innerHTML = `${hours}:${minutes}:${seconds}`;
+
+            hours = addZero(hours);
+            minutes = addZero(minutes);
+            seconds = addZero(seconds);
+            hoursText.text(hours);
+            minutesText.text(minutes);
+            secondsText.text(seconds);
+        }, 1000);
+    </script>
 </body>
 
 </html>

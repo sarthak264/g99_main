@@ -59,6 +59,52 @@ p {
     line-height: 160%;
 }
 
+.timer-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.timer-wrapper h2 {
+    margin: 0 auto;
+}
+
+.timer-wrapper p {
+    font-size: 10px;
+}
+
+.tile1 {
+    background-color: #c3965d;
+    padding: 2rem 0;
+}
+
+.tile1 p,
+.tile1 h2 {
+    color: #fff;
+}
+
+.tile1 h2 {
+    font-family: 'Noto Serif Toto', serif !important;
+}
+
+.tile1 .content1 {
+    text-align: center;
+}
+
+.tile1 .name-img {
+    margin: 2rem 0 1rem;
+    max-width: 400px;
+}
+
+.tile1 .img1 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
 .tile2 {
     padding-top: 4em;
     padding-right: 1em;
@@ -67,13 +113,17 @@ p {
 }
 
 .tile3 {
-    background-color: rgba(202, 219, 235, 0.286);
+    background-color: #c3965d;
     padding-top: 0em;
     padding-right: 0px;
     padding-bottom: 0em;
     padding-left: 0px;
     display: block;
     position: relative;
+}
+
+.tile3 p {
+    color: #fff;
 }
 
 .tile3::after {
@@ -117,7 +167,7 @@ p {
     background-origin: initial;
     background-clip: initial;
     background-color: rgb(255, 255, 255);
-    box-shadow: rgba(47, 128, 237, 0.15) 0px 0px 40px;
+    box-shadow: rgba(195, 151, 93, 0.4) 0px 0px 40px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -167,7 +217,7 @@ p {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(243, 239, 239);
+    background-color: #000;
 }
 
 .footer p {
@@ -175,6 +225,7 @@ p {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    color: #fff;
 }
 
 .head {
@@ -237,8 +288,13 @@ p {
 }
 
 .ba-section {
-    padding: 3rem 0 1rem;
+    padding: 2rem 0 2rem;
     text-align: center;
+    background-color: #000;
+}
+
+.ba-section h2 {
+    color: #fff;
 }
 
 .ba-section .ba-image {
@@ -349,9 +405,17 @@ p {
         padding-right: 1em !important;
         padding-bottom: 1em !important;
         padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
     }
 
     .head .action-button {
         display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tile1 .name-img {
+        max-width: 100%;
     }
 }
