@@ -1,0 +1,873 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6,
+*,
+p,
+a,
+span,
+div,
+button {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.contact-form {
+    background-image: url("https://g99plus.b-cdn.net/g99%20landing%20pages/Revive/landingPage1/tile2_bg.png");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-color: rgba(27, 45, 50, 0.9);
+    margin-top: -5em;
+    max-width: fit-content;
+}
+
+.contact-form iframe {
+    min-height: 550px;
+    width: 450px;
+    max-width: 100%;
+}
+
+.fgColor {
+    color: rgb(69, 123, 59);
+}
+
+.bgColor {
+    background-color: #1b2d32;
+}
+
+.header-section {
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/bodysculpt_sakoon/bodysculpt/Head%20image%20(2).jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    background-color: #1b2d32;
+}
+
+.header-section .small-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    column-gap: 20px;
+    color: rgb(255, 255, 255);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(27, 45, 50, 0.6);
+    z-index: 2;
+}
+
+.header-section .small-header p {
+    font-size: 14px;
+}
+
+.header-section .logo img {
+    max-width: 190px;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.btn-book {
+    color: rgb(255, 255, 255);
+    background-color: #eecb6d;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-right: 46px;
+    padding-bottom: 12px;
+    padding-left: 46px;
+}
+
+.tile1 {
+    padding-bottom: 18em;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    /* background-color: rgba(69, 123, 59, 0.6); */
+    background-color: rgba(27, 45, 50, 0.6);
+    z-index: 2;
+}
+
+.tile1 .promotion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.tile1 .promotion h1 {
+    font-weight: 900;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.position_relative {
+    position: relative;
+}
+
+.tile1 .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: rgb(255, 247, 241);
+    position: absolute;
+    top: 100%;
+    right: 0px;
+}
+
+.desc p:first-of-type {
+    margin-top: 2rem;
+}
+
+.tile1 .desc .fs-20 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tile1 .desc .fgColor1 {
+    color: rgb(255, 247, 241);
+}
+
+.tile1 .desc .uLine {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(69, 123, 59);
+    letter-spacing: 0.4em;
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 40px;
+}
+
+.tile1 .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    position: relative;
+}
+
+.tile1 .right p {
+    color: rgb(255, 255, 255);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(69, 123, 59);
+    position: absolute;
+    right: 3em;
+    bottom: -15em;
+}
+
+.tile2 .left {
+    display: flex;
+    justify-content: center;
+}
+
+.tile2 .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 0px;
+    padding-right: 9em;
+    padding-bottom: 0px;
+    padding-left: 9em;
+}
+
+.tile2 .right p {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 39, 36);
+}
+
+.tile2 .right .fs-24 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tile2 .right img {
+    filter: opacity(0.35) drop-shadow(rgb(69, 123, 59) 0px 0px 0px) drop-shadow(rgb(69, 123, 59) 0px 0px 0px) drop-shadow(rgb(69, 123, 59) 0px 0px 0px);
+}
+
+.tile3 {
+    background-image: url("https://g99plus.b-cdn.net/g99%20landing%20pages/Revive/landingPage1/tile3_bg.png");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    margin-top: 3em;
+}
+
+.tile3-inner {
+    padding-top: 10em;
+    padding-right: 0px;
+    padding-bottom: 10em;
+    padding-left: 0px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(27, 45, 50, 0.6);
+    z-index: 2;
+}
+
+.tile3 .left {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.tile3 .left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.tile3 .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    padding-left: 10em;
+}
+
+.tile3 .right p {
+    color: rgb(255, 247, 241);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(69, 123, 59);
+    size: 16px;
+    font-weight: 300;
+}
+
+.ba-image {
+    padding: 0.5rem 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .ba-image {
+        padding: 0;
+    }
+}
+
+.tile4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4em;
+    padding-right: 0px;
+    padding-bottom: 4em;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.tile4 h2 {
+    color: rgb(53, 53, 53);
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tile4 p {
+    color: rgb(53, 53, 53);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.tile5 {
+    padding-top: 4em;
+    padding-right: 4em;
+    padding-bottom: 0px;
+    padding-left: 4em;
+}
+
+.tile5 .row:first-of-type {
+    margin-bottom: 2em;
+}
+
+.tile5 img {
+    width: 100%;
+}
+
+.tile5 .desc-card {
+    background-color: #1b2d32;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    height: 100%;
+}
+
+.tile5 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.tile5 p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.tile6 {
+    background-image: url("https://g99plus.b-cdn.net/g99%20landing%20pages/Revive/landingPage1/tile6_bg.png");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    margin-top: 4em;
+    margin-right: 0px;
+    margin-bottom: 0;
+    margin-left: 0px;
+}
+
+.tile6 .button {
+    margin-top: 2rem;
+}
+
+.tile6-inner {
+    padding-top: 3em;
+    padding-right: 0px;
+    padding-bottom: 3em;
+    padding-left: 0px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(27, 45, 50, 0.6);
+    z-index: 2;
+}
+
+.tile6 .content {
+    max-width: 750px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.tile6 .content h2,
+.tile7 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tile6 .content p,
+.tile7 p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.tile6 .fw-700 {
+    font-weight: 700;
+}
+
+.tile6 .right {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.tile6 .left {
+    text-align: center;
+}
+
+.tile9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.tile9 h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: rgb(82, 82, 82);
+}
+
+.tile9 .service-card .profile img {
+    height: 60px;
+    width: 60px;
+}
+
+.tile9 .service-card .profile {
+    display: flex;
+    column-gap: 20px;
+}
+
+.tile9 .service-card .title {
+    text-align: center;
+}
+
+.tile9 .service-card .profile .profile-info .designation {
+    display: flex;
+    column-gap: 20px;
+}
+
+.tile9 .service-card .profile .star {
+    color: rgb(254, 162, 80);
+}
+
+.tile9 .service-card .desc {
+    padding-top: 0px;
+    padding-right: 1.5em;
+    padding-bottom: 0px;
+    padding-left: 1.5em;
+    text-align: center;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-right: 3em;
+    margin-bottom: 0px;
+    margin-left: 3em;
+    padding-top: 1em;
+    padding-right: 0px;
+    padding-bottom: 1em;
+    padding-left: 0px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.tile7 {
+    background-image: url("https://g99plus.b-cdn.net/g99%20landing%20pages/Revive/landingPage1/footer_bg.png");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.tile7-inner {
+    padding-top: 10%;
+    padding-right: 0px;
+    padding-bottom: 10%;
+    padding-left: 0px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(27, 45, 50, 0.6);
+    z-index: 2;
+}
+
+.tile7 .content {
+    max-width: 636px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.ba-section {
+    padding: 2rem 0 3rem;
+    text-align: center;
+}
+
+.ba-section .ba-image {
+    padding: 0.5rem 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .ba-section .ba-image {
+        padding: 0;
+    }
+}
+
+.upper-footer {
+    background-color: #1b2d32;
+    padding: 60px 50px 60px;
+}
+
+.upper-footer a:hover {
+    text-decoration: none;
+}
+
+.upper-footer .first-col {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    max-width: 260px;
+    /* margin-bottom: 1rem; */
+}
+
+.upper-footer .icons-wrapper {
+    display: flex;
+    column-gap: 30px;
+}
+
+.upper-footer i {
+    font-size: 24px;
+    color: #F3EFEA;
+}
+
+.upper-footer h3 {
+    font-size: 24px;
+    line-height: 48px;
+    color: #fff;
+}
+
+.upper-footer p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.upper-footer a {
+    color: #212529;
+}
+
+@media screen and (max-width: 991px) {
+    .left-header {
+        display: none;
+    }
+
+    .tile1 .promotion {
+        margin-top: 2em;
+    }
+
+    .tile1 .right {
+        justify-content: center;
+    }
+
+    .tile1 .right p {
+        right: unset;
+        bottom: unset;
+        top: 100%;
+    }
+
+    .desc {
+        align-items: center;
+        right: 2px;
+        left: 2px;
+    }
+
+    .desc .uLine {
+        align-self: center;
+    }
+
+    .tile2 .right {
+        padding-top: 2em;
+        padding-right: 0px;
+        padding-bottom: 2em;
+        padding-left: 0px;
+    }
+
+    .tile3-inner {
+        padding-top: 3em;
+        padding-right: 0px;
+        padding-bottom: 3em;
+        padding-left: 0px;
+    }
+
+    .tile3 .left {
+        padding-top: 15px;
+        padding-right: 3em;
+        padding-bottom: 15px;
+        padding-left: 3em;
+    }
+
+    .tile3 .right {
+        align-items: center;
+        padding-left: unset;
+    }
+
+    .tile5 .desc-card {
+        margin-bottom: 2rem;
+        height: auto;
+    }
+
+    .tile5 .row:first-of-type {
+        margin-bottom: 0;
+    }
+
+    .tile4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .service-card {
+        margin-top: 1em;
+        margin-right: 0px;
+        margin-bottom: 1em;
+        margin-left: 0px;
+    }
+
+    .upper-footer {
+        padding: 40px 20px;
+    }
+
+    .upper-footer>.row>div:nth-of-type(1),
+    .upper-footer>.row>div:nth-of-type(2) {
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .header-section .logo,
+    .header-section .left-header,
+    .header-section .logo,
+    .header-section .right-header {
+        padding-right: 0.5em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .btn-book {
+        padding-top: 10px;
+        padding-right: 14px;
+        padding-bottom: 10px;
+        padding-left: 14px;
+    }
+
+    .header-section {
+        background-image: url('https://g99plus.b-cdn.net/Landingpages/bodysculpt_sakoon/bodysculpt/Head%20image%20(2)%20cropped.jpeg');
+        background-position-y: center;
+    }
+
+    .tile1 .bgColor {
+        background-color: transparent;
+    }
+
+    .header-section .small-header {
+        align-items: center;
+    }
+
+    .right-header {
+        display: none;
+    }
+
+    .tile1 {
+        padding-bottom: 20em;
+    }
+
+    .tile1 .promotion h1 {
+        font-size: 4em;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .desc .fs-20 {
+        font-size: 1rem;
+        align-self: center;
+    }
+
+    .tile2 .left {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .tile5 {
+        padding-top: 4em;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    .tile5 .desc-card {
+        padding-top: 2em;
+        padding-right: 15px;
+        padding-bottom: 2em;
+        padding-left: 15px;
+    }
+
+    .tile5 h2,
+    .tile6 .content h2,
+    .tile7 h2 {
+        font-size: 30px;
+    }
+
+    .tile6-inner {
+        padding-top: 3em;
+        padding-right: 15px;
+        padding-bottom: 3em;
+        padding-left: 15px;
+    }
+
+    .tile7-inner {
+        padding-top: 3em;
+        padding-right: 15px;
+        padding-bottom: 3em;
+        padding-left: 15px;
+    }
+
+    .tile6 .right {
+        padding-top: 2em;
+    }
+
+    .tile9 {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+
+    .upper-footer img {
+        margin: 0;
+    }
+}
+
+@media screena and (max-width: 480px) {
+    .upper-footer {
+        padding: 40px 0;
+    }
+
+    /* .footer-logo {
+        margin-bottom: 1rem;
+    } */
+
+    .upper-footer>.row>div {
+        padding-bottom: 1rem;
+    }
+}
+
+/* max-height:700px;
+height:560px;
+width:450px;
+max-width:100%;
+border:none; */
+
+/* button {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 117.8%;
+    color: #FFF7F1;
+    background-color: #292724;
+    border-radius: 100px !important;
+    padding: 15px 64px;
+    border: none;
+    border: 1px solid #292724;
+    transition: all 0.3s ease 0.1s;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  button:hover {
+    opacity: 0.6;
+  }
+  
+  input {
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #ababab;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  textarea {
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #ababab !important;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+  } */
