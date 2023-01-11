@@ -132,6 +132,10 @@ p {
     color: #fff !important;
 }
 
+.tile1 h2 {
+    font-family: 'Noto Serif Toto', serif !important;
+}
+
 .tile1 p {
     color: #fff;
 }
@@ -306,21 +310,36 @@ p {
     margin-bottom: 30px;
 }
 
+.img3 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .timer-wrapper {
     display: flex;
     width: 100%;
     justify-content: center;
     gap: 10px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.timer-wrapper>div {
+    background-color: #000;
+    padding: 1rem 1.5rem;
 }
 
 .timer-wrapper h2 {
     margin: 0 auto;
+    color: #fff;
 }
 
 .timer-wrapper p {
     font-size: 10px;
+    margin-bottom: 0;
+    color: #fff;
 }
 
 .ba-section {
@@ -350,12 +369,6 @@ p {
 }
 
 @media screen and (max-width: 1024px) {
-
-    .img3,
-    .img3 img {
-        height: 100%;
-    }
-
     .content2 {
         padding-top: 0px;
         padding-right: 1em;
@@ -379,6 +392,10 @@ p {
 }
 
 @media screen and (max-width: 991px) {
+    .img1 {
+        margin-top: 8rem;
+    }
+
     .tile5::after {
         height: auto;
     }
@@ -432,6 +449,7 @@ p {
         padding-right: 2em;
         padding-bottom: 0px;
         padding-left: 2em;
+        margin-top: 6rem;
     }
 
     .content1 h1,
@@ -484,6 +502,10 @@ p {
 
     .tile1 .abs1 {
         margin-top: 4rem;
+    }
+
+    .img1 {
+        margin-top: 2rem;
     }
 
     .content1 .filler-img {

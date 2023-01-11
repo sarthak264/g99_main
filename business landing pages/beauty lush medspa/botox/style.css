@@ -193,15 +193,24 @@ li {
     justify-content: center;
     gap: 10px;
     text-align: center;
-    margin-bottom: 10px;
+    /* margin-top: 10px; */
+    margin-bottom: 30px;
+}
+
+.timer-wrapper>div {
+    background-color: #000;
+    padding: 1rem 1.5rem;
 }
 
 .timer-wrapper h2 {
     margin: 0 auto;
+    color: #fff;
 }
 
 .timer-wrapper p {
     font-size: 10px;
+    margin-bottom: 0;
+    color: #fff;
 }
 
 .tile2 {
