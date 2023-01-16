@@ -71,8 +71,8 @@ iframe {
 .header-section {
     background-image: url("https://g99plus.b-cdn.net/Landingpages/bodysculpt_sakoon/bodysculpt/Head%20image%20(2).jpeg");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: 100%;
+    background-size: cover;
+    background-position-x: 50%;
     background-position-y: 50%;
     background-color: #1b2d32;
 }
