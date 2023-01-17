@@ -413,6 +413,13 @@ iframe {
     height: 100%;
 }
 
+.tile5 .desc-card img {
+    max-height: 75vh;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .tile5 h2 {
     color: rgb(255, 255, 255);
     font-size: 40px;
@@ -621,6 +628,10 @@ iframe {
     .ba-section .ba-image {
         padding: 0;
     }
+
+    .ba-section .row:first-of-type {
+        margin-bottom: 30px;
+    }
 }
 
 .upper-footer {
@@ -761,6 +772,10 @@ iframe {
     .upper-footer>.row>div:nth-of-type(2) {
         padding-bottom: 1.5rem;
     }
+
+    /* .ba-section .row:first-of-type {
+        margin-bottom: 15px;
+    } */
 }
 
 @media screen and (min-width: 768px) {
