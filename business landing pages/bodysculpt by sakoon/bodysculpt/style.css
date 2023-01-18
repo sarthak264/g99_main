@@ -42,16 +42,20 @@ iframe {
 }
 
 .contact-form {
-    background-image: url("https://g99plus.b-cdn.net/g99%20landing%20pages/Revive/landingPage1/tile2_bg.png");
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/bodysculpt_sakoon/bodysculpt/contact-faded.jpeg");
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
     background-size: cover;
     text-align: center;
     background-position-x: 50%;
     background-position-y: 50%;
-    background-color: rgba(27, 45, 50, 0.9);
     margin-top: -5em;
     max-width: fit-content;
+}
+
+.contact-form .wrapper {
+    height: 100%;
+    background-color: rgba(27, 45, 50, 0.8);
 }
 
 .contact-form iframe {
@@ -302,9 +306,9 @@ iframe {
 }
 
 .tile3-inner {
-    padding-top: 10em;
+    padding-top: 0em;
     padding-right: 0px;
-    padding-bottom: 10em;
+    padding-bottom: 0em;
     padding-left: 0px;
     background-image: initial;
     background-position-x: initial;
@@ -327,10 +331,11 @@ iframe {
     text-align: center;
 }
 
-.tile3 .left h2 {
+.tile3 h2 {
     font-size: 40px;
     font-weight: 700;
     color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
 }
 
 .tile3 .right {
@@ -339,16 +344,18 @@ iframe {
     justify-content: center;
     align-items: flex-start;
     height: 100%;
-    padding-left: 10em;
+    /* padding-left: 10em; */
 }
 
 .tile3 .right p {
+    width: auto;
     color: rgb(255, 247, 241);
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(69, 123, 59);
-    size: 16px;
+    font-size: 20px;
     font-weight: 300;
+    text-align: left;
 }
 
 .ba-image {
@@ -413,12 +420,12 @@ iframe {
     height: 100%;
 }
 
-.tile5 .desc-card img {
+/* .tile5 .desc-card img {
     max-height: 75vh;
     width: auto;
     display: block;
     margin: 0 auto;
-}
+} */
 
 .tile5 h2 {
     color: rgb(255, 255, 255);
@@ -731,11 +738,21 @@ iframe {
         padding-left: 0px;
     }
 
+    .tile3 h2 {
+        text-align: center;
+    }
+
     .tile3 .left {
         padding-top: 15px;
-        padding-right: 3em;
+        padding-right: 15px;
         padding-bottom: 15px;
-        padding-left: 3em;
+        padding-left: 15px;
+    }
+
+    .tile3 .left img {
+        width: 100%;
+        max-width: 700px;
+        padding-bottom: 1rem;
     }
 
     .tile3 .right {
@@ -903,6 +920,10 @@ iframe {
         padding-left: 15px;
     }
 
+    .tile6 img {
+        margin-bottom: 30px;
+    }
+
     .tile7-inner {
         padding-top: 3em;
         padding-right: 15px;
@@ -926,7 +947,7 @@ iframe {
     }
 }
 
-@media screena and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .upper-footer {
         padding: 40px 0;
     }
