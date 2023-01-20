@@ -55,7 +55,7 @@ iframe {
 
 .contact-form .wrapper {
     height: 100%;
-    background-color: rgba(27, 45, 50, 0.8);
+    background-color: rgba(27, 45, 50, 0.6);
 }
 
 .contact-form iframe {
@@ -73,7 +73,7 @@ iframe {
 }
 
 .header-section {
-    background-image: url("https://g99plus.b-cdn.net/Landingpages/bodysculpt_sakoon/bodysculpt/Head%20image%20(2).jpeg");
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/bodysculpt_sakoon/bodysculpt/3M2A0366.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -329,6 +329,11 @@ iframe {
     justify-content: center;
     height: 100%;
     text-align: center;
+}
+
+.tile3 .left img {
+    width: 100%;
+    max-width: 600px;
 }
 
 .tile3 h2 {
@@ -690,6 +695,69 @@ iframe {
     color: #212529;
 }
 
+.slider {
+    width: 100%;
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.slider-inner {
+    width: 100%;
+    display: flex;
+}
+
+/* .slider-inner img {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.slider-inner img.active {
+    opacity: 1;
+}
+
+.slider-inner img:not(.active) {
+    opacity: 0;
+} */
+
+.slider-inner img {
+    width: 100%;
+    transition: all 0.5s ease;
+    display: none;
+}
+
+.slider-inner img.active {
+    display: block;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
 @media screen and (max-width: 991px) {
     .left-header {
         display: none;
@@ -857,7 +925,7 @@ iframe {
     }
 
     .header-section {
-        background-image: url('https://g99plus.b-cdn.net/Landingpages/bodysculpt_sakoon/bodysculpt/Head%20image%20(2)%20cropped.jpeg');
+        /* background-image: url('https://g99plus.b-cdn.net/Landingpages/bodysculpt_sakoon/bodysculpt/Head%20image%20(2)%20cropped.jpeg'); */
         background-position-y: center;
     }
 
@@ -893,6 +961,10 @@ iframe {
         padding-right: 15px;
     }
 
+    .tile3 .left img {
+        max-width: 100%;
+    }
+
     .tile5 {
         padding-top: 4em;
         padding-right: 0;
@@ -920,9 +992,9 @@ iframe {
         padding-left: 15px;
     }
 
-    .tile6 img {
+    /* .tile6 img {
         margin-bottom: 30px;
-    }
+    } */
 
     .tile7-inner {
         padding-top: 3em;
