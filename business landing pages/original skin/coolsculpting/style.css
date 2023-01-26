@@ -27,7 +27,8 @@ img {
     max-width: 100%;
 }
 
-p {
+p,
+li {
     font-family: Popins, sans-serif;
     font-style: normal;
     font-weight: normal;
