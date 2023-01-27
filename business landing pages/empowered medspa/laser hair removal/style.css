@@ -3,6 +3,14 @@
 }
 
 body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -13,22 +21,68 @@ h3,
 span,
 h1,
 h2 {
-    /* font-family: Raleway, sans-serif !important; */
-    font-family: 'Inter', sans-serif;
+    /* font-family: Raleway, sans-serif; */
+    font-family: 'Anton', sans-serif;
 }
 
 img {
     max-width: 100%;
 }
 
+.border2 {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(5, 9, 12);
+    border-right-color: rgb(5, 9, 12);
+    border-bottom-color: rgb(5, 9, 12);
+    border-left-color: rgb(5, 9, 12);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    width: 40%;
+    position: absolute;
+    left: 0px;
+}
+
+span.border4 {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(5, 9, 12);
+    border-right-color: rgb(5, 9, 12);
+    border-bottom-color: rgb(5, 9, 12);
+    border-left-color: rgb(5, 9, 12);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    position: relative;
+    display: block;
+    width: 20%;
+    margin-left: -2em;
+}
+
 p {
-    /* font-family: Raleway, sans-serif; */
-    font-family: 'Inter', sans-serif;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 170%;
-    color: rgb(78, 66, 68);
+    color: #242424;
 }
 
 p.small-text {
@@ -36,8 +90,9 @@ p.small-text {
 }
 
 .tagline h1 {
-    font-size: 72px;
-    font-weight: 600;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 90px;
     line-height: 117.8%;
 }
 
@@ -50,6 +105,88 @@ p.small-text {
 .white h1,
 .white h3 {
     color: rgb(255, 255, 255);
+}
+
+.tile2 {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.tile2 h3 {
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 151.9%;
+    padding-bottom: 0.8em;
+    color: rgb(20, 25, 31);
+}
+
+.tile2 p {
+    padding-top: 2em;
+}
+
+.tile2 .content4 p {
+    padding-top: 1em;
+    font-style: italic;
+}
+
+.tile2 .content4 .bigger {
+    font-size: 120%;
+    padding-top: 1.5em;
+}
+
+.tile2 .action-btn {
+    padding-top: 2em;
+}
+
+.about-tile {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.about-tile h2 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.about-tile p {
+    max-width: 950px;
+    margin: 0 auto 1rem;
+    padding: 0 15px;
+}
+
+.tile3 {
+    background-color: #414141;
+}
+
+.tile3.first3 {
+    background-color: #ececec;
+}
+
+.tile3.first3 p {
+    color: #242424;
+}
+
+.bg-img1 {
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/empowered%20medspa/laser%20hair%20removal/AdobeStock_400090777.jpeg');
+    background-size: cover;
+    background-position-x: 65%;
+    background-position-y: center;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(46, 41, 41);
+    height: 100%;
+    background-repeat: no-repeat;
+    min-height: 880px;
+}
+
+.bg-img1 img {
+    text-align: center;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    display: flex;
 }
 
 .bg-green {
@@ -66,15 +203,32 @@ p.small-text {
     height: 100%;
 }
 
-.tile3 {
-    background-image: url('https://g99plus.b-cdn.net/Landingpages/empowered%20medspa/evolvex/017ce7e3d2911df0c7fb7ac34eab568c728564.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+.tagline {
+    /* background-color: rgba(61, 54, 52, 0.49); */
+    padding-top: 39px;
+    padding-right: 4em;
+    padding-bottom: 39px;
+    padding-left: 4em;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    width: 100%;
+}
+
+.content2 {
+    max-width: 513px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
 }
 
 .content3 {
-    max-width: 550px;
+    max-width: 513px;
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
@@ -90,10 +244,10 @@ p.small-text {
 }
 
 .content3 h3 {
-    font-weight: 600;
-    font-size: 56px;
+    font-weight: 100;
+    font-size: 64px;
     line-height: 124.3%;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
 }
 
 .dark {
@@ -115,8 +269,14 @@ p.small-text {
 
 .img3 img {
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
     object-fit: cover;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .price-btn {
@@ -142,7 +302,7 @@ p.small-text {
 
 .price-btn.black {
     color: rgb(255, 255, 255);
-    background-color: #242424;
+    background-color: #E0D6CA;
 }
 
 .footer {
@@ -159,7 +319,7 @@ p.small-text {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #000;
+    background-color: #414141;
 }
 
 .footer p {
@@ -175,7 +335,6 @@ p.small-text {
 }
 
 .head {
-    background-color: #d8d4d4;
     height: 130px;
     display: flex;
     align-items: center;
@@ -197,9 +356,9 @@ p.small-text {
     color: rgb(0, 0, 0);
 }
 
-.logo img {
-    max-height: 100px;
-}
+/* .logo img {
+    max-height: 80px;
+} */
 
 .address {
     font-family: Raleway, sans-serif;
@@ -215,42 +374,38 @@ p.small-text {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    color: #000;
+    color: rgb(78, 66, 68);
     margin-bottom: 0px;
 }
 
 .address .businessAddress {
     font-family: Raleway, sans-serif;
-    color: #000;
+    color: rgb(78, 66, 68);
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
 }
 
+.ba-section {
+    padding-top: 2rem;
+    padding-right: 0px;
+    padding-bottom: 0rem;
+    padding-left: 0px;
+    text-align: center;
+}
+
 .review-wrapper {
-    padding-top: 0px;
+    padding-top: 3rem;
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
     text-align: center;
 }
 
-.review-wrapper .row>div {
-    padding: 30px 20px;
-}
-
-.review-wrapper .row>div:nth-of-type(even) {
-    background-color: #eeeded;
-}
-
-.review-wrapper .row>div:nth-of-type(odd) {
-    background-color: #d8d4d4;
-}
-
-.review-wrapper p {
-    margin: 18px 0;
+.review-wrapper p b {
+    font-weight: 800;
 }
 
 .review {
@@ -265,87 +420,18 @@ p.small-text {
     margin-bottom: 30px;
 }
 
-.about-us {
-    padding: 40px 15px;
-    background-color: #E0D6CA;
-}
-
-.about-us h2 {
-    font-size: 40px;
-    line-height: 60px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.about-us p {
-    max-width: 900px;
-    text-align: center;
-    margin: 0 auto;
-    color: #242424;
-    margin-bottom: 15px;
-}
-
-.reviews {
-    background-color: #E0D6CA;
-    padding: 2rem 0;
-}
-
-.reviews p {
-    color: #242424;
-}
-
-.reviews h2 {
-    font-size: 40px;
-    line-height: 60px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.reviews .row>div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.reviews .reviewer {
-    text-align: right;
-    font-weight: 700;
-    margin-bottom: 0;
-}
-
-.last-tile .bg-green {
-    background-color: #bbb99a;
-}
-
-.ba-section {
-    padding-top: 2rem;
-    padding-right: 0px;
-    padding-bottom: 3rem;
-    padding-left: 0px;
-    text-align: center;
-}
-
-.ba-section h2 {
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.ba-section .ba-image {
-    padding: 0.5rem 0;
-}
-
-@media screen and (min-width: 1200px) {
-    .ba-section .ba-image {
-        padding: 0;
-    }
-}
-
 @media screen and (max-width: 991px) {
-    .reviews .reviewer {
-        margin-bottom: 1rem;
+    .price-btn.black {
+        margin-top: 1em;
+    }
+
+    .bg-img1 {
+        background-size: cover;
+    }
+
+    .tile2 {
+        padding-top: 2rem;
+        padding-bottom: 0;
     }
 }
 
@@ -393,7 +479,7 @@ p.small-text {
     }
 
     .tagline h1 {
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .tagline p {
@@ -403,6 +489,11 @@ p.small-text {
     .content3 h3,
     .tile2 h3 {
         font-size: 28px;
+    }
+
+    .last-tile h3 {
+        font-size: 32px;
+        padding-bottom: 0;
     }
 
     .content4 {
@@ -420,59 +511,41 @@ p.small-text {
         margin-left: auto;
     }
 
+    .ba-section .ba-image {
+        padding-top: 1rem;
+        padding-right: 0px;
+        padding-bottom: 1rem;
+        padding-left: 0px;
+    }
+
     .review-wrapper {
-        padding-top: 0px;
+        padding-top: 1rem;
         padding-right: 0px;
         padding-bottom: 0px;
         padding-left: 0px;
-        overflow: hidden;
-    }
-
-    .review-wrapper .row>div {
-        position: relative;
-    }
-
-    .review-wrapper .row>div::after {
-        content: '';
-        position: absolute;
-        inset: 0;
-        left: -50%;
-        width: 150vw;
-        height: 100%;
-        background-color: #d8d4d4;
-        z-index: -9;
-    }
-
-    .review-wrapper .row>div:nth-of-type(even):after {
-        background-color: #eeeded;
     }
 }
 
 @media (max-width: 480px) {
-    h2 {
-        font-size: 35px !important;
-    }
-
     .tagline {
         padding-left: 2em;
         padding-right: 2em;
         top: 0px;
     }
 
+    .tagline h1 {
+        font-size: 45px;
+    }
+
     .bg-img1 {
         min-height: 650px;
+        background-position-x: 65%;
     }
 
-    .tile2 {
-        padding-top: 0;
-    }
-
-    .about-us {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .reviews {
-        padding: 30px 0 30px;
+    .about-tile h2 {
+        font-size: 36px;
+        padding: 0 10px;
     }
 }
+
+/* @media (max-width: 400px) {} */
