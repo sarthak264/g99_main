@@ -390,11 +390,12 @@ p {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
     font-size: 14px;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
+    color: rgb(78, 66, 68);
 }
 
 .price-btn {
