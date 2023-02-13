@@ -106,12 +106,20 @@ a.underline {
     margin-bottom: 1.5rem;
 }
 
+.tile1 h3 span {
+    color: #342F32;
+}
+
+.tile1 h3 span a {
+    color: #342F32;
+}
+
 .tile1 .sub-heading {
     font-family: 'Playfair Display', serif;
     font-size: 36px;
-    color: #342f32;
-    font-weight: 400;
-    font-style: italic;
+    color: #F3704E;
+    font-weight: 600;
+    /* font-style: italic; */
 }
 
 .wide-img {
@@ -133,6 +141,7 @@ a.underline {
 }
 
 .review-wrapper p {
+    font-size: 16px;
     color: #494949;
     text-align: center;
 }
