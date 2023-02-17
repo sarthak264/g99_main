@@ -1,0 +1,617 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.625;
+    color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 400;
+    color: #233C67;
+}
+
+p {
+    color: #333333;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* i {
+    color: #333333;
+} */
+
+button.get-started {
+    padding-top: 3px;
+    padding-right: 25px;
+    padding-bottom: 3px;
+    padding-left: 25px;
+    background-color: #233C67;
+    font-family: "Futura PT", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    box-shadow: #233C67 0px 3px 0px;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+button.get-started:hover {
+    opacity: 0.6;
+}
+
+button.get-started.white {
+    background-color: #fff;
+    color: #233C67;
+    box-shadow: #fff 0px 3px 0px;
+}
+
+.heading-36 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.heading-28 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.heading-28.smaller {
+    font-size: 22px;
+}
+
+.line {
+    width: 163px;
+    background-color: rgb(229, 229, 229);
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
+
+.nav {
+    padding-top: 10px;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: #233C67;
+}
+
+.nav-logo {
+    max-height: 80px !important;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.nav .phone {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.nav button.get-started {
+    margin-left: 25px;
+}
+
+.header {
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/milfordmd/injectables/Head%20pic%201.jpeg");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-size: cover;
+}
+
+.header .content-wrapper {
+    max-width: 800px;
+    padding-top: 200px;
+    padding-right: 0px;
+    padding-bottom: 185px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.header .content-wrapper .title {
+    font-size: 65px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+
+.header .content-wrapper .title small {
+    font-size: 40px;
+}
+
+.header .content-wrapper .subtitle {
+    font-size: 38px;
+    text-transform: capitalize;
+}
+
+.header .contact-wrapper {
+    max-width: 800px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.header .contact-wrapper .title {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #233C67;
+    text-transform: uppercase;
+}
+
+.tile1 {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/milfordmd/injectables/AdobeStock_306006628.jpeg");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position-x: 70%;
+    background-position-y: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tile1 .content-wrapper {
+    padding-top: 225px;
+    padding-right: 138px;
+    padding-bottom: 225px;
+    padding-left: 65px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.tile1 .content-wrapper p {
+    margin-bottom: 26px;
+}
+
+.content-wrapper p a {
+    color: rgb(105, 183, 69);
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.content-wrapper p a:hover {
+    color: rgb(51, 51, 51);
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.tile1.repeated {
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/mivaglo/injectables/AdobeStock_326605696.jpeg");
+}
+
+.tile2 .img-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.tile2 .img-wrapper .content-wrapper {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.tile2 .img-wrapper .content-wrapper .title {
+    font-size: 34px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.tile2 .img-wrapper .content-wrapper p {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.tile2 .img-wrapper .content-wrapper p .phone {
+    color: rgb(105, 183, 69);
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.tile2 .img-wrapper .content-wrapper p .phone:hover {
+    color: rgb(51, 51, 51);
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.tile3 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/milfordmd/injectables/AdobeStock_471489440%20flipped.jpeg");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    background-position-x: 30%;
+    background-position-y: 50%;
+    background-attachment: fixed;
+}
+
+.tile1 .mobile-img-wrapper,
+.tile3 .mobile-img-wrapper {
+    display: none;
+}
+
+.tile3 .content-wrapper {
+    padding-top: 175px;
+    padding-right: 138px;
+    padding-bottom: 175px;
+    padding-left: 65px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.tile3 .content-wrapper p {
+    margin-bottom: 26px;
+}
+
+.tile4-wrapper .title {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+.tile4-wrapper .comparison-row {
+    margin-bottom: 10px;
+}
+
+.tile4-wrapper .comparison-row .img-wrapper img {
+    margin-bottom: 10px;
+}
+
+.ba-section {
+    padding-top: 2rem;
+    padding-right: 0px;
+    padding-bottom: 0rem;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.reviews {
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.reviews .row>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviews .reviewer {
+    text-align: right;
+    font-weight: 700;
+}
+
+.tile5 .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile5 .heading-wrapper {
+    text-align: center;
+}
+
+.tile5 .subtitle {
+    font-size: 30px;
+}
+
+.tile5 .title {
+    font-weight: 400;
+}
+
+.tile5 .content-wrapper p {
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.tile5 .content-wrapper p b {
+    font-weight: 600;
+}
+
+.last-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.footer {
+    height: auto;
+    padding-top: 25px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #233C67;
+    text-align: center;
+}
+
+.footer .phone {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.footer .phone i {
+    color: #fff;
+}
+
+.footer .phone:hover {
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.footer p {
+    margin-bottom: 0px;
+}
+
+.footer p.small {
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+    .tile1 .content-wrapper {
+        padding-top: 65px;
+        padding-right: 65px;
+        padding-bottom: 65px;
+        padding-left: 65px;
+    }
+
+    .tile3 .content-wrapper {
+        padding-top: 65px;
+        padding-right: 65px;
+        padding-bottom: 65px;
+        padding-left: 65px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header {
+        padding-top: 200px;
+        padding-right: 5%;
+        padding-bottom: 0px;
+        padding-left: 5%;
+        background-position-x: 69%;
+        background-position-y: 0%;
+    }
+
+    .header .content-wrapper {
+        background-color: rgba(255, 255, 255, 0.75);
+        padding-top: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        margin-bottom: 100px;
+    }
+
+    .tile1 .content-wrapper {
+        padding-top: 35px;
+        padding-right: 35px;
+        padding-bottom: 35px;
+        padding-left: 35px;
+    }
+
+    .tile3 .content-wrapper {
+        padding-top: 35px;
+        padding-right: 35px;
+        padding-bottom: 35px;
+        padding-left: 35px;
+    }
+
+    .tile4-wrapper .comparison-row {
+        max-width: 750px;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    }
+
+    .ba-section .ba-image {
+        padding-top: 1rem;
+        padding-right: 0px;
+        padding-bottom: 1rem;
+        padding-left: 0px;
+    }
+
+    .tile5 .image-wrapper {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding-top: 300px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .header .content-wrapper {
+        margin-bottom: 0px;
+    }
+
+    .header .contact-wrapper {
+        display: none;
+    }
+
+    .tile1 {
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+    }
+
+    .tile3 {
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+    }
+
+    .tile1 .mobile-img-wrapper,
+    .tile3 .mobile-img-wrapper {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .tile1.repeated {
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .line {
+        margin-top: 20px;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-left: auto;
+    }
+
+    .nav {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nav .phone {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    .nav button.get-started {
+        display: none;
+    }
+
+    .header .content-wrapper .title {
+        font-size: 42px;
+        letter-spacing: 3px;
+    }
+
+    .header .line {
+        margin-top: 15px;
+        margin-right: auto;
+        margin-bottom: 15px;
+        margin-left: auto;
+        background-color: rgb(115, 115, 115);
+    }
+
+    .header .content-wrapper .subtitle {
+        font-size: 30px;
+    }
+
+    .tile1 .content-wrapper {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+
+    .tile2 .img-wrapper .content-wrapper {
+        position: relative;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .tile3 .content-wrapper {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+
+    .tile5 .subtitle {
+        font-size: 20px;
+    }
+
+    .reviews {
+        padding-top: 70px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+}
