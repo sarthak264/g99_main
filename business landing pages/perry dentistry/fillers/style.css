@@ -113,7 +113,7 @@ p.bigger {
 
 .content1 h1 {
     font-weight: 500;
-    font-size: 64px;
+    font-size: 46px;
     line-height: 140%;
 }
 
@@ -138,27 +138,6 @@ p.bigger {
     padding-right: 0em;
     padding-bottom: 3em;
     padding-left: 0em;
-}
-
-.abs1 {
-    position: absolute;
-    top: -5em;
-    margin-left: -20em;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: rgb(255, 255, 255);
-    z-index: 2;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
 }
 
 .tile1::after {
@@ -209,7 +188,10 @@ p.bigger {
 }
 
 .tile5 .content2 {
-    padding: 3rem 0 1rem;
+    padding-top: 3rem;
+    padding-right: 0px;
+    padding-bottom: 1rem;
+    padding-left: 0px;
 }
 
 .tile5::after {
@@ -288,18 +270,18 @@ p.bigger {
 }
 
 .ba-section {
-    padding: 3rem 0 5rem;
+    padding-top: 3rem;
+    padding-right: 0px;
+    padding-bottom: 5rem;
+    padding-left: 0px;
     text-align: center;
 }
 
 .ba-section .ba-image {
-    padding: 1rem 0;
-}
-
-@media screen and (min-width: 1200px) {
-    .ba-section .ba-image {
-        padding: 0;
-    }
+    padding-top: 1rem;
+    padding-right: 0px;
+    padding-bottom: 1rem;
+    padding-left: 0px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -331,35 +313,6 @@ p.bigger {
     }
 }
 
-@media screen and (min-width: 768px) {
-    .address {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .action-button {
-        margin-right: 30px;
-    }
-
-    .action-button button {
-        background-color: rgb(52, 48, 49);
-        border-top-left-radius: 100px;
-        border-top-right-radius: 100px;
-        border-bottom-right-radius: 100px;
-        border-bottom-left-radius: 100px;
-        height: 50px;
-        text-align: center;
-        color: rgb(255, 255, 255);
-        padding-top: 10px;
-        padding-right: 25px;
-        padding-bottom: 10px;
-        padding-left: 25px;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .head {
         padding-top: 1em !important;
@@ -381,7 +334,7 @@ p.bigger {
 
     .content1 h1,
     .content1 h3 {
-        font-size: 36px;
+        font-size: 24px;
     }
 
     .content1,
@@ -421,21 +374,74 @@ p.bigger {
     }
 }
 
+@media screen and (min-width: 576px) {
+    .ba-section .ba-image {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: rgb(52, 48, 49);
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        height: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ba-section .ba-image {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .tile1 {
-        padding: 0 0 2em;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 2em;
+        padding-left: 0px;
     }
 
     .img1 {
-        padding: 0;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
     }
 
     .tile4 {
-        padding-top: 0;
+        padding-top: 0px;
     }
 
     .ba-section {
-        padding: 0 0 3rem;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 3rem;
+        padding-left: 0px;
     }
 
     .tile5 .content2 {
