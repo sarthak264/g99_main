@@ -1,0 +1,420 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+span,
+h1,
+h2 {
+    font-family: Comfortaa, cursive !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: rgb(78, 66, 68);
+}
+
+img.blur {
+    width: 100%;
+}
+
+.div1 {
+    padding-top: 2em;
+    padding-right: 0em;
+    padding-bottom: 2em;
+    padding-left: 0em;
+}
+
+.div1.div2 {
+    padding-top: 2rem;
+}
+
+.div1.first-div {
+    min-height: 580px;
+    background-color: rgb(189, 189, 189);
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/Ruma%20/injectables/Injectable%20head.jpeg");
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+.skew1 img {
+    border-top-left-radius: 436px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 436px;
+    border-bottom-left-radius: 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-top-width: 35px;
+    border-right-width: 35px;
+    border-bottom-width: 35px;
+    border-left-width: 35px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.skew img {
+    border-top-left-radius: 436px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 436px;
+    border-bottom-left-radius: 0px;
+    border-top-width: 35px;
+    border-right-width: 35px;
+    border-bottom-width: 35px;
+    border-left-width: 35px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.gold img {
+    border-top-color: rgb(226, 201, 143);
+    border-right-color: rgb(226, 201, 143);
+    border-bottom-color: rgb(226, 201, 143);
+    border-left-color: rgb(226, 201, 143);
+}
+
+.pink img {
+    border-top-color: rgb(230, 189, 200);
+    border-right-color: rgb(230, 189, 200);
+    border-bottom-color: rgb(230, 189, 200);
+    border-left-color: rgb(230, 189, 200);
+}
+
+.grey img {
+    border-top-color: rgb(193, 211, 216);
+    border-right-color: rgb(193, 211, 216);
+    border-bottom-color: rgb(193, 211, 216);
+    border-left-color: rgb(193, 211, 216);
+}
+
+.blue img {
+    border-top-color: rgb(80, 147, 167);
+    border-right-color: rgb(80, 147, 167);
+    border-bottom-color: rgb(80, 147, 167);
+    border-left-color: rgb(80, 147, 167);
+}
+
+.content1 {
+    max-width: 600px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.first-div .content1 {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+
+.div1.first-div p {
+    color: rgb(33, 37, 41);
+}
+
+.content1 h1 {
+    padding-bottom: 0.5em;
+}
+
+.first-div .content1 h1 {
+    font-size: 50px;
+    padding-bottom: 0.4rem;
+}
+
+.content1 .action {
+    padding-top: 1em;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-btn {
+    background-color: rgb(16, 18, 20);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-btn.black {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 2em;
+}
+
+.content8 p {
+    font-size: 24px;
+}
+
+.content10 {
+    max-width: 80%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    position: relative;
+}
+
+.content10 h1 {
+    padding-bottom: 0.5em;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 239, 239);
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.head {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address .businessAddress {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(78, 66, 68);
+}
+
+.tile10 {
+    padding-bottom: 2rem;
+}
+
+.tile10.first-10 {
+    padding-bottom: 0;
+}
+
+.review {
+    margin-bottom: 5px;
+}
+
+.reviewer {
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .price-btn.black {
+        margin-top: 1em;
+    }
+
+    .content1 {
+        position: relative;
+        left: unset;
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-bottom: 2em;
+        padding-left: 1em;
+    }
+
+    .div1.first-div {
+        background-position-x: 75%;
+        background-position-y: 0%;
+        padding-bottom: 0px;
+    }
+
+    .div1.first-div .content1 {
+        position: relative;
+        z-index: 99;
+    }
+
+    .content10 {
+        margin-top: 6em;
+        margin-bottom: 4em;
+    }
+
+    .bg2 {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: rgb(16, 18, 20);
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        height: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .action-button {
+        display: none;
+    }
+
+    .head {
+        padding: 1em;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .content10 {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .div1 {
+        padding-top: 0px;
+    }
+
+    .first-div .content1 {
+        padding-top: 2rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    }
+
+    .first-div .content1 p {
+        font-weight: 500;
+    }
+
+    .content10 {
+        max-width: none;
+        margin-top: 1rem;
+    }
+
+    .content1 {
+        padding-top: 0px;
+    }
+
+    .first-heading {
+        padding-top: 2rem;
+    }
+}
