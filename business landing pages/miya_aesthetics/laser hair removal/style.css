@@ -68,10 +68,15 @@ li {
 
 .footer {
     height: 100px;
+    padding: 0 3rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: #f6f3ec;
+    background-color: #000;
+}
+
+.footer-logo {
+    max-height: 50px;
 }
 
 .footer p {
@@ -79,12 +84,22 @@ li {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    color: #55595C;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.footer a {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: #fff;
     padding: 0 10px;
 }
 
 .head {
     height: 130px;
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,7 +112,7 @@ li {
 }
 
 .logo {
-    font-family: Raleway, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -106,12 +121,12 @@ li {
 }
 
 .address {
-    font-family: Raleway, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: rgb(78, 66, 68);
+    color: #fff;
 }
 
 .address p.businessname {
@@ -119,17 +134,17 @@ li {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    color: rgb(78, 66, 68);
+    color: #fff;
     margin-bottom: 0px;
 }
 
 .address .businessAddress {
-    font-family: Raleway, sans-serif;
-    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     line-height: 20px;
     padding-top: 10px;
-    margin-bottom: 0px;
-    color: rgb(78, 66, 68);
+    margin-bottom: 10px;
+    color: #fff;
 }
 
 .width-wrapper {
@@ -141,6 +156,11 @@ li {
 
 .tile1 {
     padding: 3rem 0 4rem;
+}
+
+.tile1-logo {
+    display: block;
+    margin: 0 auto 2rem;
 }
 
 .tile1 .main-heading {
@@ -238,18 +258,72 @@ li {
     margin-bottom: 1.5rem;
 }
 
+.tile3 .text-wrapper {
+    padding: 0 15px;
+}
+
 .tile3 .para {
     /* font-size: 14px; */
     font-weight: 400;
     /* max-width: 850px; */
     margin: 0 auto 2rem;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     text-align: center;
+}
+
+.tile3 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.tile3 .features-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.tile3 .features {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    margin: 0 auto;
+    width: auto;
+}
+
+.tile3 .icon-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tile3 .icon-wrapper {
+    border: 2px solid #947564;
+    border-radius: 16px;
+    height: 120px;
+    min-width: 120px;
+    display: grid;
+    place-items: center;
+    flex-basis: 1;
+}
+
+.tile3 .icon-card p {
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #947564;
+    margin-bottom: 0;
+}
+
+.tile3 .icon {
+    max-width: 75px;
 }
 
 .tile3-1 {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
 }
 
 /* tile 4 */
@@ -395,9 +469,14 @@ li {
         max-height: none !important;
     }
 
+    .tile1-logo {
+        max-width: 175px;
+    }
+
     .tile1 .main-heading {
         font-size: 45px;
         margin-bottom: 2rem;
+        padding: 0 10px;
     }
 
     .tile3 .para {
@@ -409,11 +488,32 @@ li {
         height: 500px;
         margin-bottom: 2rem;
     }
+
+    .footer {
+        height: auto;
+        flex-direction: column;
+        padding: 1.25rem 0.5rem;
+        gap: 1rem;
+    }
 }
 
 @media screen and (max-width: 550px) {
     .tile3 {
         padding: 40px 0;
+    }
+
+    .tile3 .features {
+        row-gap: 2rem;
+    }
+
+    .tile3 .icon-wrapper {
+        height: 100px;
+        min-width: 100px;
+    }
+
+    .tile3 .icon {
+        max-width: 50px;
+        max-height: 50px;
     }
 
     .tile4 {
