@@ -95,10 +95,11 @@ li {
     margin-left: 0px;
     color: #fff;
     padding: 0 10px;
+    text-decoration: underline;
 }
 
 .head {
-    height: 130px;
+    height: 100px;
     background-color: #000;
     display: flex;
     align-items: center;
@@ -151,9 +152,30 @@ li {
     color: #fff;
 }
 
+.address a.businessAddress {
+    text-decoration: underline;
+}
+
 .width-wrapper {
     max-width: 1100px;
     margin: 0 auto;
+}
+
+.main {
+    overflow-x: hidden;
+}
+
+.wide-img {
+    display: block;
+    width: 100vw;
+    height: 80vh;
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/miya_aesthetics/laser%20hair%20removal/medspa_pic.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.wide-img img {
+    display: none;
 }
 
 /* tile 1 */
@@ -163,6 +185,7 @@ li {
 }
 
 .tile1-logo {
+    max-width: 230px;
     display: block;
     margin: 0 auto 2rem;
 }
@@ -355,6 +378,36 @@ li {
     font-weight: 700;
 }
 
+/* address tile */
+.address-tile {
+    background-color: #f6f3ec;
+    text-align: center;
+    padding: 40px 0 40px;
+}
+
+.address-tile h2 {
+    color: #947564;
+    margin-bottom: 1rem;
+}
+
+.address-tile h2:nth-of-type(2) {
+    margin-top: 2rem;
+}
+
+.address-tile p {
+    color: #55595C;
+    margin-bottom: 0.5rem;
+}
+
+.address-btn {
+    background-color: #fff;
+    border: 2px solid #947564;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+}
+
 /* tile 5 */
 .tile5 {
     padding: 60px 0;
@@ -463,6 +516,15 @@ li {
 }
 
 @media screen and (max-width: 767px) {
+    .wide-img {
+        background-image: none;
+        height: auto;
+    }
+
+    .wide-img img {
+        display: block;
+    }
+
     .action-button {
         display: none;
     }
@@ -471,6 +533,8 @@ li {
         padding: 1em;
         height: auto !important;
         max-height: none !important;
+        flex-direction: column;
+        align-items: stretch;
     }
 
     .tile1-logo {
