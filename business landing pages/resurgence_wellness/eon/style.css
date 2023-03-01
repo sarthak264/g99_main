@@ -94,13 +94,14 @@ a.underline {
 }
 
 .tile1 .main-heading {
-    max-width: 550px;
+    /* max-width: 550px; */
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     font-weight: 300;
     color: #342f32;
     margin-bottom: 1.5rem;
+    text-transform: uppercase;
 }
 
 .tile1 .row {
@@ -175,7 +176,7 @@ a.underline {
 }
 
 .tile2 {
-    padding: 3rem 0;
+    padding: 1rem 0 3rem;
 }
 
 .tile2 .wrapper {
@@ -195,6 +196,7 @@ a.underline {
     font-size: 37px;
     color: #342F32;
     margin-bottom: 2rem;
+    text-transform: uppercase;
 }
 
 .tile2 ul {
@@ -232,7 +234,7 @@ a.underline {
 }
 
 .tile3 {
-    padding: 1rem 0 3rem;
+    padding: 3rem 0 3rem;
     background-color: #fff;
 }
 
@@ -257,7 +259,7 @@ a.underline {
     font-size: 40px;
     font-weight: 400;
     color: rgb(52, 47, 50);
-    /* margin-top: 2rem; */
+    margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -278,7 +280,7 @@ a.underline {
 
 .tile3 ul li {
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 45px;
     color: #333333;
     text-align: left;
@@ -314,7 +316,7 @@ a.underline {
 }
 
 .tile5 {
-    padding: 3rem 0;
+    padding: 2rem 0 3rem;
 }
 
 .tile5 .wrapper {
@@ -468,7 +470,11 @@ a.underline {
     }
 
     .tile3 {
-        padding: 0 0 3rem;
+        padding: 3rem 0 3rem;
+    }
+
+    .tile3 ul li {
+        font-size: 18px;
     }
 
     .tile3 h2 {
