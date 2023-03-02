@@ -186,13 +186,14 @@ a.underline {
 }
 
 .tile2 .left-side {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .tile2 h3 {
-    font-size: 37px;
+    font-size: 32px;
     color: #342F32;
     margin-bottom: 2rem;
     text-transform: uppercase;
@@ -205,6 +206,10 @@ a.underline {
 .tile2 p {
     font-size: 16px;
     margin-bottom: 0.5rem;
+}
+
+.tile2-1 {
+    margin: 1rem 0 0;
 }
 
 .tile2 .price-btn {
@@ -465,7 +470,7 @@ a.underline {
     }
 
     .tile2 .price-btn {
-        margin-bottom: 2.5rem;
+        margin-bottom: 0;
     }
 
     .tile3 {
@@ -546,13 +551,13 @@ a.underline {
 
     .tile2 .price-btn {
         /* font-size: 15px; */
-        width: auto;
+        /* width: auto; */
         max-width: 100%;
     }
 
-    .tile2 .price-btn span {
+    /* .tile2 .price-btn span {
         display: block;
-    }
+    } */
 
     .tile3 .list-wrapper {
         flex-direction: column;
