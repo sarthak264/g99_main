@@ -1,0 +1,534 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+h3,
+span,
+h1,
+h2 {
+    /* font-family: Raleway, sans-serif !important; */
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    /* font-family: Raleway, sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 170%;
+    color: rgb(78, 66, 68);
+}
+
+p.small-text {
+    font-size: 15px !important;
+}
+
+.tagline h1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 117.8%;
+}
+
+.tagline p {
+    font-size: 30px;
+    line-height: 150%;
+}
+
+.white p,
+.white h1,
+.white h3 {
+    color: rgb(255, 255, 255);
+}
+
+.bg-green {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(46, 41, 41);
+    height: 100%;
+}
+
+.tile3 {
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/empowered%20medspa/evolvex/017ce7e3d2911df0c7fb7ac34eab568c728564.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.content3 {
+    max-width: 550px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.content3 h3 {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 124.3%;
+    padding-bottom: 0.5rem;
+}
+
+.content3 .subheading {
+    font-size: 25px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.dark {
+    font-weight: 700;
+    color: rgb(196, 150, 92);
+}
+
+.content4 {
+    max-width: 480px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.img3 {
+    height: 100%;
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/b_medica_spa/alma_ted/AdobeStock_99429180.jpeg');
+    background-size: cover;
+    background-position: 30% center;
+}
+
+.img3 img {
+    display: none;
+}
+
+.tile4 {
+    background-image: none;
+}
+
+.tile4 .content3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile4 img {
+    max-height: 75vh;
+}
+
+.price-btn {
+    background-color: #242424;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.big-btn {
+    height: auto;
+}
+
+.price-btn.black {
+    color: rgb(255, 255, 255);
+    background-color: #242424;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #000;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.head {
+    background-color: #d8d4d4;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.logo img {
+    max-height: 100px;
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+.address .businessAddress {
+    font-family: Raleway, sans-serif;
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.review-wrapper {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.review-wrapper .row>div {
+    padding: 30px 20px;
+}
+
+.review-wrapper .row>div:nth-of-type(even) {
+    background-color: #eeeded;
+}
+
+.review-wrapper .row>div:nth-of-type(odd) {
+    background-color: #d8d4d4;
+}
+
+.review-wrapper p {
+    margin: 18px 0;
+}
+
+.review {
+    font-size: 16px;
+    line-height: 175%;
+    margin-bottom: 5px;
+}
+
+.reviewer {
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.about-us {
+    padding: 40px 15px;
+    /* background-color: #E0D6CA; */
+    background-image: linear-gradient(to right, rgba(224, 214, 202, 0.4), rgba(224, 214, 202, 0.4)), url('https://g99plus.b-cdn.net/Landingpages/b_medica_spa/alma_ted/AdobeStock_431056134.jpg');
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.about-us h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+.about-us .subheading {
+    font-size: 25px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.about-us p {
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    color: #242424;
+    margin-bottom: 15px;
+}
+
+.reviews {
+    background-color: #E0D6CA;
+    padding: 2rem 0;
+}
+
+.reviews p {
+    color: #242424;
+}
+
+.reviews h2 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reviews .row>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviews .reviewer {
+    text-align: right;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.last-tile .bg-green {
+    background-color: #bbb99a;
+}
+
+.last-tile h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.ba-section {
+    padding-top: 2rem;
+    padding-right: 0px;
+    padding-bottom: 3rem;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.ba-section h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ba-section .ba-image {
+    padding: 0.5rem 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .ba-section .ba-image {
+        padding: 0;
+    }
+
+    .tile3 .img3 img {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .reviews .reviewer {
+        margin-bottom: 1rem;
+    }
+
+    .img3 {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: #242424;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        height: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .head {
+        padding-top: 1em !important;
+        padding-right: 1em !important;
+        padding-bottom: 1em !important;
+        padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .head .action-button {
+        display: none;
+    }
+
+    .tagline h1 {
+        font-size: 40px;
+    }
+
+    .tagline p {
+        font-size: 24px;
+    }
+
+    .content3 h3,
+    .tile2 h3 {
+        font-size: 32px;
+    }
+
+    .content3 .subheading {
+        font-size: 20px;
+    }
+
+    .img3 {
+        height: auto;
+        background-image: none;
+    }
+
+    .img3 img {
+        display: block;
+    }
+
+    .content4 {
+        max-width: 100%;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+
+    span.border4 {
+        text-align: center;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    }
+
+    .review-wrapper {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        overflow: hidden;
+    }
+
+    .review-wrapper .row>div {
+        position: relative;
+    }
+
+    .review-wrapper .row>div::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        left: -50%;
+        width: 150vw;
+        height: 100%;
+        background-color: #d8d4d4;
+        z-index: -9;
+    }
+
+    .review-wrapper .row>div:nth-of-type(even):after {
+        background-color: #eeeded;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 35px !important;
+    }
+
+    .tagline {
+        padding-left: 2em;
+        padding-right: 2em;
+        top: 0px;
+    }
+
+    .bg-img1 {
+        min-height: 650px;
+    }
+
+    .tile2 {
+        padding-top: 0;
+    }
+
+    .about-us {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .reviews {
+        padding: 30px 0 30px;
+    }
+}
