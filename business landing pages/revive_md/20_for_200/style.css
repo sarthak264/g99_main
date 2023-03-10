@@ -1,0 +1,495 @@
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.price-btn {
+    background-color: #a0765b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.header {
+    position: relative;
+    background-image: linear-gradient(to right, rgba(51, 47, 49, 0.5), rgba(51, 47, 49, 0.5)), url('https://g99plus.b-cdn.net/Landingpages/revive%20md/20%20for%20200/ac288bbd2c80bfe1ed339bf22a4a6d65.jpg');
+    background-size: cover;
+    background-position: center top;
+    z-index: 1;
+}
+
+.banner {
+    min-height: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .content-wrapper {
+    text-align: center;
+}
+
+.header-logo {
+    max-width: 370px;
+}
+
+.header .offer {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+    padding: 0 1rem;
+    max-width: 80vw;
+}
+
+.nav {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav a,
+.nav p {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    margin: 0;
+}
+
+iframe {
+    min-height: 550px;
+    width: 450px;
+    max-width: 100%;
+    background-color: rgb(246, 238, 234);
+}
+
+iframe input {
+    height: 40px !important;
+}
+
+iframe textarea {
+    height: 60px !important;
+}
+
+.tile1 {
+    background-color: #f6eeea;
+}
+
+.tile1 .wrapper {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: -15rem;
+    padding-bottom: 5rem;
+    z-index: 2;
+}
+
+.tile1 .left-side {
+    background-color: #a0765b;
+}
+
+.tile1-1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.tile1 .right-side {
+    background-color: #a0765b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem !important;
+    box-shadow: -17px 0px 0px 0px #a0765b;
+}
+
+.tile1 .content-wrapper {
+    border: 1px solid #fff;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.tile1 .content-wrapper p {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+.tile2 {
+    padding: 4rem 1rem;
+    background-color: #f6eeea;
+}
+
+.tile2 .wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.tile2 .left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile2 .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile2 .heading {
+    font-size: 55px;
+    line-height: 66px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.tile2 .divider {
+    height: 0;
+    width: 250px;
+    margin: 1.25rem 0;
+    border: 1px solid #a0765b;
+}
+
+.tile2 p {
+    font-size: 24px;
+    line-height: 28px;
+    color: #a0765b;
+    margin-bottom: 5px;
+}
+
+.tile2 ul {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.tile2 ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #A0765B;
+    padding-top: 16px;
+}
+
+.tile3 .left-side img {
+    object-fit: cover;
+}
+
+.tile3 .right-side {
+    background-color: #332f31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile3 .reviews-section {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.tile3 .review-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile3 .reviews-section .review-wrapper:last-of-type {
+    margin-top: .5rem;
+}
+
+.tile3 .reviewer-img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    padding: 15px 0;
+}
+
+.tile3 .review-text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+}
+
+.tile3 .review {
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.tile3 .reviewer {
+    font-size: 15px;
+    line-height: 22px;
+    color: #A0765B;
+    margin-bottom: 0;
+}
+
+.tile4 {
+    background-color: #f6eeea;
+}
+
+.tile4 .wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.tile4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tile4 .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile4 .content-wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.tile4 .heading {
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 65px;
+    color: #212529;
+}
+
+.tile4 .divider {
+    height: 0;
+    width: 250px;
+    margin: 1rem 0;
+    border: 1px solid #a0765b;
+}
+
+.upper-footer {
+    padding: 1.5rem 0 2rem;
+}
+
+.upper-footer .row>div {
+    display: flex;
+    justify-content: center;
+}
+
+.upper-footer .content-wrapper {
+    padding: 0 1rem;
+}
+
+.upper-footer .heading {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 10px;
+    color: #A0765B;
+}
+
+.upper-footer p {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212529;
+    margin-bottom: 0;
+}
+
+.footer {
+    height: 100px;
+    padding: 1rem;
+    background-color: #332f31;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo {
+    max-height: 50px;
+}
+
+.footer p,
+.footer a {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1159px) {
+    .tile2 .wrapper {
+        max-width: 100%;
+    }
+
+    .tile3 .reviews-section {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav {
+        max-width: 100%;
+    }
+
+    .header .offer {
+        font-size: 70px;
+        max-width: 100%;
+    }
+
+    .banner {
+        min-height: 700px;
+    }
+
+    .tile1 .wrapper {
+        margin-top: -8rem;
+        padding-bottom: 0;
+    }
+
+    .tile1 .wrapper {
+        max-width: 100%;
+    }
+
+    .tile2 .content-wrapper {
+        padding-top: 2rem;
+    }
+
+    .tile3 .reviews-section {
+        padding: 2rem 1rem;
+    }
+
+    .tile3 .reviews-section .review-wrapper:last-of-type {
+        margin-top: 1.5rem;
+    }
+
+    .tile4 .content-wrapper {
+        padding-top: 2rem;
+    }
+
+    .footer {
+        justify-content: space-between;
+    }
+
+    .upper-footer .row>div {
+        justify-content: flex-start;
+        padding-bottom: 1.5rem;
+    }
+
+    .upper-footer {
+        padding-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav {
+        justify-content: center;
+    }
+
+    .nav .timings {
+        display: none;
+    }
+
+    .banner {
+        min-height: 400px;
+        background-position: center center;
+    }
+
+    .header .offer {
+        font-size: 45px;
+    }
+
+    .header-logo {
+        max-width: 200px;
+    }
+
+    .tile1 {
+        padding: 1rem;
+    }
+
+    .tile1 .right-side {
+        box-shadow: none;
+    }
+
+    .tile1 .wrapper {
+        margin-top: 0;
+    }
+
+    .tile1-1 {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .tile2 {
+        padding-top: 1rem;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 2rem;
+    }
+
+    .tile2 .heading {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .tile4 .content-wrapper {
+        max-width: 100%;
+        padding: 1.5rem 15px 0;
+    }
+
+    .tile4 .heading {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .upper-footer .heading {
+        font-size: 29px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .tile3 .reviews-section {
+        max-width: 100%;
+    }
+
+    .tile4 .wrapper {
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .footer {
+        padding: 1.5rem 0;
+        height: auto;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}
