@@ -1,0 +1,476 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+h3,
+span,
+h1,
+h2 {
+    font-family: Raleway, sans-serif !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 170%;
+    color: rgb(78, 66, 68);
+    font-family: Raleway, sans-serif !important;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-btn {
+    background-color: #7bbbbd;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-btn.btn-light {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.price-btn.black {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #b5dfe1;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.tile1 {
+    background-image: url("https://g99plus.b-cdn.net/Group%2010%20Morpheous/p2/image%2015%20(1).png");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    width: 100%;
+    background-size: cover;
+    min-height: 661px;
+    position: relative;
+}
+
+.tile1 h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.tile1 h2 {
+    font-size: 30px;
+}
+
+.wrapper1 {
+    min-height: 661px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://g99plus.b-cdn.net/Group%2010%20Morpheous/p2/image%2014.png");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.content-center {
+    max-width: 530px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.content-center.c1 {
+    text-align: center;
+}
+
+.rigt1 .img1 {
+    z-index: 5;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.img11 {
+    bottom: 3em;
+    left: 3em;
+    z-index: 3;
+}
+
+.img12 {
+    top: 3em;
+    z-index: 3;
+    right: 3em;
+}
+
+.tile2 {
+    padding-top: 5em;
+    padding-right: 0px;
+    padding-bottom: 5em;
+    padding-left: 0px;
+}
+
+.tile2 .content2 {
+    max-width: 420px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.img21 img {
+    position: relative;
+    max-height: 421px;
+    left: 0px;
+    z-index: -1;
+}
+
+.box-shadow p {
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.tile3 {
+    background-image: url("https://g99plus.b-cdn.net/Group%2010%20Morpheous/p2/image%2016%20(1).png");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    margin-top: 0em;
+    margin-right: 0px;
+    margin-bottom: 2em;
+    margin-left: 0px;
+}
+
+.tile3 .flex {
+    display: flex;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.tile3 .c3 {
+    max-width: 631px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 4em;
+}
+
+.c3 b {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tile3 .img31 {
+    margin-top: -9em;
+    margin-right: 3em;
+}
+
+.tile3 .img32 {
+    margin-bottom: -9em;
+    margin-left: 2em;
+    max-width: 320px;
+}
+
+.tile4 {
+    margin-top: 9em;
+    margin-bottom: 3em;
+}
+
+.content41 {
+    max-width: 480px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.head {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address p.businessAddress {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.review-wrapper {
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    background-color: #b5dfe1;
+}
+
+.review-wrapper p {
+    font-size: 16px;
+    text-align: center;
+    /* color: rgb(255, 255, 255) !important; */
+}
+
+.review-wrapper .row>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-wrapper .reviewer {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 1024px) {
+    .tile3 img {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .price-btn.black {
+        margin-top: 1em;
+    }
+
+    .tile1 .pos-abs {
+        position: relative;
+    }
+
+    .wrapper1,
+    .tile3 .flex {
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-bottom: 2em;
+        padding-left: 1em;
+        flex-direction: column;
+    }
+
+    .img12 {
+        left: unset;
+        right: unset;
+        top: unset;
+        bottom: unset;
+    }
+
+    .img11 {
+        left: unset;
+        right: unset;
+        top: unset;
+        bottom: unset;
+    }
+
+    .tile3 .img31,
+    .tile3 .img32 {
+        margin-top: 0px !important;
+        margin-right: auto !important;
+        margin-bottom: 0px !important;
+        margin-left: auto !important;
+    }
+
+    .img41 img {
+        width: 100%;
+    }
+
+    /* .tile5 {
+        margin-top: 2em;
+    } */
+
+    .tile4 {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .review-wrapper .reviewer {
+        margin-bottom: 2rem;
+    }
+
+    .review-wrapper .last-reviewer {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: #7bbbbd;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        height: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .head {
+        padding-top: 1em !important;
+        padding-right: 1em !important;
+        padding-bottom: 1em !important;
+        padding-left: 1em !important;
+    }
+
+    .head .action-button {
+        display: none;
+    }
+
+    .ba-image {
+        padding: 0.5rem 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tile2 {
+        padding: 2rem 0;
+    }
+
+    .review-wrapper {
+        padding-top: 30px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+    }
+}
