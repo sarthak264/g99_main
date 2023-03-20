@@ -1,0 +1,748 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#i5to5 {
+    font-weight: 700;
+}
+
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6,
+*,
+p,
+a,
+span,
+div,
+button {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bgColor {
+    background-color: rgb(97, 137, 61);
+}
+
+.bgBlack {
+    background-color: rgb(53, 53, 53);
+}
+
+.fgColor {
+    color: rgb(97, 137, 61);
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    column-gap: 20px;
+}
+
+.header-section .logo img {
+    max-width: 190px;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.header-section p {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.tile1 {
+    background-image: linear-gradient(0deg, rgba(97, 137, 61, 0.2), rgba(97, 137, 61, 0.2)), url("https://g99plus.b-cdn.net/g99%20landing%20pages/Revive/landingPage2/tile1_bg.png");
+    background-color: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.tile1 .promotion {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.28);
+    padding: 1.5rem;
+}
+
+.tile1 .promotion h1 {
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.tile1 .promotion p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.tile7 .contact-form {
+    text-align: center;
+}
+
+.contact-form iframe {
+    /* min-height: 550px; */
+    width: 450px;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.28);
+}
+
+.tile2 {
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}
+
+.tile2 .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: justify;
+    word-spacing: -2px;
+    height: 100%;
+    padding-top: 0px;
+    padding-right: 4em;
+    padding-bottom: 0px;
+    padding-left: 4em;
+}
+
+.tile2 .right {
+    text-align: center;
+}
+
+.tile4 img,
+.tile8 img {
+    filter: grayscale(100%);
+}
+
+.tile3 {
+    background-image: linear-gradient(0deg, rgba(97, 137, 61, 0.2), rgba(97, 137, 61, 0.2)), url("https://g99plus.b-cdn.net/g99%20landing%20pages/Revive/landingPage2/tile3_bg.png");
+    background-color: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    padding-top: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+    padding-left: 20%;
+}
+
+.tile3 .tagLine {
+    text-align: center;
+}
+
+.tile3 .tagLine p {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.7em;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+.card {
+    position: relative;
+    height: 100%;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: unset;
+}
+
+.card img {
+    height: 100%;
+}
+
+.card .text {
+    position: absolute;
+    bottom: 1.5em;
+    left: 2.5em;
+    color: rgb(97, 137, 61);
+    font-weight: 700;
+}
+
+.tile4 {
+    margin-top: -10em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.button {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.button button {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 117.8%;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-right: 64px;
+    padding-bottom: 15px;
+    padding-left: 64px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+.tile5 {
+    background-image: linear-gradient(0deg, rgba(97, 137, 61, 0.2), rgba(97, 137, 61, 0.2)), url("https://g99plus.b-cdn.net/g99%20landing%20pages/Revive/landingPage2/tile5_bg.png");
+    background-color: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    padding-top: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+}
+
+.tile5 h2 {
+    font-size: 3em;
+    line-height: 1.6em;
+    font-weight: 700;
+}
+
+.tile5 p {
+    color: rgb(255, 255, 255);
+}
+
+.tile6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+}
+
+.tile6 h2 {
+    font-weight: 700;
+    color: rgb(53, 53, 53);
+}
+
+.tile6 img {
+    max-width: 600px;
+}
+
+.tile7 {
+    background-image: linear-gradient(0deg, rgba(97, 137, 61, 0.2), rgba(97, 137, 61, 0.2)), url("https://g99plus.b-cdn.net/g99%20landing%20pages/Revive/landingPage2/tile7_img.png");
+    background-color: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+}
+
+.tile7 .text h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.tile7 .text p {
+    color: rgb(255, 255, 255);
+}
+
+.tile8 {
+    max-width: 80%;
+    margin-top: -4em;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.tile8 .left,
+.tile8 .right {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile10 {
+    padding-top: 2em;
+    padding-right: 0px;
+    padding-bottom: 2em;
+    padding-left: 0px;
+    text-align: justify;
+    word-spacing: -2px;
+}
+
+.tile10-inner {
+    max-width: 90%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+    padding-right: 5em;
+    padding-bottom: 3em;
+    padding-left: 5em;
+}
+
+.tile10 .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.tile10 h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.tile10 p {
+    color: rgb(255, 255, 255);
+}
+
+.tile9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.tile9 h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: rgb(82, 82, 82);
+}
+
+.tile9 .service-card .profile img {
+    height: 60px;
+    width: 60px;
+}
+
+.tile9 .service-card .profile {
+    display: flex;
+    column-gap: 20px;
+}
+
+.tile9 .service-card .title {
+    text-align: center;
+}
+
+.tile9 .service-card .profile .profile-info .designation {
+    display: flex;
+    column-gap: 20px;
+}
+
+.tile9 .service-card .profile .star {
+    color: rgb(254, 162, 80);
+}
+
+.tile9 .service-card .desc {
+    padding-top: 0px;
+    padding-right: 1.5em;
+    padding-bottom: 0px;
+    padding-left: 1.5em;
+    text-align: center;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-right: 3em;
+    margin-bottom: 0px;
+    margin-left: 3em;
+    padding-top: 1em;
+    padding-right: 0px;
+    padding-bottom: 1em;
+    padding-left: 0px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.head {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address .businessAddress {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(78, 66, 68);
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #61893D;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: #fff;
+}
+
+.review {
+    font-size: 16px;
+    line-height: 175%;
+    margin-bottom: 5px;
+}
+
+.reviewer {
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+    .tile1 {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tile1 {
+        padding-top: 15px;
+        padding-right: 0px;
+        padding-bottom: 15px;
+        padding-left: 0px;
+    }
+
+    .p-bottom {
+        padding-bottom: 2em;
+    }
+
+    .tile2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .tile2 .left {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .tile2 .right {
+        margin-bottom: 1rem;
+    }
+
+    .tile3 {
+        padding: 10% 10px;
+    }
+
+    .tile3 .tagLine p {
+        font-size: 1.3em;
+    }
+
+    .tile4 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .tile5 h2 {
+        font-size: 2.5em;
+    }
+
+    .tile7 .text h2 {
+        font-size: 2em;
+    }
+
+    .service-card {
+        margin-top: 1em;
+        margin-right: 0px;
+        margin-bottom: 1em;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .tile7 .text {
+        padding-left: 4em;
+    }
+
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 117.8%;
+        color: rgb(255, 255, 255);
+        padding-top: 15px;
+        padding-right: 44px;
+        padding-bottom: 15px;
+        padding-left: 44px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-left-radius: 4px !important;
+        border-top-right-radius: 4px !important;
+        border-bottom-right-radius: 4px !important;
+        border-bottom-left-radius: 4px !important;
+        background-color: rgb(97, 137, 61);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .header-section .logo,
+    .header-section .left-header {
+        padding-right: 0.5em;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .tile2 .left {
+        padding-top: 0px;
+        padding-right: 10em;
+        padding-bottom: 0px;
+        padding-left: 10em;
+    }
+
+    .card .text {
+        bottom: 2.5em;
+        left: 3.5em;
+    }
+
+    .tile4 {
+        margin-top: -15em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .head {
+        padding-top: 1em !important;
+        padding-right: 1em !important;
+        padding-bottom: 1em !important;
+        padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .head .action-button {
+        display: none;
+    }
+
+    .left-header {
+        display: none;
+    }
+
+    .tile1 .promotion h1 {
+        font-size: 3em;
+    }
+
+    .tile1 .promotion p {
+        font-size: 1.5em;
+    }
+
+    .tile3 .tagLine h2 {
+        font-size: 1.25em;
+    }
+
+    .tile4 {
+        margin-top: -4em;
+    }
+
+    .tile5 {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+
+    .tile6 {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+
+    .tile6 img {
+        max-width: 100%;
+    }
+
+    .tile9 {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+
+    .tile7 {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 2em;
+        padding-left: 15px;
+    }
+
+    .tile8 {
+        margin-top: -5em;
+    }
+
+    .tile10 .text {
+        flex-direction: column;
+    }
+
+    .tile10 h2 {
+        font-size: 1.75em;
+    }
+
+    .tile10-inner {
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-bottom: 2em;
+        padding-left: 1em;
+    }
+}
