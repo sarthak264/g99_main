@@ -316,7 +316,8 @@ p {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
+    color: rgb(78, 66, 68);
     font-size: 14px;
     line-height: 20px;
     padding-top: 10px;
@@ -451,6 +452,8 @@ p {
         padding-right: 1em !important;
         padding-bottom: 1em !important;
         padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
     }
 
     .head .action-button {
