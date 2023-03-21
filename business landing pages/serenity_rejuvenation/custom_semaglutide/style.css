@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Arimo', sans-serif;
+}
+
+p,
+a,
+li {
+    /* font-family: 'Courier Prime', monospace; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #242424;
+}
+
+.price-btn {
+    background-color: #61ce70;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    /* height: 30px; */
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 15px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.main {
+    overflow-x: hidden;
+}
+
+.head {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address .businessAddress {
+    display: block;
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(78, 66, 68);
+}
+
+.tile1 {
+    background-color: #aebcb4;
+}
+
+.tile1 .c-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.tile1 h1 {
+    font-size: 70px;
+    line-height: 75px;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.tile1 p {
+    font-size: 22px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.tile2 {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.tile2 p {
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 60%;
+    margin: 0 auto 1.5rem;
+}
+
+.tile3 {
+    background-color: #eaf5ef;
+}
+
+.tile3 h2,
+.tile3 p,
+.tile3 li {
+    color: #5f7b6b;
+}
+
+.tile3 .wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.tile3 .content1 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.tile3 .content1 h2 {
+    margin-bottom: 1.5rem;
+}
+
+.tile3 .divider {
+    height: 0;
+    margin: 0 auto;
+    border-top: 1px solid #5f7b6b;
+}
+
+.tile3 .content2 {
+    padding: 50px 0;
+}
+
+.tile3 .c-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 1rem;
+}
+
+.tile3 .content2 h2 {
+    font-size: 35px;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.tile3 ul {
+    padding-left: 1rem;
+}
+
+.tile3 li {
+    font-size: 21px;
+    line-height: 35px;
+}
+
+.tile4 {
+    background-color: #61ce70;
+    padding: 50px 0;
+}
+
+.tile4-1 {
+    display: block;
+    max-width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.reviews {
+    padding-top: 50px;
+}
+
+.reviews .row>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviews .reviewer {
+    text-align: right;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.tile5 {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aebcb4;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: #fff;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 1299px) {
+    .tile3 .wrapper {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tile1 .c-wrapper {
+        padding-left: 1.5rem;
+    }
+
+    .tile1 .c-wrapper h1 {
+        font-size: 60px;
+    }
+
+    .tile2 p {
+        max-width: 80%;
+    }
+
+    .tile3 .content1 {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .tile3 .content2 {
+        padding-top: 40px;
+    }
+
+    .tile3-1 {
+        padding-top: 2rem;
+    }
+
+    .reviews .reviewer {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: #61ce70;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        /* height: 30px; */
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding: 15px 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .action-button {
+        display: none;
+    }
+
+    .head {
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .tile1 .c-wrapper {
+        padding: 2rem;
+    }
+
+    .tile1 h1 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    .tile2 p {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .tile4-1 {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tile1 .c-wrapper {
+        padding: 1.5rem 1rem;
+    }
+
+    .tile1 .c-wrapper h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .tile3 .wrapper {
+        max-width: 96%;
+    }
+
+    .tile3 .c-wrapper {
+        padding-right: 0;
+        padding-left: 15px;
+    }
+
+    .tile3 .content2 h2 {
+        margin-bottom: 1rem;
+    }
+
+    .tile4 {
+        padding-bottom: 30px;
+    }
+}
