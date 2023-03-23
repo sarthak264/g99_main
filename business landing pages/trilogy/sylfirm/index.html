@@ -117,7 +117,19 @@
                 <h2>Before and After
                 </h2>
             </div>
-            <div class="row mx-0 vertical-center">
+            <div class="slider">
+                <div class="slider-container">
+                    <div class="slide"><img src="https://g99plus.b-cdn.net/Landingpages/sylfirm/image.png"></div>
+                    <div class="slide"><img src="https://g99plus.b-cdn.net/Landingpages/sylfirm/1%20(3).jpg"></div>
+                    <div class="slide"><img src="https://g99plus.b-cdn.net/Landingpages/sylfirm/B&A-img-4.jpg"></div>
+                    <div class="slide"><img src="https://g99plus.b-cdn.net/Landingpages/sylfirm/2%20(3).jpg"></div>
+                    <div class="slide"><img src="https://g99plus.b-cdn.net/Landingpages/sylfirm/3%20(3).jpg"></div>
+                    <div class="slide"><img src="https://g99plus.b-cdn.net/Landingpages/sylfirm/B&A-1.jpg"></div>
+                </div>
+                <div class="arrow arrow-left">&#10094;</div>
+                <div class="arrow arrow-right">&#10095;</div>
+            </div>
+            <!-- <div class="row mx-0 vertical-center">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="img3">
                         <img src="https://g99plus.b-cdn.net/Landingpages/sylfirm/B&A-1.jpg" />
@@ -138,7 +150,7 @@
                         <img src="https://g99plus.b-cdn.net/Landingpages/sylfirm/B&A-img-4.jpg" />
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="tile6 tile2">
             <h2>FAQs
@@ -460,6 +472,55 @@
     </div>
     <style>
     </style>
+    <script>
+        var sliderContainer;
+        var slides;
+        var arrowLeft;
+        var arrowRight;
+        setTimeout(() => {
+            sliderContainer = document.querySelector('.slider-container');
+            slides = document.querySelectorAll('.slide');
+            arrowLeft = document.querySelector('.arrow-left');
+            arrowRight = document.querySelector('.arrow-right');
+        }, 3000);
+        var currentSlide = 0;
+        var slidesToMove = 3;
+
+        if (window.innerWidth < 768) {
+            slidesToMove = 1;
+        } else if (window.innerWidth < 992) {
+            slidesToMove = 2;
+        }
+
+        setTimeout(() => {
+            arrowLeft.addEventListener('click', () => {
+                currentSlide -= slidesToMove;
+                if (currentSlide < 0) {
+                    currentSlide = slides.length - slidesToMove;
+                }
+                sliderContainer.style.left = `-${currentSlide * 100 / slidesToMove}%`;
+            });
+
+            arrowRight.addEventListener('click', () => {
+                currentSlide += slidesToMove;
+                if (currentSlide > slides.length - slidesToMove) {
+                    currentSlide = 0;
+                }
+                sliderContainer.style.left = `-${currentSlide * 100 / slidesToMove}%`;
+            });
+        }, 3000);
+
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth < 768) {
+                slidesToMove = 1;
+            } else if (window.innerWidth < 992) {
+                slidesToMove = 2;
+            } else {
+                slidesToMove = 3;
+            }
+        });
+    </script>
 </body>
 
 </html>
