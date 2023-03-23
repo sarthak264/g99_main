@@ -21,7 +21,8 @@ h3,
 span,
 h1,
 h2 {
-    font-family: Raleway, sans-serif !important;
+    font-family: 'awonderfulfeather', sans-serif !important;
+    line-height: 2;
 }
 
 img {
@@ -35,6 +36,13 @@ p {
     line-height: 170%;
     color: rgb(78, 66, 68);
     font-family: Raleway, sans-serif !important;
+}
+
+@font-face {
+    font-family: 'awonderfulfeather';
+    src: url('https://g99plus.b-cdn.net/Landingpages/new%20u%20clinic/WonderfulFeather-OVoZp.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .w-100 {
@@ -52,7 +60,7 @@ p {
 }
 
 .price-btn {
-    background-color: rgb(216, 139, 126);
+    background-color: #7bbbbd;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -92,7 +100,7 @@ p {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(243, 239, 239);
+    background-color: #b5dfe1;
 }
 
 .footer p {
@@ -100,6 +108,7 @@ p {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+
 }
 
 .pos-rel {
@@ -140,12 +149,27 @@ p {
 }
 
 .content1 h1 {
-    font-size: 60px;
+    position: relative;
+    font-size: 50px;
     font-weight: 600;
     margin-bottom: 1rem;
 }
 
-.content1 h2 {
+.content1 h1 sup:first-of-type {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6em;
+    transform: translate(10px, -20px);
+}
+
+.content1 h1 sup:last-of-type {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+    transform: translate(40px, -20px);
+}
+
+.content1 .subheading {
     font-size: 42px;
     line-height: 50px;
     font-weight: 500;
@@ -270,6 +294,7 @@ p {
 }
 
 .address .businessAddress {
+    display: block;
     color: rgb(78, 66, 68);
     font-size: 14px;
     line-height: 20px;
@@ -308,6 +333,15 @@ p {
         margin-top: 1em;
     }
 
+    .tile1 .content1 {
+        margin-left: 0;
+    }
+
+    .content1 h1 {
+        font-size: 45px;
+        padding: 0 10px;
+    }
+
     .layout {
         position: relative;
         top: unset;
@@ -334,7 +368,7 @@ p {
     }
 
     .action-button button {
-        background-color: rgb(216, 139, 126);
+        background-color: #7bbbbd;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
@@ -376,15 +410,27 @@ p {
         background-position-x: left;
     }
 
+    .content1 {
+        max-width: 100%;
+    }
+
     .content1 h1 {
-        font-size: 45px;
+        font-size: 30px;
         font-weight: 600;
         margin-bottom: 1rem;
     }
 
-    .content1 h2 {
-        font-size: 35px;
-        line-height: 50px;
+    .content1 h1 sup:first-of-type {
+        transform: translate(10px, -20px);
+    }
+
+    .content1 h1 sup:last-of-type {
+        transform: translate(20px, -20px);
+    }
+
+    .content1 .subheading {
+        font-size: 30px;
+        line-height: 40px;
         font-weight: 500;
     }
 

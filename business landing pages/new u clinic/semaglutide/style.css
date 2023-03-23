@@ -32,15 +32,24 @@ body {
 }
 
 p {
-    font-family: Montserrat, sans-serif;
+    /* font-family: Montserrat, sans-serif; */
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: rgb(73, 73, 73);
+}
+
+@font-face {
+    font-family: 'awonderfulfeather';
+    src: url('https://g99plus.b-cdn.net/Landingpages/new%20u%20clinic/WonderfulFeather-OVoZp.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1,
 h2,
 h3 {
-    font-family: "Playfair Display", serif;
+    font-family: 'awonderfulfeather', sans-serif !important;
+    line-height: 2.2;
 }
 
 h1,
@@ -181,17 +190,19 @@ a.underline {
 }
 
 .address {
-    font-family: Raleway, sans-serif;
+    /* font-family: Raleway, sans-serif; */
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
+    font-weight: 400;
     line-height: 21px;
     color: rgb(78, 66, 68);
 }
 
 .address p.businessname {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #000;
@@ -199,8 +210,10 @@ a.underline {
 }
 
 .address .businessAddress {
-    font-family: Raleway, sans-serif;
-    color: #000;
+    display: block;
+    /* font-family: Raleway, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
@@ -235,8 +248,8 @@ a.underline {
 .tile1 .main-heading {
     max-width: 550px;
     margin-top: 0px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0;
+    margin-left: 0;
     font-family: Montserrat, sans-serif;
     font-size: 50px;
     font-weight: 300;
@@ -249,18 +262,18 @@ a.underline {
     margin-top: 2.5rem;
 }
 
-.tile1 h3 {
+.tile1 .subheading {
     font-size: 24px;
     font-weight: 400;
     color: rgb(243, 112, 78);
     margin-bottom: 1.5rem;
 }
 
-.tile1 h3 span {
+.tile1 .subheading span {
     color: rgb(52, 47, 50);
 }
 
-.tile1 h3 span a {
+.tile1 .subheading span a {
     color: rgb(52, 47, 50);
 }
 
@@ -340,7 +353,7 @@ a.underline {
 }
 
 .tile2 h3 {
-    font-size: 37px;
+    font-size: 32px;
     color: rgb(52, 47, 50);
     margin-bottom: 2rem;
 }
@@ -582,7 +595,7 @@ a.underline {
     padding-right: 0px;
     padding-bottom: 1.5rem;
     padding-left: 0px;
-    background-color: #7a7a7a;
+    background-color: #b5dfe1;
     display: flex;
     align-items: center;
 }
@@ -612,7 +625,7 @@ a.underline {
 .footer a {
     font-size: 20px;
     margin-bottom: 0px;
-    color: rgb(255, 255, 255) !important;
+    color: #333333 !important;
 }
 
 @media screen and (max-width: 1250px) {
@@ -695,7 +708,7 @@ a.underline {
     }
 
     .tile2 h3 {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .tile2 p {
@@ -779,7 +792,12 @@ a.underline {
     }
 
     .tile1 .main-heading {
+        font-size: 22px;
         max-width: none;
+    }
+
+    .tile1 .subheading {
+        font-size: 18px;
     }
 
     .review-wrapper {

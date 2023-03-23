@@ -17,11 +17,19 @@ body {
     margin-left: 0px;
 }
 
+@font-face {
+    font-family: 'awonderfulfeather';
+    src: url('https://g99plus.b-cdn.net/Landingpages/new%20u%20clinic/WonderfulFeather-OVoZp.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h3,
 span,
 h1,
 h2 {
-    font-family: Raleway, sans-serif !important;
+    font-family: 'awonderfulfeather', sans-serif !important;
+    line-height: 1.7;
 }
 
 img {
@@ -31,10 +39,11 @@ img {
 p {
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 170%;
-    color: rgb(78, 66, 68);
-    font-family: Raleway, sans-serif !important;
+    color: #212529;
+    /* font-family: Raleway, sans-serif !important; */
+    font-family: 'Roboto', sans-serif;
 }
 
 .vertical-center {
@@ -44,6 +53,7 @@ p {
 }
 
 .price-btn {
+    /* font-family: Raleway, sans-serif; */
     background-color: #7bbbbd;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
@@ -119,8 +129,9 @@ p {
     font-weight: 600;
 }
 
-.tile1 h2 {
+.tile1 .subheading {
     font-size: 30px;
+    margin-bottom: 0;
 }
 
 .wrapper1 {
@@ -184,7 +195,7 @@ p {
 }
 
 .tile2 .content2 {
-    max-width: 420px;
+    max-width: 520px;
     padding-top: 1em;
     padding-right: 1em;
     padding-bottom: 1em;
@@ -244,7 +255,9 @@ p {
 }
 
 .c3 b {
+    font-family: 'awonderfulfeather', sans-serif;
     font-size: 20px;
+    line-height: 2;
     font-weight: 600;
 }
 
@@ -260,7 +273,7 @@ p {
 }
 
 .tile4 {
-    margin-top: 9em;
+    margin-top: 7em;
     margin-bottom: 3em;
 }
 
@@ -299,7 +312,8 @@ p {
 }
 
 .address {
-    font-family: Raleway, sans-serif;
+    /* font-family: Raleway, sans-serif; */
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -309,7 +323,7 @@ p {
 
 .address p.businessname {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 18px;
     line-height: 21px;
     color: rgb(78, 66, 68);
@@ -317,6 +331,7 @@ p {
 }
 
 .address .businessAddress {
+    display: block;
     color: rgb(78, 66, 68);
     font-size: 14px;
     line-height: 20px;
@@ -466,6 +481,15 @@ p {
 }
 
 @media screen and (max-width: 576px) {
+    .tile1 h1 {
+        font-size: 35px;
+    }
+
+    .tile1 .c1 .subheading {
+        line-height: 150%;
+        margin-bottom: 1rem;
+    }
+
     .tile2 {
         padding: 2rem 0;
     }
