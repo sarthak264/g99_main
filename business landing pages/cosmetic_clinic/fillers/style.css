@@ -20,7 +20,8 @@ body {
 span,
 h1,
 h2 {
-    font-family: Comfortaa, cursive !important;
+    /* font-family: Comfortaa, cursive !important; */
+    font-family: 'Noto Serif', serif;
 }
 
 img {
@@ -28,7 +29,8 @@ img {
 }
 
 p {
-    font-family: Raleway, sans-serif;
+    /* font-family: Raleway, sans-serif; */
+    font-family: 'Libre Baskerville', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -189,10 +191,10 @@ img.blur {
 
 .price-btn {
     background-color: rgb(16, 18, 20);
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     height: 50px;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -357,10 +359,10 @@ img.blur {
 
     .action-button button {
         background-color: rgb(16, 18, 20);
-        border-top-left-radius: 100px;
-        border-top-right-radius: 100px;
-        border-bottom-right-radius: 100px;
-        border-bottom-left-radius: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
         height: 50px;
         text-align: center;
         color: rgb(255, 255, 255);
