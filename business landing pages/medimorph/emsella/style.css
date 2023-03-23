@@ -161,7 +161,7 @@ li {
     color: #17163d;
     text-align: center;
     max-width: 640px;
-    margin: 0 auto 4rem;
+    margin: 0 auto 3rem;
 }
 
 .tile1 .sub-heading {
@@ -182,6 +182,24 @@ li {
 
 .tile1-1 {
     border-radius: 8px;
+}
+
+.tile1 .hsa-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.tile1 .hsa-logo {
+    height: 100px;
+}
+
+.tile1 .hsa-wrapper p {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0;
 }
 
 /* tile 2 */
