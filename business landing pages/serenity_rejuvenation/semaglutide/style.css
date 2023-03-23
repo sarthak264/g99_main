@@ -367,12 +367,14 @@ li {
 }
 
 .tile5 .images-wrapper {
-    height: 470px;
+    /* height: 470px; */
     position: relative;
 }
 
 .tile5 .images-wrapper img {
-    position: absolute;
+    /* position: absolute; */
+    display: block;
+    margin: 0 auto;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -526,8 +528,8 @@ li {
     }
 
     .tile5 .images-wrapper {
-        height: 500px;
-        margin-bottom: 2rem;
+        /* height: 500px; */
+        margin-bottom: 1rem;
     }
 }
 
