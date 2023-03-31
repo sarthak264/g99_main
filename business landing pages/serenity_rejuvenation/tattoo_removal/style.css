@@ -65,10 +65,10 @@ p {
     padding: 2rem 3rem 2rem 3rem;
 }
 
-.tile1 img {
+/* .tile1 img {
     height: 100%;
     object-fit: cover;
-}
+} */
 
 .tile1 p {
     font-size: 20px;
@@ -81,8 +81,23 @@ p {
     line-height: 125%;
     padding-top: 0;
     padding-right: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-left: 0px;
+}
+
+.para-tile-wrapper {
+    background-color: #000;
+}
+
+.para-tile {
+    padding: 6rem 15px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.para-tile p {
+    color: #fff;
 }
 
 .contact-form {
@@ -228,6 +243,7 @@ p {
 }
 
 .address .businessAddress {
+    display: block;
     color: rgb(78, 66, 68);
     font-size: 14px;
     line-height: 20px;
@@ -301,6 +317,19 @@ p {
     font-weight: 600;
     text-align: right;
     margin-bottom: 30px;
+}
+
+.ba-section {
+    padding: 2rem 0 0;
+}
+
+
+@media screen and (min-width: 1450px) {
+    .ba-image {
+        max-width: 450px;
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -392,6 +421,14 @@ p {
     .head .action-button {
         display: none;
     }
+
+    .ba-section .ba-image {
+        padding: 0.5rem 0;
+    }
+
+    .ba-section {
+        padding: 2rem 0 0;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -405,5 +442,14 @@ p {
 
     .tagline {
         padding: 2rem 1rem;
+    }
+
+    .para-tile {
+        text-align: left;
+        padding: 4rem 15px;
+    }
+
+    .tile2 {
+        padding: 0;
     }
 }

@@ -23,7 +23,8 @@ p,
 a,
 li {
     /* font-family: 'Courier Prime', monospace; */
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     font-size: 19px;
     line-height: 28px;
     font-weight: 400;
@@ -31,7 +32,7 @@ li {
 }
 
 .price-btn {
-    background-color: #61ce70;
+    background-color: #2e2e2e;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -100,7 +101,7 @@ li {
 }
 
 .tile1 {
-    background-color: #aebcb4;
+    background-color: #4f7a92;
 }
 
 .tile1 .c-wrapper {
@@ -110,6 +111,20 @@ li {
     align-items: flex-start;
     justify-content: center;
     padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.tile1 .bg-wrapper {
+    /* height: 100% !important; */
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/serenity_rejuvenation/custom_semaglutide/AdobeStock_128617354.jpeg');
+    background-size: cover;
+    background-position: 65% 50%;
+    min-height: 500px;
+}
+
+.tile1-1 {
+    display: none;
 }
 
 .tile1 h1 {
@@ -131,20 +146,20 @@ li {
 }
 
 .tile2 p {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
     max-width: 60%;
     margin: 0 auto 1.5rem;
 }
 
 .tile3 {
-    background-color: #eaf5ef;
+    background-color: #4f7a92;
 }
 
 .tile3 h2,
 .tile3 p,
 .tile3 li {
-    color: #5f7b6b;
+    color: #fff;
 }
 
 .tile3 .wrapper {
@@ -161,10 +176,14 @@ li {
     margin-bottom: 1.5rem;
 }
 
+.tile3-1 {
+    border-radius: 10px;
+}
+
 .tile3 .divider {
     height: 0;
     margin: 0 auto;
-    border-top: 1px solid #5f7b6b;
+    border-top: 1px solid #fff;
 }
 
 .tile3 .content2 {
@@ -196,7 +215,7 @@ li {
 }
 
 .tile4 {
-    background-color: #61ce70;
+    background-color: #4f7a92;
     padding: 50px 0;
 }
 
@@ -209,6 +228,10 @@ li {
 
 .reviews {
     padding-top: 50px;
+}
+
+.reviews p {
+    color: #fff;
 }
 
 .reviews .row>div {
@@ -235,7 +258,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #aebcb4;
+    background-color: #2e2e2e;
 }
 
 .footer p {
@@ -279,7 +302,11 @@ li {
     }
 
     .tile3-1 {
-        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .tile4-1 {
+        max-width: 90%;
     }
 
     .reviews .reviewer {
@@ -299,7 +326,7 @@ li {
     }
 
     .action-button button {
-        background-color: #61ce70;
+        background-color: #2e2e2e;
         border-radius: 10px;
         border: none;
         outline: none;
@@ -336,13 +363,33 @@ li {
         line-height: 65px;
     }
 
+    .tile1 .bg-wrapper {
+        background-image: none;
+        min-height: auto;
+    }
+
+    .tile1-1 {
+        display: inline;
+
+    }
+
     .tile2 p {
+        font-size: 18px;
+        line-height: 29px;
         max-width: 100%;
         padding: 0 15px;
     }
 
+    .tile3 .wrapper {
+        max-width: 90%;
+    }
+
+    .tile4 {
+        padding-top: 0;
+    }
+
     .tile4-1 {
-        max-width: 95%;
+        max-width: 90%;
     }
 }
 
@@ -357,7 +404,7 @@ li {
     }
 
     .tile3 .wrapper {
-        max-width: 96%;
+        max-width: 90%;
     }
 
     .tile3 .c-wrapper {
