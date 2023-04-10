@@ -151,8 +151,10 @@ p {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
+    display: block;
     font-size: 14px;
+    color: #000;
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
