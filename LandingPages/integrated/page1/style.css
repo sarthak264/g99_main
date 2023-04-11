@@ -117,7 +117,7 @@ p {
   padding-top: 0.25em;
 }
 .bg-img1 {
-  background-image: url("https://g99plus.b-cdn.net/Landingpages/integrated/page1/man.jpeg");
+  background-image: url('https://g99plus.b-cdn.net/Landingpages/integrated/page1/man.jpeg');
   height: 100%;
   background-size: cover;
   background-position: 15% center;
