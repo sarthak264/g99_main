@@ -1,0 +1,459 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'awonderfulfeather';
+  src: url('https://g99plus.b-cdn.net/Landingpages/new%20u%20clinic/WonderfulFeather-OVoZp.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'awonderfulfeather', sans-serif;
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+}
+
+iframe {
+  width: 100%;
+  max-width: 100%;
+}
+
+p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 170%;
+  color: #212529;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 170%;
+  color: #212529;
+  font-family: 'Roboto', sans-serif;
+}
+
+.price-btn {
+  /* font-family: Raleway, sans-serif; */
+  background-color: #7bbbbd;
+  border-radius: 100px;
+  height: 50px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 10px 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.head {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-right: 3em;
+  padding-bottom: 0px;
+  padding-left: 3em;
+  z-index: 2;
+  position: relative;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 21px;
+  color: rgb(0, 0, 0);
+}
+
+.address {
+  /* font-family: Raleway, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgb(78, 66, 68);
+  margin-bottom: 0px;
+}
+
+.address .businessAddress {
+  display: block;
+  color: rgb(78, 66, 68);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.tile1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background-color: #c8c7c2;
+}
+
+.tile1::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://g99plus.b-cdn.net/Landingpages/new%20u%20clinic/morpheus/new-u-breadcrumbs-a-main-jpg.webp');
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.7;
+  z-index: 0;
+  filter: brightness(121%) contrast(70%) saturate(79%) blur(0px)
+    hue-rotate(0deg);
+}
+
+.tile1 .c-wrapper {
+  position: relative;
+  text-align: center;
+  z-index: 9;
+}
+
+.tile1 h1,
+.tile1 h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-shadow: 4px 6px 5px #a59168;
+}
+
+.tile1 h1 {
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.tile2 {
+  padding: 5rem 0;
+  background-color: #faf6f3;
+}
+
+.tile2.tile4 {
+  padding: 3rem 0;
+  background-color: #fff;
+}
+
+.tile2 .big-heading {
+  font-size: 50px;
+  color: #7bbbbd;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding: 0 2rem;
+}
+
+.tile2 .c-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 5%;
+  text-align: center;
+}
+
+.tile2 h3 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #a59168;
+  margin-bottom: 0;
+}
+
+.tile2 p {
+  font-size: 18px;
+  line-height: 2;
+  color: #686a6a;
+}
+
+.tile3 {
+  padding: 4rem 0 2rem;
+}
+
+.tile3 .row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.tile3 .row > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile3 .left {
+  border-right: 2px solid #a59168;
+}
+
+.tile3 .right {
+  padding: 1rem 2rem;
+}
+
+.tile3 .heading {
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 2;
+  font-weight: 300;
+  color: #7bbbbd;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.tile3 p {
+  font-size: 18px;
+  line-height: 1.75;
+  color: #686a6a;
+}
+
+.tile3 ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.tile3 li {
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  color: #7a7a7a;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-wrapper {
+  background-color: transparent;
+  background-image: radial-gradient(
+    at center center,
+    #a5916800 38%,
+    #a5916880 100%
+  );
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.ba-section {
+  background-color: #faf6f3;
+  padding: 3rem 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ba-section h2 {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 75px;
+  color: #7bbbbd;
+  margin-bottom: 2rem;
+}
+
+.tile5 {
+  padding: 3rem 15px 2rem;
+  background-color: #e1f1f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile5 h3 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 29px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #a59168;
+  margin-bottom: 1rem;
+}
+
+.tile5 .heading {
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  color: #7a7a7a;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+}
+
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7a7a7a;
+}
+
+.footer p {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 991px) {
+  /* .tile2 {
+        padding-bottom: 2rem;
+    } */
+
+  .tile3 {
+    padding: 3rem 0 2rem;
+  }
+
+  .tile3 .left {
+    border-right: none;
+  }
+
+  .last-reviewer {
+    margin-bottom: 0;
+  }
+
+  .ba-section {
+    padding: 2.5rem 0 3rem;
+  }
+
+  .ba-section h2 {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 1.5rem;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .action-button {
+    margin-right: 30px;
+  }
+
+  .action-button button {
+    background-color: #7bbbbd;
+    border-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .head {
+    padding: 1em !important;
+    height: auto !important;
+    max-height: none !important;
+  }
+
+  .head .action-button {
+    display: none;
+  }
+
+  .tile1 {
+    min-height: 500px;
+    padding: 0 1rem;
+  }
+
+  .tile2 {
+    padding: 3rem 0;
+  }
+
+  .tile2.tile4 {
+    padding: 0 0 1.5rem;
+  }
+
+  .tile2 .big-heading {
+    font-size: 40px;
+  }
+
+  .ba-section .ba-image {
+    padding: 0.5rem 0;
+  }
+
+  .tile5 {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tile1 h1 {
+    font-size: 45px;
+  }
+
+  .tile1 h2 {
+    font-size: 28px;
+  }
+
+  .tile2 .c-wrapper {
+    padding: 0 15px;
+  }
+
+  .tile3 {
+    padding: 2rem 0 1rem;
+  }
+
+  .tile3 .right {
+    padding: 1rem;
+  }
+
+  .tile3 ul {
+    padding-left: 1rem;
+  }
+
+  .tile3 li {
+    align-items: flex-start;
+  }
+
+  .tile3 li i {
+    position: relative;
+    top: 6px;
+  }
+
+  .tile5 .heading {
+    font-size: 35px;
+    /* line-height: 50px; */
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+  }
+}
