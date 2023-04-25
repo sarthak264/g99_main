@@ -62,7 +62,7 @@ p {
 }
 
 .tile1 {
-    background-image: url("https://g99plus.b-cdn.net/Group9%20p3/image%2011%20(1).png");
+    background-image: url('https://g99plus.b-cdn.net/Group9%20p3/image%2011%20(1).png');
     background-position-x: initial;
     background-position-y: initial;
     background-repeat-x: initial;
@@ -86,7 +86,7 @@ p {
     padding-bottom: 52px;
     min-width: 750px;
     text-align: center;
-    font-family: "GFS Didot", serif !important;
+    font-family: 'GFS Didot', serif !important;
 }
 
 .tile1 .content1 {
@@ -94,7 +94,9 @@ p {
     padding-right: 30px;
     padding-bottom: 40px;
     padding-left: 30px;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.14) 4.13%, rgba(255, 255, 255, 0.6) 80.29%);
+    background-image: linear-gradient(90deg,
+            rgba(255, 255, 255, 0.14) 4.13%,
+            rgba(255, 255, 255, 0.6) 80.29%);
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
@@ -138,7 +140,7 @@ p {
 }
 
 .tile5 {
-    background-image: url("https://g99plus.b-cdn.net/Group9%20p3/image%2011%20(2).png");
+    background-image: url('https://g99plus.b-cdn.net/Group9%20p3/image%2011%20(2).png');
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;

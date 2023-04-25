@@ -203,6 +203,14 @@ p {
     padding-left: 1em;
 }
 
+.tile5 .content3 {
+    text-align: center;
+}
+
+.tile2.tile6 {
+    margin-top: 6em;
+}
+
 .tile6 .content2 {
     max-width: 480px;
 }
