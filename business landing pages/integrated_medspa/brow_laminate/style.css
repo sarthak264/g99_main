@@ -36,6 +36,18 @@ p {
     font-family: Raleway, sans-serif !important;
 }
 
+@keyframes fadeIn {
+    0% {
+        top: -40px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
 .bg-pink {
     background-image: initial;
     background-position-x: initial;
@@ -46,7 +58,11 @@ p {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(243, 212, 210);
+    background-color: #3a554c;
+}
+
+.bg-pink p {
+    color: #fff;
 }
 
 .vertical-center {
@@ -56,7 +72,7 @@ p {
 }
 
 .price-btn {
-    background-color: rgb(216, 139, 126);
+    background-color: #3a554c;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -73,7 +89,7 @@ p {
 }
 
 .price-btn.btn-light {
-    color: rgb(0, 0, 0);
+    color: #3a554c;
     background-color: rgb(255, 255, 255);
 }
 
@@ -84,7 +100,7 @@ p {
 
 .rigt1 {
     width: 80%;
-    background-color: rgb(243, 212, 210);
+    background-color: #3a554c;
     height: 100%;
     margin-left: auto;
 }
@@ -110,7 +126,7 @@ p {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(243, 239, 239);
+    background-color: #3a554c;
 }
 
 .footer p {
@@ -118,10 +134,16 @@ p {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    color: #fff;
 }
 
 .pos-rel {
     position: relative;
+}
+
+.c1 {
+    position: relative;
+    animation: linear 0.75s fadeIn;
 }
 
 .tile1 h1 {
@@ -309,7 +331,7 @@ p {
     }
 
     .action-button button {
-        background-color: rgb(216, 139, 126);
+        background-color: #3a554c;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;

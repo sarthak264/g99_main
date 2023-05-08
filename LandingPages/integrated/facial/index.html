@@ -22,12 +22,22 @@
         rel="stylesheet" />
     <img src="https://g99plus.b-cdn.net/thumbnails/filler3.png" height="0" width="0" class="d-none" />
     <div class="main">
+        <div id="overlay"></div>
+        <div id="modal">
+            <div id="close">&#10006;</div>
+            <h1>ULTIMATE STRESS REDUCTION</h1>
+            <h1 class="diff-font">Massage + Facial</h1>
+            <h1>$30 OFF (ONLY $163)</h1>
+            <p>Complete the form and receive your exclusive special offer today</p>
+            ${CONTACT_FORM}
+        </div>
         <div class="head">
             <div class="logo">
                 <img src="${BUSINESS_LOGO}" />
             </div>
             <div class="address">
                 <div class="action-button">
+                    <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book Now</button>
                 </div>
                 <div class="adress">
                     <p class="businessname">
@@ -36,9 +46,9 @@
                     <p class="businessAddress">
                         ${CLINIC_ADDRESS}
                     </p>
-                    <p class="businessAddress">
+                    <a class="businessAddress" href="tel:${CLINIC_CONTACT_NUMBER}">
                         ${CLINIC_CONTACT_NUMBER}
-                    </p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -46,19 +56,24 @@
             <div class="row mx-0">
                 <div class="col-lg-6 col-md-12 px-0">
                     <div class="content1">
+                        <!-- <img src="https://g99plus.b-cdn.net/Landingpages/integrated_medspa/confetti.gif" alt=""
+                            class="gif"> -->
                         <h1>
-                            Facial
+                            FACIAL
                         </h1>
                         <p>
                             ULTIMATE STRESS REDUCTION
                         </p>
+                        <img src="https://g99plus.b-cdn.net/Landingpages/integrated_medspa/facial/Vanilla-1s-280px.svg"
+                            alt="" class="offer-gif">
                         <p>
-                            Massage + Facial
-                        </p>
-                        <p>
-                            $30 OFF (Only $163)
+                            $30 OFF (ONLY $163)
                         </p>
                         <div class="action">
+                            <button data-target="#myModal" data-toggle="modal" class="btn price-btn">
+                                <img src="https://g99plus.b-cdn.net/Landingpages/integrated_medspa/facial/Vanilla-1s-243px%20(1).svg"
+                                    alt="" class="btn-gif">
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -86,6 +101,8 @@
                             spots, and wrinkles.
                         </p>
                         <div class="action">
+                            <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book
+                                Now</button>
                         </div>
                     </div>
                 </div>
@@ -106,6 +123,8 @@
                             benefits of your facial with our range of add-ons.
                         </p>
                         <div class="action">
+                            <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book
+                                Now</button>
                         </div>
                     </div>
                 </div>
@@ -135,6 +154,8 @@
                             spots, Stopping acne scarring and spots.
                         </p>
                         <div class="action">
+                            <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book
+                                Now</button>
                         </div>
                     </div>
                 </div>
@@ -151,6 +172,8 @@
                                 time so that you can be the best YOU!
                             </p>
                             <div class="action-btn">
+                                <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book
+                                    Now</button>
                             </div>
                         </div>
                     </div>
@@ -193,7 +216,7 @@
 
         span,
         h1 {
-            font-family: Comfortaa, cursive !important;
+            font-family: Comfortaa, cursive;
         }
 
         img {
@@ -213,6 +236,65 @@
             width: 100%;
         }
 
+        @font-face {
+            font-family: "Bright Rainbow";
+            src: url("https://g99plus.b-cdn.net/Landingpages/integrated_medspa/Bright%20Rainbow.ttf");
+        }
+
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+            display: none;
+        }
+
+        /* Style for modal */
+        #modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            z-index: 2;
+            padding: 40px;
+            border-radius: 10px;
+            /* box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5); */
+            box-shadow: 10px 10px 38px -17px rgba(0, 0, 0, 0.61);
+            display: none;
+            text-align: center;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        #modal h1 {
+            font-size: 30px;
+            line-height: 1.5;
+            font-weight: 600;
+            color: #bf9849;
+        }
+
+        #modal .diff-font {
+            font-family: 'Bright Rainbow', cursive;
+            font-weight: 400;
+            font-size: 35px;
+        }
+
+        #modal p {
+            margin: 15px 0;
+        }
+
+        /* Style for close button */
+        #close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+
         .div1 {
             padding-top: 2em;
             padding-right: 0em;
@@ -220,12 +302,41 @@
             padding-left: 0em;
         }
 
+        @keyframes fadeIn {
+            0% {
+                top: -40px;
+                opacity: 0;
+            }
+
+            100% {
+                top: 0;
+                opacity: 1;
+            }
+        }
+
+        .tile1 .content1 {
+            position: relative;
+            opacity: 0;
+        }
+
+        .tile1 .content1.animate {
+            animation: linear 0.75s fadeIn;
+            opacity: 1;
+        }
+
         .tile1 .content1 p {
+            position: relative;
+            /* animation: linear 0.75s fadeIn; */
             font-size: 30px;
             line-height: 1.4;
             font-weight: 500;
             margin-bottom: 5px;
             color: #212529;
+        }
+
+        .tile1 .content1 .gif {
+            position: absolute;
+            max-width: 100%;
         }
 
         .skew1 img {
@@ -318,6 +429,8 @@
         }
 
         .content1 h1 {
+            position: relative;
+            /* animation: linear 0.75s fadeIn; */
             font-size: 60px;
             padding-bottom: 0.5rem;
         }
@@ -350,7 +463,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: rgb(243, 239, 239);
+            background-color: #3a554c;
         }
 
         .footer p {
@@ -358,6 +471,7 @@
             margin-right: 0px;
             margin-bottom: 0px;
             margin-left: 0px;
+            color: #fff;
         }
 
         .head {
@@ -370,7 +484,8 @@
             padding-bottom: 0px;
             padding-left: 3em;
             z-index: 2;
-            position: relative;
+            position: static !important;
+            /* position: relative; */
         }
 
         .logo {
@@ -400,8 +515,11 @@
             margin-bottom: 0px;
         }
 
-        .address p.businessAddress {
+        .address .businessAddress {
+            display: block;
             font-size: 14px;
+            font-weight: 300;
+            color: rgb(78, 66, 68);
             line-height: 20px;
             padding-top: 10px;
             margin-bottom: 0px;
@@ -409,6 +527,32 @@
 
         .action-button {
             display: none;
+        }
+
+        .price-btn {
+            background-color: #3a554c;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            border-bottom-right-radius: 100px;
+            border-bottom-left-radius: 100px;
+            min-height: 50px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            padding-top: 10px;
+            padding-right: 35px;
+            padding-bottom: 10px;
+            padding-left: 35px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .btn-gif {
+            max-width: 140px;
+        }
+
+        .offer-gif {
+            margin-left: -20px;
+            width: 400px;
         }
 
         #if5fr {
@@ -435,6 +579,10 @@
         }
 
         @media screen and (max-width: 991px) {
+            #modal {
+                min-width: 600px;
+            }
+
             .content1 {
                 position: relative;
                 left: unset;
@@ -467,7 +615,7 @@
             }
 
             .action-button button {
-                background-color: rgb(16, 18, 20);
+                background-color: #3a554c;
                 border-top-left-radius: 100px;
                 border-top-right-radius: 100px;
                 border-bottom-right-radius: 100px;
@@ -495,17 +643,47 @@
 
         @media screen and (max-width: 767px) {
             .head {
-                padding-top: 0px;
+                padding-top: 1rem;
                 padding-right: 1rem;
-                padding-bottom: 0px;
+                padding-bottom: 1rem;
                 padding-left: 1rem;
+                height: auto !important;
+                max-height: none !important;
             }
 
             .tile1 .content1 p {
                 font-size: 25px;
             }
+
+            #modal {
+                min-width: 500px;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            #modal {
+                min-width: 90%;
+                padding: 40px 25px;
+            }
+
+            #modal h1 {
+                font-size: 25px;
+            }
         }
     </style>
+    <script>
+        window.addEventListener('load', function () {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('modal').style.display = 'block';
+        });
+        setTimeout(() => {
+            document.getElementById('close').addEventListener('click', function () {
+                document.getElementById('overlay').style.display = 'none';
+                document.getElementById('modal').style.display = 'none';
+                document.querySelector('.tile1 .content1').classList.add("animate");
+            });
+        }, 2000);
+    </script>
 </body>
 
 </html>

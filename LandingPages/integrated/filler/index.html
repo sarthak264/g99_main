@@ -17,14 +17,20 @@
 
 <body>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
     <div class="main">
+        <div id="overlay"></div>
+        <div id="modal">
+            <div id="close">&#10006;</div>
+            <h1>Use Filler on face to Cover the Empty Space</h1>
+            <h1>$300 Off Per Syringe</h1>
+            <p>Complete the form and receive your exclusive special offer today</p>
+            ${CONTACT_FORM}
+        </div>
         <div class="head">
             <div class="logo">
                 <img src="${BUSINESS_LOGO}" />
@@ -38,8 +44,9 @@
                     </p>
                     <p class="businessAddress">${CLINIC_ADDRESS}
                     </p>
-                    <p class="businessAddress">${CLINIC_CONTACT_NUMBER}
-                    </p>
+                    <a class="businessAddress" href="tel:${CLINIC_CONTACT_NUMBER}">
+                        ${CLINIC_CONTACT_NUMBER}
+                    </a>
                 </div>
             </div>
         </div>
@@ -80,14 +87,15 @@
         <div class="tile2">
             <div class="row mx-0 vertical-center">
                 <div class="col-lg-6 col-md-12 px-0">
-                    <div class="content2">
-                        <h2>
+                    <div class="content2 animate">
+                        <!-- <h2>
                             $300 Off Per Syringe
-                        </h2>
+                        </h2> -->
+                        <img src="https://g99plus.b-cdn.net/Landingpages/integrated/filler/text.gif" alt=""
+                            class="gif mb-3">
+                        <img src="https://g99plus.b-cdn.net/Landingpages/integrated/filler/text%20(1).gif" alt=""
+                            class="gif">
                         <div class="price_2">
-                            <p>
-                                Limited Availability
-                            </p>
                             <p>
                                 Under Eye, Cheek, Chin, Nasolabial
                             </p>
@@ -191,7 +199,7 @@
         h3,
         span,
         h1 {
-            font-family: Poppins, sans-serif !important;
+            font-family: Poppins, sans-serif;
         }
 
         img {
@@ -205,6 +213,77 @@
             line-height: 170%;
             color: rgb(78, 66, 68);
             font-family: Raleway, sans-serif !important;
+        }
+
+        @font-face {
+            font-family: "Bright Rainbow";
+            src: url("https://g99plus.b-cdn.net/Landingpages/integrated_medspa/Bright%20Rainbow.ttf");
+        }
+
+        @keyframes fadeIn {
+            0% {
+                top: -50px;
+                opacity: 0;
+            }
+
+            100% {
+                top: 0;
+                opacity: 1;
+            }
+        }
+
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+            display: none;
+        }
+
+        /* Style for modal */
+        #modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            z-index: 2;
+            padding: 40px;
+            border-radius: 10px;
+            /* box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5); */
+            box-shadow: 10px 10px 38px -17px rgba(0, 0, 0, 0.61);
+            display: none;
+            text-align: center;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        #modal h1 {
+            font-size: 30px;
+            line-height: 1.5;
+            font-weight: 600;
+            color: #bf9849;
+        }
+
+        #modal .diff-font {
+            font-family: 'Bright Rainbow', cursive;
+            font-weight: 400;
+            font-size: 35px;
+        }
+
+        #modal p {
+            margin: 15px 0;
+        }
+
+        /* Style for close button */
+        #close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
         }
 
         .content1 h1 {
@@ -232,6 +311,7 @@
             margin-right: 0px;
             margin-bottom: 0px;
             margin-left: 0px;
+            color: #fff;
         }
 
         .address p.businessname {
@@ -243,11 +323,25 @@
             margin-bottom: 0px;
         }
 
-        .address p.businessAddress {
+        .address .businessAddress {
+            display: block;
             font-size: 14px;
+            font-weight: 300;
+            color: rgb(78, 66, 68);
             line-height: 20px;
             padding-top: 10px;
             margin-bottom: 0px;
+        }
+
+        .content2.animate {
+            opacity: 0;
+        }
+
+        .content2.animate.start {
+            opacity: 1;
+            position: relative;
+            animation: linear 1s fadeIn;
+            /* animation-delay: 0.5s; */
         }
 
         .content2 h2 {
@@ -285,7 +379,7 @@
         }
 
         .price_2 {
-            margin-top: 2rem;
+            margin-top: 1rem;
             margin-right: 0px;
             margin-bottom: 2rem;
             margin-left: 0px;
@@ -364,7 +458,7 @@
         }
 
         .price-btn {
-            background-color: rgb(213, 123, 60);
+            background-color: #3a554c;
             border-top-left-radius: 100px;
             border-top-right-radius: 100px;
             border-bottom-right-radius: 100px;
@@ -397,7 +491,7 @@
             background-attachment: initial;
             background-origin: initial;
             background-clip: initial;
-            background-color: rgb(243, 239, 239);
+            background-color: #3a554c;
         }
 
         .head {
@@ -410,7 +504,7 @@
             padding-bottom: 0px;
             padding-left: 3em;
             z-index: 2;
-            position: relative;
+            position: static !important;
         }
 
         .logo {
@@ -465,6 +559,9 @@
         }
 
         @media screen and (max-width: 991px) {
+            #modal {
+                min-width: 600px;
+            }
 
             .content1,
             .tile3 .img1 {
@@ -473,7 +570,7 @@
 
             .content1 h1,
             .content1 h3 {
-                font-size: 36px;
+                font-size: 45px;
             }
 
             .tile3 img {
@@ -524,7 +621,7 @@
 
         @media screen and (min-width: 768px) {
             .action-button button {
-                background-color: rgb(213, 123, 60);
+                background-color: #3a554c;
                 border-top-left-radius: 100px;
                 border-top-right-radius: 100px;
                 border-bottom-right-radius: 100px;
@@ -561,20 +658,50 @@
                 padding-right: 1em !important;
                 padding-bottom: 1em !important;
                 padding-left: 1em !important;
+                height: auto !important;
+                max-width: none !important;
+            }
+
+            #modal {
+                min-width: 500px;
             }
         }
 
-        @media screen and (max-width: 561px) {
-            .address p.businessname {
-                font-size: 14px;
+        @media screen and (max-width: 576px) {
+            #modal {
+                min-width: 90%;
+                padding: 40px 25px;
             }
 
-            .address p.businessAddress {
-                font-size: 10px;
-                padding-top: 0px;
+            #modal h1 {
+                font-size: 25px;
             }
         }
     </style>
+    <script>
+        window.addEventListener('load', function () {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('modal').style.display = 'block';
+        });
+        setTimeout(() => {
+            document.getElementById('close').addEventListener('click', function () {
+                document.getElementById('overlay').style.display = 'none';
+                document.getElementById('modal').style.display = 'none';
+            });
+        }, 2000);
+
+        function handleScroll() {
+            // Get the position of the section relative to the viewport
+            const sectionPos = document.querySelector('.animate').getBoundingClientRect().top;
+            const viewportHeight = window.innerHeight;
+
+            // Check if the section is in view
+            if (sectionPos < viewportHeight && sectionPos > -viewportHeight) {
+                document.querySelector('.animate').classList.add('start');
+            }
+        }
+        window.addEventListener('scroll', handleScroll);
+    </script>
 </body>
 
 </html>

@@ -24,10 +24,16 @@
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet" />
-    <p>
-        <img height="0" src="https://g99plus.b-cdn.net/thumbnails/p2.png" width="0" class="d-none" />
-    </p>
     <div class="main">
+        <div id="overlay"></div>
+        <div id="modal">
+            <div id="close">&#10006;</div>
+            <h1>Don't miss out the Microneedling limited offer</h1>
+            <h1 class="diff-font"><span>( 1</span> area Full Face<span>,</span> Abdomen or Back <span>)</span></h1>
+            <h1>60 MIN - $250</h1>
+            <p>Complete the form and receive your exclusive special offer today</p>
+            ${CONTACT_FORM}
+        </div>
         <div class="head">
             <div class="logo">
                 <img src="${BUSINESS_LOGO}" />
@@ -41,16 +47,27 @@
                     </p>
                     <p class="businessAddress">${CLINIC_ADDRESS}
                     </p>
-                    <p class="businessAddress">${CLINIC_CONTACT_NUMBER}
-                    </p>
+                    <a class="businessAddress" href="tel:${CLINIC_CONTACT_NUMBER}">
+                        ${CLINIC_CONTACT_NUMBER}
+                    </a>
                 </div>
             </div>
         </div>
         <div class="tile1 vertical-center">
             <div class="wrapper1">
                 <div class="heading">
-                    <h1>Microneedling
+                    <h1>
+                        Microneedling
                     </h1>
+                    <h2>
+                        (1 area Full Face,Abdomen or Back)
+                    </h2>
+                    <p class="mb-1">
+                        60 MIN
+                    </p>
+                    <p>
+                        $250
+                    </p>
                 </div>
                 <div class="content1">
                     <p>
@@ -59,7 +76,10 @@
                         then stimulates the body’s natural healing response of producing new collagen-rich tissue.
                     </p>
                     <div class="action">
-                        <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book Now</button>
+                        <button data-target="#myModal" data-toggle="modal" class="btn price-btn">
+                            <img src="https://g99plus.b-cdn.net/Landingpages/integrated_medspa/microneedling/Vanilla-1s-243px%20(2).svg"
+                                alt="" class="btn-gif">
+                        </button>
                     </div>
                 </div>
             </div>
@@ -94,8 +114,7 @@
             <div class="row mx-0">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="img3">
-                        <img
-                            src="https://g99plus.b-cdn.net/Landingpages/integrated_medspa/microneedling/microneedl1.jpeg" />
+                        <img src="https://g99plus.b-cdn.net/Landingpages/integrated_medspa/microneedling/unnamed.jpg" />
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
@@ -190,6 +209,19 @@
     </div>
     <style>
     </style>
+    <script>
+        window.addEventListener('load', function () {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('modal').style.display = 'block';
+        });
+        setTimeout(() => {
+            document.getElementById('close').addEventListener('click', function () {
+                document.getElementById('overlay').style.display = 'none';
+                document.getElementById('modal').style.display = 'none';
+                document.querySelector('.tile1 .heading').classList.add('animate');
+            });
+        }, 2000);
+    </script>
 </body>
 
 </html>

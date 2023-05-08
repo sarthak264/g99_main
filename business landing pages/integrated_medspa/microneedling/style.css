@@ -20,7 +20,7 @@ body {
 h3,
 span,
 h1 {
-    font-family: Raleway, sans-serif !important;
+    font-family: Raleway, sans-serif;
 }
 
 img {
@@ -34,6 +34,77 @@ p {
     line-height: 170%;
     color: rgb(78, 66, 68);
     font-family: Raleway, sans-serif !important;
+}
+
+@font-face {
+    font-family: "Bright Rainbow";
+    src: url("https://g99plus.b-cdn.net/Landingpages/integrated_medspa/Bright%20Rainbow.ttf");
+}
+
+@keyframes fadeIn {
+    0% {
+        top: -40px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+}
+
+/* Style for modal */
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 2;
+    padding: 40px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5); */
+    box-shadow: 10px 10px 38px -17px rgba(0, 0, 0, 0.61);
+    display: none;
+    text-align: center;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+#modal h1 {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #bf9849;
+}
+
+#modal .diff-font {
+    font-family: 'Bright Rainbow', cursive;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+#modal p {
+    margin: 15px 0;
+}
+
+/* Style for close button */
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
 }
 
 .content2 {
@@ -52,6 +123,10 @@ p {
     margin-left: auto;
 }
 
+.tile1 .content1 {
+    text-align: center;
+}
+
 .wrapper4 {
     display: flex;
     justify-content: space-evenly;
@@ -62,7 +137,7 @@ p {
 }
 
 .tile1 {
-    background-image: url('https://g99plus.b-cdn.net/Group9%20p3/image%2011%20(1).png');
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('https://g99plus.b-cdn.net/Landingpages/integrated_medspa/microneedling/microdermabrasion-treatment-one-integrated-med-spa.jpeg');
     background-position-x: initial;
     background-position-y: initial;
     background-repeat-x: initial;
@@ -75,18 +150,44 @@ p {
     background-size: cover;
     width: 100%;
     min-height: 724px;
+    padding: 0 0 2rem;
+}
+
+.heading {
+    text-align: center;
+    padding: 0 15px;
+    opacity: 0;
+    position: relative;
+}
+
+.heading.animate {
+    animation: linear 0.75s fadeIn;
+    opacity: 1;
 }
 
 .heading h1 {
-    color: rgb(76, 87, 171);
+    color: #212529;
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
     line-height: 103px;
-    padding-bottom: 52px;
+    /* padding-bottom: 52px; */
     min-width: 750px;
-    text-align: center;
     font-family: 'GFS Didot', serif !important;
+}
+
+.heading h2 {
+    font-family: 'GFS Didot', serif !important;
+    color: #212529;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.heading p {
+    font-family: 'GFS Didot', serif !important;
+    font-size: 25px;
+    font-weight: bold;
+    color: #212529;
 }
 
 .tile1 .content1 {
@@ -132,6 +233,10 @@ p {
     min-width: 750px;
 }
 
+.tile1 .content1 p {
+    color: #212529;
+}
+
 .tile2 {
     padding-top: 4em;
     padding-right: 1em;
@@ -143,9 +248,8 @@ p {
     background-image: url('https://g99plus.b-cdn.net/Group9%20p3/image%2011%20(2).png');
     background-position-x: initial;
     background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
@@ -171,12 +275,12 @@ p {
 }
 
 .price-btn {
-    background-color: rgb(76, 87, 171);
+    background-color: #3a554c;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    height: 50px;
+    min-height: 50px;
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 10px;
@@ -187,6 +291,10 @@ p {
     text-transform: uppercase;
 }
 
+.btn-gif {
+    max-width: 140px;
+}
+
 .price-btn.btn-light {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -195,6 +303,12 @@ p {
 .price-btn.black {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+}
+
+.tile3 .row>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -211,7 +325,7 @@ p {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(243, 239, 239);
+    background-color: #3a554c;
 }
 
 .footer p {
@@ -219,6 +333,7 @@ p {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    color: #fff;
 }
 
 .icon4 {
@@ -272,7 +387,7 @@ p {
     padding-bottom: 0px;
     padding-left: 3em;
     z-index: 2;
-    position: relative;
+    position: static !important;
 }
 
 .logo {
@@ -302,8 +417,11 @@ p {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
+    display: block;
     font-size: 14px;
+    font-weight: 300;
+    color: rgb(78, 66, 68);
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
@@ -364,6 +482,10 @@ p {
     .tile4 {
         padding-bottom: 4em;
     }
+
+    #modal {
+        min-width: 600px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -378,7 +500,7 @@ p {
     }
 
     .action-button button {
-        background-color: rgb(76, 87, 171);
+        background-color: #3a554c;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
@@ -401,6 +523,8 @@ p {
         padding-right: 1em !important;
         padding-bottom: 1em !important;
         padding-left: 1em !important;
+        height: auto !important;
+        max-height: none !important;
     }
 
     .head .action-button {
@@ -412,7 +536,7 @@ p {
     }
 
     .heading h1 {
-        font-size: 50px;
+        font-size: 45px;
         min-width: 100%;
     }
 
@@ -425,11 +549,30 @@ p {
         margin-left: auto;
     }
 
+    .content1 h3 {
+        padding-bottom: 20px;
+    }
+
     .icon4 {
         justify-content: center;
     }
 
     .wrapper4 {
         flex-direction: column;
+    }
+
+    #modal {
+        min-width: 500px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #modal {
+        min-width: 90%;
+        padding: 40px 25px;
+    }
+
+    #modal h1 {
+        font-size: 25px;
     }
 }
