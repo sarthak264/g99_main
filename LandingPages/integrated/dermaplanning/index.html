@@ -34,8 +34,9 @@
                     </p>
                     <p class="businessAddress">${CLINIC_ADDRESS}
                     </p>
-                    <p class="businessAddress">${CLINIC_CONTACT_NUMBER}
-                    </p>
+                    <a class="businessAddress" href="tel:${CLINIC_CONTACT_NUMBER}">
+                        ${CLINIC_CONTACT_NUMBER}
+                    </a>
                 </div>
             </div>
         </div>
@@ -128,7 +129,7 @@
             </div>
         </div>
         <div class="footer">
-            <p class="text-center">©Copyright 2022, All Rights Reserved
+            <p class="text-center">©Copyright 2023, All Rights Reserved
             </p>
         </div>
     </div>
@@ -409,8 +410,11 @@
             margin-bottom: 0px;
         }
 
-        .address p.businessAddress {
+        .address .businessAddress {
+            display: block;
             font-size: 14px;
+            font-weight: 300;
+            color: rgb(78, 66, 68);
             line-height: 20px;
             padding-top: 10px;
             margin-bottom: 0px;

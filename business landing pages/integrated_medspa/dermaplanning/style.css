@@ -253,8 +253,11 @@ p {
     margin-bottom: 0px;
 }
 
-.address p.businessAddress {
+.address .businessAddress {
+    display: block;
     font-size: 14px;
+    font-weight: 300;
+    color: rgb(78, 66, 68);
     line-height: 20px;
     padding-top: 10px;
     margin-bottom: 0px;
