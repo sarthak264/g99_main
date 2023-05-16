@@ -1,0 +1,837 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+\* {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+}
+
+.main {
+    overflow-x: hidden;
+}
+
+.yellow-tint {
+    position: relative;
+    background-color: rgb(243, 239, 234);
+}
+
+.width-wrapper {
+    position: relative;
+    /* max-width: 1050px; */
+    margin: 0 auto;
+    padding: 0 150px;
+    z-index: 99;
+}
+
+.price-btn {
+    width: 100%;
+    max-width: 350px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    background-color: rgb(172, 150, 143);
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    cursor: pointer;
+}
+
+.top p {
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+.head {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(51, 47, 49, 0.15);
+    height: auto !important;
+}
+
+.head-logo {
+    max-height: 80px !important;
+}
+
+.logo-wrapper {
+    max-height: 80px !important;
+}
+
+.head .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head .right-side .price-btn {
+    margin-right: 2rem;
+}
+
+.head .right-side p {
+    margin-bottom: 7px;
+}
+
+.head .right-side p.businessName {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.head p,
+.head a {
+    display: flex;
+    column-gap: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(51, 47, 49);
+    white-space: nowrap;
+}
+
+.head .price-btn {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+
+.tile1 {
+    background-color: rgb(243, 239, 234);
+}
+
+.tile1 h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px;
+    color: rgb(51, 47, 49);
+    padding-right: 420px;
+}
+
+.tile1 .top-section {
+    position: relative;
+    padding-top: 40px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+}
+
+.tile1 .top-section p {
+    font-size: 16px;
+}
+
+.tile1 .form-wrapper {
+    position: absolute;
+    right: 150px;
+    top: 40px;
+    max-width: 410px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 8px 20px 0px;
+    z-index: 999;
+}
+
+.tile1 .form-wrapper .capital {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: rgb(51, 47, 49);
+}
+
+.tile1 .form-wrapper h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgb(51, 47, 49);
+    text-align: center;
+}
+
+.tile1-1 {
+    width: 100%;
+    min-height: 420px;
+    object-fit: cover;
+}
+
+.tile2 {
+    position: relative;
+    padding-top: 110px;
+    padding-right: 0px;
+    padding-bottom: 110px;
+    padding-left: 0px;
+    z-index: 9;
+}
+
+.tile2::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: -50%;
+    right: 0px;
+    width: 200%;
+    height: 100%;
+    z-index: -9;
+    background-color: rgb(51, 47, 49);
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/revive%20md/rev224/dark-bg.png");
+    background-size: contain;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position-x: 5%;
+    background-position-y: 0%;
+}
+
+.tile2 h2 {
+    font-size: 40px;
+    line-height: 48px;
+    color: rgb(172, 150, 143);
+    margin-bottom: 25px;
+}
+
+.tile2 ul {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    margin-bottom: 24px;
+}
+
+.tile2 p,
+li {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.benifits-section h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: rgb(51, 47, 49);
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.benifits-section ul {
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: rgb(172, 150, 143);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.benifits-section li {
+    color: rgb(51, 47, 49);
+    font-size: 16px;
+    line-height: 34px;
+}
+
+.tile3 .review-wrapper {
+    background-color: rgb(255, 255, 255);
+    padding-top: 80px;
+    padding-right: 90px;
+    padding-bottom: 80px;
+    padding-left: 90px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 8px 20px 0px;
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+}
+
+.tile3 .review {
+    font-size: 24px;
+    line-height: 34px;
+    color: rgb(51, 47, 49);
+    margin-bottom: 8px;
+}
+
+.tile3 .name {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.last-tile h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+.last-tile ul {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+
+.last-tile li {
+    color: rgb(51, 47, 49);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(172, 150, 143);
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.last-tile li:last-of-type {
+    border-bottom-width: initial;
+    border-bottom-style: none;
+    border-bottom-color: initial;
+}
+
+.tile4 {
+    padding-top: 60px;
+    padding-right: 15px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+}
+
+.tile4 h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 62px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tile4 .row:nth-of-type(2) {
+    margin-top: 2rem;
+}
+
+.tile4 .b_a-image {
+    width: 100%;
+    max-width: 100%;
+}
+
+.tile4 .review {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400;
+    color: rgb(51, 47, 49);
+    margin-bottom: 20px;
+}
+
+.tile4 .reviewer {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tile5 {
+    padding-top: 70px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+}
+
+.tile5 .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile5 .icon-wrapper {
+    background-color: rgb(51, 47, 49);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.tile5 .icon-wrapper .icon {
+    position: relative;
+    padding-top: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+    padding-left: 45px;
+}
+
+.tile5 p {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+.tile6 {
+    padding-bottom: 100px;
+}
+
+.tile6 h2 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.tile7 h2 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.tile7 p {
+    font-size: 16px;
+}
+
+.tile8 {
+    height: 450px;
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/revive%20md/Jeuveau/Path%20261.png"), url("https://g99plus.b-cdn.net/Landingpages/aesthetic%20beauty%20lounge/lip_filler/AdobeStock_556469654.jpeg");
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position-x: 60%;
+    background-position-y: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+
+.tile8 h2 {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.upper-footer .first-col {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.upper-footer .icons-wrapper {
+    display: flex;
+    column-gap: 30px;
+}
+
+.upper-footer i {
+    font-size: 24px;
+    color: rgb(243, 239, 234);
+}
+
+.upper-footer h3 {
+    font-size: 24px;
+    line-height: 48px;
+    color: rgb(172, 150, 143);
+}
+
+.upper-footer p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.lower-footer {
+    background-color: rgb(51, 47, 49);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 50px;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(90, 82, 86);
+}
+
+.lower-footer p {
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1300px) {
+    .width-wrapper {
+        padding: 0 50px;
+    }
+
+    .tile1 .top-section {
+        padding-top: 40px;
+        padding-right: 50px;
+        padding-bottom: 40px;
+        padding-left: 50px;
+    }
+
+    .tile1 .form-wrapper {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .width-wrapper {
+        padding: 0 20px;
+    }
+
+    .tile1 .top-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+
+    .tile1 .top-section p {
+        margin-bottom: 20px;
+    }
+
+    .tile1 h1,
+    .tile1 p {
+        text-align: left;
+        padding-right: 0px;
+    }
+
+    .tile1 h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .tile1 .form-wrapper {
+        position: relative;
+        top: auto;
+        right: auto;
+        max-width: 500px;
+    }
+
+    .tile1-1 {
+        min-height: 250px;
+        object-position: 20% center;
+    }
+
+    .tile2 {
+        padding-top: 60px;
+        padding-right: 0px;
+        padding-bottom: 60px;
+        padding-left: 0px;
+    }
+
+    .tile2 .content-wrapper {
+        max-width: 719px;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    }
+
+    .tile2-1 {
+        padding-top: 2rem;
+    }
+
+    .tile4 {
+        padding-top: 40px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+    }
+
+    .tile4 .ba-image {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    .upper-footer>.row>div:nth-of-type(1),
+    .upper-footer>.row>div:nth-of-type(2) {
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .head {
+        padding: 1rem;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .head img {
+        display: inline-block;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .head .price-btn {
+        display: none;
+    }
+
+    .tile2 {
+        padding-top: 50px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        padding-left: 0px;
+    }
+
+    .tile2 .content-wrapper {
+        max-width: 519px;
+    }
+
+    .benifits-section h2 {
+        font-size: 35px;
+        line-height: 42px;
+        margin-bottom: 30px;
+    }
+
+    .last-tile h2 {
+        font-size: 35px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+
+    .last-tile li {
+        padding-top: 15px;
+        padding-right: 0px;
+        padding-bottom: 15px;
+        padding-left: 0px;
+    }
+
+    .tile4 {
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+        padding-left: 10px;
+    }
+
+    .tile4 h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .tile4 .review {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    img {
+        display: block;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    }
+
+    .tile5 {
+        padding-top: 30px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+    }
+
+    .tile5 .wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .tile6 {
+        padding-bottom: 70px;
+    }
+
+    .tile6 h2 {
+        font-size: 40px;
+        margin-bottom: 1.5rem;
+    }
+
+    .upper-footer img {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .lower-footer {
+        flex-direction: column;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .head {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        column-gap: 30px;
+    }
+
+    .head p span {
+        display: none;
+    }
+
+    .tile1 .top-section {
+        align-items: flex-start;
+    }
+
+    .tile1 h1 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .tile1 .form-wrapper {
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .tile2 {
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        padding-left: 0px;
+    }
+
+    .tile2 h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .tile3 .review-wrapper {
+        padding-top: 40px;
+        padding-right: 15px;
+        padding-bottom: 40px;
+        padding-left: 15px;
+    }
+
+    .tile3 .review {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .tile4 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .tile4 .row>div {
+        padding: 0 !important;
+    }
+
+    .tile4 .row:nth-of-type(2) {
+        margin-top: 0;
+    }
+
+    .tile4 .review {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .tile6 {
+        padding-bottom: 40px;
+    }
+
+    .tile7 h2 {
+        font-size: 35px;
+    }
+
+    .tile8 .price-btn {
+        max-width: 250px;
+    }
+
+    .upper-footer>.row>div {
+        padding-bottom: 1rem;
+    }
+}
