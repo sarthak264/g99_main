@@ -103,7 +103,7 @@ li {
 .tile1-bg {
     position: relative;
     min-height: 700px;
-    background-image: url('https://g99plus.b-cdn.net/Landingpages/J%20michelle%20medspa/botox/AdobeStock_75996466.jpeg');
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/J%20michelle%20medspa/microneedling/2022-10-19.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -127,6 +127,12 @@ li {
     font-size: 35px;
     font-weight: 500;
     margin-bottom: 15px;
+}
+
+.tile1 .tagline p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
 }
 
 .tile2 .c-wrapper {
@@ -282,7 +288,7 @@ li {
     }
 
     .tile1 .tagline {
-        padding: 1rem 0 1rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         bottom: 2rem;
     }
 
