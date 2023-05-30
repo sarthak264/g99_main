@@ -17,7 +17,7 @@ body {
     margin-left: 0px;
 }
 
-\* {
+* {
     box-sizing: border-box;
 }
 
@@ -27,6 +27,11 @@ p {
 }
 
 img {
+    max-width: 100%;
+}
+
+video {
+    width: 100%;
     max-width: 100%;
 }
 
@@ -112,11 +117,19 @@ h3 {
     height: auto !important;
 }
 
-.head-logo {
-    max-height: 80px !important;
+.head .icon {
+    font-size: 25px;
 }
 
-.logo-wrapper {
+.head .icon:hover {
+    text-decoration: none;
+}
+
+/* .head-logo {
+    max-height: 80px !important;
+} */
+
+.logo {
     max-height: 80px !important;
 }
 
@@ -186,6 +199,7 @@ h3 {
     position: absolute;
     right: 150px;
     top: 40px;
+    min-width: 400px;
     max-width: 410px;
     padding-top: 30px;
     padding-right: 30px;
@@ -376,13 +390,16 @@ li {
     text-align: center;
 }
 
-.tile4 .row:nth-of-type(2) {
+.tile4 .row:nth-of-type(2),
+.tile4 .row:nth-of-type(3) {
     margin-top: 2rem;
 }
 
-.tile4 .b_a-image {
+.tile4 .ba-image {
     width: 100%;
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .tile4 .review {
@@ -490,6 +507,11 @@ li {
     margin-bottom: 20px;
 }
 
+.tile8-1 {
+    max-width: 200px;
+    margin-top: 30px;
+}
+
 .upper-footer .first-col {
     height: 100%;
     display: flex;
@@ -563,6 +585,14 @@ li {
         padding: 0 20px;
     }
 
+    .head .price-btn {
+        display: none;
+    }
+
+    .head .icon {
+        margin-right: 2rem;
+    }
+
     .tile1 .top-section {
         display: flex;
         flex-direction: column;
@@ -632,6 +662,10 @@ li {
         margin-bottom: 1rem;
     }
 
+    .tile4 video {
+        margin-bottom: 1rem;
+    }
+
     .upper-footer>.row>div:nth-of-type(1),
     .upper-footer>.row>div:nth-of-type(2) {
         padding-bottom: 1.5rem;
@@ -645,16 +679,17 @@ li {
         max-height: none !important;
     }
 
+    .head p,
+    .head a {
+        white-space: normal;
+    }
+
     .head img {
         display: inline-block;
         margin-top: 0px;
         margin-right: 0px;
         margin-bottom: 0px;
         margin-left: 0px;
-    }
-
-    .head .price-btn {
-        display: none;
     }
 
     .tile2 {
@@ -757,6 +792,10 @@ li {
         column-gap: 30px;
     }
 
+    .head .icon {
+        margin-right: 1rem;
+    }
+
     .head p span {
         display: none;
     }
@@ -771,6 +810,8 @@ li {
     }
 
     .tile1 .form-wrapper {
+        min-width: auto;
+        width: 100%;
         padding-top: 20px;
         padding-right: 20px;
         padding-bottom: 20px;
@@ -810,7 +851,8 @@ li {
         padding: 0 !important;
     }
 
-    .tile4 .row:nth-of-type(2) {
+    .tile4 .row:nth-of-type(2),
+    .tile4 .row:nth-of-type(3) {
         margin-top: 0;
     }
 
