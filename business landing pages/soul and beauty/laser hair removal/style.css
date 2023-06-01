@@ -1,0 +1,453 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+h3,
+span,
+h1,
+h2 {
+    font-family: Raleway, sans-serif !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    color: rgb(78, 66, 68);
+    font-family: Raleway, sans-serif !important;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-center.strech {
+    align-items: stretch;
+}
+
+.price-btn {
+    background-color: rgb(216, 139, 126);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-btn.btn-light {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.price-btn.black {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(243, 239, 239);
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.tile1 h1 {
+    color: rgb(52, 48, 49);
+}
+
+.tile1 {
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/soul%20and%20beauty/laser%20hair%20removal/AdobeStock_427749985.jpeg");
+    min-height: 720px;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.wrapper1 {
+    display: flex;
+    min-height: 650px;
+    align-items: center;
+}
+
+.content1 {
+    max-width: 550px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.tile1 .content1 {
+    text-align: center;
+}
+
+.content1 h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.content1 h2 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.content1 p {
+    font-size: 18px;
+    margin-top: 2rem;
+}
+
+.tile2 {
+    padding-top: 5em;
+    padding-right: 1em;
+    padding-bottom: 5em;
+    padding-left: 1em;
+}
+
+.tile2 h2 {
+    font-size: 34px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.tile3 .centered {
+    max-width: 700px;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 0em;
+    padding-right: 1em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+}
+
+.div3 {
+    max-width: 90%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.layout {
+    top: 8em;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+    width: 75%;
+    height: 100%;
+}
+
+.wrapper3 {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 3em;
+    padding-right: 0px;
+    padding-bottom: 3em;
+    padding-left: 0px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper3 .content3 {
+    max-width: 600px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.content3 h2 {
+    font-size: 34px;
+    line-height: 1.3;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.tile4 {
+    padding-top: 5em;
+    padding-right: 1em;
+    padding-bottom: 5em;
+    padding-left: 1em;
+}
+
+.head {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address p.businessAddress {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.ba-section {
+    padding-top: 4rem;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.ba-section video {
+    padding: 0 15px;
+}
+
+p.review {
+    font-size: 16px !important;
+    line-height: 175%;
+    margin-bottom: 5px;
+}
+
+.reviewer {
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+    .wrapper3 {
+        height: 90%;
+    }
+
+    .layout {
+        top: 3em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .price-btn.black {
+        margin-top: 1em;
+    }
+
+    .layout {
+        position: relative;
+        top: unset;
+        width: 100%;
+        height: auto;
+    }
+
+    .tile2-1 {
+        margin-bottom: 2rem;
+    }
+
+    .tile2 h2 {
+        margin-bottom: 0;
+    }
+
+    .wrapper3 {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: rgb(216, 139, 126);
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        height: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .action-button {
+        display: none;
+    }
+
+    .head {
+        padding: 1rem;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .ba-section .ba-image {
+        padding-top: 0.6rem;
+        padding-right: 0px;
+        padding-bottom: 0.6rem;
+        padding-left: 0px;
+    }
+
+    .ba-section {
+        padding-top: 2rem;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tile1 {
+        background-position-x: 40%;
+    }
+
+    .content1 h1 {
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    .content1 h2 {
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 500;
+    }
+
+    .tile2 .content1 h2 {
+        font-size: 27px;
+        line-height: 1.3;
+        font-weight: 600;
+    }
+
+    .wrapper3 h2 {
+        font-size: 29px;
+        line-height: 1.3;
+        font-weight: 600;
+    }
+
+    .content1 p {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 1.5rem;
+    }
+
+    .reviewer {
+        font-weight: 600 !important;
+    }
+}
