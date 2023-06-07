@@ -246,7 +246,7 @@ h3 {
     height: 100%;
     z-index: -9;
     background-color: rgb(51, 47, 49);
-    background-image: url("https://g99plus.b-cdn.net/Landingpages/revive%20md/rev224/dark-bg.png");
+    /* background-image: url("https://g99plus.b-cdn.net/Landingpages/revive%20md/rev224/dark-bg.png"); */
     background-size: contain;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
@@ -476,7 +476,7 @@ li {
 
 .tile8 {
     height: 450px;
-    background-image: url("https://g99plus.b-cdn.net/Landingpages/revive%20md/Jeuveau/Path%20261.png"), url("https://g99plus.b-cdn.net/Landingpages/revive%20md/Jeuveau/MVShoot-Injections-02%20(7).png");
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/revive%20md/Jeuveau/Path%20261.png"), url("https://g99plus.b-cdn.net/Landingpages/aesthetic%20beauty%20lounge/lip_filler/AdobeStock_556469654.jpeg");
     background-size: cover;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
