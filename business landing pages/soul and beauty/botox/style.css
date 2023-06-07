@@ -280,7 +280,7 @@ p {
 }
 
 .price-btn {
-    background-color: rgb(30, 65, 51);
+    background-color: #486458;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -296,9 +296,16 @@ p {
     text-transform: uppercase;
 }
 
+.price-btn:hover {
+    background-color: #A07E68 !important;
+    color: #fff !important;
+}
+
 .price-btn.black {
-    color: rgb(30, 65, 51);
-    background-color: rgb(255, 255, 255);
+    /* color: rgb(30, 65, 51);
+    background-color: rgb(255, 255, 255); */
+    background-color: #486458;
+    color: #fff;
 }
 
 .footer {
@@ -412,7 +419,7 @@ p {
     }
 
     .action-button button {
-        background-color: rgb(30, 65, 51);
+        background-color: #486458;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;

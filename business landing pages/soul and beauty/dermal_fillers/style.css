@@ -65,7 +65,7 @@ h3 {
     padding-right: 0px;
     padding-bottom: 10px;
     padding-left: 0px;
-    background-color: rgb(172, 150, 143);
+    background-color: #486458;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -95,6 +95,11 @@ h3 {
     outline-style: none;
     outline-width: initial;
     cursor: pointer;
+}
+
+.price-btn:hover {
+    background-color: #A07E68 !important;
+    color: #fff !important;
 }
 
 .top p {
