@@ -309,7 +309,8 @@ iframe {
 }
 
 .tile2 p,
-li {
+.tile2 li,
+.tile2 a {
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -611,6 +612,30 @@ li {
     }
 }
 
+@media screen and (max-width: 1199px) {
+    .head {
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .head img {
+        display: block;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-right: 20px;
+    }
+
+    .head .price-btn {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .width-wrapper {
         padding-top: 0px;
@@ -690,25 +715,8 @@ li {
 }
 
 @media screen and (max-width: 767px) {
-    .head {
-        padding-top: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 1rem;
-        height: auto !important;
-        max-height: none !important;
-    }
-
-    .head img {
-        display: inline-block;
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-    }
-
-    .head .price-btn {
-        display: none;
+    .head p {
+        white-space: normal;
     }
 
     .tile2 {
