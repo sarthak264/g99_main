@@ -1,0 +1,591 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Italiana', serif;
+    color: #000;
+}
+
+p,
+li {
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #0A0A0A;
+}
+
+h2 {
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: "Italiana";
+    src: url("https://g99plus.b-cdn.net/Landingpages/glow%20beauty%20bar/hydrofacial/Italiana.woff");
+}
+
+.width-wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.price-btn {
+    background-color: #D8B41D;
+    border-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.head {
+    position: relative;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3em;
+    z-index: 2;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address .businessAddress {
+    display: block;
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(78, 66, 68);
+}
+
+.tile1 .wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.tile1 .content {
+    padding: 40px;
+    /* padding-top: 0; */
+}
+
+.tile1 .subheading {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #D8B41D;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.tile1 .heading {
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.tile1-1 {
+    width: 100%;
+    max-width: 620px;
+    display: block;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.tile2 .heading-wrapper {
+    background-color: #000;
+    padding: 30px;
+    text-align: center;
+}
+
+.tile2 .heading-wrapper h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.tile3 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://g99plus.b-cdn.net/Landingpages/glow%20beauty%20bar/hydrofacial/ActionShot_Microneedling.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+
+.tile3 .wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.tile3 h2 {
+    color: #fff;
+}
+
+.tile3 ul {
+    margin: 30px 0 30px 20px;
+}
+
+.tile3 ul li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 140%;
+}
+
+.tile3 p {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #f7f7f7;
+}
+
+.tile4 {
+    padding: 40px 0 12px;
+}
+
+.tile4 .left-section {
+    margin: 20px;
+}
+
+.tile4 .content {
+    padding: 45px;
+    margin: 20px;
+    border: 5px solid #d8b41d;
+}
+
+.tile4 .list {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.tile4 .content .list:last-of-type {
+    margin-bottom: 0;
+}
+
+.tile4 i {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+.tile4 h3 {
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+.tile4 p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.tile5 {
+    padding: 3rem 0;
+}
+
+.tile5 .wrapper {
+    padding-left: 3rem;
+}
+
+.tile5 .subheading {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #D8B41D;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.tile6 {
+    margin: 15px;
+    border: 5px solid #d8b41d;
+    padding: 25px 0;
+}
+
+.tile6 h2 {
+    text-align: center;
+}
+
+.reviewer {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.tile7 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://g99plus.b-cdn.net/Landingpages/glow%20beauty%20bar/hydrofacial/Micro_Consult_3png-1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 30px;
+}
+
+.tile7 .wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.tile7 h2 {
+    color: #fff;
+    width: 55%;
+}
+
+.tile7 .row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tile7 .c-wrapper {
+    margin: 0 !important;
+    padding: 20px 30px;
+}
+
+.tile7 .num {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #d8b41d;
+    margin-bottom: 5px;
+}
+
+.tile7 h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.tile7 p {
+    color: #fff;
+}
+
+.tile9 {
+    padding: 50px 0;
+}
+
+.tile9 .heading {
+    font-size: 44px;
+    padding: 20px;
+}
+
+.tile9 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+}
+
+.tile9 .content {
+    margin: 25px;
+}
+
+.tile9 .accordion {
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.tile9 .card-header {
+    transition: all 0.1s ease-in-out;
+    background-color: #000;
+    /* border-radius: 25px; */
+    cursor: pointer;
+    padding: 0;
+}
+
+.tile9 .card-header:hover,
+.tile9 .card-header:focus {
+    background-color: #f7f7f7;
+    border: none;
+    outline: none;
+}
+
+.tile9 .card-header h6 a {
+    padding: 25px;
+    color: #fff;
+    transition: all 0.1s ease-in-out;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.tile9 .card-header h6 a:hover {
+    text-decoration: none;
+}
+
+.tile9 .card-header:hover h6 a {
+    color: #000;
+}
+
+.tile9 .card-body {
+    background-color: #f7f7f7;
+    /* border-radius: 0 0 25px 25px; */
+}
+
+/* .card-header.open {
+    border-radius: 25px 25px 0 0;
+} */
+
+.tile10 {
+    /* height: 1000px; */
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/glow%20beauty%20bar/hydrofacial/woman-patient-lying-still.jpg');
+    background-size: cover;
+}
+
+.tile10-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50%;
+}
+
+.tile10 .form-wrapper {
+    background-color: rgba(255, 255, 255, 0.97);
+    border: 5px solid #D8B41D;
+    padding: 30px 45px;
+    margin: 20px;
+    width: 100%;
+}
+
+.tile10 .form-wrapper h2 {
+    font-size: 44px;
+    font-weight: 200;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1199px) {
+    .tile5 .ba-image {
+        padding: 0.5rem 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tile1 .content {
+        max-width: 450px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+
+    .tile1 .subheading {
+        font-size: 18px;
+    }
+
+    .tile1 .heading {
+        font-size: 42px;
+    }
+
+    .tile1-1 {
+        padding: 40px 0 20px;
+    }
+
+    .tile3 .wrapper {
+        max-width: 640px;
+    }
+
+    .tile3-1 {
+        margin-top: 30px;
+    }
+
+    .tile7 h2 {
+        width: auto;
+    }
+
+    .tile7 .row {
+        margin: 30px 0 20px;
+    }
+
+    .tile9 .heading {
+        margin-bottom: 0;
+    }
+
+    .tile10-container {
+        grid-template-columns: 75%;
+        justify-content: center;
+    }
+
+    .tile10 .form-wrapper {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: #d8b41d;
+        border-radius: 100px;
+        height: 50px;
+        text-align: center;
+        color: #fff;
+        padding: 10px 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    .head {
+        padding: 1em;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .head .action-button {
+        display: none;
+    }
+
+    .tile2 img {
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .tile4 {
+        text-align: center;
+    }
+
+    .tile4 h2 {
+        margin-bottom: 1rem;
+    }
+
+    .tile4 .content {
+        text-align: left;
+    }
+
+    .tile5 {
+        padding: 2rem 0;
+    }
+
+    .tile5 .wrapper {
+        text-align: center;
+        padding-left: 0;
+        padding: 0 15px;
+    }
+
+    .tile5 .subheading {
+        margin-bottom: 5px;
+    }
+
+    .tile5 h2 {
+        margin-bottom: 1rem;
+    }
+
+    .tile9 {
+        padding: 20px 0;
+    }
+
+    .tile9 .heading {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .tile10-container {
+        display: flex;
+    }
+
+    .tile10 .form-wrapper {
+        width: 100%;
+        max-width: 450px;
+        margin: 20px 15px;
+        /* margin: 0 auto; */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tile1 .heading {
+        font-size: 36px;
+    }
+
+    .tile4 {
+        padding: 20px 0;
+    }
+
+    .tile4 .content {
+        padding: 15px;
+        margin: 0;
+    }
+
+    .tile4 h3 {
+        font-size: 28px;
+    }
+
+    .tile4 i {
+        font-size: 2rem;
+    }
+
+    .tile7 {
+        padding: 40px 15px;
+    }
+
+    .tile7 .c-wrapper {
+        padding: 20px 10px;
+    }
+
+    .tile10 .form-wrapper h2 {
+        font-size: 28px;
+    }
+}
