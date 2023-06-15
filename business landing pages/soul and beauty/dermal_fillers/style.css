@@ -172,12 +172,16 @@ h3 {
     background-color: rgb(243, 239, 234);
 }
 
+.tile1 .heading-wrapper {}
+
 .tile1 h1 {
+    display: inline-block;
     font-size: 60px;
     font-weight: 400;
     line-height: 80px;
     color: rgb(51, 47, 49);
     padding-right: 420px;
+    text-align: right;
 }
 
 .tile1 .top-section {
@@ -549,6 +553,12 @@ li {
     line-height: 24px;
     color: rgb(255, 255, 255);
     margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1440px) {
+    .tile1 h1 {
+        font-size: 50px;
+    }
 }
 
 @media screen and (max-width: 1300px) {
