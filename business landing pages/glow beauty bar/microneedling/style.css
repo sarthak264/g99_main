@@ -14,6 +14,8 @@ img {
 
 video {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 h1,
@@ -328,6 +330,10 @@ h2 {
     width: 55%;
 }
 
+.tile7 a {
+    color: #fff;
+}
+
 .tile7 .row {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -459,6 +465,10 @@ h2 {
 
 .tile10 p {
     margin: 0px 0 20px;
+}
+
+.tile10 p a {
+    color: #000;
 }
 
 @media screen and (max-width: 1199px) {
