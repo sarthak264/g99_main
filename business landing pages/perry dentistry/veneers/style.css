@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
+    border: none;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    color: #000;
+}
+
+/* font-family: 'Lora', serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Tenor Sans', sans-serif; */
+
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-link {
+    display: inline-block;
+}
+
+.btn-wrapper {
+    margin-bottom: 20px;
+}
+
+.price-btn {
+    background-color: #1d1d1d;
+    border-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.head {
+    position: relative;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3em;
+    z-index: 2;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address .businessAddress {
+    display: block;
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(78, 66, 68);
+}
+
+.base-tile {
+    padding: 5% 0;
+}
+
+.base-tile .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 5%;
+}
+
+.base-tile h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #012D26;
+    margin-bottom: 20px;
+}
+
+.base-tile h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #012D26;
+    margin-bottom: 20px;
+}
+
+.base-tile .content .btn-link:first-of-type {
+    margin-bottom: 20px;
+}
+
+.tile1 {
+    background-color: #e9f4ff;
+}
+
+.tile2 {
+    background-color: #f4f9ff;
+}
+
+.tile3 {
+    padding: 0;
+    background-color: #cadbeb;
+}
+
+.tile3-1 {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.tile3 .content {
+    padding: 5% 5% 5% 8%;
+}
+
+.tile5 {
+    background-color: #41c58a;
+}
+
+.tile5 .content {
+    text-align: center;
+    padding: 50px 0 0;
+}
+
+.tile5 h3 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.tile5-1 {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+
+.tile6 {
+    background-color: rgb(1, 45, 38);
+    position: relative;
+    padding: 4% 0;
+}
+
+.tile6::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://g99plus.b-cdn.net/Landingpages/perry%20dentistry/veneers/perryfamilydentistry-CTA-NewPIC-scaled-1.jpeg');
+    background-size: cover;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.tile6 .content {
+    position: relative;
+    text-align: center;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile6-1 {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.tile6 h3 {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.tile6 p {
+    font-family: 'Lora', serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #41C58A;
+    margin: 20px 0 25px;
+}
+
+.tile6 .number {
+    font-family: 'Lora', serif;
+    font-size: 90px;
+    line-height: 0.8;
+    font-weight: 400;
+    color: #fff;
+}
+
+.tile6 .number:hover {
+    text-decoration: none;
+}
+
+.tile6 .price-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 24px;
+    color: #41C58A;
+    border: 1px solid #41C58A;
+    border-radius: 0;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.tile7 iframe {
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+
+.footer {
+    background-color: #012d26;
+    padding: 0 4%;
+    height: auto !important;
+    display: block !important;
+}
+
+.upper-footer {
+    padding: 4% 0 2%;
+}
+
+.upper-footer .left a,
+.upper-footer .left p {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #FFFFFFC2;
+    margin-bottom: 20px;
+}
+
+.upper-footer .left a {
+    display: inline-block;
+}
+
+.upper-footer .left a:hover {
+    text-decoration: none;
+}
+
+.upper-footer .left i {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.upper-footer .left .number {
+    font-weight: 600;
+}
+
+.upper-footer .center {
+    display: flex;
+    justify-content: center;
+}
+
+.upper-footer .center a {
+    display: inline-block;
+}
+
+.upper-footer .footer-img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.upper-footer .right {
+    text-align: right;
+}
+
+.upper-footer p.green-heading {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    line-height: 1.4;
+    color: #41C58A;
+    margin-bottom: 10px;
+}
+
+.upper-footer ul li {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.6;
+    color: #D3D3D3;
+    list-style: none;
+}
+
+.upper-footer .icons-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.upper-footer .icons-container i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.lower-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-top: 1px solid #fff;
+}
+
+.lower-footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-footer p {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1292px) {
+    p {
+        font-size: 14px;
+        line-height: 1.75;
+    }
+
+    .base-tile h2 {
+        font-size: 22px;
+    }
+
+    .base-tile h1 {
+        font-size: 32px;
+    }
+
+    .tile5 .content {
+        padding: 30px 0 0;
+    }
+
+    .tile5 h3 {
+        font-size: 30px;
+    }
+
+    .tile5-1 {
+        width: 58%;
+    }
+
+    .tile6 h3 {
+        font-size: 40px;
+    }
+
+    .tile6 .number {
+        font-size: 70px;
+    }
+
+    .upper-footer p.green-heading {
+        font-size: 22px !important;
+    }
+
+    .upper-footer .left a,
+    .upper-footer .left p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .lower-footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-top: none;
+    }
+
+    .lower-footer p {
+        margin-bottom: 10px;
+    }
+
+    .lower-footer div {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: #1d1d1d;
+        border-radius: 100px;
+        height: 50px;
+        text-align: center;
+        color: #fff;
+        padding: 10px 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .head {
+        padding: 1em;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .head .action-button {
+        display: none;
+    }
+
+    .tile1-1 {
+        padding-bottom: 20px;
+    }
+
+    .tile3 {
+        padding: 2rem 0;
+    }
+
+    .tile3 .content {
+        padding: 0 5%;
+    }
+
+    .tile3-1 {
+        padding-bottom: 20px;
+    }
+
+    .tile4-1 {
+        padding-top: 20px;
+    }
+
+    .tile6 {
+        padding: 2rem 0;
+    }
+
+    .tile6 .content {
+        padding: 0 15px;
+    }
+
+    .tile6 h3 {
+        font-size: 30px;
+    }
+
+    .tile6 .number {
+        font-size: 35px;
+    }
+
+    .upper-footer .left,
+    .upper-footer .right {
+        text-align: center;
+    }
+
+    .upper-footer .left a {
+        display: block;
+    }
+
+    .upper-footer .footer-img {
+        padding: 1rem 0 3rem;
+    }
+
+    .upper-footer .icons-container {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .base-tile {
+        padding: 2rem 0;
+    }
+}
