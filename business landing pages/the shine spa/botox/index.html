@@ -32,7 +32,7 @@
             </div>
             <div class="address">
                 <div class="action-button">
-                    <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book Now</button>
+                    <button onclick="myFunction('contactus')" class="btn price-btn">Enter Now</button>
                 </div>
                 <div class="adress">
                     <p class="businessname">
@@ -69,8 +69,9 @@
                                 *Max amount per session is 50 units
                             </p>
                             <div class="action-btn">
-                                <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book
-                                    Now</button>
+                                <button onclick="myFunction('contactus')" class="btn price-btn">
+                                    Enter Now
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -98,7 +99,7 @@
                             help you reach your aesthetic goals.
                         </p>
                         <div class="action-btn">
-                            <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book Now</button>
+                            <button onclick="myFunction('contactus')" class="btn price-btn">Enter Now</button>
                         </div>
                     </div>
                 </div>
@@ -115,6 +116,44 @@
                 <div class="col-12 col-sm-9 col-md-6 col-lg-5 col-xl-4">
                     <img src="https://g99plus.b-cdn.net/Landingpages/the%20shine%20spa/botox/2%20(1).png    "
                         alt="before and after image" class="ba-image" />
+                </div>
+            </div>
+        </div>
+        <div class="tile2 tile3">
+            <div class="row mx-0 vertical-center strech">
+                <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
+                    <div class="content1">
+                        <h2>
+                            Book an appointment today and enjoy a well-deserved pampering experience!
+                        </h2>
+                        <p>
+                            Delight in a moment of pure bliss with our rejuvenating treatments as you eagerly await the
+                            winner's announcement. Don't miss the opportunity to relax and unwind during this
+                            suspenseful period. Secure your spot now for a memorable treatment that will leave you
+                            feeling refreshed and invigorated.
+                        </p>
+                        <p>
+                            For our valued existing clients, we extend a special invitation to book another appointment
+                            during this period. We appreciate your continued support and would be delighted to provide
+                            you with another extraordinary experience. Indulge in our premium services and enjoy a
+                            moment of relaxation and self-care.
+                        </p>
+                        <p>
+                            To secure your preferred time slot, we recommend booking in advance. Our team is prepared to
+                            ensure your utmost satisfaction and make your visit truly exceptional. Take advantage of
+                            this unique opportunity and enhance your well-being with us. Reserve your appointment now
+                            and savor the anticipation of both a possible victory and an unforgettable treatment!
+                        </p>
+                        <a href="https://theshinespa.com/book-now/" target="_blank">
+                            <div class="action-btn">
+                                <button class="btn price-btn">Book Now</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 px-0 d-flex align-items-center">
+                    <img src="https://g99plus.b-cdn.net/Landingpages/the%20shine%20spa/botox/AdobeStock_33589958622.jpeg"
+                        alt="" class="tile3-1" />
                 </div>
             </div>
         </div>
@@ -146,13 +185,19 @@
                         <p class="reviewer">
                             - Ashley Nelson
                         </p>
-                        <div class="action-btn">
-                            <button data-target="#myModal" data-toggle="modal" class="btn price-btn">Book Now</button>
-                        </div>
+                        <a href="https://search.google.com/local/reviews?placeid=ChIJwdVPGnq12IcRWqLKoe5oXjM"
+                            target="_blank">
+                            <div class="action-btn">
+                                <button class="btn price-btn">
+                                    <span>Check Out Our</span> <span>Google Reviews</span>
+                                </button>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
-                    <div class="contact-form2 text-center">
+                <div class="col-lg-6 col-md-12 d-flex flex-column align-items-center justify-content-center">
+                    <h2>Enter your information to win</h2>
+                    <div class="contact-form2 text-center" id="contactus">
                         ${CONTACT_FORM}
                     </div>
                 </div>

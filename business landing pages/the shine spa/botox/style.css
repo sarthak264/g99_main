@@ -51,13 +51,17 @@ p {
     align-items: stretch;
 }
 
+.action-btn {
+    display: inline-block;
+}
+
 .price-btn {
     background-color: rgb(216, 139, 126);
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    height: 50px;
+    min-height: 50px;
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 10px;
@@ -191,6 +195,14 @@ p {
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
+}
+
+.tile3 .content1 {
+    max-width: 650px;
+}
+
+.tile3-1 {
+    max-height: 750px;
 }
 
 .layout {
@@ -337,6 +349,15 @@ p {
         width: 100%;
         height: auto;
     }
+
+    .tile3-1 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .tile4 .content1 {
+        padding-bottom: 2rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -369,6 +390,12 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+    .head {
+        padding: 1rem;
+        height: auto !important;
+        max-height: none !important;
+    }
+
     .action-button {
         display: none;
     }
@@ -393,6 +420,10 @@ p {
         background-position-x: 0%;
     }
 
+    .tile2 {
+        padding: 2rem 1rem;
+    }
+
     .content1 h1 {
         font-size: 45px;
         font-weight: 600;
@@ -409,5 +440,18 @@ p {
         font-size: 18px;
         font-weight: 400;
         margin-top: 1.5rem;
+    }
+
+    .tile3 h2 {
+        font-size: 28px;
+        line-height: 44px;
+    }
+
+    .tile4 {
+        padding: 2rem 1rem;
+    }
+
+    .tile4 .price-btn span {
+        display: block;
     }
 }
