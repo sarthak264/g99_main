@@ -1,0 +1,883 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Italiana', serif;
+    color: #000;
+}
+
+p,
+li {
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #0A0A0A;
+}
+
+h2 {
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: "Italiana";
+    src: url("https://g99plus.b-cdn.net/Landingpages/glow%20beauty%20bar/hydrofacial/Italiana.woff");
+}
+
+.width-wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.price-btn {
+    background-color: #E8562A;
+    border-radius: 100px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.head {
+    position: relative;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3em;
+    z-index: 2;
+}
+
+.head a.pay {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    color: #818181;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: 2px underline #818181;
+}
+
+.head a.pay:hover {
+    color: #E8562A;
+    text-decoration-color: #E8562A;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address .businessAddress {
+    display: block;
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(78, 66, 68);
+}
+
+.tile1 .wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.tile1 .offer {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.tile1 .content {
+    padding: 40px;
+    /* padding-top: 0; */
+}
+
+.tile1 .subheading {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #E8562A;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.tile1 .heading {
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.tile1-1 {
+    width: 100%;
+    max-width: 620px;
+    display: block;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.tile2 .heading-wrapper {
+    background-color: #000;
+    padding: 30px;
+    text-align: center;
+}
+
+.tile2 .heading-wrapper h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.tile3 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://g99plus.b-cdn.net/Landingpages/glow%20beauty%20bar/hydrofacial/ActionShot_Microneedling.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+
+.tile3 .wrapper {
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+.tile3 h2 {
+    color: #fff;
+}
+
+.tile3 ul {
+    margin: 30px 0 30px 20px;
+}
+
+.tile3 ul li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 140%;
+}
+
+.tile3 p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #f7f7f7;
+}
+
+.tile34 {
+    padding: 60px 0 20px;
+}
+
+.tile34-1 {
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tile34 .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tile34 ul {
+    margin-left: 30px;
+}
+
+.tile34 .content ul li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 140%;
+}
+
+.tile34 .price-btn {
+    margin-top: 20px;
+}
+
+.tile4 {
+    padding: 40px 0 12px;
+}
+
+.tile4 .left-section {
+    margin: 20px;
+}
+
+.tile4 .content {
+    padding: 45px;
+    margin: 20px;
+    border: 5px solid #E8562A;
+}
+
+.tile4 .list {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.tile4 .content .list:last-of-type {
+    margin-bottom: 0;
+}
+
+.tile4 i {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+.tile4 h3 {
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+.tile4 p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.tile4 li {
+    font-size: 16px;
+}
+
+.tile5 {
+    padding: 3rem 0;
+}
+
+.tile5 .wrapper {
+    padding-left: 3rem;
+}
+
+.tile5 .subheading {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #E8562A;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.tile6 {
+    margin: 15px;
+    border: 5px solid #E8562A;
+    padding: 25px 0;
+}
+
+.tile6 h2 {
+    text-align: center;
+}
+
+.reviewer {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.tile7 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://g99plus.b-cdn.net/Landingpages/glow%20beauty%20bar/hydrofacial/Micro_Consult_3png-1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 30px;
+}
+
+.tile7 .wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.tile7 h2 {
+    color: #fff;
+    width: 55%;
+}
+
+.tile7 a {
+    color: #fff;
+}
+
+.tile7 .row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tile7 .c-wrapper {
+    margin: 0 !important;
+    padding: 20px 30px;
+}
+
+.tile7 .num {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #E8562A;
+    margin-bottom: 5px;
+}
+
+.tile7 h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.tile7 p {
+    color: #fff;
+}
+
+.tile9 {
+    padding: 50px 0;
+}
+
+.tile9 .heading {
+    font-size: 44px;
+    padding: 20px;
+}
+
+.tile9 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+}
+
+.tile9 .content {
+    margin: 25px;
+}
+
+.tile9 .accordion {
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.tile9 .card-header {
+    transition: all 0.1s ease-in-out;
+    background-color: #000;
+    /* border-radius: 25px; */
+    cursor: pointer;
+    padding: 0;
+}
+
+.tile9 .card-header:hover,
+.tile9 .card-header:focus {
+    background-color: #f7f7f7;
+    border: none;
+    outline: none;
+}
+
+.tile9 .card-header h6 a {
+    padding: 25px;
+    color: #fff;
+    transition: all 0.1s ease-in-out;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.tile9 .card-header h6 a:hover {
+    text-decoration: none;
+}
+
+.tile9 .card-header:hover h6 a {
+    color: #000;
+}
+
+.tile9 .card-body {
+    background-color: #f7f7f7;
+    /* border-radius: 0 0 25px 25px; */
+}
+
+/* .card-header.open {
+    border-radius: 25px 25px 0 0;
+} */
+
+.tile10 {
+    /* height: 1000px; */
+    /* background-image: url('https://g99plus.b-cdn.net/Landingpages/glow%20beauty%20bar/hydrofacial/woman-patient-lying-still.jpg');
+    background-size: cover;
+    background-position: 0% 13%; */
+}
+
+.tile10 .left {
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tile10 .form-wrapper {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid #E8562A;
+    padding: 30px 45px;
+    /* margin: 20px; */
+    width: auto;
+    max-width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tile10 .form-wrapper h2 {
+    font-size: 44px;
+    font-weight: 200;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.tile10 .form-wrapper a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.tile10 .right {
+    background-color: #E8562A;
+    text-align: center;
+    height: 100%;
+    padding: 2rem 10%;
+}
+
+.tile10 .right h3 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.tile10 p {
+    margin: 0px 0 20px;
+}
+
+.tile11 iframe {
+    display: block;
+    height: 300px;
+}
+
+.footer {
+    height: auto !important;
+    display: block !important;
+    background-color: #000;
+}
+
+.footer p {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.upper-footer {
+    padding: 4% 2% 3%;
+    display: grid;
+    grid-template-columns: 43% 32% 25%;
+}
+
+.upper-footer>div {
+    padding: 0 20px;
+}
+
+.upper-footer .heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.upper-footer .contact-box {
+    padding-bottom: 20px;
+}
+
+.upper-footer ul {
+    padding: 0 10px;
+}
+
+.upper-footer li {
+    list-style: none;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.upper-footer a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.upper-footer a:hover {
+    text-decoration: none;
+}
+
+.upper-footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.upper-footer p.heading-p {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.divider {
+    margin: 0 6%;
+    border-top: 1px solid #FAF5F129;
+}
+
+.lower-footer {
+    padding: 15px 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower-footer p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+.lower-footer .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1199px) {
+    .head a.pay {
+        position: relative;
+        left: unset;
+        transform: none;
+    }
+
+    .tile34-1 {
+        max-width: 100%;
+    }
+
+    .tile5 .ba-image {
+        padding: 0.75rem 0;
+    }
+
+    .tile10 .form-wrapper {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tile1 .content {
+        max-width: 450px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+
+    .tile1 .subheading {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .tile1 .heading {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+
+    .tile1-1 {
+        padding: 30px 0 10px;
+    }
+
+    .tile3 .wrapper {
+        max-width: 640px;
+    }
+
+    .tile3-1 {
+        margin-top: 30px;
+    }
+
+    .tile34-1 {
+        margin-bottom: 30px;
+    }
+
+    .tile34 h2 {
+        margin-bottom: 1rem;
+    }
+
+    .tile34 .content ul li {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .tile7 h2 {
+        width: auto;
+    }
+
+    .tile7 .row {
+        margin: 30px 0 20px;
+    }
+
+    .tile9 .heading {
+        margin-bottom: 0;
+    }
+
+    .tile10-container {
+        justify-content: center;
+    }
+
+    .upper-footer {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button {
+        margin-right: 30px;
+    }
+
+    .action-button button {
+        background-color: #E8562A;
+        border-radius: 100px;
+        height: 50px;
+        text-align: center;
+        color: #fff;
+        padding: 10px 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    .head {
+        padding: 1em;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .head .action-button {
+        display: none;
+    }
+
+    .tile2 img {
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .tile34 {
+        padding: 40px 0 20px;
+    }
+
+    .tile4 {
+        text-align: center;
+    }
+
+    .tile4 h2 {
+        margin-bottom: 1rem;
+    }
+
+    .tile4 .content {
+        text-align: left;
+    }
+
+    .tile5 {
+        padding: 2rem 0 1rem;
+    }
+
+    .tile5 .wrapper {
+        text-align: center;
+        padding-left: 0;
+        padding: 0 15px;
+    }
+
+    .tile5 .subheading {
+        margin-bottom: 5px;
+    }
+
+    .tile5 h2 {
+        margin-bottom: 1rem;
+    }
+
+    .tile9 {
+        padding: 20px 0;
+    }
+
+    .tile9 .heading {
+        font-size: 28px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .tile10-container {
+        display: flex;
+    }
+
+    .tile10 .form-wrapper {
+        width: 100%;
+        /* max-width: 450px; */
+        margin: 0;
+        /* margin: 0 auto; */
+    }
+
+    .lower-footer {
+        flex-direction: column;
+    }
+
+    .lower-footer .right {
+        flex-direction: column;
+    }
+
+    .lower-footer p {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .head a.pay {
+        display: none;
+    }
+
+    .tile1 .offer {
+        font-size: 26px;
+        font-weight: 600;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .tile1-1 {
+        padding: 20px 0 10px;
+    }
+
+    .tile1 .heading {
+        font-size: 36px;
+    }
+
+    .tile4 {
+        padding: 20px 0;
+    }
+
+    .tile4 .content {
+        padding: 15px;
+        margin: 0;
+    }
+
+    .tile4 h3 {
+        font-size: 28px;
+    }
+
+    .tile4 i {
+        font-size: 2rem;
+    }
+
+    .tile7 {
+        padding: 40px 15px;
+    }
+
+    .tile7 .c-wrapper {
+        padding: 10px 10px;
+    }
+
+    .tile10 .form-wrapper {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .tile10 .form-wrapper h2 {
+        font-size: 32px;
+    }
+
+    .upper-footer {
+        text-align: center;
+        padding: 2rem 15px 1rem;
+    }
+
+    .upper-footer a,
+    .upper-footer p {
+        font-size: 14px;
+    }
+
+    .upper-footer ul {
+        margin-bottom: 0;
+    }
+
+    .upper-footer .heading {
+        font-size: 19px;
+    }
+}
