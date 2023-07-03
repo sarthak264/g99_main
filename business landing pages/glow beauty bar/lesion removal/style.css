@@ -16,6 +16,13 @@ video {
     max-width: 100%;
 }
 
+iframe {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    outline: none;
+}
+
 h1,
 h2,
 h3 {
@@ -79,6 +86,21 @@ h2 {
     color: rgb(0, 0, 0);
 }
 
+.head a.pay {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    color: #818181;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: 2px underline #818181;
+}
+
+.head a.pay:hover {
+    color: #E8562A;
+    text-decoration-color: #E8562A;
+}
+
 .address {
     font-style: normal;
     font-weight: normal;
@@ -130,7 +152,7 @@ h2 {
 .tile1 .subheading {
     font-size: 20px;
     line-height: 24px;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 2px;
     color: #E8562A;
     text-transform: uppercase;
@@ -429,28 +451,32 @@ h2 {
 
 .tile10 {
     /* height: 1000px; */
-    background-image: url('https://g99plus.b-cdn.net/Landingpages/glow%20beauty%20bar/hydrofacial/woman-patient-lying-still.jpg');
+    /* background-image: url('https://g99plus.b-cdn.net/Landingpages/glow%20beauty%20bar/hydrofacial/woman-patient-lying-still.jpg');
     background-size: cover;
-    background-position: 0% 13%;
+    background-position: 0% 13%; */
 }
 
-.tile10-container {
-    max-width: 1320px;
-    margin: 0 auto;
+.tile10 .left {
+    background-color: #000;
+    padding: 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .tile10 .form-wrapper {
-    background-color: rgba(255, 255, 255, 0.97);
+    background-color: rgb(255, 255, 255);
     border: 5px solid #E8562A;
     padding: 30px 45px;
-    margin: 20px;
+    /* margin: 20px; */
     width: auto;
-    max-width: 50%;
-    min-height: 300px;
+    max-width: 60%;
+    height: 275px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .tile10 .form-wrapper h2 {
@@ -460,19 +486,142 @@ h2 {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: #000;
+}
+
+.tile10 .right {
+    background-color: #E8562A;
+    text-align: center;
+    height: 100%;
+    padding: 2rem 10%;
+}
+
+.tile10 .right h3 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #fff;
 }
 
 .tile10 p {
     margin: 0px 0 20px;
 }
 
+.tile11 iframe {
+    display: block;
+    height: 300px;
+}
+
+.footer {
+    height: auto !important;
+    display: block !important;
+    background-color: #000;
+}
+
+.footer p {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.upper-footer {
+    padding: 4% 2% 3%;
+    display: grid;
+    grid-template-columns: 43% 32% 25%;
+}
+
+.upper-footer>div {
+    padding: 0 20px;
+}
+
+.upper-footer .heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.upper-footer .contact-box {
+    padding-bottom: 20px;
+}
+
+.upper-footer ul {
+    padding: 0 10px;
+}
+
+.upper-footer li {
+    list-style: none;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.upper-footer a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.upper-footer a:hover {
+    text-decoration: none;
+}
+
+.upper-footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.upper-footer p.heading-p {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.divider {
+    margin: 0 6%;
+    border-top: 1px solid #FAF5F129;
+}
+
+.lower-footer {
+    padding: 15px 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower-footer p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+.lower-footer .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 1199px) {
+    .head a.pay {
+        position: relative;
+        left: unset;
+        transform: none;
+    }
+
     .tile34-1 {
         max-width: 100%;
     }
 
     .tile5 .ba-image {
         padding: 0.5rem 0;
+    }
+
+    .tile10 .form-wrapper {
+        max-width: 80%;
     }
 }
 
@@ -535,11 +684,9 @@ h2 {
         justify-content: center;
     }
 
-    .tile10 .form-wrapper {
-        max-width: 75%;
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
+    .upper-footer {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
     }
 }
 
@@ -628,7 +775,8 @@ h2 {
 
     .tile9 .heading {
         font-size: 28px;
-        margin-bottom: 10px;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     .tile10-container {
@@ -637,13 +785,29 @@ h2 {
 
     .tile10 .form-wrapper {
         width: 100%;
-        max-width: 450px;
-        margin: 20px 15px;
+        /* max-width: 450px; */
+        margin: 0;
         /* margin: 0 auto; */
+    }
+
+    .lower-footer {
+        flex-direction: column;
+    }
+
+    .lower-footer .right {
+        flex-direction: column;
+    }
+
+    .lower-footer p {
+        margin-bottom: 10px;
     }
 }
 
 @media screen and (max-width: 576px) {
+    .head a.pay {
+        display: none;
+    }
+
     .tile1 .offer {
         font-size: 26px;
         font-weight: 600;
@@ -684,7 +848,30 @@ h2 {
         padding: 10px 10px;
     }
 
+    .tile10 .form-wrapper {
+        max-width: 100%;
+        padding: 20px;
+    }
+
     .tile10 .form-wrapper h2 {
         font-size: 32px;
+    }
+
+    .upper-footer {
+        text-align: center;
+        padding: 2rem 15px 1rem;
+    }
+
+    .upper-footer a,
+    .upper-footer p {
+        font-size: 14px;
+    }
+
+    .upper-footer ul {
+        margin-bottom: 0;
+    }
+
+    .upper-footer .heading {
+        font-size: 19px;
     }
 }
