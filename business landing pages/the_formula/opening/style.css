@@ -1,0 +1,1505 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.custom-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 50px auto 0;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 500px;
+    max-height: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
+    z-index: 99999;
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-bottom: 15px;
+}
+
+.modal-content p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.close:hover {
+    color: black;
+}
+
+#iuce4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#i567j {
+    height: 511px;
+}
+
+#accordionExample-7 {
+    height: 78px;
+}
+
+#iq2o2j {
+    color: rgb(0, 0, 0);
+}
+
+.head-text {
+    width: 50%;
+}
+
+.head-top {
+    margin-top: -6.1em;
+}
+
+.hide-sm {
+    width: 50%;
+}
+
+.header-image {
+    width: 50%;
+}
+
+.info-card {
+    position: absolute;
+    width: 26%;
+    top: 15em;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#ih1p {
+    margin-right: 20px;
+}
+
+#ij4zk {
+    margin-bottom: -50px;
+    margin-top: 65px;
+}
+
+#io89y {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: goldenrod;
+    margin: 0 -1.5rem;
+}
+
+#ioh3w7 {
+    margin-bottom: -50px;
+    margin-top: 65px;
+}
+
+#ifrv1l {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: goldenrod;
+    margin: 0 -1.5rem;
+}
+
+#i1gsm1 {
+    margin-bottom: 5em;
+    margin-top: 4em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#iv2x3g {
+    margin-top: 20px;
+}
+
+#ibeidf {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#i2mzgn {
+    margin-bottom: 66px;
+}
+
+#i9cfau {
+    color: rgb(0, 0, 0) !important;
+}
+
+#i12gtd {
+    color: rgb(0, 0, 0) !important;
+}
+
+#i71esv {
+    color: rgb(0, 0, 0) !important;
+}
+
+#ijjoe9 {
+    color: rgb(0, 0, 0) !important;
+}
+
+.bg-img-footer {
+    position: relative;
+    height: 250px;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    width: 100%;
+    background-size: cover;
+}
+
+.cardAlign {
+    display: flex;
+    flex-direction: row;
+}
+
+.tile-35 {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(234, 234, 225);
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+}
+
+.footer-card {
+    box-shadow: rgb(161, 161, 161) 0px 4px 4px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    padding-left: 1em;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    text-align: left;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0) !important;
+}
+
+.reviews {
+    box-shadow: rgb(161, 161, 161) 0px 4px 4px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    text-align: left;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer h3 {
+    color: rgb(255, 255, 255);
+}
+
+.footer a {
+    color: rgb(255, 255, 255);
+}
+
+.wrapper-2 {
+    box-shadow: rgb(161, 161, 161) 0px 4px 4px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.tile9 ul {
+    margin-left: 1em;
+}
+
+.icon-plus {
+    position: absolute;
+    right: 2em;
+    top: 1.6em;
+}
+
+.tile2 {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.wrapper-2 .content-2 {
+    padding-top: 0rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.wrapper-2 img {
+    height: 500px;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+    display: block;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+iframe {
+    width: 100%;
+    max-width: 100%;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+}
+
+h4,
+h1,
+h2,
+h3 {
+    font-family: Poppins;
+    color: rgb(0, 0, 0);
+}
+
+.footer img {
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}
+
+p,
+li {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: rgb(10, 10, 10);
+}
+
+.width-wrapper {
+    max-width: 1320px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.width-wrapper-footer {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.price-btn {
+    background-color: goldenrod;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-height: 50px;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.head {
+    position: relative;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 3em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    z-index: 2;
+}
+
+.head a.pay {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(129, 129, 129);
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: initial;
+    text-decoration-color: rgb(129, 129, 129);
+}
+
+.head a.pay:hover {
+    color: rgb(232, 86, 42);
+    text-decoration-color: rgb(232, 86, 42);
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+}
+
+.address p.businessname {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(78, 66, 68);
+    margin-bottom: 0px;
+}
+
+.address .businessAddress {
+    display: block;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(78, 66, 68);
+}
+
+.tile1 .wrapper {
+    max-width: 100%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-bottom: 30px;
+}
+
+.tile1 .offer {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 75%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.tile1 .content {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.tile1 .subheading {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(232, 86, 42);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.tile1 .heading {
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.tile2 .heading-wrapper {
+    background-color: rgb(0, 0, 0);
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.tile2 .heading-wrapper h3 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+.tile3 .wrapper {
+    max-width: 1520px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.tile3 h2 {
+    color: rgb(255, 255, 255);
+}
+
+.tile3 ul {
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.tile3 ul li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 140%;
+}
+
+.tile3 p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: rgb(247, 247, 247);
+}
+
+.tile34 {
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.title-head {
+    position: relative;
+    top: 2em;
+    z-index: 99;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-head h1 {
+    color: rgb(0, 0, 0);
+    background-color: goldenrod;
+}
+
+.tile34-1 {
+    max-width: 350px;
+    display: block;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.tile34 .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tile34 ul {
+    margin-left: 30px;
+}
+
+.tile34 .content ul li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 140%;
+}
+
+.tile34 .price-btn {
+    margin-top: 20px;
+}
+
+.tile4 .left-section {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.tile4 .content {
+    padding-top: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+    padding-left: 45px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(232, 86, 42);
+    border-right-color: rgb(232, 86, 42);
+    border-bottom-color: rgb(232, 86, 42);
+    border-left-color: rgb(232, 86, 42);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.tile4 .list {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.tile4 .content .list:last-of-type {
+    margin-bottom: 0px;
+}
+
+.tile4 i {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+.tile4 h3 {
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+.tile4 p {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.tile4 li {
+    font-size: 16px;
+}
+
+.tile5 .wrapper {
+    padding-left: 3rem;
+}
+
+.tile5 .subheading {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(232, 86, 42);
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.tile6 h2 {
+    text-align: center;
+}
+
+.tile7 .wrapper {
+    max-width: 1320px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.tile7 h2 {
+    color: rgb(255, 255, 255);
+    width: 55%;
+}
+
+.tile7 a {
+    color: rgb(255, 255, 255);
+}
+
+.tile7 .row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tile7 .c-wrapper {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+}
+
+.tile7 .num {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: rgb(232, 86, 42);
+    margin-bottom: 5px;
+}
+
+.tile7 h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.tile7 p {
+    color: rgb(255, 255, 255);
+}
+
+.tile1 .action-btn {
+    margin-top: 1em;
+}
+
+.tagline p {
+    color: rgb(255, 255, 255);
+}
+
+.tagline h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 176%;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+
+.tile9 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.tile9 .heading {
+    font-size: 44px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.tile9 li,
+.tile9 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+.tile9 button {
+    margin-top: 1em;
+}
+
+.tile9 .content {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.tile9 .accordion {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+}
+
+.tile9 .card-header {
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.tile9 .card-header:hover,
+.tile9 .card-header:focus {
+    background-color: rgb(247, 247, 247);
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+}
+
+.tile9 .card-header h6 a {
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.tile9 .card-header h6 a:hover {
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.tile9 .card-header:hover h6 a {
+    color: rgb(0, 0, 0);
+}
+
+.tile9 .card-body {
+    background-color: rgb(247, 247, 247);
+}
+
+.tile10 .left {
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tile10 .form-wrapper {
+    background-color: rgb(255, 255, 255);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(232, 86, 42);
+    border-right-color: rgb(232, 86, 42);
+    border-bottom-color: rgb(232, 86, 42);
+    border-left-color: rgb(232, 86, 42);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    padding-top: 30px;
+    padding-right: 45px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    width: auto;
+    max-width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tile10 .form-wrapper h2 {
+    font-size: 44px;
+    font-weight: 200;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.tile10 .form-wrapper a {
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.tile10 .right {
+    background-color: rgb(232, 86, 42);
+    text-align: center;
+    height: 100%;
+    padding-top: 2rem;
+    padding-right: 10%;
+    padding-bottom: 2rem;
+    padding-left: 10%;
+}
+
+.tile10 .right h3 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+}
+
+.tile10 p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.tile11 iframe {
+    display: block;
+    height: 300px;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    height: auto !important;
+    display: block !important;
+}
+
+p {
+    font-family: Poppins;
+    color: rgb(0, 0, 0);
+}
+
+.upper-footer>div {
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+.upper-footer .heading {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.upper-footer .contact-box {
+    padding-bottom: 20px;
+}
+
+.upper-footer ul {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+.upper-footer li {
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.upper-footer a {
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+}
+
+.upper-footer a:hover {
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.upper-footer p {
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+.upper-footer p.heading-p {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.divider {
+    margin-top: 0px;
+    margin-right: 6%;
+    margin-bottom: 0px;
+    margin-left: 6%;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(250, 245, 241, 0.16);
+}
+
+.lower-footer {
+    padding-top: 15px;
+    padding-right: 2%;
+    padding-bottom: 15px;
+    padding-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower-footer p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 0px;
+}
+
+.lower-footer .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Italiana;
+    src: url("https://g99plus.b-cdn.net/Landingpages/glow%20beauty%20bar/hydrofacial/Italiana.woff");
+}
+
+@media screen and (max-width: 1199px) {
+    .head a.pay {
+        position: relative;
+        left: unset;
+        transform: none;
+    }
+
+    .tile34-1 {
+        max-width: 100%;
+    }
+
+    .tile5 .ba-image {
+        padding-top: 0.75rem;
+        padding-right: 0px;
+        padding-bottom: 0.75rem;
+        padding-left: 0px;
+    }
+
+    .tile10 .form-wrapper {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tile1 .content {
+        max-width: 450px;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .tile1 .subheading {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .tile1 .heading {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+
+    .tile3 .wrapper {
+        max-width: 640px;
+    }
+
+    .tile34-1 {
+        margin-bottom: 30px;
+    }
+
+    .tile34 h2 {
+        margin-bottom: 1rem;
+    }
+
+    .tile34 .content ul li {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .tile34 p {
+        color: rgb(0, 0, 0);
+    }
+
+    .tile7 h2 {
+        width: auto;
+    }
+
+    .tile7 .row {
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .tile9 .heading {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action-button button {
+        background-color: goldenrod;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        min-height: 50px;
+        text-align: center;
+        color: black;
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    .head {
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .head .action-button {
+        display: none;
+    }
+
+    .tile2 img {
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    }
+
+    .tile34 {
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    .tile4 h2 {
+        margin-bottom: 1rem;
+    }
+
+    .tile4 .content {
+        text-align: left;
+    }
+
+    .tile5 .wrapper {
+        text-align: center;
+        padding-top: 0px;
+        padding-right: 15px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+    }
+
+    .tile5 .subheading {
+        margin-bottom: 5px;
+    }
+
+    .tile5 h2 {
+        margin-bottom: 1rem;
+    }
+
+    .tile9 {
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    .tile9 .heading {
+        font-size: 28px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .tile10 .form-wrapper {
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .lower-footer {
+        flex-direction: column;
+    }
+
+    .lower-footer .right {
+        flex-direction: column;
+    }
+
+    .lower-footer p {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .modal-content {
+        max-width: 90%;
+    }
+
+    .modal-content h2 {
+        font-size: 32px;
+    }
+
+    .modal-content p {
+        font-size: 19px;
+    }
+
+    .modal-content .close {
+        padding-bottom: 10px;
+    }
+
+    .hide-sm {
+        display: none;
+    }
+
+    .head-text {
+        /* margin-left: -27px; */
+        width: 70%;
+    }
+
+    .head-top {
+        margin-top: -16.1em;
+    }
+
+    .header-image {
+        width: 100%;
+    }
+
+    .head a.pay {
+        display: none;
+    }
+
+    .title-head {
+        position: relative;
+        top: 4em;
+        z-index: 99;
+        color: rgb(255, 255, 255);
+        height: 315px;
+    }
+
+    .footer-card {
+        box-shadow: rgb(161, 161, 161) 0px 4px 4px;
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        margin-top: 4rem;
+        margin-left: 0rem;
+        padding-left: 1em;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        text-align: left;
+        background-image: initial;
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0) !important;
+    }
+
+    .info-card {
+        position: absolute;
+        width: 80%;
+        top: 90%;
+        background-image: initial;
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: rgb(255, 255, 255);
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .cardAlign {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper-2 {
+        box-shadow: rgb(161, 161, 161) 0px 4px 4px;
+        height: 100%;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-bottom: 25px;
+    }
+
+    .tile1 .offer {
+        font-size: 26px;
+        font-weight: 600;
+        max-width: 100%;
+        padding-top: 0px;
+        padding-right: 15px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+    }
+
+    .tile1 .heading {
+        font-size: 36px;
+    }
+
+    .tile4 .content {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .tile4 h3 {
+        font-size: 28px;
+    }
+
+    .tile4 i {
+        font-size: 2rem;
+    }
+
+    .tile7 .c-wrapper {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .tile10 .form-wrapper {
+        max-width: 100%;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .tile10 .form-wrapper h2 {
+        font-size: 32px;
+    }
+
+    .upper-footer a,
+    .upper-footer p {
+        font-size: 14px;
+    }
+
+    .upper-footer ul {
+        margin-bottom: 0px;
+    }
+
+    .upper-footer .heading {
+        font-size: 19px;
+    }
+}
